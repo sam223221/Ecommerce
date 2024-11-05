@@ -19,6 +19,20 @@ namespace E_Commerce.Plugin.InMemmory
                 new Product() { ProductId = 4, ProductName = "KamilDildoRep version BBC 3.69" , Price = 100 , Quantity =1500},
                 new Product() { ProductId = 5, ProductName = "KamilDildoRep version BBC 4.0" , Price = 1 , Quantity =10330},
             };
+
+
+        }
+
+        public string CreateExecute(Product product)
+        {
+            try
+            {
+                _Products.Add(product);
+                return "Success";
+            } catch {
+
+                return "Error";
+            }
         }
 
         public async Task<IEnumerable<Product>> GetProductsByNameAsync(string name)
@@ -27,5 +41,6 @@ namespace E_Commerce.Plugin.InMemmory
 
             return _Products.Where(x => x.ProductName.Contains(name, StringComparison.OrdinalIgnoreCase));
         }
+
     }
 }

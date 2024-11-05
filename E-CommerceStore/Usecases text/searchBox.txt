@@ -1,5 +1,5 @@
 As a user, I can view all the inventories as well as search
-certain inventories by names, so that I can manage them.
+certain inventories by names.
 
 Main Scenario:
 

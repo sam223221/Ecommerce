@@ -10,3 +10,13 @@ User want to create a new product
 
 - post conditions
 1. the product is added to DB and can bee seen on inventory main page.
+
+scenario A:
+
+- detailed steps:
+2a. User has forgoten somethings and wants to cancel
+3a. user clicks on Cancel
+
+- Post Conditions:
+1a. everything gets deleted
+

@@ -2,7 +2,7 @@
 @rendermode InteractiveServer
 
 <h1>Inventory</h1>
-
+@inject ICreateNewProduct CreateNewProduct
 @inject IViewProductsByNameUseCase ViewProductsByNameUseCase
 @inject IModalService ModalService
 <div class="row mb-3">
@@ -43,8 +43,8 @@
 @if (ModalComponentShow)
 {
     <ComponentCreatePoUp 
-                 OnClose="@OnDeleteDialogClose"
-                 >
+        OnClose="@OnDeleteDialogClose"
+        ItemCreated="@CreateProduct">
     </ComponentCreatePoUp>
 }
 
@@ -67,6 +67,11 @@
         }
 
         ModalComponentShow = false;
+        StateHasChanged();
+    }
+    private void CreateProduct(Product product)
+    {
+        CreateNewProduct.Create(product);
         StateHasChanged();
     }
 

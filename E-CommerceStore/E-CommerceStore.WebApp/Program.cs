@@ -14,6 +14,7 @@ builder.Services.AddRazorComponents()
 
 builder.Services.AddSingleton<IProductRepository, ProductRepository>();
 builder.Services.AddTransient<IViewProductsByNameUseCase, ViewProductsByNameUseCase>();
+builder.Services.AddTransient<ICreateNewProduct, CreateNewProduct>();
 builder.Services.AddBlazoredModal();
 var app = builder.Build();
 
