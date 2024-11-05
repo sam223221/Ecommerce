@@ -1,0 +1,17 @@
+C:\Users\samgl\source\repos\E-CommerceStore\IMS.Plugins\IMS.Plugins.InMemory\bin\Debug\net8.0\E-Commerce.Plugins.InMemory.deps.json
+C:\Users\samgl\source\repos\E-CommerceStore\IMS.Plugins\IMS.Plugins.InMemory\bin\Debug\net8.0\E-Commerce.Plugins.InMemory.dll
+C:\Users\samgl\source\repos\E-CommerceStore\IMS.Plugins\IMS.Plugins.InMemory\bin\Debug\net8.0\E-Commerce.Plugins.InMemory.pdb
+C:\Users\samgl\source\repos\E-CommerceStore\IMS.Plugins\IMS.Plugins.InMemory\bin\Debug\net8.0\E-Commerce.CoreBusiness.dll
+C:\Users\samgl\source\repos\E-CommerceStore\IMS.Plugins\IMS.Plugins.InMemory\bin\Debug\net8.0\E-Commerce.UseCases.dll
+C:\Users\samgl\source\repos\E-CommerceStore\IMS.Plugins\IMS.Plugins.InMemory\bin\Debug\net8.0\E-Commerce.UseCases.pdb
+C:\Users\samgl\source\repos\E-CommerceStore\IMS.Plugins\IMS.Plugins.InMemory\bin\Debug\net8.0\E-Commerce.CoreBusiness.pdb
+C:\Users\samgl\source\repos\E-CommerceStore\IMS.Plugins\IMS.Plugins.InMemory\obj\Debug\net8.0\E-Commerce.Plugins.InMemory.csproj.AssemblyReference.cache
+C:\Users\samgl\source\repos\E-CommerceStore\IMS.Plugins\IMS.Plugins.InMemory\obj\Debug\net8.0\E-Commerce.Plugins.InMemory.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\samgl\source\repos\E-CommerceStore\IMS.Plugins\IMS.Plugins.InMemory\obj\Debug\net8.0\E-Commerce.Plugins.InMemory.AssemblyInfoInputs.cache
+C:\Users\samgl\source\repos\E-CommerceStore\IMS.Plugins\IMS.Plugins.InMemory\obj\Debug\net8.0\E-Commerce.Plugins.InMemory.AssemblyInfo.cs
+C:\Users\samgl\source\repos\E-CommerceStore\IMS.Plugins\IMS.Plugins.InMemory\obj\Debug\net8.0\E-Commerce.Plugins.InMemory.csproj.CoreCompileInputs.cache
+C:\Users\samgl\source\repos\E-CommerceStore\IMS.Plugins\IMS.Plugins.InMemory\obj\Debug\net8.0\E-Commer.ADD55AC0.Up2Date
+C:\Users\samgl\source\repos\E-CommerceStore\IMS.Plugins\IMS.Plugins.InMemory\obj\Debug\net8.0\E-Commerce.Plugins.InMemory.dll
+C:\Users\samgl\source\repos\E-CommerceStore\IMS.Plugins\IMS.Plugins.InMemory\obj\Debug\net8.0\refint\E-Commerce.Plugins.InMemory.dll
+C:\Users\samgl\source\repos\E-CommerceStore\IMS.Plugins\IMS.Plugins.InMemory\obj\Debug\net8.0\E-Commerce.Plugins.InMemory.pdb
+C:\Users\samgl\source\repos\E-CommerceStore\IMS.Plugins\IMS.Plugins.InMemory\obj\Debug\net8.0\ref\E-Commerce.Plugins.InMemory.dll

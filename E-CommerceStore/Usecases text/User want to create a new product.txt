@@ -1,0 +1,12 @@
+User want to create a new product
+
+- pre conditions:
+1. user is on inventory page
+
+- detailed steps:
+1. user clicks on Create Button
+2. filling necessary boxes with correct information to create the product.
+3. clicks done when all boxes are filled.
+
+- post conditions
+1. the product is added to DB and can bee seen on inventory main page.

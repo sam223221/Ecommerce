@@ -1,0 +1,21 @@
+As a user, I can view all the inventories as well as search
+certain inventories by names, so that I can manage them.
+
+Main Scenario:
+
+- Pre Conditions
+1. The user is on the inventories page.
+
+- Post Conditions
+2. The user sees the inventories that meet the search condition.
+
+- Detailed Steps
+1. The user enters a few letters in the search box.
+2. The user clicks on the View button.
+
+scenario A:
+- Post Conditions
+2. The user sees all the products he has.
+
+- Detailed Steps
+1a. The user Leave the search bar empty.

@@ -1,0 +1,85 @@
+﻿@using IMS.CoreBusiness
+@using Microsoft.AspNetCore.Components.Forms
+
+@code {
+    [Parameter] public EventCallback<bool> OnClose { get; set; }
+    [Parameter] public EventCallback<Product> OnSave { get; set; }
+
+    private string productName = "";
+    private decimal productPrice;
+    private int productQuantity;
+    private string uploadedImageUrl = "";
+
+    private async Task HandleFileSelected(InputFileChangeEventArgs e)
+    {
+        // Handle image upload and preview
+        var file = e.File;
+        var buffer = new byte[file.Size];
+        await file.OpenReadStream().ReadAsync(buffer);
+        uploadedImageUrl = $"data:image/png;base64,{Convert.ToBase64String(buffer)}";
+    }
+
+    private async Task Save()
+    {
+        var product = new Product
+            {
+                ProductName = productName,
+                Price = productPrice,
+                Quantity = productQuantity,
+                ImageUrl = uploadedImageUrl
+            };
+        await OnSave.InvokeAsync(product);
+        await OnClose.InvokeAsync(false);
+    }
+
+    private async Task Cancel()
+    {
+        await OnClose.InvokeAsync(false);
+    }
+}
+
+@if (isVisible)
+{
+    <div class="modal-overlay">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Create Product</h2>
+            </div>
+            <div class="modal-body">
+                <div class="image-upload">
+                    @if (!string.IsNullOrEmpty(uploadedImageUrl))
+                    {
+                        <img src="@uploadedImageUrl" alt="Product Image" class="uploaded-image" />
+                    }
+                    else
+                    {
+                        <div class="image-placeholder">
+                            <span class="icon-camera"></span>
+                        </div>
+                    }
+                    <InputFile OnChange="HandleFileSelected" />
+                    <button class="upload-btn">Upload Picture +</button>
+                </div>
+
+                <div class="form-group">
+                    <label>Product Name</label>
+                    <input type="text" @bind="productName" class="form-control" />
+                </div>
+
+                <div class="form-group">
+                    <label>Product Price</label>
+                    <input type="number" @bind="productPrice" class="form-control" />
+                </div>
+
+                <div class="form-group">
+                    <label>Product Quantity</label>
+                    <input type="number" @bind="productQuantity" class="form-control" />
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button @onclick="Cancel" class="btn btn-secondary">Cancel</button>
+                <button @onclick="Save" class="btn btn-primary">Done</button>
+            </div>
+        </div>
+    </div>
+}
