@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "NMqwS1bq5pU+laNqkPwNkCHCVe7WaEie/jenvJjhSxY=",
+  "Hash": "sDdGrba2jzjORv+lIm+0pO7gM5L5AJT1k6FLoaYkgVc=",
   "Source": "E-CommerceStore.WebApp",
   "BasePath": "_content/E-CommerceStore.WebApp",
   "Mode": "Default",
@@ -10,17 +10,55 @@
     {
       "Name": "E-CommerceStore.WebApp\\wwwroot",
       "Source": "E-CommerceStore.WebApp",
-      "ContentRoot": "C:\\Users\\samgl\\source\\repos\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
       "BasePath": "_content/E-CommerceStore.WebApp",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\samgl\\source\\repos\\E-CommerceStore\\E-CommerceStore.WebApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\E-CommerceStore.WebApp.styles.css",
+      "Identity": "C:\\Users\\Sam Gleðisheygg\\.nuget\\packages\\blazored.modal\\7.3.1\\staticwebassets\\Blazored.Modal.bundle.scp.css",
+      "SourceId": "Blazored.Modal",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Sam Gleðisheygg\\.nuget\\packages\\blazored.modal\\7.3.1\\staticwebassets\\",
+      "BasePath": "_content/Blazored.Modal",
+      "RelativePath": "Blazored.Modal.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Sam Gleðisheygg\\.nuget\\packages\\blazored.modal\\7.3.1\\staticwebassets\\Blazored.Modal.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Sam Gleðisheygg\\.nuget\\packages\\blazored.modal\\7.3.1\\staticwebassets\\BlazoredModal.razor.js",
+      "SourceId": "Blazored.Modal",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Sam Gleðisheygg\\.nuget\\packages\\blazored.modal\\7.3.1\\staticwebassets\\",
+      "BasePath": "_content/Blazored.Modal",
+      "RelativePath": "BlazoredModal.razor.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Sam Gleðisheygg\\.nuget\\packages\\blazored.modal\\7.3.1\\staticwebassets\\BlazoredModal.razor.js"
+    },
+    {
+      "Identity": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\E-CommerceStore.WebApp.styles.css",
       "SourceId": "E-CommerceStore.WebApp",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\samgl\\source\\repos\\E-CommerceStore\\E-CommerceStore.WebApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/E-CommerceStore.WebApp",
       "RelativePath": "E-CommerceStore.WebApp.styles.css",
       "AssetKind": "All",
@@ -33,13 +71,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\samgl\\source\\repos\\E-CommerceStore\\E-CommerceStore.WebApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\E-CommerceStore.WebApp.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\E-CommerceStore.WebApp.styles.css"
     },
     {
-      "Identity": "C:\\Users\\samgl\\source\\repos\\E-CommerceStore\\E-CommerceStore.WebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\E-CommerceStore.WebApp.bundle.scp.css",
+      "Identity": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\E-CommerceStore.WebApp.bundle.scp.css",
       "SourceId": "E-CommerceStore.WebApp",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\samgl\\source\\repos\\E-CommerceStore\\E-CommerceStore.WebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/E-CommerceStore.WebApp",
       "RelativePath": "E-CommerceStore.WebApp.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +90,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\samgl\\source\\repos\\E-CommerceStore\\E-CommerceStore.WebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\E-CommerceStore.WebApp.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\E-CommerceStore.WebApp.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\samgl\\source\\repos\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\app.css",
+      "Identity": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\app.css",
       "SourceId": "E-CommerceStore.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\samgl\\source\\repos\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
       "BasePath": "_content/E-CommerceStore.WebApp",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -74,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "C:\\Users\\samgl\\source\\repos\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "E-CommerceStore.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\samgl\\source\\repos\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
       "BasePath": "_content/E-CommerceStore.WebApp",
       "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -93,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\samgl\\source\\repos\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "E-CommerceStore.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\samgl\\source\\repos\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
       "BasePath": "_content/E-CommerceStore.WebApp",
       "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -112,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\samgl\\source\\repos\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\favicon.png",
+      "Identity": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\favicon.png",
       "SourceId": "E-CommerceStore.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\samgl\\source\\repos\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
       "BasePath": "_content/E-CommerceStore.WebApp",
       "RelativePath": "favicon.png",
       "AssetKind": "All",

@@ -1,9 +1,10 @@
 using Blazored.Modal;
+using E_Commerce.Plugin.InMemmory;
+using E_Commerce.UseCase.PluginInterfaces;
+using E_Commerce.UseCase.Products;
+using E_Commerce.UseCase.Products.Interfaces;
 using E_CommerceStore.WebApp.Components;
-using IMS.Plugins.InMemory;
-using IMS.UseCases.Inventories;
-using IMS.UseCases.Inventories.Interfaces;
-using IMS.UseCases.PluginInterfaces;
+
 
 var builder = WebApplication.CreateBuilder(args);
 

@@ -1,85 +1,87 @@
-﻿@using IMS.CoreBusiness
-@using Microsoft.AspNetCore.Components.Forms
+﻿
+@rendermode InteractiveServer
+
+<div class="modal fade show" id="myModal" style="display:block; background-color: rgba(10,10,10,.8);" aria-modal="true" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Create a Product</h4>
+                <button type="button" class="close" @onclick="@ModalCancel">&times;</button>
+            </div>
+            <div class="modal-body">
+
+
+                <!-- Image Upload -->
+                <div class="text-center mb-3">
+                    @if (!string.IsNullOrEmpty(uploadedImageUrl))
+                    {
+                        <img src="@uploadedImageUrl" alt="Product Image" class="img-thumbnail" style="max-width: 100%; max-height: 150px;" />
+                    }
+                    else
+                    {
+                        <div class="image-placeholder" style="width: 100%; height: 150px; border: 1px dashed #ccc; display: flex; align-items: center; justify-content: center;">
+                            <span class="icon-camera">📷</span>
+                        </div>
+                    }
+                    <InputFile OnChange="HandleFileSelected" style="display: block; margin: 10px auto;" />
+                </div>
+
+                <!-- Product Fields -->
+                <div class="form-group">
+                    <label>Product Name</label>
+                    <input type="text" class="form-control" @bind="productName" placeholder="Enter Product Name" />
+                </div>
+                <div class="form-group">
+                    <label>Quantity</label>
+                    <input type="number" class="form-control" @bind="quantity" placeholder="Enter Quantity" />
+                </div>
+                <div class="form-group">
+                    <label>Enter Price of the product</label>
+                    <input type="number" class="form-control" @bind="price" placeholder="Price" />
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" @onclick="@ModalCancel">Cancel</button>
+                <button type="button" class="btn btn-primary" @onclick="@ModalOk">Create</button>
+            </div>
+        </div>
+    </div>
+</div>
 
 @code {
     [Parameter] public EventCallback<bool> OnClose { get; set; }
-    [Parameter] public EventCallback<Product> OnSave { get; set; }
+    [Parameter] public EventCallback<Product> ItemCreated { get; set; }
 
+    private int quantity;
     private string productName = "";
-    private decimal productPrice;
-    private int productQuantity;
+    private int price;
     private string uploadedImageUrl = "";
 
     private async Task HandleFileSelected(InputFileChangeEventArgs e)
     {
-        // Handle image upload and preview
         var file = e.File;
         var buffer = new byte[file.Size];
         await file.OpenReadStream().ReadAsync(buffer);
         uploadedImageUrl = $"data:image/png;base64,{Convert.ToBase64String(buffer)}";
     }
 
-    private async Task Save()
+    private Task ModalCancel()
     {
-        var product = new Product
+        return OnClose.InvokeAsync(false);
+    }
+
+    private Task ModalOk()
+    {
+        // You can create the product item here and pass it to the parent if needed
+        var newItem = new Product
             {
+                // Assuming Table has fields for name, price, quantity, and image
+                Quantity = quantity,
                 ProductName = productName,
-                Price = productPrice,
-                Quantity = productQuantity,
-                ImageUrl = uploadedImageUrl
+                Price = price
+
             };
-        await OnSave.InvokeAsync(product);
-        await OnClose.InvokeAsync(false);
+        ItemCreated.InvokeAsync(newItem);
+        return OnClose.InvokeAsync(true);
     }
-
-    private async Task Cancel()
-    {
-        await OnClose.InvokeAsync(false);
-    }
-}
-
-@if (isVisible)
-{
-    <div class="modal-overlay">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h2>Create Product</h2>
-            </div>
-            <div class="modal-body">
-                <div class="image-upload">
-                    @if (!string.IsNullOrEmpty(uploadedImageUrl))
-                    {
-                        <img src="@uploadedImageUrl" alt="Product Image" class="uploaded-image" />
-                    }
-                    else
-                    {
-                        <div class="image-placeholder">
-                            <span class="icon-camera"></span>
-                        </div>
-                    }
-                    <InputFile OnChange="HandleFileSelected" />
-                    <button class="upload-btn">Upload Picture +</button>
-                </div>
-
-                <div class="form-group">
-                    <label>Product Name</label>
-                    <input type="text" @bind="productName" class="form-control" />
-                </div>
-
-                <div class="form-group">
-                    <label>Product Price</label>
-                    <input type="number" @bind="productPrice" class="form-control" />
-                </div>
-
-                <div class="form-group">
-                    <label>Product Quantity</label>
-                    <input type="number" @bind="productQuantity" class="form-control" />
-                </div>
-            </div>
-            <div class="modal-footer">
-                <button @onclick="Cancel" class="btn btn-secondary">Cancel</button>
-                <button @onclick="Save" class="btn btn-primary">Done</button>
-            </div>
-        </div>
-    </div>
 }

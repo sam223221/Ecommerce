@@ -249,40 +249,41 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "E-Commerce.CoreBusiness/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "compile": {
-          "bin/placeholder/E-Commerce.CoreBusiness.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/E-Commerce.CoreBusiness.dll": {}
-        }
-      },
-      "E-Commerce.Plugins.InMemory/1.0.0": {
+      "E-Commerce.Plugin.InMemmory/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "E-Commerce.UseCases": "1.0.0"
+          "E-Commerce.UseCase": "1.0.0",
+          "ECommerce.CoreEntityBusiness": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/E-Commerce.Plugins.InMemory.dll": {}
+          "bin/placeholder/E-Commerce.Plugin.InMemmory.dll": {}
         },
         "runtime": {
-          "bin/placeholder/E-Commerce.Plugins.InMemory.dll": {}
+          "bin/placeholder/E-Commerce.Plugin.InMemmory.dll": {}
         }
       },
-      "E-Commerce.UseCases/1.0.0": {
+      "E-Commerce.UseCase/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "E-Commerce.CoreBusiness": "1.0.0"
+          "ECommerce.CoreEntityBusiness": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/E-Commerce.UseCases.dll": {}
+          "bin/placeholder/E-Commerce.UseCase.dll": {}
         },
         "runtime": {
-          "bin/placeholder/E-Commerce.UseCases.dll": {}
+          "bin/placeholder/E-Commerce.UseCase.dll": {}
+        }
+      },
+      "ECommerce.CoreEntityBusiness/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/ECommerce.CoreEntityBusiness.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ECommerce.CoreEntityBusiness.dll": {}
         }
       }
     }
@@ -680,48 +681,48 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "E-Commerce.CoreBusiness/1.0.0": {
+    "E-Commerce.Plugin.InMemmory/1.0.0": {
       "type": "project",
-      "path": "../IMS.CoreBusiness/E-Commerce.CoreBusiness.csproj",
-      "msbuildProject": "../IMS.CoreBusiness/E-Commerce.CoreBusiness.csproj"
+      "path": "../E-Commerce.Plugin.InMemmory/E-Commerce.Plugin.InMemmory.csproj",
+      "msbuildProject": "../E-Commerce.Plugin.InMemmory/E-Commerce.Plugin.InMemmory.csproj"
     },
-    "E-Commerce.Plugins.InMemory/1.0.0": {
+    "E-Commerce.UseCase/1.0.0": {
       "type": "project",
-      "path": "../IMS.Plugins/IMS.Plugins.InMemory/E-Commerce.Plugins.InMemory.csproj",
-      "msbuildProject": "../IMS.Plugins/IMS.Plugins.InMemory/E-Commerce.Plugins.InMemory.csproj"
+      "path": "../E-Commerce.UseCase/E-Commerce.UseCase.csproj",
+      "msbuildProject": "../E-Commerce.UseCase/E-Commerce.UseCase.csproj"
     },
-    "E-Commerce.UseCases/1.0.0": {
+    "ECommerce.CoreEntityBusiness/1.0.0": {
       "type": "project",
-      "path": "../IMS.UseCases/E-Commerce.UseCases.csproj",
-      "msbuildProject": "../IMS.UseCases/E-Commerce.UseCases.csproj"
+      "path": "../ECommerce.CoreEntityBusiness/ECommerce.CoreEntityBusiness.csproj",
+      "msbuildProject": "../ECommerce.CoreEntityBusiness/ECommerce.CoreEntityBusiness.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Blazored.Modal >= 7.3.1",
-      "E-Commerce.CoreBusiness >= 1.0.0",
-      "E-Commerce.Plugins.InMemory >= 1.0.0",
-      "E-Commerce.UseCases >= 1.0.0"
+      "E-Commerce.Plugin.InMemmory >= 1.0.0",
+      "E-Commerce.UseCase >= 1.0.0",
+      "ECommerce.CoreEntityBusiness >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\samgl\\.nuget\\packages\\": {},
+    "C:\\Users\\Sam Gleðisheygg\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\samgl\\source\\repos\\E-CommerceStore\\E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj",
+      "projectUniqueName": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj",
       "projectName": "E-CommerceStore.WebApp",
-      "projectPath": "C:\\Users\\samgl\\source\\repos\\E-CommerceStore\\E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj",
-      "packagesPath": "C:\\Users\\samgl\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\samgl\\source\\repos\\E-CommerceStore\\E-CommerceStore.WebApp\\obj\\",
+      "projectPath": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj",
+      "packagesPath": "C:\\Users\\Sam Gleðisheygg\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\samgl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Sam Gleðisheygg\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -737,14 +738,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\samgl\\source\\repos\\E-CommerceStore\\IMS.CoreBusiness\\E-Commerce.CoreBusiness.csproj": {
-              "projectPath": "C:\\Users\\samgl\\source\\repos\\E-CommerceStore\\IMS.CoreBusiness\\E-Commerce.CoreBusiness.csproj"
+            "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-Commerce.Plugin.InMemmory\\E-Commerce.Plugin.InMemmory.csproj": {
+              "projectPath": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-Commerce.Plugin.InMemmory\\E-Commerce.Plugin.InMemmory.csproj"
             },
-            "C:\\Users\\samgl\\source\\repos\\E-CommerceStore\\IMS.Plugins\\IMS.Plugins.InMemory\\E-Commerce.Plugins.InMemory.csproj": {
-              "projectPath": "C:\\Users\\samgl\\source\\repos\\E-CommerceStore\\IMS.Plugins\\IMS.Plugins.InMemory\\E-Commerce.Plugins.InMemory.csproj"
+            "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-Commerce.UseCase\\E-Commerce.UseCase.csproj": {
+              "projectPath": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-Commerce.UseCase\\E-Commerce.UseCase.csproj"
             },
-            "C:\\Users\\samgl\\source\\repos\\E-CommerceStore\\IMS.UseCases\\E-Commerce.UseCases.csproj": {
-              "projectPath": "C:\\Users\\samgl\\source\\repos\\E-CommerceStore\\IMS.UseCases\\E-Commerce.UseCases.csproj"
+            "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\ECommerce.CoreEntityBusiness\\ECommerce.CoreEntityBusiness.csproj": {
+              "projectPath": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\ECommerce.CoreEntityBusiness\\ECommerce.CoreEntityBusiness.csproj"
             }
           }
         }

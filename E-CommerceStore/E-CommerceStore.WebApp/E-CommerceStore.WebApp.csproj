@@ -13,9 +13,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\IMS.CoreBusiness\E-Commerce.CoreBusiness.csproj" />
-    <ProjectReference Include="..\IMS.Plugins\IMS.Plugins.InMemory\E-Commerce.Plugins.InMemory.csproj" />
-    <ProjectReference Include="..\IMS.UseCases\E-Commerce.UseCases.csproj" />
+    <ProjectReference Include="..\E-Commerce.Plugin.InMemmory\E-Commerce.Plugin.InMemmory.csproj" />
+    <ProjectReference Include="..\E-Commerce.UseCase\E-Commerce.UseCase.csproj" />
+    <ProjectReference Include="..\ECommerce.CoreEntityBusiness\ECommerce.CoreEntityBusiness.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>E_Commerce.Plugin.InMemmory</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\E-Commerce.UseCase\E-Commerce.UseCase.csproj" />
+    <ProjectReference Include="..\ECommerce.CoreEntityBusiness\ECommerce.CoreEntityBusiness.csproj" />
+  </ItemGroup>
+
+</Project>

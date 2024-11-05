@@ -1,5 +1,4 @@
 ﻿@page "/Inventory"
-@using IMS.CoreBusiness
 @rendermode InteractiveServer
 
 <h1>Inventory</h1>
@@ -12,9 +11,8 @@
     </div>
     <div class="col-md-4">
         
-        <button @onclick="SearchProducts" class="btn btn-primary">Search</button>
-        <button @onclick="(()=>ModalService.Show<Counter>("Fetch"))" class="btn btn-primary">Create</button>
-
+        <button @onclick="SearchProducts" class="btn btn-primary" >Search</button>
+        <button @onclick="OpenDeleteDialog" class="btn btn-primary" >Create</button>
     </div>
 </div>
 
@@ -42,13 +40,40 @@
     </div>
 </div>
 
+@if (ModalComponentShow)
+{
+    <ComponentCreatePoUp 
+                 OnClose="@OnDeleteDialogClose"
+                 >
+    </ComponentCreatePoUp>
+}
+
 @code {
     private IEnumerable<Product> Products = new List<Product>();
     private string searchQuery = "";
+    public bool ModalComponentShow { get; set; }
 
     protected override async Task OnInitializedAsync()
     {
         Products = await ViewProductsByNameUseCase.ExecuteAsync("");
+    }
+    private async Task OnDeleteDialogClose(bool accepted)
+    {
+        if (accepted)
+        {
+
+            await Task.Delay(1000);
+
+        }
+
+        ModalComponentShow = false;
+        StateHasChanged();
+    }
+
+    private void OpenDeleteDialog()
+    {
+        ModalComponentShow = true;
+        StateHasChanged();
     }
 
     private async Task SearchProducts()
