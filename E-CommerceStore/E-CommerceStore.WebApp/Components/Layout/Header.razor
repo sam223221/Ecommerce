@@ -1,0 +1,27 @@
+﻿<header style="background-color: #8972C2;">
+    <div class="nav-scrollable" onclick="document.querySelector('.navbar-toggler').click()">
+        <nav class="navbar navbar-expand">
+            <div class="navbar-nav">
+                <div class="nav-item px-3">
+                    <NavLink class="nav-link text-white" href="" Match="NavLinkMatch.All">
+                        <span class="bi bi-house-door-fill" aria-hidden="true"></span> Home
+                    </NavLink>
+                </div>
+
+                <div class="nav-item px-3">
+                    <NavLink class="nav-link text-white" href="counter">
+                        <span class="bi bi-plus-square-fill" aria-hidden="true"></span> Counter
+                    </NavLink>
+                </div>
+
+                <div class="nav-item px-3">
+                    <NavLink class="nav-link text-white" href="Inventory">
+                        <span class="bi bi-list-nested" aria-hidden="true"></span> Inventory
+                    </NavLink>
+                </div>
+                <input class="header-searchbar" type="text" placeholder="Search for products..."/>
+                <!--atbind="searchQuery" after type="text" when initalizing-->
+            </div>
+        </nav>
+    </div>
+</header>
