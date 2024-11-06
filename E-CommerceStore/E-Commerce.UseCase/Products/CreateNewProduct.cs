@@ -1,6 +1,5 @@
 ﻿using E_Commerce.UseCase.PluginInterfaces;
 using E_Commerce.UseCase.Products.Interfaces;
-using ECommerce.CoreEntityBusiness;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,16 +10,16 @@ namespace E_Commerce.UseCase.Products
 {
     public class CreateNewProduct : ICreateNewProduct
     {
-        private readonly IProductRepository ProductRepository;
+        private readonly IdbProductRepository ProductRepository;
 
-        public CreateNewProduct(IProductRepository ProductRepository)
+        public CreateNewProduct(IdbProductRepository ProductRepository)
         {
             this.ProductRepository = ProductRepository;
         }
 
-        public string Create(Product product)
+        public async Task<string> CreateAsync(Product product)
         {
-            return ProductRepository.CreateExecute(product);
+            return await ProductRepository.CreateProductAsync(product);
         }
 
     }

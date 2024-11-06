@@ -4,7 +4,10 @@
 <h1>Inventory</h1>
 @inject ICreateNewProduct CreateNewProduct
 @inject IViewProductsByNameUseCase ViewProductsByNameUseCase
+@inject IGetProductByNameUseCase GetProductNyNameUseCase
 @inject IModalService ModalService
+
+
 <div class="row mb-3">
     <div class="col-md-8">
         <input type="text" @bind="searchQuery" placeholder="Search for products..." class="form-control" />
@@ -22,6 +25,8 @@
             <thead>
                 <tr>
                     <th>Product Name</th>
+                    <th>Photo</th>
+                    <th>Description</th>
                     <th>Price</th>
                     <th>Quantity</th>
                 </tr>
@@ -31,6 +36,13 @@
                 {
                     <tr>
                         <td>@product.ProductName</td>
+                        <td>
+                            @if (!string.IsNullOrEmpty(product.ImageUrl))
+                            {
+                                <img src="@product.ImageUrl" alt="Product Image" style="width: 200px; height: 200px; object-fit: cover;" />
+                            }
+                        </td>
+                        <td>@product.Description</td>
                         <td>@product.Price</td>
                         <td>@product.Quantity</td>
                     </tr>
@@ -55,23 +67,20 @@
 
     protected override async Task OnInitializedAsync()
     {
-        Products = await ViewProductsByNameUseCase.ExecuteAsync("");
+        Products = await GetProductNyNameUseCase.ExecuteAsync("");
     }
     private async Task OnDeleteDialogClose(bool accepted)
     {
         if (accepted)
         {
-
-            await Task.Delay(1000);
-
         }
 
         ModalComponentShow = false;
         StateHasChanged();
     }
-    private void CreateProduct(Product product)
+    private async void CreateProduct(Product product)
     {
-        CreateNewProduct.Create(product);
+        await CreateNewProduct.CreateAsync(product);
         StateHasChanged();
     }
 
@@ -83,6 +92,6 @@
 
     private async Task SearchProducts()
     {
-        Products = await ViewProductsByNameUseCase.ExecuteAsync(searchQuery);
+        Products = await GetProductNyNameUseCase.ExecuteAsync(searchQuery);
     }
 }

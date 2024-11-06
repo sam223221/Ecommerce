@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
@@ -10,10 +10,15 @@
 
   <ItemGroup>
     <PackageReference Include="Blazored.Modal" Version="7.3.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\E-Commerce.Plugin.InMemmory\E-Commerce.Plugin.InMemmory.csproj" />
+    <ProjectReference Include="..\E-Commerce.Plugin.MySQL\E-Commerce.Plugin.MySQL.csproj" />
     <ProjectReference Include="..\E-Commerce.UseCase\E-Commerce.UseCase.csproj" />
     <ProjectReference Include="..\ECommerce.CoreEntityBusiness\ECommerce.CoreEntityBusiness.csproj" />
   </ItemGroup>

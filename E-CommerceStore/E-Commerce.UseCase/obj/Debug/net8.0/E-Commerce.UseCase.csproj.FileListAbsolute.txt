@@ -14,3 +14,5 @@ C:\Users\Sam Gleðisheygg\Documents\GitHub\SPRO-3\E-CommerceStore\E-Commerce.Use
 C:\Users\Sam Gleðisheygg\Documents\GitHub\SPRO-3\E-CommerceStore\E-Commerce.UseCase\obj\Debug\net8.0\refint\E-Commerce.UseCase.dll
 C:\Users\Sam Gleðisheygg\Documents\GitHub\SPRO-3\E-CommerceStore\E-Commerce.UseCase\obj\Debug\net8.0\E-Commerce.UseCase.pdb
 C:\Users\Sam Gleðisheygg\Documents\GitHub\SPRO-3\E-CommerceStore\E-Commerce.UseCase\obj\Debug\net8.0\ref\E-Commerce.UseCase.dll
+C:\Users\Sam Gleðisheygg\Documents\GitHub\SPRO-3\E-CommerceStore\E-Commerce.UseCase\bin\Debug\net8.0\E-Commerce.UseCase.runtimeconfig.json
+C:\Users\Sam Gleðisheygg\Documents\GitHub\SPRO-3\E-CommerceStore\E-Commerce.UseCase\obj\Debug\net8.0\E-Commerce.UseCase.genruntimeconfig.cache

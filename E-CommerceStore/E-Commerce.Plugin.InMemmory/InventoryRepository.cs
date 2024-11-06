@@ -1,7 +1,6 @@
 ﻿
 
 using E_Commerce.UseCase.PluginInterfaces;
-using ECommerce.CoreEntityBusiness;
 
 namespace E_Commerce.Plugin.InMemmory
 {

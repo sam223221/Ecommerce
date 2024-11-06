@@ -1,5 +1,4 @@
-﻿
-@rendermode InteractiveServer
+﻿@rendermode InteractiveServer
 
 <div class="modal fade show" id="myModal" style="display:block; background-color: rgba(10,10,10,.8);" aria-modal="true" role="dialog">
     <div class="modal-dialog">
@@ -9,7 +8,6 @@
                 <button type="button" class="close" @onclick="@ModalCancel">&times;</button>
             </div>
             <div class="modal-body">
-
 
                 <!-- Image Upload -->
                 <div class="text-center mb-3">
@@ -24,6 +22,10 @@
                         </div>
                     }
                     <InputFile OnChange="HandleFileSelected" style="display: block; margin: 10px auto;" />
+                    @if (!string.IsNullOrEmpty(fileErrorMessage))
+                    {
+                        <p class="text-danger">@fileErrorMessage</p>
+                    }
                 </div>
 
                 <!-- Product Fields -->
@@ -31,10 +33,17 @@
                     <label>Product Name</label>
                     <input type="text" class="form-control" @bind="productName" placeholder="Enter Product Name" />
                 </div>
+
+                <div class="form-group">
+                    <label>Description</label>
+                    <textarea class="form-control" @bind="description" placeholder="Enter Product Description"></textarea>
+                </div>
+
                 <div class="form-group">
                     <label>Quantity</label>
                     <input type="number" class="form-control" @bind="quantity" placeholder="Enter Quantity" />
                 </div>
+
                 <div class="form-group">
                     <label>Enter Price of the product</label>
                     <input type="number" class="form-control" @bind="price" placeholder="Price" />
@@ -42,7 +51,7 @@
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" @onclick="@ModalCancel">Cancel</button>
-                <button type="button" class="btn btn-primary" @onclick="@ModalOk">Create</button>
+                <button type="button" class="btn btn-primary" @onclick="@ModalOk" disabled="@string.IsNullOrWhiteSpace(productName)">Create</button>
             </div>
         </div>
     </div>
@@ -54,12 +63,34 @@
 
     private int quantity;
     private string productName = "";
+    private string description = "";
     private int price;
     private string uploadedImageUrl = "";
+    private string fileErrorMessage = "";
 
     private async Task HandleFileSelected(InputFileChangeEventArgs e)
     {
         var file = e.File;
+
+        // Check if only one file is selected
+        if (e.FileCount > 1)
+        {
+            fileErrorMessage = "Please upload only one file.";
+            uploadedImageUrl = "";
+            return;
+        }
+
+        // Validate file type (only JPG and PNG)
+        if (file.ContentType != "image/jpeg" && file.ContentType != "image/png")
+        {
+            fileErrorMessage = "Only JPG and PNG files are allowed.";
+            uploadedImageUrl = "";
+            return;
+        }
+
+        fileErrorMessage = ""; // Clear any previous error message
+
+        // Replace the old image with the new image
         var buffer = new byte[file.Size];
         await file.OpenReadStream().ReadAsync(buffer);
         uploadedImageUrl = $"data:image/png;base64,{Convert.ToBase64String(buffer)}";
@@ -72,14 +103,14 @@
 
     private Task ModalOk()
     {
-        // You can create the product item here and pass it to the parent if needed
+        // Creating the product item
         var newItem = new Product
             {
-                // Assuming Table has fields for name, price, quantity, and image
-                Quantity = quantity,
                 ProductName = productName,
-                Price = price
-
+                Description = description,
+                Quantity = quantity,
+                Price = price,
+                ImageUrl = uploadedImageUrl
             };
         ItemCreated.InvokeAsync(newItem);
         return OnClose.InvokeAsync(true);

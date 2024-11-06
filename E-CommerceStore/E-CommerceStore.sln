@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plguins", "Plguins", "{3F94
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E-Commerce.Plugin.InMemmory", "E-Commerce.Plugin.InMemmory\E-Commerce.Plugin.InMemmory.csproj", "{90931B95-0F1D-4FF1-9AB5-646DD19A07B8}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E-Commerce.Plugin.MySQL", "E-Commerce.Plugin.MySQL\E-Commerce.Plugin.MySQL.csproj", "{FD3701B4-FF05-42A2-9835-CC2DDF58AA7D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,12 +37,17 @@ Global
 		{90931B95-0F1D-4FF1-9AB5-646DD19A07B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90931B95-0F1D-4FF1-9AB5-646DD19A07B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90931B95-0F1D-4FF1-9AB5-646DD19A07B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD3701B4-FF05-42A2-9835-CC2DDF58AA7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD3701B4-FF05-42A2-9835-CC2DDF58AA7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD3701B4-FF05-42A2-9835-CC2DDF58AA7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD3701B4-FF05-42A2-9835-CC2DDF58AA7D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{90931B95-0F1D-4FF1-9AB5-646DD19A07B8} = {3F94F441-7CA5-477B-9560-A64429A1A311}
+		{FD3701B4-FF05-42A2-9835-CC2DDF58AA7D} = {3F94F441-7CA5-477B-9560-A64429A1A311}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {18488C28-4070-47CB-8AD6-EE281FDAD1F1}

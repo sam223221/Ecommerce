@@ -16,3 +16,5 @@ C:\Users\Sam Gleðisheygg\Documents\GitHub\SPRO-3\E-CommerceStore\E-Commerce.Plu
 C:\Users\Sam Gleðisheygg\Documents\GitHub\SPRO-3\E-CommerceStore\E-Commerce.Plugin.InMemmory\obj\Debug\net8.0\refint\E-Commerce.Plugin.InMemmory.dll
 C:\Users\Sam Gleðisheygg\Documents\GitHub\SPRO-3\E-CommerceStore\E-Commerce.Plugin.InMemmory\obj\Debug\net8.0\E-Commerce.Plugin.InMemmory.pdb
 C:\Users\Sam Gleðisheygg\Documents\GitHub\SPRO-3\E-CommerceStore\E-Commerce.Plugin.InMemmory\obj\Debug\net8.0\ref\E-Commerce.Plugin.InMemmory.dll
+C:\Users\Sam Gleðisheygg\Documents\GitHub\SPRO-3\E-CommerceStore\E-Commerce.Plugin.InMemmory\bin\Debug\net8.0\E-Commerce.Plugin.InMemmory.runtimeconfig.json
+C:\Users\Sam Gleðisheygg\Documents\GitHub\SPRO-3\E-CommerceStore\E-Commerce.Plugin.InMemmory\obj\Debug\net8.0\E-Commerce.Plugin.InMemmory.genruntimeconfig.cache

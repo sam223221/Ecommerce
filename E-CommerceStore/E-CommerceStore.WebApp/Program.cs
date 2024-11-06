@@ -1,10 +1,13 @@
 using Blazored.Modal;
 using E_Commerce.Plugin.InMemmory;
+using E_Commerce.Plugin.MySQL;
 using E_Commerce.UseCase.PluginInterfaces;
 using E_Commerce.UseCase.Products;
+using E_Commerce.UseCase.Products.InMemoryTest;
+using E_Commerce.UseCase.Products.InMemoryTest.InterfaceTest;
 using E_Commerce.UseCase.Products.Interfaces;
 using E_CommerceStore.WebApp.Components;
-
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,22 +15,33 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
-builder.Services.AddSingleton<IProductRepository, ProductRepository>();
+// Register MySQLDbContext with DI as scoped
+builder.Services.AddDbContext<MySQLDbContext>(options =>
+    options.UseMySql(
+        builder.Configuration.GetConnectionString("DefaultConnection"),
+        new MySqlServerVersion(new Version(10, 4, 32)) // Replace with your MySQL version
+    ));
+
+// Register repositories and use cases
+builder.Services.AddScoped<IProductRepository, ProductRepository>();
+builder.Services.AddScoped<IdbProductRepository, dbProductRepository>();
 builder.Services.AddTransient<IViewProductsByNameUseCase, ViewProductsByNameUseCase>();
 builder.Services.AddTransient<ICreateNewProduct, CreateNewProduct>();
+builder.Services.AddTransient<IGetProductByNameUseCase, GetProductByNameUseCase>(); // Corrected typo
+
+// Add Blazored Modal for modal service
 builder.Services.AddBlazoredModal();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
-    app.UseExceptionHandler("/Error", createScopeForErrors: true);
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
+    app.UseExceptionHandler("/Error");
     app.UseHsts();
 }
 
 app.UseHttpsRedirection();
-
 app.UseStaticFiles();
 app.UseAntiforgery();
 

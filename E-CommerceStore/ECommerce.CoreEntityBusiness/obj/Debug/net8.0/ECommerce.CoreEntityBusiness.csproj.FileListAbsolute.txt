@@ -10,3 +10,5 @@ C:\Users\Sam Gleðisheygg\Documents\GitHub\SPRO-3\E-CommerceStore\ECommerce.Core
 C:\Users\Sam Gleðisheygg\Documents\GitHub\SPRO-3\E-CommerceStore\ECommerce.CoreEntityBusiness\obj\Debug\net8.0\refint\ECommerce.CoreEntityBusiness.dll
 C:\Users\Sam Gleðisheygg\Documents\GitHub\SPRO-3\E-CommerceStore\ECommerce.CoreEntityBusiness\obj\Debug\net8.0\ECommerce.CoreEntityBusiness.pdb
 C:\Users\Sam Gleðisheygg\Documents\GitHub\SPRO-3\E-CommerceStore\ECommerce.CoreEntityBusiness\obj\Debug\net8.0\ref\ECommerce.CoreEntityBusiness.dll
+C:\Users\Sam Gleðisheygg\Documents\GitHub\SPRO-3\E-CommerceStore\ECommerce.CoreEntityBusiness\bin\Debug\net8.0\ECommerce.CoreEntityBusiness.runtimeconfig.json
+C:\Users\Sam Gleðisheygg\Documents\GitHub\SPRO-3\E-CommerceStore\ECommerce.CoreEntityBusiness\obj\Debug\net8.0\ECommerce.CoreEntityBusiness.genruntimeconfig.cache
