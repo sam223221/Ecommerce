@@ -7,6 +7,7 @@ using E_Commerce.UseCase.Products.InMemoryTest;
 using E_Commerce.UseCase.Products.InMemoryTest.InterfaceTest;
 using E_Commerce.UseCase.Products.Interfaces;
 using E_CommerceStore.WebApp.Components;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -22,12 +23,26 @@ builder.Services.AddDbContext<MySQLDbContext>(options =>
         new MySqlServerVersion(new Version(10, 4, 32)) // Replace with your MySQL version
     ));
 
+// Authentication and Authorization
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+    .AddCookie(
+        options =>
+        {
+            options.Cookie.Name="auth_Token";
+            options.LoginPath = "/login";
+            options.Cookie.MaxAge = TimeSpan.FromMinutes(30);
+            options.AccessDeniedPath = "/accessdenied";
+        });
+builder.Services.AddAuthorization();
+builder.Services.AddCascadingAuthenticationState();
+
 // Register repositories and use cases
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
 builder.Services.AddScoped<IdbProductRepository, dbProductRepository>();
 builder.Services.AddTransient<IViewProductsByNameUseCase, ViewProductsByNameUseCase>();
 builder.Services.AddTransient<ICreateNewProduct, CreateNewProduct>();
-builder.Services.AddTransient<IGetProductByNameUseCase, GetProductByNameUseCase>(); // Corrected typo
+builder.Services.AddTransient<IGetProductByNameUseCase, GetProductByNameUseCase>();
+builder.Services.AddTransient<IGetAccountDetailUseCase, GetAccountDetailUseCase>();
 
 // Add Blazored Modal for modal service
 builder.Services.AddBlazoredModal();
@@ -44,6 +59,8 @@ if (!app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseAntiforgery();
+app.UseAuthentication();
+app.UseAuthorization();
 
 app.MapRazorComponents<App>()
     .AddInteractiveServerRenderMode();

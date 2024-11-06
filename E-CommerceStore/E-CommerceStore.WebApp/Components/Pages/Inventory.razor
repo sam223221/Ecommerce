@@ -3,7 +3,7 @@
 
 <h1>Inventory</h1>
 @inject ICreateNewProduct CreateNewProduct
-@inject IViewProductsByNameUseCase ViewProductsByNameUseCase
+@inject NavigationManager NavigationManager
 @inject IGetProductByNameUseCase GetProductNyNameUseCase
 @inject IModalService ModalService
 
@@ -82,6 +82,7 @@
     {
         await CreateNewProduct.CreateAsync(product);
         StateHasChanged();
+        NavigationManager.NavigateTo("/Inventory", true);
     }
 
     private void OpenDeleteDialog()
@@ -93,5 +94,6 @@
     private async Task SearchProducts()
     {
         Products = await GetProductNyNameUseCase.ExecuteAsync(searchQuery);
+        StateHasChanged();
     }
 }

@@ -13,5 +13,7 @@ namespace E_Commerce.UseCase.PluginInterfaces
         Task<Product> GetProductByIdAsync(int productId);
         Task<string> UpdateProductAsync(Product product);
         Task<string> DeleteProductAsync(int productId);
+
+        Task<IEnumerable<Account>> GetAccountsAsync();
     }
 }

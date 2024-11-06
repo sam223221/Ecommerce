@@ -5,6 +5,14 @@
 
 <h1>Counter</h1>
 
+<AuthorizeView Roles="Admin">
+    <Authorized>
+        <h2>hettar Kann bara Admin síggja</h2>
+    </Authorized>
+</AuthorizeView>
+
+
+
 <p role="status">Current count: @currentCount</p>
 
 <button class="btn btn-primary" @onclick="IncrementCount">Click me</button>

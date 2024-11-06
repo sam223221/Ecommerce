@@ -1,0 +1,71 @@
+﻿@page "/login"
+
+@using E_CommerceStore.WebApp.Components.Pages.Account.ViewModel
+@using System.Security.Claims
+@using Microsoft.AspNetCore.Authentication
+@using Microsoft.AspNetCore.Authentication.Cookies
+@inject IGetAccountDetailUseCase GetAccountDetailUseCase
+@inject NavigationManager NavigationManager
+<h3>Login</h3>
+<div class="row">
+    <div class="col-lg-4 offset-lg-4 pt-4 pb-4 border">
+    <EditForm Model="@Model" OnValidSubmit="Authenicate" FormName="LoginForm">
+        <DataAnnotationsValidator/>
+
+        <div class="mb-3 text-center flex-column">
+            
+            <h3>LOGIN</h3>
+        </div>
+
+        <div class="mb-3">
+            <label>User Name</label>
+                <InputText @bind-Value="@(Model.UserName)" class="form-control" placeholder="Username" />
+                <ValidationMessage For="@(() => Model.UserName)" />
+        </div>
+        <div class="mb-3">
+            <label>Password</label>
+                <InputText @bind-Value="@(Model.Password)" placeholder="Password" type="password" class="form-control" />
+                <ValidationMessage For="@(() => Model.Password)" />
+        </div>
+        <div class="mb-3 text-center">
+                <span class="text-danger">@errorMessage</span>
+        </div>
+        <div class="mb-3 d-grid gap-2">
+            <button type="submit" class="btn btn-primary">Login</button>
+        </div>
+    </EditForm>
+    </div>
+</div>
+@code {
+    [CascadingParameter]
+    public HttpContext? HttpContext { get; set; }
+
+
+    [SupplyParameterFromForm]
+    LoginViewModel Model { get; set; } = new LoginViewModel();
+
+    private string? errorMessage;
+
+    private async Task Authenicate()
+    {
+        var accounts = await GetAccountDetailUseCase.ExecuteAsync();
+        var userAccount = accounts.Where(x => x.AccountName == Model.UserName).FirstOrDefault();
+
+        if (userAccount is null || userAccount.AccountPassword != Model.Password)
+        {
+            errorMessage = "Invalid username or password";
+            return;
+        }
+
+        var claims = new List<Claim>
+        {
+            new Claim(ClaimTypes.Name, userAccount.AccountName),
+            new Claim(ClaimTypes.Role, userAccount.Role)
+        };
+
+        var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+        var principal = new ClaimsPrincipal(identity);
+        await HttpContext.SignInAsync(principal);
+        NavigationManager.NavigateTo("/");
+    }
+}

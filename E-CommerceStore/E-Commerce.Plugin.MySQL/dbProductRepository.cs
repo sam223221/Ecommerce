@@ -1,8 +1,5 @@
 ﻿using E_Commerce.UseCase.PluginInterfaces;
 using Microsoft.EntityFrameworkCore;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace E_Commerce.Plugin.MySQL
 {
@@ -44,6 +41,11 @@ namespace E_Commerce.Plugin.MySQL
             {
                 return "Error";
             }
+        }
+
+        public async Task<IEnumerable<Account>> GetAccountsAsync()
+        {
+            return await _context.Accounts.ToListAsync();
         }
 
         public async Task<IEnumerable<Product>> GetAllProductsAsync()
