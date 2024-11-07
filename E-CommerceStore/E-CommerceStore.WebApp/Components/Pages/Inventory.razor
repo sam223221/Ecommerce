@@ -2,7 +2,7 @@
 @rendermode InteractiveServer
 
 <h1>Inventory</h1>
-@inject ProductService ProductService
+@inject IProductService ProductService
 @inject NavigationManager NavigationManager
 @inject IModalService ModalService
 
@@ -29,6 +29,7 @@
                     <th>Description</th>
                     <th>Price</th>
                     <th>Quantity</th>
+                    <th>Action</th>
                 </tr>
             </thead>
             <tbody>
@@ -47,7 +48,7 @@
                         <td>@product.Quantity</td>
                         <td>
                             <span class="text-primary" style="cursor: pointer;" @onclick="() => OpenEditModal(product)">Edit</span> |
-                            <span class="text-danger" style="cursor: pointer;">Delete</span>
+                            <span class="text-danger" style="cursor: pointer;" @onclick="() => OpenDeleteConfirmation(product)">Delete</span>
                         </td>
                     </tr>
                 }
@@ -75,7 +76,7 @@
 }
 @if (isDeleteModalOpen)
 {
-    <DeleteConfirmationModal OnClose="ConfirmDelete" />
+    <ComponentDeleteConfirmModal OnClose="ConfirmDelete" />
 }
 
 @code {

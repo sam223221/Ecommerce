@@ -5,5 +5,6 @@
         Task<IEnumerable<Product>> GetAllProductsExecuteAsync(string name);
         Task<string> UpdateProductAsync(Product product);
         Task<string> CreateProductAsync(Product product);
+        Task<string> DeleteProductAsync(int productId);
     }
 }

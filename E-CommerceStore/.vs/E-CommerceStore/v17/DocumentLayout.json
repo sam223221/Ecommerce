@@ -3,28 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\Sam Gle\u00F0isheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{290F1384-91EB-4B98-904C-5E73625A4E14}|E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj|c:\\users\\sam gle\u00F0isheygg\\documents\\github\\spro-3\\e-commercestore\\e-commercestore.webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{290F1384-91EB-4B98-904C-5E73625A4E14}|E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj|solutionrelative:e-commercestore.webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{290F1384-91EB-4B98-904C-5E73625A4E14}|E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj|c:\\users\\sam gle\u00F0isheygg\\documents\\github\\spro-3\\e-commercestore\\e-commercestore.webapp\\components\\pages\\inventory.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{290F1384-91EB-4B98-904C-5E73625A4E14}|E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj|solutionrelative:e-commercestore.webapp\\components\\pages\\inventory.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{290F1384-91EB-4B98-904C-5E73625A4E14}|E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj|c:\\users\\sam gle\u00F0isheygg\\documents\\github\\spro-3\\e-commercestore\\e-commercestore.webapp\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{290F1384-91EB-4B98-904C-5E73625A4E14}|E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj|solutionrelative:e-commercestore.webapp\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{FD3701B4-FF05-42A2-9835-CC2DDF58AA7D}|E-Commerce.Plugin.MySQL\\E-Commerce.Plugin.MySQL.csproj|c:\\users\\sam gle\u00F0isheygg\\documents\\github\\spro-3\\e-commercestore\\e-commerce.plugin.mysql\\dbproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD3701B4-FF05-42A2-9835-CC2DDF58AA7D}|E-Commerce.Plugin.MySQL\\E-Commerce.Plugin.MySQL.csproj|solutionrelative:e-commerce.plugin.mysql\\dbproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B4FEE1DD-9EF5-4E22-A11D-18CDED6D2BF9}|E-Commerce.UseCase\\E-Commerce.UseCase.csproj|c:\\users\\sam gle\u00F0isheygg\\documents\\github\\spro-3\\e-commercestore\\e-commerce.usecase\\products\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4FEE1DD-9EF5-4E22-A11D-18CDED6D2BF9}|E-Commerce.UseCase\\E-Commerce.UseCase.csproj|solutionrelative:e-commerce.usecase\\products\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4FEE1DD-9EF5-4E22-A11D-18CDED6D2BF9}|E-Commerce.UseCase\\E-Commerce.UseCase.csproj|c:\\users\\sam gle\u00F0isheygg\\documents\\github\\spro-3\\e-commercestore\\e-commerce.usecase\\products\\accountsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4FEE1DD-9EF5-4E22-A11D-18CDED6D2BF9}|E-Commerce.UseCase\\E-Commerce.UseCase.csproj|solutionrelative:e-commerce.usecase\\products\\accountsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4FEE1DD-9EF5-4E22-A11D-18CDED6D2BF9}|E-Commerce.UseCase\\E-Commerce.UseCase.csproj|c:\\users\\sam gle\u00F0isheygg\\documents\\github\\spro-3\\e-commercestore\\e-commerce.usecase\\products\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4FEE1DD-9EF5-4E22-A11D-18CDED6D2BF9}|E-Commerce.UseCase\\E-Commerce.UseCase.csproj|solutionrelative:e-commerce.usecase\\products\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{290F1384-91EB-4B98-904C-5E73625A4E14}|E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj|c:\\users\\sam gle\u00F0isheygg\\documents\\github\\spro-3\\e-commercestore\\e-commercestore.webapp\\components\\component\\componentdeleteconfirmmodal.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{290F1384-91EB-4B98-904C-5E73625A4E14}|E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj|solutionrelative:e-commercestore.webapp\\components\\component\\componentdeleteconfirmmodal.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{290F1384-91EB-4B98-904C-5E73625A4E14}|E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj|c:\\users\\sam gle\u00F0isheygg\\documents\\github\\spro-3\\e-commercestore\\e-commercestore.webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{290F1384-91EB-4B98-904C-5E73625A4E14}|E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj|solutionrelative:e-commercestore.webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4FEE1DD-9EF5-4E22-A11D-18CDED6D2BF9}|E-Commerce.UseCase\\E-Commerce.UseCase.csproj|c:\\users\\sam gle\u00F0isheygg\\documents\\github\\spro-3\\e-commercestore\\e-commerce.usecase\\products\\accountsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4FEE1DD-9EF5-4E22-A11D-18CDED6D2BF9}|E-Commerce.UseCase\\E-Commerce.UseCase.csproj|solutionrelative:e-commerce.usecase\\products\\accountsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{290F1384-91EB-4B98-904C-5E73625A4E14}|E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj|c:\\users\\sam gle\u00F0isheygg\\documents\\github\\spro-3\\e-commercestore\\e-commercestore.webapp\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{290F1384-91EB-4B98-904C-5E73625A4E14}|E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj|solutionrelative:e-commercestore.webapp\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{290F1384-91EB-4B98-904C-5E73625A4E14}|E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj|c:\\users\\sam gle\u00F0isheygg\\documents\\github\\spro-3\\e-commercestore\\e-commercestore.webapp\\components\\component\\componentcreatepoup.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -35,16 +43,8 @@
       "RelativeMoniker": "D:0:0:{290F1384-91EB-4B98-904C-5E73625A4E14}|E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj|solutionrelative:e-commercestore.webapp\\components\\component\\componentalertnotification.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4FEE1DD-9EF5-4E22-A11D-18CDED6D2BF9}|E-Commerce.UseCase\\E-Commerce.UseCase.csproj|c:\\users\\sam gle\u00F0isheygg\\documents\\github\\spro-3\\e-commercestore\\e-commerce.usecase\\products\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4FEE1DD-9EF5-4E22-A11D-18CDED6D2BF9}|E-Commerce.UseCase\\E-Commerce.UseCase.csproj|solutionrelative:e-commerce.usecase\\products\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{290F1384-91EB-4B98-904C-5E73625A4E14}|E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj|c:\\users\\sam gle\u00F0isheygg\\documents\\github\\spro-3\\e-commercestore\\e-commercestore.webapp\\components\\component\\componenteditproduct.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{290F1384-91EB-4B98-904C-5E73625A4E14}|E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj|solutionrelative:e-commercestore.webapp\\components\\component\\componenteditproduct.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD3701B4-FF05-42A2-9835-CC2DDF58AA7D}|E-Commerce.Plugin.MySQL\\E-Commerce.Plugin.MySQL.csproj|c:\\users\\sam gle\u00F0isheygg\\documents\\github\\spro-3\\e-commercestore\\e-commerce.plugin.mysql\\dbproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD3701B4-FF05-42A2-9835-CC2DDF58AA7D}|E-Commerce.Plugin.MySQL\\E-Commerce.Plugin.MySQL.csproj|solutionrelative:e-commerce.plugin.mysql\\dbproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{290F1384-91EB-4B98-904C-5E73625A4E14}|E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj|c:\\users\\sam gle\u00F0isheygg\\documents\\github\\spro-3\\e-commercestore\\e-commercestore.webapp\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -74,7 +74,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 21,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Bookmark",
@@ -106,7 +106,121 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\Sam Gle\u00F0isheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-Commerce.UseCase\\Products\\Interfaces\\IProductService.cs",
+              "RelativeDocumentMoniker": "E-Commerce.UseCase\\Products\\Interfaces\\IProductService.cs",
+              "ToolTip": "C:\\Users\\Sam Gle\u00F0isheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-Commerce.UseCase\\Products\\Interfaces\\IProductService.cs",
+              "RelativeToolTip": "E-Commerce.UseCase\\Products\\Interfaces\\IProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T12:07:42.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\Sam Gle\u00F0isheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-Commerce.UseCase\\Products\\ProductService.cs",
+              "RelativeDocumentMoniker": "E-Commerce.UseCase\\Products\\ProductService.cs",
+              "ToolTip": "C:\\Users\\Sam Gle\u00F0isheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-Commerce.UseCase\\Products\\ProductService.cs",
+              "RelativeToolTip": "E-Commerce.UseCase\\Products\\ProductService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T12:06:39.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Sam Gle\u00F0isheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\Program.cs",
+              "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Program.cs",
+              "ToolTip": "C:\\Users\\Sam Gle\u00F0isheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\Program.cs",
+              "RelativeToolTip": "E-CommerceStore.WebApp\\Program.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T11:11:48.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ComponentAlertNotification.razor",
+              "DocumentMoniker": "C:\\Users\\Sam Gle\u00F0isheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Component\\ComponentAlertNotification.razor",
+              "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Components\\Component\\ComponentAlertNotification.razor",
+              "ToolTip": "C:\\Users\\Sam Gle\u00F0isheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Component\\ComponentAlertNotification.razor",
+              "RelativeToolTip": "E-CommerceStore.WebApp\\Components\\Component\\ComponentAlertNotification.razor",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-07T11:18:17.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ComponentCreatePoUp.razor",
+              "DocumentMoniker": "C:\\Users\\Sam Gle\u00F0isheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Component\\ComponentCreatePoUp.razor",
+              "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Components\\Component\\ComponentCreatePoUp.razor",
+              "ToolTip": "C:\\Users\\Sam Gle\u00F0isheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Component\\ComponentCreatePoUp.razor",
+              "RelativeToolTip": "E-CommerceStore.WebApp\\Components\\Component\\ComponentCreatePoUp.razor",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAGcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-05T16:12:38.856Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "ComponentDeleteConfirmModal.razor",
+              "DocumentMoniker": "C:\\Users\\Sam Gle\u00F0isheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Component\\ComponentDeleteConfirmModal.razor",
+              "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Components\\Component\\ComponentDeleteConfirmModal.razor",
+              "ToolTip": "C:\\Users\\Sam Gle\u00F0isheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Component\\ComponentDeleteConfirmModal.razor",
+              "RelativeToolTip": "E-CommerceStore.WebApp\\Components\\Component\\ComponentDeleteConfirmModal.razor",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-07T11:58:27.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Inventory.razor",
+              "DocumentMoniker": "C:\\Users\\Sam Gle\u00F0isheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Pages\\Inventory.razor",
+              "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Components\\Pages\\Inventory.razor",
+              "ToolTip": "C:\\Users\\Sam Gle\u00F0isheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Pages\\Inventory.razor",
+              "RelativeToolTip": "E-CommerceStore.WebApp\\Components\\Pages\\Inventory.razor",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAAAF4AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-07T10:21:52.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\Sam Gle\u00F0isheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Components\\_Imports.razor",
+              "ToolTip": "C:\\Users\\Sam Gle\u00F0isheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\_Imports.razor",
+              "RelativeToolTip": "E-CommerceStore.WebApp\\Components\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-07T11:59:02.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "dbProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Sam Gle\u00F0isheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-Commerce.Plugin.MySQL\\dbProductRepository.cs",
+              "RelativeDocumentMoniker": "E-Commerce.Plugin.MySQL\\dbProductRepository.cs",
+              "ToolTip": "C:\\Users\\Sam Gle\u00F0isheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-Commerce.Plugin.MySQL\\dbProductRepository.cs",
+              "RelativeToolTip": "E-Commerce.Plugin.MySQL\\dbProductRepository.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAmwE0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T11:08:16.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "AccountsService.cs",
               "DocumentMoniker": "C:\\Users\\Sam Gle\u00F0isheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-Commerce.UseCase\\Products\\AccountsService.cs",
               "RelativeDocumentMoniker": "E-Commerce.UseCase\\Products\\AccountsService.cs",
@@ -119,111 +233,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IProductService.cs",
-              "DocumentMoniker": "C:\\Users\\Sam Gle\u00F0isheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-Commerce.UseCase\\Products\\Interfaces\\IProductService.cs",
-              "RelativeDocumentMoniker": "E-Commerce.UseCase\\Products\\Interfaces\\IProductService.cs",
-              "ToolTip": "C:\\Users\\Sam Gle\u00F0isheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-Commerce.UseCase\\Products\\Interfaces\\IProductService.cs",
-              "RelativeToolTip": "E-Commerce.UseCase\\Products\\Interfaces\\IProductService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T12:07:42.746Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProductService.cs",
-              "DocumentMoniker": "C:\\Users\\Sam Gle\u00F0isheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-Commerce.UseCase\\Products\\ProductService.cs",
-              "RelativeDocumentMoniker": "E-Commerce.UseCase\\Products\\ProductService.cs",
-              "ToolTip": "C:\\Users\\Sam Gle\u00F0isheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-Commerce.UseCase\\Products\\ProductService.cs",
-              "RelativeToolTip": "E-Commerce.UseCase\\Products\\ProductService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T12:06:39.618Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Sam Gle\u00F0isheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\Program.cs",
-              "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Program.cs",
-              "ToolTip": "C:\\Users\\Sam Gle\u00F0isheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\Program.cs",
-              "RelativeToolTip": "E-CommerceStore.WebApp\\Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACgAAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T11:11:48.875Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ComponentAlertNotification.razor",
-              "DocumentMoniker": "C:\\Users\\Sam Gle\u00F0isheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Component\\ComponentAlertNotification.razor",
-              "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Components\\Component\\ComponentAlertNotification.razor",
-              "ToolTip": "C:\\Users\\Sam Gle\u00F0isheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Component\\ComponentAlertNotification.razor",
-              "RelativeToolTip": "E-CommerceStore.WebApp\\Components\\Component\\ComponentAlertNotification.razor",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-07T11:18:17.966Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ComponentCreatePoUp.razor",
-              "DocumentMoniker": "C:\\Users\\Sam Gle\u00F0isheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Component\\ComponentCreatePoUp.razor",
-              "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Components\\Component\\ComponentCreatePoUp.razor",
-              "ToolTip": "C:\\Users\\Sam Gle\u00F0isheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Component\\ComponentCreatePoUp.razor",
-              "RelativeToolTip": "E-CommerceStore.WebApp\\Components\\Component\\ComponentCreatePoUp.razor",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAAAGcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-05T16:12:38.856Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ComponentDeleteConfirmModal.razor",
-              "DocumentMoniker": "C:\\Users\\Sam Gle\u00F0isheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Component\\ComponentDeleteConfirmModal.razor",
-              "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Components\\Component\\ComponentDeleteConfirmModal.razor",
-              "ToolTip": "C:\\Users\\Sam Gle\u00F0isheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Component\\ComponentDeleteConfirmModal.razor",
-              "RelativeToolTip": "E-CommerceStore.WebApp\\Components\\Component\\ComponentDeleteConfirmModal.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-07T11:58:27.134Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Inventory.razor",
-              "DocumentMoniker": "C:\\Users\\Sam Gle\u00F0isheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Pages\\Inventory.razor",
-              "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Components\\Pages\\Inventory.razor",
-              "ToolTip": "C:\\Users\\Sam Gle\u00F0isheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Pages\\Inventory.razor",
-              "RelativeToolTip": "E-CommerceStore.WebApp\\Components\\Pages\\Inventory.razor",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-07T10:21:52.078Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_Imports.razor",
-              "DocumentMoniker": "C:\\Users\\Sam Gle\u00F0isheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\_Imports.razor",
-              "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Components\\_Imports.razor",
-              "ToolTip": "C:\\Users\\Sam Gle\u00F0isheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\_Imports.razor",
-              "RelativeToolTip": "E-CommerceStore.WebApp\\Components\\_Imports.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-07T11:59:02.954Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "ComponentEditProduct.razor",
               "DocumentMoniker": "C:\\Users\\Sam Gle\u00F0isheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Component\\ComponentEditProduct.razor",
               "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Components\\Component\\ComponentEditProduct.razor",
@@ -231,21 +241,7 @@
               "RelativeToolTip": "E-CommerceStore.WebApp\\Components\\Component\\ComponentEditProduct.razor",
               "ViewState": "AgIAAEsAAAAAAAAAAAAAAE0AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-07T11:24:24.619Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "dbProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Sam Gle\u00F0isheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-Commerce.Plugin.MySQL\\dbProductRepository.cs",
-              "RelativeDocumentMoniker": "E-Commerce.Plugin.MySQL\\dbProductRepository.cs",
-              "ToolTip": "C:\\Users\\Sam Gle\u00F0isheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-Commerce.Plugin.MySQL\\dbProductRepository.cs",
-              "RelativeToolTip": "E-Commerce.Plugin.MySQL\\dbProductRepository.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwE0AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T11:08:16.158Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-07T11:24:24.619Z"
             },
             {
               "$type": "Document",
@@ -257,8 +253,7 @@
               "RelativeToolTip": "ECommerce.CoreEntityBusiness\\Product.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T11:33:13.632Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-07T11:33:13.632Z"
             },
             {
               "$type": "Document",
@@ -270,8 +265,7 @@
               "RelativeToolTip": "E-CommerceStore.WebApp\\Components\\Layout\\MainLayout.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-07T11:52:58.217Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-07T11:52:58.217Z"
             },
             {
               "$type": "Document",
@@ -283,8 +277,7 @@
               "RelativeToolTip": "E-CommerceStore.WebApp\\Components\\Layout\\NavMenu.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-07T11:53:00.442Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-07T11:53:00.442Z"
             },
             {
               "$type": "Document",
@@ -296,8 +289,7 @@
               "RelativeToolTip": "E-CommerceStore.WebApp\\Components\\Pages\\Home.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-07T10:57:34.229Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-07T10:57:34.229Z"
             },
             {
               "$type": "Document",
