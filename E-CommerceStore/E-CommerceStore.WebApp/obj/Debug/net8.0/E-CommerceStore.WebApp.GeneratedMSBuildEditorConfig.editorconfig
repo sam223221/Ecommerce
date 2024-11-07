@@ -22,8 +22,20 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Sam Gleðisheygg/Documents/GitHub/SPRO-3/E-CommerceStore/E-CommerceStore.WebApp/Components/Component/ComponentAlertNotification.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb21wb25lbnRcQ29tcG9uZW50QWxlcnROb3RpZmljYXRpb24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Sam Gleðisheygg/Documents/GitHub/SPRO-3/E-CommerceStore/E-CommerceStore.WebApp/Components/Component/ComponentCreatePoUp.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb21wb25lbnRcQ29tcG9uZW50Q3JlYXRlUG9VcC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sam Gleðisheygg/Documents/GitHub/SPRO-3/E-CommerceStore/E-CommerceStore.WebApp/Components/Component/ComponentDeleteConfirmModal.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb21wb25lbnRcQ29tcG9uZW50RGVsZXRlQ29uZmlybU1vZGFsLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sam Gleðisheygg/Documents/GitHub/SPRO-3/E-CommerceStore/E-CommerceStore.WebApp/Components/Component/ComponentEditProduct.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb21wb25lbnRcQ29tcG9uZW50RWRpdFByb2R1Y3QucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Sam Gleðisheygg/Documents/GitHub/SPRO-3/E-CommerceStore/E-CommerceStore.WebApp/Components/Pages/Account/AccessDenied.razor]

@@ -2,10 +2,10 @@
 @rendermode InteractiveServer
 
 <h1>Inventory</h1>
-@inject ICreateNewProduct CreateNewProduct
+@inject ProductService ProductService
 @inject NavigationManager NavigationManager
-@inject IGetProductByNameUseCase GetProductNyNameUseCase
 @inject IModalService ModalService
+
 
 
 <div class="row mb-3">
@@ -15,7 +15,7 @@
     <div class="col-md-4">
         
         <button @onclick="SearchProducts" class="btn btn-primary" >Search</button>
-        <button @onclick="OpenDeleteDialog" class="btn btn-primary" >Create</button>
+        <button @onclick="OpenCreateDialog" class="btn btn-primary" >Create</button>
     </div>
 </div>
 
@@ -45,6 +45,10 @@
                         <td>@product.Description</td>
                         <td>@product.Price</td>
                         <td>@product.Quantity</td>
+                        <td>
+                            <span class="text-primary" style="cursor: pointer;" @onclick="() => OpenEditModal(product)">Edit</span> |
+                            <span class="text-danger" style="cursor: pointer;">Delete</span>
+                        </td>
                     </tr>
                 }
             </tbody>
@@ -52,48 +56,128 @@
     </div>
 </div>
 
-@if (ModalComponentShow)
+
+<ComponentAlertNotification 
+    Message="@notificationMessage"
+    IsSuccess="@isNotificationSuccess" />
+
+@if (ModalCreateShow)
 {
     <ComponentCreatePoUp 
-        OnClose="@OnDeleteDialogClose"
-        ItemCreated="@CreateProduct">
+        ItemCreated="@CloseCreateDialog">
     </ComponentCreatePoUp>
+}
+@if (ModalEditModalShow)
+{
+    <ComponentEditProduct 
+        Product="@selectedProduct"
+        OnClose="CloseEditModal"/>
+}
+@if (isDeleteModalOpen)
+{
+    <DeleteConfirmationModal OnClose="ConfirmDelete" />
 }
 
 @code {
     private IEnumerable<Product> Products = new List<Product>();
     private string searchQuery = "";
-    public bool ModalComponentShow { get; set; }
+    public bool ModalCreateShow { get; set; }
+    private Product selectedProduct;
+    private bool ModalEditModalShow = false;
+    private String UpdateStatus = "";
+    private string notificationMessage = "";
+    private bool isNotificationSuccess = false;
+    private bool isDeleteModalOpen = false;
 
     protected override async Task OnInitializedAsync()
     {
-        Products = await GetProductNyNameUseCase.ExecuteAsync("");
+        Products = await ProductService.GetAllProductsExecuteAsync("");
     }
-    private async Task OnDeleteDialogClose(bool accepted)
-    {
-        if (accepted)
-        {
-        }
 
-        ModalComponentShow = false;
-        StateHasChanged();
-    }
-    private async void CreateProduct(Product product)
+    private async void CloseCreateDialog(Product product)
     {
-        await CreateNewProduct.CreateAsync(product);
+        if (product != null)
+        {
+            await ProductService.CreateProductAsync(product);
+        }
+        ModalCreateShow = false;
         StateHasChanged();
         NavigationManager.NavigateTo("/Inventory", true);
     }
 
-    private void OpenDeleteDialog()
+    private void OpenCreateDialog()
     {
-        ModalComponentShow = true;
+        ModalCreateShow = true;
         StateHasChanged();
     }
 
     private async Task SearchProducts()
     {
-        Products = await GetProductNyNameUseCase.ExecuteAsync(searchQuery);
+        Products = await ProductService.GetAllProductsExecuteAsync(searchQuery);
         StateHasChanged();
     }
+    private void OpenEditModal(Product product)
+    {
+        selectedProduct = product;
+        ModalEditModalShow = true;
+    }
+
+    private async Task CloseEditModal(Product product)
+    {
+        if (product != null)
+        {
+            UpdateStatus = await ProductService.UpdateProductAsync(product);
+
+            // Display a notification based on the update status
+            notificationMessage = UpdateStatus == "Success"
+                ? "Product updated successfully!"
+                : "Failed to update product.";
+            isNotificationSuccess = UpdateStatus == "Success";
+
+            ModalEditModalShow = false;
+            StateHasChanged();
+            await Task.Delay(5000); // Display for 3 seconds
+            notificationMessage = ""; // Clear the message after the delay
+            return;
+        }
+
+
+        ModalEditModalShow = false;
+        StateHasChanged();
+    }
+
+
+    private void OpenDeleteConfirmation(Product product)
+    {
+        selectedProduct = product;
+        isDeleteModalOpen = true;
+    }
+
+    private async Task ConfirmDelete(bool confirm)
+    {
+        isDeleteModalOpen = false;
+
+        if (confirm)
+        {
+            // Call delete service or use case
+            var deleteStatus = await ProductService.DeleteProductAsync(selectedProduct.ProductId);
+
+            if (deleteStatus == "Success")
+            {
+                Products = Products.Where(p => p.ProductId != selectedProduct.ProductId).ToList();
+                notificationMessage = "Product deleted successfully!";
+                isNotificationSuccess = true;
+            }
+            else
+            {
+                notificationMessage = "Failed to delete product.";
+                isNotificationSuccess = false;
+            }
+
+            StateHasChanged();
+            await Task.Delay(5000); // Display for 3 seconds
+            notificationMessage = ""; // Clear the message after the delay
+        }
+    }
+
 }

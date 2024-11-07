@@ -1,0 +1,35 @@
+﻿
+@if (!string.IsNullOrEmpty(Message))
+{
+    <div class="@NotificationClass">
+        @Message
+    </div>
+}
+
+<style>
+    .alert {
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        z-index: 1000;
+        min-width: 200px;
+        padding: 10px;
+        border-radius: 5px;
+    }
+</style>
+
+@code {
+    [Parameter]
+    public string Message { get; set; } = string.Empty;
+
+    [Parameter]
+    public bool IsSuccess { get; set; } = true;
+
+    private string NotificationClass => IsSuccess ? "alert alert-success" : "alert alert-danger";
+
+    protected override async Task OnInitializedAsync()
+    {
+        await Task.Delay(3000); // Display for 3 seconds
+        Message = ""; // Clear the message after the delay
+    }
+}

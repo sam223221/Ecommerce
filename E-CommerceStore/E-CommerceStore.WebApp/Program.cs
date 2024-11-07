@@ -39,10 +39,9 @@ builder.Services.AddCascadingAuthenticationState();
 // Register repositories and use cases
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
 builder.Services.AddScoped<IdbProductRepository, dbProductRepository>();
-builder.Services.AddTransient<IViewProductsByNameUseCase, ViewProductsByNameUseCase>();
-builder.Services.AddTransient<ICreateNewProduct, CreateNewProduct>();
-builder.Services.AddTransient<IGetProductByNameUseCase, GetProductByNameUseCase>();
-builder.Services.AddTransient<IGetAccountDetailUseCase, GetAccountDetailUseCase>();
+builder.Services.AddTransient<IProductService, ProductService>();
+builder.Services.AddTransient<IAccountsService, AccountsService>();
+
 
 // Add Blazored Modal for modal service
 builder.Services.AddBlazoredModal();

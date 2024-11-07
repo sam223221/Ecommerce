@@ -8,64 +8,69 @@
                 <button type="button" class="close" @onclick="@ModalCancel">&times;</button>
             </div>
             <div class="modal-body">
+                <EditForm Model="@Model" OnValidSubmit="HandleValidSubmit">
+                    <DataAnnotationsValidator />
+                    <ValidationSummary />
 
-                <!-- Image Upload -->
-                <div class="text-center mb-3">
-                    @if (!string.IsNullOrEmpty(uploadedImageUrl))
-                    {
-                        <img src="@uploadedImageUrl" alt="Product Image" class="img-thumbnail" style="max-width: 100%; max-height: 150px;" />
-                    }
-                    else
-                    {
-                        <div class="image-placeholder" style="width: 100%; height: 150px; border: 1px dashed #ccc; display: flex; align-items: center; justify-content: center;">
-                            <span class="icon-camera">📷</span>
-                        </div>
-                    }
-                    <InputFile OnChange="HandleFileSelected" style="display: block; margin: 10px auto;" />
-                    @if (!string.IsNullOrEmpty(fileErrorMessage))
-                    {
-                        <p class="text-danger">@fileErrorMessage</p>
-                    }
-                </div>
+                    <!-- Image Upload -->
+                    <div class="text-center mb-3">
+                        @if (!string.IsNullOrEmpty(Model.UploadedImageUrl))
+                        {
+                            <img src="@Model.UploadedImageUrl" alt="Product Image" class="img-thumbnail" style="max-width: 100%; max-height: 150px;" />
+                        }
+                        else
+                        {
+                            <div class="image-placeholder" style="width: 100%; height: 150px; border: 1px dashed #ccc; display: flex; align-items: center; justify-content: center;">
+                                <span class="icon-camera">📷</span>
+                            </div>
+                        }
+                        <InputFile OnChange="HandleFileSelected" style="display: block; margin: 10px auto;" />
+                        @if (!string.IsNullOrEmpty(fileErrorMessage))
+                        {
+                            <p class="text-danger">@fileErrorMessage</p>
+                        }
+                    </div>
 
-                <!-- Product Fields -->
-                <div class="form-group">
-                    <label>Product Name</label>
-                    <input type="text" class="form-control" @bind="productName" placeholder="Enter Product Name" />
-                </div>
+                    <!-- Product Fields -->
+                    <div class="form-group">
+                        <label>Product Name</label>
+                        <InputText @bind-Value="Model.ProductName" class="form-control" placeholder="Enter Product Name" />
+                        <ValidationMessage For="@(() => Model.ProductName)" />
+                    </div>
 
-                <div class="form-group">
-                    <label>Description</label>
-                    <textarea class="form-control" @bind="description" placeholder="Enter Product Description"></textarea>
-                </div>
+                    <div class="form-group">
+                        <label>Description</label>
+                        <InputTextArea @bind-Value="Model.ProductDescription" class="form-control" placeholder="Enter Product Description" />
+                        <ValidationMessage For="@(() => Model.ProductDescription)" />
+                    </div>
 
-                <div class="form-group">
-                    <label>Quantity</label>
-                    <input type="number" class="form-control" @bind="quantity" placeholder="Enter Quantity" />
-                </div>
+                    <div class="form-group">
+                        <label>Quantity</label>
+                        <InputNumber @bind-Value="Model.ProductQuantity" class="form-control" placeholder="Enter Quantity" />
+                        <ValidationMessage For="@(() => Model.ProductQuantity)" />
+                    </div>
 
-                <div class="form-group">
-                    <label>Enter Price of the product</label>
-                    <input type="number" class="form-control" @bind="price" placeholder="Price" />
-                </div>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" @onclick="@ModalCancel">Cancel</button>
-                <button type="button" class="btn btn-primary" @onclick="@ModalOk" disabled="@string.IsNullOrWhiteSpace(productName)">Create</button>
+                    <div class="form-group">
+                        <label>Price</label>
+                        <InputNumber @bind-Value="Model.ProductPrice" class="form-control" placeholder="Enter Price" />
+                        <ValidationMessage For="@(() => Model.ProductPrice)" />
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" @onclick="@ModalCancel">Cancel</button>
+                        <button type="submit" class="btn btn-primary" disabled="@string.IsNullOrWhiteSpace(Model.ProductName)">Create</button>
+                    </div>
+                </EditForm>
             </div>
         </div>
     </div>
 </div>
 
 @code {
-    [Parameter] public EventCallback<bool> OnClose { get; set; }
+
     [Parameter] public EventCallback<Product> ItemCreated { get; set; }
 
-    private int quantity;
-    private string productName = "";
-    private string description = "";
-    private int price;
-    private string uploadedImageUrl = "";
+    private CreatePopUpViewModel Model { get; set; } = new CreatePopUpViewModel();
     private string fileErrorMessage = "";
 
     private async Task HandleFileSelected(InputFileChangeEventArgs e)
@@ -76,7 +81,7 @@
         if (e.FileCount > 1)
         {
             fileErrorMessage = "Please upload only one file.";
-            uploadedImageUrl = "";
+            Model.UploadedImageUrl = string.Empty;
             return;
         }
 
@@ -84,7 +89,7 @@
         if (file.ContentType != "image/jpeg" && file.ContentType != "image/png")
         {
             fileErrorMessage = "Only JPG and PNG files are allowed.";
-            uploadedImageUrl = "";
+            Model.UploadedImageUrl = string.Empty;
             return;
         }
 
@@ -93,26 +98,26 @@
         // Replace the old image with the new image
         var buffer = new byte[file.Size];
         await file.OpenReadStream().ReadAsync(buffer);
-        uploadedImageUrl = $"data:image/png;base64,{Convert.ToBase64String(buffer)}";
+        Model.UploadedImageUrl = $"data:image/png;base64,{Convert.ToBase64String(buffer)}";
     }
 
     private Task ModalCancel()
     {
-        return OnClose.InvokeAsync(false);
+        return ItemCreated.InvokeAsync(null);
     }
 
-    private Task ModalOk()
+    private async Task HandleValidSubmit()
     {
-        // Creating the product item
+        // Create the product item
         var newItem = new Product
             {
-                ProductName = productName,
-                Description = description,
-                Quantity = quantity,
-                Price = price,
-                ImageUrl = uploadedImageUrl
+                ProductName = Model.ProductName,
+                Description = Model.ProductDescription,
+                Quantity = Model.ProductQuantity,
+                Price = Model.ProductPrice,
+                ImageUrl = Model.UploadedImageUrl
             };
-        ItemCreated.InvokeAsync(newItem);
-        return OnClose.InvokeAsync(true);
+
+        await ItemCreated.InvokeAsync(newItem);
     }
 }

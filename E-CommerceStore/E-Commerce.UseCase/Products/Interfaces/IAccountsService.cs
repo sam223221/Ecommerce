@@ -1,6 +1,6 @@
 ﻿namespace E_Commerce.UseCase.Products.Interfaces
 {
-    public interface IGetAccountDetailUseCase
+    public interface IAccountsService
     {
 
         Task<IEnumerable<Account>> ExecuteAsync();

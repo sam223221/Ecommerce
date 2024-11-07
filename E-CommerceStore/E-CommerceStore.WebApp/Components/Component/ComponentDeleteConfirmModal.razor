@@ -1,0 +1,32 @@
+﻿<div class="modal fade show" style="display:block; background-color: rgba(10,10,10,.8);" aria-modal="true" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Confirm Delete</h5>
+                <button type="button" class="close" @onclick="OnCancel">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p>Are you sure you want to delete this product?</p>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" @onclick="OnCancel">Cancel</button>
+                <button class="btn btn-danger" @onclick="OnConfirmDelete">Delete</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public EventCallback<bool> OnClose { get; set; }
+
+    private async Task OnCancel()
+    {
+        await OnClose.InvokeAsync(false);
+    }
+
+    private async Task OnConfirmDelete()
+    {
+        await OnClose.InvokeAsync(true);
+    }
+}

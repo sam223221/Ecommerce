@@ -8,12 +8,12 @@ using System.Threading.Tasks;
 
 namespace E_Commerce.UseCase.Products
 {
-    public class GetAccountDetailUseCase : IGetAccountDetailUseCase
+    public class AccountsService : IAccountsService
     {
         private IdbProductRepository ProductRepository;
 
 
-        public GetAccountDetailUseCase(IdbProductRepository ProductRepository)
+        public AccountsService(IdbProductRepository ProductRepository)
         {
             this.ProductRepository = ProductRepository;
         }

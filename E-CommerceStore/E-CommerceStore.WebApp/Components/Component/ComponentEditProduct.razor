@@ -1,0 +1,115 @@
+﻿@using E_CommerceStore.WebApp.Components.Component.ViewModel
+
+<div class="modal fade show" id="editModal" style="display:block; background-color: rgba(10,10,10,.8);" aria-modal="true" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Edit Product</h4>
+                <button type="button" class="close" @onclick="Cancel">&times;</button>
+            </div>
+            <div class="modal-body">
+                <EditForm Model="Product" OnValidSubmit="Done">
+                    <DataAnnotationsValidator />
+                    <ValidationSummary />
+
+                    <!-- Image Upload and Display -->
+                    <div class="form-group text-center mb-3">
+                        @if (!string.IsNullOrEmpty(Product.ImageUrl))
+                        {
+                            <img src="@Product.ImageUrl" alt="Product Image" class="img-thumbnail" style="max-width: 100%; max-height: 150px;" />
+                        }
+                        else
+                        {
+                            <div class="image-placeholder" style="width: 100%; height: 150px; border: 1px dashed #ccc; display: flex; align-items: center; justify-content: center;">
+                                <span class="icon-camera">📷</span>
+                            </div>
+                        }
+                        <InputFile OnChange="HandleFileSelected" style="display: block; margin: 10px auto;" />
+                        @if (!string.IsNullOrEmpty(fileErrorMessage))
+                        {
+                            <p class="text-danger">@fileErrorMessage</p>
+                        }
+                    </div>
+
+                    <!-- Product Fields -->
+                    <div class="form-group">
+                        <label>Product Name</label>
+                        <InputText @bind-Value="Product.ProductName" class="form-control" />
+                        <ValidationMessage For="@(() => Product.ProductName)" />
+                    </div>
+
+                    <div class="form-group">
+                        <label>Description</label>
+                        <InputTextArea @bind-Value="Product.Description" class="form-control" />
+                        <ValidationMessage For="@(() => Product.Description)" />
+                    </div>
+
+                    <div class="form-group">
+                        <label>Price</label>
+                        <InputNumber @bind-Value="Product.Price" class="form-control" />
+                        <ValidationMessage For="@(() => Product.Price)" />
+                    </div>
+
+                    <div class="form-group">
+                        <label>Quantity</label>
+                        <InputNumber @bind-Value="Product.Quantity" class="form-control" />
+                        <ValidationMessage For="@(() => Product.Quantity)" />
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" @onclick="Cancel">Cancel</button>
+                        <button type="submit" class="btn btn-primary">Save</button>
+                    </div>
+                </EditForm>
+            </div>
+        </div>
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public Product Product { get; set; }
+
+    [Parameter]
+    public EventCallback<Product> OnClose { get; set; }
+
+    private string fileErrorMessage = "";
+
+    private async Task HandleFileSelected(InputFileChangeEventArgs e)
+    {
+        var file = e.File;
+
+        // Check if only one file is selected
+        if (e.FileCount > 1)
+        {
+            fileErrorMessage = "Please upload only one file.";
+            Product.ImageUrl = null;
+            return;
+        }
+
+        // Validate file type (only JPG and PNG)
+        if (file.ContentType != "image/jpeg" && file.ContentType != "image/png")
+        {
+            fileErrorMessage = "Only JPG and PNG files are allowed.";
+            Product.ImageUrl = null;
+            return;
+        }
+
+        fileErrorMessage = ""; // Clear any previous error message
+
+        // Read and convert image to base64 string
+        var buffer = new byte[file.Size];
+        await file.OpenReadStream().ReadAsync(buffer);
+        Product.ImageUrl = $"data:{file.ContentType};base64,{Convert.ToBase64String(buffer)}";
+    }
+
+    private Task Cancel()
+    {
+        return OnClose.InvokeAsync(null);
+    }
+
+    private async Task Done()
+    {
+        await OnClose.InvokeAsync(Product);
+    }
+}
