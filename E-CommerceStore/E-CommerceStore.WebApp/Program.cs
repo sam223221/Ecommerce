@@ -1,6 +1,7 @@
 using Blazored.Modal;
 using E_Commerce.Plugin.InMemmory;
 using E_Commerce.Plugin.MySQL;
+using E_Commerce.UseCase.Accounts;
 using E_Commerce.UseCase.PluginInterfaces;
 using E_Commerce.UseCase.Products;
 using E_Commerce.UseCase.Products.InMemoryTest;
@@ -38,9 +39,9 @@ builder.Services.AddCascadingAuthenticationState();
 
 // Register repositories and use cases
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
-builder.Services.AddScoped<IdbProductRepository, dbProductRepository>();
+builder.Services.AddScoped<IdbRepository, dbRepository>();
 builder.Services.AddTransient<IProductService, ProductService>();
-builder.Services.AddTransient<IAccountsService, AccountsService>();
+builder.Services.AddTransient<IAccountsService, AccountService>();
 
 
 // Add Blazored Modal for modal service

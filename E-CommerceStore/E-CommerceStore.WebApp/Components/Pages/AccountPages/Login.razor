@@ -1,10 +1,10 @@
 ﻿@page "/login"
 
-@using E_CommerceStore.WebApp.Components.Pages.Account.ViewModel
+@using E_CommerceStore.WebApp.Components.Pages.AccountPages.ViewModel
 @using System.Security.Claims
 @using Microsoft.AspNetCore.Authentication
 @using Microsoft.AspNetCore.Authentication.Cookies
-@inject IAccountsService GetAccountDetailUseCase
+@inject IAccountsService AccountService
 @inject NavigationManager NavigationManager
 
 <h3>Login</h3>
@@ -50,7 +50,7 @@
 
     private async Task Authenicate()
     {
-        var accounts = await GetAccountDetailUseCase.ExecuteAsync();
+        var accounts = await AccountService.GetAllAccountsAsync();
         var userAccount = accounts.Where(x => x.AccountName == Model.UserName).FirstOrDefault();
 
         if (userAccount is null || userAccount.AccountPassword != Model.Password)

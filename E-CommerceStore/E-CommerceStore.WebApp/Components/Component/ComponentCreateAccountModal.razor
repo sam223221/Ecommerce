@@ -1,0 +1,65 @@
+﻿@using E_CommerceStore.WebApp.Components.Component.ViewModel
+
+<div class="modal fade show" style="display:block; background-color: rgba(10,10,10,.8);" aria-modal="true" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Create Account</h5>
+                <button type="button" class="close" @onclick="Close">&times;</button>
+            </div>
+            <div class="modal-body">
+                <EditForm Model="accountViewModel" OnValidSubmit="HandleValidSubmit">
+                    <DataAnnotationsValidator />
+                    <ValidationSummary />
+
+                    <div class="form-group">
+                        <label>Account Name</label>
+                        <InputText @bind-Value="accountViewModel.AccountName" class="form-control" />
+                        <ValidationMessage For="@(() => accountViewModel.AccountName)" />
+                    </div>
+                    <div class="form-group">
+                        <label>Password</label>
+                        <InputText @bind-Value="accountViewModel.AccountPassword" type="password" class="form-control" />
+                        <ValidationMessage For="@(() => accountViewModel.AccountPassword)" />
+                    </div>
+
+                    <div class="form-group">
+                        <label>Role</label>
+                        <InputText @bind-Value="accountViewModel.Role" class="form-control" />
+                        <ValidationMessage For="@(() => accountViewModel.Role)" />
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" @onclick="Close">Cancel</button>
+                        <button type="submit" class="btn btn-primary">Create</button>
+                    </div>
+                </EditForm>
+            </div>
+        </div>
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public EventCallback<Account> AccountCreated { get; set; }
+
+    private CreateAccountViewModel accountViewModel = new CreateAccountViewModel();
+
+    private async Task HandleValidSubmit()
+    {
+        // Convert the view model to the Account entity
+        var newAccount = new Account
+            {
+                AccountName = accountViewModel.AccountName,
+                AccountPassword = accountViewModel.AccountPassword,
+                Role = accountViewModel.Role
+            };
+
+        await AccountCreated.InvokeAsync(newAccount);
+    }
+
+    private Task Close()
+    {
+        return AccountCreated.InvokeAsync(null);
+    }
+}

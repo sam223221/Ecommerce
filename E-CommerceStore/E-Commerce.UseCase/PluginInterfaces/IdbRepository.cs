@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ECommerce.CoreEntityBusiness;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace E_Commerce.UseCase.PluginInterfaces
 {
-    public interface IdbProductRepository
+    public interface IdbRepository
     {
         Task<string> CreateProductAsync(Product product);
         Task<IEnumerable<Product>> GetAllProductsAsync();
@@ -14,6 +15,9 @@ namespace E_Commerce.UseCase.PluginInterfaces
         Task<string> UpdateProductAsync(Product product);
         Task<string> DeleteProductAsync(int productId);
 
-        Task<IEnumerable<Account>> GetAccountsAsync();
+        Task<IEnumerable<Account>> GetAllAccountsAsync();
+        Task<string> UpdateAccountAsync(Account account);
+        Task<string> CreateAccountAsync(Account account);
+        Task<string> DeleteAccountAsync(Account accountId);
     }
 }

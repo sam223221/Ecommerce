@@ -5,13 +5,14 @@ using System.Text;
 using System.Threading.Tasks;
 using E_Commerce.UseCase.PluginInterfaces;
 using E_Commerce.UseCase.Products.Interfaces;
+using ECommerce.CoreEntityBusiness;
 
 namespace E_Commerce.UseCase.Products
 {
     public class ProductService : IProductService
     {
-        private readonly IdbProductRepository ProductRepository;
-        public ProductService(IdbProductRepository ProductRepository)
+        private readonly IdbRepository ProductRepository;
+        public ProductService(IdbRepository ProductRepository)
         {
             this.ProductRepository = ProductRepository;
         }

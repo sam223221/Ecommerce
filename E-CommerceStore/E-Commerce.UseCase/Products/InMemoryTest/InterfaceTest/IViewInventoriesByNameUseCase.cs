@@ -1,4 +1,6 @@
-﻿namespace E_Commerce.UseCase.Products.InMemoryTest.InterfaceTest
+﻿using ECommerce.CoreEntityBusiness;
+
+namespace E_Commerce.UseCase.Products.InMemoryTest.InterfaceTest
 {
     public interface IViewProductsByNameUseCase
     {

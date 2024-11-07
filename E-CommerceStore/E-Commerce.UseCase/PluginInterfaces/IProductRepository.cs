@@ -1,4 +1,6 @@
-﻿namespace E_Commerce.UseCase.PluginInterfaces
+﻿using ECommerce.CoreEntityBusiness;
+
+namespace E_Commerce.UseCase.PluginInterfaces
 {
     public interface IProductRepository
     {

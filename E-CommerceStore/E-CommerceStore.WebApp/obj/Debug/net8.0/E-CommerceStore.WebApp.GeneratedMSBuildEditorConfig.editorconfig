@@ -26,6 +26,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb21wb25lbnRcQ29tcG9uZW50QWxlcnROb3RpZmljYXRpb24ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Sam Gleðisheygg/Documents/GitHub/SPRO-3/E-CommerceStore/E-CommerceStore.WebApp/Components/Component/ComponentCreateAccountModal.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb21wb25lbnRcQ29tcG9uZW50Q3JlYXRlQWNjb3VudE1vZGFsLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Sam Gleðisheygg/Documents/GitHub/SPRO-3/E-CommerceStore/E-CommerceStore.WebApp/Components/Component/ComponentCreatePoUp.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb21wb25lbnRcQ29tcG9uZW50Q3JlYXRlUG9VcC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -34,20 +38,28 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb21wb25lbnRcQ29tcG9uZW50RGVsZXRlQ29uZmlybU1vZGFsLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Sam Gleðisheygg/Documents/GitHub/SPRO-3/E-CommerceStore/E-CommerceStore.WebApp/Components/Component/ComponentEditAccountModal.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb21wb25lbnRcQ29tcG9uZW50RWRpdEFjY291bnRNb2RhbC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Sam Gleðisheygg/Documents/GitHub/SPRO-3/E-CommerceStore/E-CommerceStore.WebApp/Components/Component/ComponentEditProduct.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb21wb25lbnRcQ29tcG9uZW50RWRpdFByb2R1Y3QucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Sam Gleðisheygg/Documents/GitHub/SPRO-3/E-CommerceStore/E-CommerceStore.WebApp/Components/Pages/Account/AccessDenied.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBY2NvdW50XEFjY2Vzc0RlbmllZC5yYXpvcg==
+[C:/Users/Sam Gleðisheygg/Documents/GitHub/SPRO-3/E-CommerceStore/E-CommerceStore.WebApp/Components/Pages/AccountManagement.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBY2NvdW50TWFuYWdlbWVudC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Sam Gleðisheygg/Documents/GitHub/SPRO-3/E-CommerceStore/E-CommerceStore.WebApp/Components/Pages/Account/Login.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBY2NvdW50XExvZ2luLnJhem9y
+[C:/Users/Sam Gleðisheygg/Documents/GitHub/SPRO-3/E-CommerceStore/E-CommerceStore.WebApp/Components/Pages/AccountPages/AccessDenied.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBY2NvdW50UGFnZXNcQWNjZXNzRGVuaWVkLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Sam Gleðisheygg/Documents/GitHub/SPRO-3/E-CommerceStore/E-CommerceStore.WebApp/Components/Pages/Account/Logout.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBY2NvdW50XExvZ291dC5yYXpvcg==
+[C:/Users/Sam Gleðisheygg/Documents/GitHub/SPRO-3/E-CommerceStore/E-CommerceStore.WebApp/Components/Pages/AccountPages/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBY2NvdW50UGFnZXNcTG9naW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sam Gleðisheygg/Documents/GitHub/SPRO-3/E-CommerceStore/E-CommerceStore.WebApp/Components/Pages/AccountPages/Logout.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBY2NvdW50UGFnZXNcTG9nb3V0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Sam Gleðisheygg/Documents/GitHub/SPRO-3/E-CommerceStore/E-CommerceStore.WebApp/Components/Pages/Counter.razor]

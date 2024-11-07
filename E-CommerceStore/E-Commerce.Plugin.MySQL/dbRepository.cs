@@ -1,13 +1,14 @@
 ﻿using E_Commerce.UseCase.PluginInterfaces;
+using ECommerce.CoreEntityBusiness;
 using Microsoft.EntityFrameworkCore;
 
 namespace E_Commerce.Plugin.MySQL
 {
-    public class dbProductRepository : IdbProductRepository
+    public class dbRepository : IdbRepository
     {
         private readonly MySQLDbContext _context;
 
-        public dbProductRepository(MySQLDbContext context)
+        public dbRepository(MySQLDbContext context)
         {
             _context = context;
         }
@@ -43,11 +44,6 @@ namespace E_Commerce.Plugin.MySQL
             }
         }
 
-        public async Task<IEnumerable<Account>> GetAccountsAsync()
-        {
-            return await _context.Accounts.ToListAsync();
-        }
-
         public async Task<IEnumerable<Product>> GetAllProductsAsync()
         {
             return await _context.Products.ToListAsync();
@@ -80,6 +76,48 @@ namespace E_Commerce.Plugin.MySQL
             {
                 return "Error";
             }
+        }
+
+
+
+
+        // --------------  Account stuff down here  -------------- //
+
+
+
+        public async Task<IEnumerable<Account>> GetAllAccountsAsync()
+        {
+            return await _context.Accounts.ToListAsync();
+        }
+
+        public async Task<string> UpdateAccountAsync(Account account)
+        {
+            var accountToUpdate = await _context.Accounts.FirstOrDefaultAsync(a => a.AccountId == account.AccountId);
+            if (accountToUpdate == null) return "Error";
+
+            accountToUpdate.AccountName = account.AccountName;
+            accountToUpdate.AccountPassword = account.AccountPassword;
+            accountToUpdate.Role = account.Role;
+
+            await _context.SaveChangesAsync();
+            return "Success";
+        }
+
+        public async Task<string> CreateAccountAsync(Account account)
+        {
+            await _context.Accounts.AddAsync(account);
+            await _context.SaveChangesAsync();
+            return "Success";
+        }
+
+        public async Task<string> DeleteAccountAsync(Account accountId)
+        {
+            var accountToDelete = await _context.Accounts.FirstOrDefaultAsync(a => a.AccountId == accountId.AccountId);
+            if (accountToDelete == null) return "Error";
+
+            _context.Accounts.Remove(accountToDelete);
+            await _context.SaveChangesAsync();
+            return "Success";
         }
     }
 }

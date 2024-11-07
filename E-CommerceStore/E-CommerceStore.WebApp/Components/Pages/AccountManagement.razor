@@ -1,0 +1,166 @@
+﻿@page "/AccountManagement"
+@rendermode InteractiveServer
+
+<h1>Account Management</h1>
+@inject IAccountsService AccountsService
+@inject NavigationManager NavigationManager
+@inject IModalService ModalService
+
+<div class="row mb-3">
+    <div class="col-md-8">
+        <input type="text" @bind="searchQuery" placeholder="Search for accounts..." class="form-control" />
+    </div>
+    <div class="col-md-4">
+        <button @onclick="SearchAccounts" class="btn btn-primary">Search</button>
+        <button @onclick="OpenCreateDialog" class="btn btn-primary">Create</button>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Account Name</th>
+                    <th>Role</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var account in Accounts)
+                {
+                    <tr>
+                        <td>@account.AccountName</td>
+                        <td>@account.Role</td>
+                        <td>
+                            <span class="text-primary" style="cursor: pointer;" @onclick="() => OpenEditModal(account)">Edit</span> |
+                            <span class="text-danger" style="cursor: pointer;" @onclick="() => OpenDeleteConfirmation(account)">Delete</span>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<ComponentAlertNotification 
+    Message="@notificationMessage"
+    IsSuccess="@isNotificationSuccess" />
+
+@if (ModalCreateShow)
+{
+    <ComponentCreateAccountModal 
+        AccountCreated="@CloseCreateDialog">
+    </ComponentCreateAccountModal>
+}
+@if (ModalEditModalShow)
+{
+    <ComponentEditAccountModal 
+        Account="@selectedAccount"
+        OnClose="CloseEditModal" />
+}
+@if (isDeleteModalOpen)
+{
+    <ComponentDeleteConfirmModal OnClose="ConfirmDelete" />
+}
+
+@code {
+    private IEnumerable<Account> Accounts = new List<Account>();
+    private string searchQuery = "";
+    public bool ModalCreateShow { get; set; }
+    private Account selectedAccount;
+    private bool ModalEditModalShow = false;
+    private string notificationMessage = "";
+    private bool isNotificationSuccess = false;
+    private bool isDeleteModalOpen = false;
+
+    protected override async Task OnInitializedAsync()
+    {
+        Accounts = await AccountsService.GetAllAccountsAsync();
+
+    }
+
+    private async void CloseCreateDialog(Account account)
+    {
+        if (account != null)
+        {
+            await AccountsService.CreateAccountAsync(account);
+        }
+        ModalCreateShow = false;
+        StateHasChanged();
+        NavigationManager.NavigateTo("/AccountManagement", true);
+    }
+
+    private void OpenCreateDialog()
+    {
+        ModalCreateShow = true;
+        StateHasChanged();
+    }
+
+    private async Task SearchAccounts()
+    {
+        Accounts = await AccountsService.GetAllAccountsAsync(searchQuery);
+        StateHasChanged();
+    }
+    
+    private void OpenEditModal(Account account)
+    {
+        selectedAccount = account;
+        ModalEditModalShow = true;
+    }
+
+    private async Task CloseEditModal(Account account)
+    {
+        if (account != null)
+        {
+            var updateStatus = await AccountsService.UpdateAccountAsync(account);
+
+            notificationMessage = updateStatus == "Success"
+                ? "Account updated successfully!"
+                : "Failed to update account.";
+            isNotificationSuccess = updateStatus == "Success";
+
+            ModalEditModalShow = false;
+            StateHasChanged();
+            await Task.Delay(5000);
+            notificationMessage = "";
+        }
+        else
+        {
+            ModalEditModalShow = false;
+            StateHasChanged();
+        }
+    }
+
+    private void OpenDeleteConfirmation(Account account)
+    {
+        selectedAccount = account;
+        isDeleteModalOpen = true;
+    }
+
+    private async Task ConfirmDelete(bool confirm)
+    {
+        isDeleteModalOpen = false;
+
+        if (confirm)
+        {
+            var deleteStatus = await AccountsService.DeleteAccountAsync(selectedAccount);
+
+            if (deleteStatus == "Success")
+            {
+                Accounts = Accounts.Where(a => a.AccountId != selectedAccount.AccountId).ToList();
+                notificationMessage = "Account deleted successfully!";
+                isNotificationSuccess = true;
+            }
+            else
+            {
+                notificationMessage = "Failed to delete account.";
+                isNotificationSuccess = false;
+            }
+
+            StateHasChanged();
+            await Task.Delay(5000);
+            notificationMessage = "";
+        }
+    }
+}

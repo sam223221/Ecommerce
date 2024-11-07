@@ -1,4 +1,6 @@
-﻿namespace E_Commerce.UseCase.Products.Interfaces
+﻿using ECommerce.CoreEntityBusiness;
+
+namespace E_Commerce.UseCase.Products.Interfaces
 {
     public interface IProductService
     {

@@ -1,5 +1,6 @@
 ﻿using E_Commerce.UseCase.PluginInterfaces;
 using E_Commerce.UseCase.Products.InMemoryTest.InterfaceTest;
+using ECommerce.CoreEntityBusiness;
 using System;
 using System.Collections.Generic;
 using System.Linq;

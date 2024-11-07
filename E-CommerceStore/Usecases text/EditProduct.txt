@@ -1,0 +1,13 @@
+use Case for edit a product
+
+pre conditions:
+1. user is on Inventory page
+2. navigates to the product that they want to change
+3. presses on the edit button
+
+detail steps:
+1. changes the fields that they want to be changed
+2. presses done when all changes have been made
+
+post conditions:
+1. all changes made on the edit have been applyed to the product

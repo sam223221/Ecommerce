@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using ECommerce.CoreEntityBusiness;
+using Microsoft.EntityFrameworkCore;
 
 namespace E_Commerce.Plugin.MySQL
 {
