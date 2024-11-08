@@ -18,8 +18,4 @@
     <ProjectReference Include="..\ECommerce.CoreEntityBusiness\ECommerce.CoreEntityBusiness.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="wwwroot\assets\" />
-  </ItemGroup>
-
 </Project>

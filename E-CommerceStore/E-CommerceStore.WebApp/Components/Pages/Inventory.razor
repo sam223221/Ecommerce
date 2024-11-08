@@ -10,9 +10,9 @@
         <input type="text" @bind="searchQuery" placeholder="Search for products..." class="form-control" />
     </div>
     <div class="col-md-4">
-        
-        <button @onclick="SearchProducts" class="btn btn-primary" >Search</button>
-        <button @onclick="OpenDeleteDialog" class="btn btn-primary" >Create</button>
+
+        <button @onclick="SearchProducts" class="btn btn-primary">Search</button>
+        <button @onclick="OpenDeleteDialog" class="btn btn-primary">Create</button>
     </div>
 </div>
 
@@ -42,9 +42,8 @@
 
 @if (ModalComponentShow)
 {
-    <ComponentCreatePoUp 
-        OnClose="@OnDeleteDialogClose"
-        ItemCreated="@CreateProduct">
+    <ComponentCreatePoUp OnClose="@OnDeleteDialogClose"
+                         ItemCreated="@CreateProduct">
     </ComponentCreatePoUp>
 }
 

@@ -13,16 +13,36 @@
       "PackagePath": "staticwebassets\\assets\\account.png"
     },
     {
+      "Id": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\bitcoinlogo.png",
+      "PackagePath": "staticwebassets\\assets\\bitcoinlogo.png"
+    },
+    {
       "Id": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\cart.png",
       "PackagePath": "staticwebassets\\assets\\cart.png"
     },
     {
-      "Id": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\landing-bg.png",
-      "PackagePath": "staticwebassets\\assets\\landing-bg.png"
+      "Id": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\landingbg.svg",
+      "PackagePath": "staticwebassets\\assets\\landingbg.svg"
+    },
+    {
+      "Id": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\landingmainphoto.png",
+      "PackagePath": "staticwebassets\\assets\\landingmainphoto.png"
+    },
+    {
+      "Id": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\landingpage-desk.png",
+      "PackagePath": "staticwebassets\\assets\\landingpage-desk.png"
     },
     {
       "Id": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\logo.png",
       "PackagePath": "staticwebassets\\assets\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\mastercardlogo.png",
+      "PackagePath": "staticwebassets\\assets\\mastercardlogo.png"
+    },
+    {
+      "Id": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\visalogo.png",
+      "PackagePath": "staticwebassets\\assets\\visalogo.png"
     },
     {
       "Id": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\bootstrap\\bootstrap.min.css",
