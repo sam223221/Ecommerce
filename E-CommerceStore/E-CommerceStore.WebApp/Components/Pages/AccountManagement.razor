@@ -1,6 +1,7 @@
 ﻿@page "/AccountManagement"
 @rendermode InteractiveServer
-
+@attribute [StreamRendering]
+@attribute [Authorize(Roles = "Admin")]
 <h1>Account Management</h1>
 @inject IAccountsService AccountsService
 @inject NavigationManager NavigationManager

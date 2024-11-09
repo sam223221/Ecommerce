@@ -1,5 +1,7 @@
 ﻿@page "/Inventory"
 @rendermode InteractiveServer
+@attribute [StreamRendering]
+@attribute [Authorize(Roles = "Admin")]
 
 <h1>Inventory</h1>
 @inject IProductService ProductService
