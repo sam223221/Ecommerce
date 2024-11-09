@@ -1,0 +1,408 @@
+@page "/ShoppingCart"
+@rendermode InteractiveServer
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOM4PHZ+Lya3X64ZoI6B6CD1S5dEcfMuYPjTV22F" crossorigin="anonymous">
+
+
+<div class="main-container">
+    <div class="product-cart">
+        <!--Product Card 1-->
+        <div class="product-container" style="margin-top: 10px">
+            <img src="/images/shoes1.png" class="image-style"/>
+            <div class="text-container">
+                <p class="product-name">Nike AIR Max</p>
+                <p class="product-size">Size: 38.5</p>
+                <p class="product-color">Color: Gray</p>
+                <div class="item-management-container">
+                <img src="/images/trash.png" class="trash-image"/>
+                <p class="remove-text">Remove</p>
+                <img src="/images/hearth.png" class="heart-image"/>
+                <p class="wishlist-text">Move to wish list</p>
+                </div>
+               </div>
+                <div class="sum-container">
+                    <div class="quantity-container">
+                    <p>Quantity</p>
+                    <input type="number" class="quantity-input" min="1" placeholder="1" />
+                    </div>
+                     <div class="price-container">
+                         <p class="price-promotion">$119</p>
+                    <p class="price">$101</p>
+                     </div>
+                     <p class="promotion-text">You save 15%</p>
+                </div>
+        </div>
+
+        <!--Product Card 2-->
+
+        <div class="product-container">
+            <img src="/images/shoes2.png" class="image-style" />
+            <div class="text-container">
+                <p class="product-name">Nike Jordan</p>
+                <p class="product-size">Size: 42.5</p>
+                <p class="product-color">Color: Black</p>
+                <div class="item-management-container">
+                    <img src="/images/trash.png" class="trash-image" />
+                    <p class="remove-text">Remove</p>
+                    <img src="/images/hearth.png" class="heart-image" />
+                    <p class="wishlist-text">Move to wish list</p>
+                </div>
+            </div>
+            <div class="sum-container">
+                <div class="quantity-container">
+                    <p>Quantity</p>
+                    <input type="number" class="quantity-input" min="1" placeholder="1" />
+                </div>
+                <div class="price-container">
+                    <p class="price-promotion">$429</p>
+                    <p class="price">$455</p>
+                </div>
+                <p class="promotion-text">You save 20%</p>
+            </div>
+        </div>
+
+        <!--Product Card3-->
+        <div class="product-container">
+            <img src="/images/shoes3.png" class="image-style" />
+            <div class="text-container">
+                <p class="product-name">Nike Travis</p>
+                <p class="product-size">Size: 47.5</p>
+                <p class="product-color">Color: White</p>
+                <div class="item-management-container">
+                    <img src="/images/trash.png" class="trash-image" />
+                    <p class="remove-text">Remove</p>
+                    <img src="/images/hearth.png" class="heart-image" />
+                    <p class="wishlist-text">Move to wish list</p>
+                </div>
+            </div>
+            <div class="sum-container">
+                <div class="quantity-container">
+                    <p class="quantity-text">Quantity</p>
+                    <input type="number" class="quantity-input" min="1" placeholder="1" />
+                </div>
+                <div class="price-container">
+                    <p class="price-promotion">$550</p>
+                    <p class="price">$600</p>
+                </div>
+                <p class="promotion-text">You save 15%</p>
+            </div>
+        </div>
+    </div>
+    <div class="summary-container"> 
+        <p class="total-amount-text">The total amount of </p>
+        <div class="cost-container">
+           <p class="price-type-label">Temporary amount</p>
+           <p class="price-label">$53.93</p>
+        </div>
+        <div class="cost-container">
+            <p class="price-type-label">Shipping</p>
+            <p class="price-label">Gratis</p>
+        </div>
+        <div class="line-summary"/>
+        <div class="total-amount">
+           <p class="total-sum-text">The total amount of (including VAT)</p>
+            <p class=total-sum-text style="font-size: 19px;">$190,98</p>
+        </div>
+        <button class="checkout-button">
+            <p class="checkout-text">GO TO CHECKOUT</p>
+        </button>
+    <div class="promo-code-container">
+        <p class="promoc-code-title">Apply promo code</p>
+        <div class="promo-code-input-container">
+            <input type="text" placeholder="Promo code" class="promo-code-input" />
+            <button class="apply-button">Apply</button>
+        </div>
+    </div>
+    </div>
+
+</div>
+
+@code 
+{
+}
+
+<style>
+    .main-container 
+    {
+        width: 90vw;
+       max-width: 1200px;
+        margin: auto;
+        padding: 20px;
+        background-color: #f4f4f4;
+        display:flex;
+        flex-direction: row;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+    .product-cart 
+    {
+        flex: 3;
+        min-width: 65%;
+        margin-top: 15px; 
+    }
+    .product-container 
+    {
+       display: flex; 
+       flex-direction: row;
+       align-items: center;
+       padding: 15px;
+       margin-bottom: 20px;
+       border-radius: 8px;
+       background-color: #fff;
+       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+       transition: transform 0.2s;
+       width: 100%;
+      }
+
+      .product-container:hover 
+      {
+          transform: scale(1.01);
+      }
+    
+    .text-container 
+    {
+       display:flex;
+       flex-direction: column;
+       margin-left: 20px;
+       flex: 1;
+    }
+    .image-style
+    {
+        height: 150px;
+        width: 160px;
+        border-radius: 8px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .product-name
+    { 
+        font-size: 22px;
+        font-weight: 700;   
+        color: #333;
+        margin: 0 0 8px;
+    }
+
+    .product-size , .product-color
+    {
+       font-size: 16px;
+        color: #666;
+        margin: 4px 0;
+    }
+
+    .item-management-container 
+    {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-top: 10px;
+    }
+
+    .trash-image 
+    {
+        width: 20px;
+        height: 20px;
+        
+    }
+
+    .remove-text , .wishlist-text
+    {
+        font-size: 15px;
+        color: #007bff;
+        cursor: pointer;
+        transition: color 0.3s ease;
+        margin-left: 10px;
+        margin-top: 15px;
+    }
+
+    .remove-text:hover, .wishlist-text:hover 
+    {
+        cursor: pointer;
+    }
+
+    .heart-image 
+    {
+        width: 20px;
+        height: 20px;
+      margin-left: 40px;
+    }
+
+
+    .sum-container {
+      margin-left: auto;
+      margin-right: 25px;
+      margin-top: 10px;
+    }
+
+    /* Quantity box styling */
+    .quantity-container {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-left: auto; /* Pushes the quantity box to the right */
+    }
+
+    .quantity-input {
+        width: 50px;
+        height: 30px;
+        text-align: center;
+        font-size: 16px;
+        font-weight: bold;
+        color: #333;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        background-color: #f9f9f9;
+    }
+
+    .price-container 
+    {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .price 
+    {
+        font-size: 25px;
+        margin-top: 20px;
+    }
+
+
+    .price-promotion
+    {
+         font-size: 18px;
+         margin-top: 20px;
+         color: #999;
+         margin-right: 8px;
+        text-decoration: line-through;
+    }
+
+    .promotion-text 
+    {
+        color: #ff4c4c;
+        font-weight: 600;
+        font-size: 15px;
+        text-align: right;
+    }
+
+    .summary-container {
+        flex: 1;
+        width: 100%;
+        margin-left: 20px;
+        margin-top: 26px;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        max-width: 400px;
+    }
+
+    .total-amount-text {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    .cost-container {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 0;
+        font-size: 16px;
+        color: #333;
+    }
+
+    .price-type-label {
+        font-weight: normal;
+    }
+
+    .price-label {
+        font-weight: bold;
+        text-align: right;
+    }
+
+    .line-summary {
+        border-top: 1px solid #ddd;
+        margin: 20px 0;
+    }
+
+    .total-amount {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 18px;
+        font-weight: bold;
+        padding-top: 10px;
+    }
+
+    .checkout-button {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 15px;
+        border-radius: 20px;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+        height: 50px;
+        width: 100%;
+        text-align: center;
+        transition: background-color 0.3s;
+        margin-top: 20px;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    }
+
+        .checkout-button:hover {
+            background-color: #0056b3;
+        }
+
+    .right-section 
+    { 
+        display: flex;
+        flex-direction: column;
+    }
+
+    .promo-code-container {
+        margin-top: 50px; /* Adjust this value for more or less space */
+        margin-bottom: 30px;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-radius: 8px;
+        font-size: 16px;
+        text-align: center;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        max-width: 400px;
+    }
+
+    .promo-code-title {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: #333;
+    }
+    
+
+    .promo-code-input 
+    {
+        flex:1;
+        padding: 10;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        font-size: 14px;
+        color: #333
+    }
+
+    .apply-button 
+    {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        font-size: 14px;
+        font-weight: bold;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    apply-button:hover {
+        background-color: #0056b3;
+    }
+
+</style>
