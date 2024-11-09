@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2LCFqD95ZKFyYQmoAeDqcGVPW58NBRB0/1wuz87cJOE=",
+  "Hash": "xjfAJU904npaAzOPt+e/4HeF9ydBmVKrzoLXYqDvT4c=",
   "Source": "E-CommerceStore.WebApp",
   "BasePath": "_content/E-CommerceStore.WebApp",
   "Mode": "Default",
@@ -167,6 +167,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\cart.png"
+    },
+    {
+      "Identity": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\electronicsshowcase.png",
+      "SourceId": "E-CommerceStore.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+      "BasePath": "_content/E-CommerceStore.WebApp",
+      "RelativePath": "assets/electronicsshowcase.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\electronicsshowcase.png"
     },
     {
       "Identity": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\landingbg.svg",

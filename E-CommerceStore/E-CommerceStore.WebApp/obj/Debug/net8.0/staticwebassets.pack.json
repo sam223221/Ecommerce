@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\assets\\cart.png"
     },
     {
+      "Id": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\electronicsshowcase.png",
+      "PackagePath": "staticwebassets\\assets\\electronicsshowcase.png"
+    },
+    {
       "Id": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\landingbg.svg",
       "PackagePath": "staticwebassets\\assets\\landingbg.svg"
     },

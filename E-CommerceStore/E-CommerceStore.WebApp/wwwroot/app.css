@@ -96,6 +96,14 @@ color: rgba(10, 17, 24, 0.3);
     justify-content: center;
 }
 
+.electronicsshowcase {
+    position: absolute;
+    left: 240px; 
+    top: 40px; 
+    height: 800px;
+    width: 800px;
+}
+
 .products-bars {
     margin-top: 200px;
     margin-bottom: 300px;
