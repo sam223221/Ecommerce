@@ -58,7 +58,7 @@
 
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" @onclick="@ModalCancel">Cancel</button>
-                        <button type="submit" class="btn btn-primary" disabled="@string.IsNullOrWhiteSpace(Model.ProductName)">Create</button>
+                        <button type="submit" class="btn btn-primary" disabled="@string.IsNullOrWhiteSpace(Model.ProductName) && string.IsNullOrWhiteSpace(Model.ProductDescription)">Create</button>
                     </div>
                 </EditForm>
             </div>
@@ -93,9 +93,8 @@
             return;
         }
 
-        fileErrorMessage = ""; // Clear any previous error message
+        fileErrorMessage = "";
 
-        // Replace the old image with the new image
         var buffer = new byte[file.Size];
         await file.OpenReadStream().ReadAsync(buffer);
         Model.UploadedImageUrl = $"data:image/png;base64,{Convert.ToBase64String(buffer)}";

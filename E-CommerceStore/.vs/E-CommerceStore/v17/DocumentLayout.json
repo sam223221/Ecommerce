@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\Sam Gle\u00F0isheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FE952EEC-2C2B-41CE-9CB2-861A3A82DCE7}|ECommerceStore.Test\\ECommerceStore.Test.csproj|c:\\users\\sam gle\u00F0isheygg\\documents\\github\\spro-3\\e-commercestore\\ecommercestore.test\\ecommerce.webapp.unittest\\createaproductunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE952EEC-2C2B-41CE-9CB2-861A3A82DCE7}|ECommerceStore.Test\\ECommerceStore.Test.csproj|solutionrelative:ecommercestore.test\\ecommerce.webapp.unittest\\createaproductunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{290F1384-91EB-4B98-904C-5E73625A4E14}|E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj|c:\\users\\sam gle\u00F0isheygg\\documents\\github\\spro-3\\e-commercestore\\e-commercestore.webapp\\components\\component\\componenteditaccountmodal.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{290F1384-91EB-4B98-904C-5E73625A4E14}|E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj|solutionrelative:e-commercestore.webapp\\components\\component\\componenteditaccountmodal.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{290F1384-91EB-4B98-904C-5E73625A4E14}|E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj|c:\\users\\sam gle\u00F0isheygg\\documents\\github\\spro-3\\e-commercestore\\e-commercestore.webapp\\components\\component\\componentcreateaccountmodal.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{290F1384-91EB-4B98-904C-5E73625A4E14}|E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj|solutionrelative:e-commercestore.webapp\\components\\component\\componentcreateaccountmodal.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{290F1384-91EB-4B98-904C-5E73625A4E14}|E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj|c:\\users\\sam gle\u00F0isheygg\\documents\\github\\spro-3\\e-commercestore\\e-commercestore.webapp\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{290F1384-91EB-4B98-904C-5E73625A4E14}|E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj|solutionrelative:e-commercestore.webapp\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -31,24 +43,12 @@
       "RelativeMoniker": "D:0:0:{290F1384-91EB-4B98-904C-5E73625A4E14}|E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj|solutionrelative:e-commercestore.webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{290F1384-91EB-4B98-904C-5E73625A4E14}|E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj|c:\\users\\sam gle\u00F0isheygg\\documents\\github\\spro-3\\e-commercestore\\e-commercestore.webapp\\components\\component\\componentcreateaccountmodal.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{290F1384-91EB-4B98-904C-5E73625A4E14}|E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj|solutionrelative:e-commercestore.webapp\\components\\component\\componentcreateaccountmodal.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{290F1384-91EB-4B98-904C-5E73625A4E14}|E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj|c:\\users\\sam gle\u00F0isheygg\\documents\\github\\spro-3\\e-commercestore\\e-commercestore.webapp\\components\\component\\viewmodel\\createaccountviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{290F1384-91EB-4B98-904C-5E73625A4E14}|E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj|solutionrelative:e-commercestore.webapp\\components\\component\\viewmodel\\createaccountviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{290F1384-91EB-4B98-904C-5E73625A4E14}|E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj|c:\\users\\sam gle\u00F0isheygg\\documents\\github\\spro-3\\e-commercestore\\e-commercestore.webapp\\components\\component\\componentcreatepoup.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{290F1384-91EB-4B98-904C-5E73625A4E14}|E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj|solutionrelative:e-commercestore.webapp\\components\\component\\componentcreatepoup.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{290F1384-91EB-4B98-904C-5E73625A4E14}|E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj|c:\\users\\sam gle\u00F0isheygg\\documents\\github\\spro-3\\e-commercestore\\e-commercestore.webapp\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{290F1384-91EB-4B98-904C-5E73625A4E14}|E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj|solutionrelative:e-commercestore.webapp\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{290F1384-91EB-4B98-904C-5E73625A4E14}|E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj|c:\\users\\sam gle\u00F0isheygg\\documents\\github\\spro-3\\e-commercestore\\e-commercestore.webapp\\components\\component\\componenteditaccountmodal.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{290F1384-91EB-4B98-904C-5E73625A4E14}|E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj|solutionrelative:e-commercestore.webapp\\components\\component\\componenteditaccountmodal.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1A129EDC-6B57-4415-9C50-35F0C3BE8E3D}|ECommerce.CoreEntityBusiness\\ECommerce.CoreEntityBusiness.csproj|c:\\users\\sam gle\u00F0isheygg\\documents\\github\\spro-3\\e-commercestore\\ecommerce.coreentitybusiness\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -62,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 21,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -94,20 +94,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ComponentAlertNotification.razor",
-              "DocumentMoniker": "C:\\Users\\Sam Gle\u00F0isheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Component\\ComponentAlertNotification.razor",
-              "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Components\\Component\\ComponentAlertNotification.razor",
-              "ToolTip": "C:\\Users\\Sam Gle\u00F0isheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Component\\ComponentAlertNotification.razor",
-              "RelativeToolTip": "E-CommerceStore.WebApp\\Components\\Component\\ComponentAlertNotification.razor",
-              "ViewState": "AgIAABUAAAAAAAAAAAAUwCIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-08T09:29:54.917Z",
+              "DocumentIndex": 0,
+              "Title": "CreateAProductUnitTest.cs",
+              "DocumentMoniker": "C:\\Users\\Sam Gle\u00F0isheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\ECommerceStore.Test\\Ecommerce.WebApp.UnitTest\\CreateAProductUnitTest.cs",
+              "RelativeDocumentMoniker": "ECommerceStore.Test\\Ecommerce.WebApp.UnitTest\\CreateAProductUnitTest.cs",
+              "ToolTip": "C:\\Users\\Sam Gle\u00F0isheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\ECommerceStore.Test\\Ecommerce.WebApp.UnitTest\\CreateAProductUnitTest.cs",
+              "RelativeToolTip": "ECommerceStore.Test\\Ecommerce.WebApp.UnitTest\\CreateAProductUnitTest.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAkwD8AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T02:12:06.393Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\Sam Gle\u00F0isheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\Sam Gle\u00F0isheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "E-CommerceStore.WebApp\\Components\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-07T14:53:26.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "_Imports.razor",
               "DocumentMoniker": "C:\\Users\\Sam Gle\u00F0isheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\_Imports.razor",
               "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Components\\_Imports.razor",
@@ -115,51 +127,23 @@
               "RelativeToolTip": "E-CommerceStore.WebApp\\Components\\_Imports.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-08T09:24:28.14Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-08T09:24:28.14Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Inventory.razor",
-              "DocumentMoniker": "C:\\Users\\Sam Gle\u00F0isheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Pages\\Inventory.razor",
-              "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Components\\Pages\\Inventory.razor",
-              "ToolTip": "C:\\Users\\Sam Gle\u00F0isheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Pages\\Inventory.razor",
-              "RelativeToolTip": "E-CommerceStore.WebApp\\Components\\Pages\\Inventory.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAcAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ComponentEditAccountModal.razor",
+              "DocumentMoniker": "C:\\Users\\Sam Gle\u00F0isheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Component\\ComponentEditAccountModal.razor",
+              "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Components\\Component\\ComponentEditAccountModal.razor",
+              "ToolTip": "C:\\Users\\Sam Gle\u00F0isheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Component\\ComponentEditAccountModal.razor",
+              "RelativeToolTip": "E-CommerceStore.WebApp\\Components\\Component\\ComponentEditAccountModal.razor",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAD4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-08T09:11:03.557Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-07T14:49:32.624Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Sam Gle\u00F0isheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\Program.cs",
-              "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Program.cs",
-              "ToolTip": "C:\\Users\\Sam Gle\u00F0isheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\Program.cs",
-              "RelativeToolTip": "E-CommerceStore.WebApp\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T09:08:34.549Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AccountManagement.razor",
-              "DocumentMoniker": "C:\\Users\\Sam Gle\u00F0isheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Pages\\AccountManagement.razor",
-              "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Components\\Pages\\AccountManagement.razor",
-              "ToolTip": "C:\\Users\\Sam Gle\u00F0isheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Pages\\AccountManagement.razor",
-              "RelativeToolTip": "E-CommerceStore.WebApp\\Components\\Pages\\AccountManagement.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-07T14:47:56.053Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "CreateAccountViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Sam Gle\u00F0isheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Component\\ViewModel\\CreateAccountViewModel.cs",
               "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Components\\Component\\ViewModel\\CreateAccountViewModel.cs",
@@ -171,20 +155,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainLayout.razor",
-              "DocumentMoniker": "C:\\Users\\Sam Gle\u00F0isheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Layout\\MainLayout.razor",
-              "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Components\\Layout\\MainLayout.razor",
-              "ToolTip": "C:\\Users\\Sam Gle\u00F0isheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Layout\\MainLayout.razor",
-              "RelativeToolTip": "E-CommerceStore.WebApp\\Components\\Layout\\MainLayout.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "AccountManagement.razor",
+              "DocumentMoniker": "C:\\Users\\Sam Gle\u00F0isheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Pages\\AccountManagement.razor",
+              "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Components\\Pages\\AccountManagement.razor",
+              "ToolTip": "C:\\Users\\Sam Gle\u00F0isheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Pages\\AccountManagement.razor",
+              "RelativeToolTip": "E-CommerceStore.WebApp\\Components\\Pages\\AccountManagement.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-07T14:53:26.53Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-07T14:47:56.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ComponentCreateAccountModal.razor",
+              "DocumentMoniker": "C:\\Users\\Sam Gle\u00F0isheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Component\\ComponentCreateAccountModal.razor",
+              "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Components\\Component\\ComponentCreateAccountModal.razor",
+              "ToolTip": "C:\\Users\\Sam Gle\u00F0isheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Component\\ComponentCreateAccountModal.razor",
+              "RelativeToolTip": "E-CommerceStore.WebApp\\Components\\Component\\ComponentCreateAccountModal.razor",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-07T14:45:39.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Sam Gle\u00F0isheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\Program.cs",
+              "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Program.cs",
+              "ToolTip": "C:\\Users\\Sam Gle\u00F0isheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\Program.cs",
+              "RelativeToolTip": "E-CommerceStore.WebApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T09:08:34.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Inventory.razor",
+              "DocumentMoniker": "C:\\Users\\Sam Gle\u00F0isheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Pages\\Inventory.razor",
+              "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Components\\Pages\\Inventory.razor",
+              "ToolTip": "C:\\Users\\Sam Gle\u00F0isheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Pages\\Inventory.razor",
+              "RelativeToolTip": "E-CommerceStore.WebApp\\Components\\Pages\\Inventory.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-08T09:11:03.557Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "ComponentAlertNotification.razor",
+              "DocumentMoniker": "C:\\Users\\Sam Gle\u00F0isheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Component\\ComponentAlertNotification.razor",
+              "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Components\\Component\\ComponentAlertNotification.razor",
+              "ToolTip": "C:\\Users\\Sam Gle\u00F0isheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Component\\ComponentAlertNotification.razor",
+              "RelativeToolTip": "E-CommerceStore.WebApp\\Components\\Component\\ComponentAlertNotification.razor",
+              "ViewState": "AgIAABUAAAAAAAAAAAAUwCIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-08T09:29:54.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Counter.razor",
               "DocumentMoniker": "C:\\Users\\Sam Gle\u00F0isheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Pages\\Counter.razor",
               "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Components\\Pages\\Counter.razor",
@@ -192,24 +223,11 @@
               "RelativeToolTip": "E-CommerceStore.WebApp\\Components\\Pages\\Counter.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-08T09:24:49.936Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-08T09:24:49.936Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ComponentCreatePoUp.razor",
-              "DocumentMoniker": "C:\\Users\\Sam Gle\u00F0isheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Component\\ComponentCreatePoUp.razor",
-              "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Components\\Component\\ComponentCreatePoUp.razor",
-              "ToolTip": "C:\\Users\\Sam Gle\u00F0isheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Component\\ComponentCreatePoUp.razor",
-              "RelativeToolTip": "E-CommerceStore.WebApp\\Components\\Component\\ComponentCreatePoUp.razor",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-07T14:56:48.298Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "NavMenu.razor",
               "DocumentMoniker": "C:\\Users\\Sam Gle\u00F0isheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Layout\\NavMenu.razor",
               "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Components\\Layout\\NavMenu.razor",
@@ -230,30 +248,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-07T14:46:14.149Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ComponentCreateAccountModal.razor",
-              "DocumentMoniker": "C:\\Users\\Sam Gle\u00F0isheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Component\\ComponentCreateAccountModal.razor",
-              "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Components\\Component\\ComponentCreateAccountModal.razor",
-              "ToolTip": "C:\\Users\\Sam Gle\u00F0isheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Component\\ComponentCreateAccountModal.razor",
-              "RelativeToolTip": "E-CommerceStore.WebApp\\Components\\Component\\ComponentCreateAccountModal.razor",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAwEEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-07T14:45:39.904Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ComponentEditAccountModal.razor",
-              "DocumentMoniker": "C:\\Users\\Sam Gle\u00F0isheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Component\\ComponentEditAccountModal.razor",
-              "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Components\\Component\\ComponentEditAccountModal.razor",
-              "ToolTip": "C:\\Users\\Sam Gle\u00F0isheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Component\\ComponentEditAccountModal.razor",
-              "RelativeToolTip": "E-CommerceStore.WebApp\\Components\\Component\\ComponentEditAccountModal.razor",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAAC0AAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-07T14:49:32.624Z"
             }
           ]
         }
