@@ -7,6 +7,11 @@ using Xunit;
 
 public class CreateProductModalTests : TestContext
 {
+    public CreateProductModalTests()
+    {
+        
+    }
+
     [Fact]
     public void ComponentRendersCorrectly()
     {
