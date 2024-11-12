@@ -7,6 +7,7 @@ namespace E_Commerce.Plugin.MySQL
     {
         public DbSet<Product> Products { get; set; }
         public DbSet<Account> Accounts { get; set; }
+        public DbSet<shopingCart> ShopingCarts { get; set; }
 
         public MySQLDbContext(DbContextOptions<MySQLDbContext> options)
            : base(options)

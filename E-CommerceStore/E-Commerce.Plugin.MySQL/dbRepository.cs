@@ -87,7 +87,10 @@ namespace E_Commerce.Plugin.MySQL
 
         public async Task<IEnumerable<Account>> GetAllAccountsAsync()
         {
-            return await _context.Accounts.ToListAsync();
+            return await _context.Accounts
+                .Include(a => a.ShopingCart)
+                .ThenInclude(sc => sc.Product)
+                .ToListAsync();
         }
 
         public async Task<string> UpdateAccountAsync(Account account)

@@ -1,12 +1,14 @@
 ﻿@page "/Inventory"
 @rendermode InteractiveServer
 @attribute [StreamRendering]
-@attribute [Authorize(Roles = "Admin")]
+@attribute [Authorize(Roles = "Admin,User")]
 
 <h1>Inventory</h1>
 @inject IProductService ProductService
 @inject NavigationManager NavigationManager
 @inject IModalService ModalService
+@inject IAccountsService AccountsService
+@inject AuthenticationStateProvider AuthenticationStateProvider
 
 
 
@@ -50,7 +52,8 @@
                         <td>@product.Quantity</td>
                         <td>
                             <span class="text-primary" style="cursor: pointer;" @onclick="() => OpenEditModal(product)">Edit</span> |
-                            <span class="text-danger" style="cursor: pointer;" @onclick="() => OpenDeleteConfirmation(product)">Delete</span>
+                            <span class="text-danger" style="cursor: pointer;" @onclick="() => OpenDeleteConfirmation(product)">Delete</span> |
+                            <span class="text-primary" style="cursor: pointer;" @onclick="() => AddToChartOpen(product)">Add to cart</span>
                         </td>
                     </tr>
                 }
@@ -80,6 +83,10 @@
 {
     <ComponentDeleteConfirmModal OnClose="ConfirmDelete" />
 }
+@if(AddToChartShow)
+{
+    <ComponentAddToChart Product="@selectedProduct" OnClose="ChartClose" />
+}
 
 @code {
     private IEnumerable<Product> Products = new List<Product>();
@@ -91,10 +98,35 @@
     private string notificationMessage = "";
     private bool isNotificationSuccess = false;
     private bool isDeleteModalOpen = false;
+    private bool AddToChartShow = false;
 
     protected override async Task OnInitializedAsync()
     {
         Products = await ProductService.GetAllProductsExecuteAsync("");
+
+    }
+
+    private async void AddToChartOpen(Product product)
+    {
+        selectedProduct = product;
+        AddToChartShow = true;
+    }
+
+    private async void ChartClose(bool isAdded)
+    {
+        AddToChartShow = false;
+        // Display a notification based on the update status
+        notificationMessage = isAdded
+            ? "Product added to chart!"
+            : "Failed to add to chart.";
+
+        isNotificationSuccess = isAdded;
+
+        ModalEditModalShow = false;
+        StateHasChanged();
+        await Task.Delay(5000); // Display for 3 seconds
+        notificationMessage = ""; // Clear the message after the delay
+        return;
     }
 
     private async void CloseCreateDialog(Product product)
@@ -119,6 +151,7 @@
         Products = await ProductService.GetAllProductsExecuteAsync(searchQuery);
         StateHasChanged();
     }
+
     private void OpenEditModal(Product product)
     {
         selectedProduct = product;
@@ -148,7 +181,6 @@
         ModalEditModalShow = false;
         StateHasChanged();
     }
-
 
     private void OpenDeleteConfirmation(Product product)
     {

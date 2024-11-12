@@ -1,137 +1,163 @@
 @page "/ShoppingCart"
+@using System.Security.Claims
 @rendermode InteractiveServer
+@attribute [Authorize(Roles = "Admin,User")]
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOM4PHZ+Lya3X64ZoI6B6CD1S5dEcfMuYPjTV22F" crossorigin="anonymous">
 
+@inject IAccountsService AccountsService
+@inject AuthenticationStateProvider AuthenticationStateProvider
 
 <div class="main-container">
-    <div class="product-cart">
-        <!--Product Card 1-->
-        <div class="product-container" style="margin-top: 10px">
-            <img src="/images/shoes1.png" class="image-style"/>
-            <div class="text-container">
-                <p class="product-name">Nike AIR Max</p>
-                <p class="product-size">Size: 38.5</p>
-                <p class="product-color">Color: Gray</p>
-                <div class="item-management-container">
-                <img src="/images/trash.png" class="trash-image"/>
-                <p class="remove-text">Remove</p>
-                <img src="/images/hearth.png" class="heart-image"/>
-                <p class="wishlist-text">Move to wish list</p>
-                </div>
-               </div>
-                <div class="sum-container">
-                    <div class="quantity-container">
-                    <p>Quantity</p>
-                    <input type="number" class="quantity-input" min="1" placeholder="1" />
+    @if (isLoading)
+    {
+        <p>Loading shopping cart...</p>
+    }
+    else if (userAccount?.ShopingCart != null && userAccount.ShopingCart.Count > 0)
+    {
+        <div class="product-cart">
+            <!-- Products -->
+            @foreach (var item in userAccount.ShopingCart)
+            {
+                <div class="product-container" style="margin-top: 10px">
+                    <img src="@item.Product.ImageUrl" class="image-style" />
+                    <div class="text-container">
+                        <p class="product-name">@item.Product.ProductName</p>
+                        <p class="product-size">@item.Product.Description</p>
+                        <div class="item-management-container">
+                            <img src="/images/trash.png" class="trash-image" />
+                            <p class="remove-text" @onclick="() => RemoveItem(item)">Remove</p>
+                            <img src="/images/hearth.png" class="heart-image" />
+                            <p class="wishlist-text">Move to wish list</p>
+                        </div>
                     </div>
-                     <div class="price-container">
-                         <p class="price-promotion">$119</p>
-                    <p class="price">$101</p>
-                     </div>
-                     <p class="promotion-text">You save 15%</p>
+                    <div class="sum-container">
+                        <div class="quantity-container">
+                            <p>Quantity</p>
+                            <input type="number" class="quantity-input" min="1" @bind="item.Quantity" max="@item.Product.Quantity" @oninput="() => UpdateTotalCost(item)" />
+                        </div>
+                        <div class="price-container">
+                            <p class="price-promotion">$119</p>
+                            <p class="price">@item.Product.Price</p>
+                        </div>
+                        <p class="promotion-text">You save 15%</p>
+                    </div>
                 </div>
+            }
         </div>
-
-        <!--Product Card 2-->
-
-        <div class="product-container">
-            <img src="/images/shoes2.png" class="image-style" />
-            <div class="text-container">
-                <p class="product-name">Nike Jordan</p>
-                <p class="product-size">Size: 42.5</p>
-                <p class="product-color">Color: Black</p>
-                <div class="item-management-container">
-                    <img src="/images/trash.png" class="trash-image" />
-                    <p class="remove-text">Remove</p>
-                    <img src="/images/hearth.png" class="heart-image" />
-                    <p class="wishlist-text">Move to wish list</p>
-                </div>
-            </div>
-            <div class="sum-container">
-                <div class="quantity-container">
-                    <p>Quantity</p>
-                    <input type="number" class="quantity-input" min="1" placeholder="1" />
-                </div>
-                <div class="price-container">
-                    <p class="price-promotion">$429</p>
-                    <p class="price">$455</p>
-                </div>
-                <p class="promotion-text">You save 20%</p>
-            </div>
-        </div>
-
-        <!--Product Card3-->
-        <div class="product-container">
-            <img src="/images/shoes3.png" class="image-style" />
-            <div class="text-container">
-                <p class="product-name">Nike Travis</p>
-                <p class="product-size">Size: 47.5</p>
-                <p class="product-color">Color: White</p>
-                <div class="item-management-container">
-                    <img src="/images/trash.png" class="trash-image" />
-                    <p class="remove-text">Remove</p>
-                    <img src="/images/hearth.png" class="heart-image" />
-                    <p class="wishlist-text">Move to wish list</p>
-                </div>
-            </div>
-            <div class="sum-container">
-                <div class="quantity-container">
-                    <p class="quantity-text">Quantity</p>
-                    <input type="number" class="quantity-input" min="1" placeholder="1" />
-                </div>
-                <div class="price-container">
-                    <p class="price-promotion">$550</p>
-                    <p class="price">$600</p>
-                </div>
-                <p class="promotion-text">You save 15%</p>
-            </div>
-        </div>
-    </div>
-    <div class="summary-container"> 
-        <p class="total-amount-text">The total amount of </p>
-        <div class="cost-container">
-           <p class="price-type-label">Temporary amount</p>
-           <p class="price-label">$53.93</p>
-        </div>
-        <div class="cost-container">
-            <p class="price-type-label">Shipping</p>
-            <p class="price-label">Gratis</p>
-        </div>
-        <div class="line-summary"/>
-        <div class="total-amount">
-           <p class="total-sum-text">The total amount of (including VAT)</p>
-            <p class=total-sum-text style="font-size: 19px;">$190,98</p>
-        </div>
-        <button class="checkout-button">
-            <p class="checkout-text">GO TO CHECKOUT</p>
-        </button>
-    <div class="promo-code-container">
-        <p class="promoc-code-title">Apply promo code</p>
-        <div class="promo-code-input-container">
-            <input type="text" placeholder="Promo code" class="promo-code-input" />
-            <button class="apply-button">Apply</button>
-        </div>
-    </div>
-    </div>
-
+    }
+    else
+    {
+        <p class="promotion-text">You have 0 items in the shopping cart.</p>
+    }
 </div>
 
-@code 
-{
+<!-- Check Out -->
+<div class="summary-container">
+    <p class="total-amount-text">The total amount of </p>
+    <div class="cost-container">
+        <p class="price-type-label">Temporary amount</p>
+        <p class="price-label">@cost kr</p>
+    </div>
+    <div class="cost-container">
+        <p class="price-type-label">Shipping</p>
+        <p class="price-label">Gratis</p>
+    </div>
+    <div class="line-summary" />
+    <div class="total-amount">
+        <p class="total-sum-text">The total amount of (including VAT)</p>
+        <p class="total-sum-text" style="font-size: 19px;">@cost kr</p>
+    </div>
+    <button class="checkout-button">
+        <p class="checkout-text">GO TO CHECKOUT</p>
+    </button>
+</div>
+
+
+
+@code {
+    private Account? userAccount;
+    private bool isLoading = true;
+    private double cost = 0;
+    private CancellationTokenSource _debounceTokenSource;
+
+    protected override async Task OnInitializedAsync()
+    {
+        AuthenticationState authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
+        var user = authState.User;
+
+        if (user.Identity.IsAuthenticated)
+        {
+            var UserId = int.Parse(user.FindFirst(c => c.Type == ClaimTypes.NameIdentifier)?.Value ?? "0");
+            var allAccounts = await AccountsService.GetAllAccountsAsync();
+            userAccount = allAccounts.FirstOrDefault(prop => prop.AccountId == UserId);
+
+            if (userAccount == null)
+            {
+                Console.WriteLine("User account not found.");
+            }
+        }
+        else
+        {
+            Console.WriteLine("User is not authenticated.");
+        }
+
+        isLoading = false;
+        UpdateTotalCost();
+        StateHasChanged();
+    }
+
+    private async Task RemoveItem(shopingCart item)
+    {
+        if (userAccount?.ShopingCart != null)
+        {
+            userAccount.ShopingCart.Remove(item);
+            await AccountsService.UpdateAccountAsync(userAccount);
+            UpdateTotalCost();
+            StateHasChanged();
+        }
+    }
+
+    private async Task UpdateTotalCost(shopingCart quantityChange = null)
+    {
+        _debounceTokenSource?.Cancel();
+        _debounceTokenSource = new CancellationTokenSource();
+        var token = _debounceTokenSource.Token;
+
+        // Wait for a short period (300 ms) to see if there are input events
+        try
+        {
+            await Task.Delay(300, token);
+        }
+        catch (TaskCanceledException)
+        {
+            // The delay was canceled, meaning another input occurred
+            return;
+        }
+
+        if (quantityChange != null)
+        {
+            userAccount.ShopingCart.Find(p => p.Equals(quantityChange)).Quantity = quantityChange.Quantity;
+            await AccountsService.UpdateAccountAsync(userAccount);
+        }
+
+        cost = userAccount?.ShopingCart?.Sum(item => item.Product.Price * item.Quantity) ?? 0;
+        StateHasChanged();
+    }
 }
 
+
+
+
 <style>
-    .main-container 
-    {
-        width: 90vw;
-       max-width: 1200px;
+    .main-container {
+        width: 90%; 
+        max-width: 900px;
         margin: auto;
         padding: 20px;
         background-color: #f4f4f4;
-        display:flex;
-        flex-direction: row;
+        display: flex;
         align-items: flex-start;
-        flex-wrap: wrap;
     }
     .product-cart 
     {
@@ -283,14 +309,14 @@
     }
 
     .summary-container {
-        flex: 1;
-        width: 100%;
-        margin-left: 20px;
-        margin-top: 26px;
-        padding: 20px;
-        background-color: #fff;
+        position: absolute;
+        right: 70px;
+        top: 100px;
+        width: 300px;
+        background-color: #F4F0DB;
         border-radius: 8px;
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        padding: 20px;
         max-width: 400px;
     }
 

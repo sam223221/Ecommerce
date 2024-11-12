@@ -26,7 +26,7 @@
             </Authorized>
         </AuthorizeView>
 
-        <AuthorizeView Roles="Admin">
+        <AuthorizeView Roles="Admin,User">
             <Authorized>
                 <div class="nav-item px-3">
                     <NavLink class="nav-link" href="Inventory">
@@ -46,6 +46,15 @@
             </Authorized>
         </AuthorizeView>
 
+        <AuthorizeView Roles="Admin,User">
+            <Authorized>
+                <div class="nav-item px-3">
+                    <NavLink class="nav-link" href="ShoppingCart">
+                        <span class="bi bi-person-fill-nav-menu" aria-hidden="true"></span> Shopping Cart
+                    </NavLink>
+                </div>
+            </Authorized>
+        </AuthorizeView>
     </nav>
 </div>
 
