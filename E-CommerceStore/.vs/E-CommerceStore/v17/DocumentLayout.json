@@ -11,10 +11,6 @@
       "RelativeMoniker": "D:0:0:{290F1384-91EB-4B98-904C-5E73625A4E14}|E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj|solutionrelative:e-commercestore.webapp\\components\\pages\\shoppingcart.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{290F1384-91EB-4B98-904C-5E73625A4E14}|E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj|C:\\Users\\kubak\\OneDrive\\Pulpit\\Danfoss Heating System\\Ecommerce\\E-CommerceStore\\e-commercestore.webapp\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{290F1384-91EB-4B98-904C-5E73625A4E14}|E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj|solutionrelative:e-commercestore.webapp\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kubak\\OneDrive\\Pulpit\\Danfoss Heating System\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
@@ -95,6 +91,10 @@
       "RelativeMoniker": "D:0:0:{290F1384-91EB-4B98-904C-5E73625A4E14}|E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj|solutionrelative:e-commercestore.webapp\\components\\component\\viewmodel\\createpopupviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{290F1384-91EB-4B98-904C-5E73625A4E14}|E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj|C:\\Users\\kubak\\OneDrive\\Pulpit\\Danfoss Heating System\\Ecommerce\\E-CommerceStore\\e-commercestore.webapp\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{290F1384-91EB-4B98-904C-5E73625A4E14}|E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj|solutionrelative:e-commercestore.webapp\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{290F1384-91EB-4B98-904C-5E73625A4E14}|E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj|C:\\Users\\kubak\\OneDrive\\Pulpit\\Danfoss Heating System\\Ecommerce\\E-CommerceStore\\e-commercestore.webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{290F1384-91EB-4B98-904C-5E73625A4E14}|E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj|solutionrelative:e-commercestore.webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -126,7 +126,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -145,19 +145,6 @@
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ShoppingCartStyles.css",
-              "DocumentMoniker": "C:\\Users\\kubak\\OneDrive\\Pulpit\\Danfoss Heating System\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\ShoppingCartStyles.css",
-              "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\wwwroot\\ShoppingCartStyles.css",
-              "ToolTip": "C:\\Users\\kubak\\OneDrive\\Pulpit\\Danfoss Heating System\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\ShoppingCartStyles.css",
-              "RelativeToolTip": "E-CommerceStore.WebApp\\wwwroot\\ShoppingCartStyles.css",
-              "ViewState": "AQIAANQAAAAAAAAAAAAwwOwAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-11-14T18:36:30.049Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Bookmark",
               "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
@@ -167,7 +154,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "ShoppingCartStyles.css",
+              "DocumentMoniker": "C:\\Users\\kubak\\OneDrive\\Pulpit\\Danfoss Heating System\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\ShoppingCartStyles.css",
+              "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\wwwroot\\ShoppingCartStyles.css",
+              "ToolTip": "C:\\Users\\kubak\\OneDrive\\Pulpit\\Danfoss Heating System\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\ShoppingCartStyles.css",
+              "RelativeToolTip": "E-CommerceStore.WebApp\\wwwroot\\ShoppingCartStyles.css",
+              "ViewState": "AQIAAH4AAAAAAAAAAAAAAJUAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-14T18:36:30.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "E-CommerceStore.WebApp.csproj.user",
               "DocumentMoniker": "C:\\Users\\kubak\\OneDrive\\Pulpit\\Danfoss Heating System\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj.user",
               "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj.user",
@@ -175,12 +175,11 @@
               "RelativeToolTip": "E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj.user",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003464|",
-              "WhenOpened": "2024-11-14T18:30:00.105Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T18:30:00.105Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Logout.razor",
               "DocumentMoniker": "C:\\Users\\kubak\\OneDrive\\Pulpit\\Danfoss Heating System\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Pages\\AccountPages\\Logout.razor",
               "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Components\\Pages\\AccountPages\\Logout.razor",
@@ -192,7 +191,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Footer.razor",
               "DocumentMoniker": "C:\\Users\\kubak\\OneDrive\\Pulpit\\Danfoss Heating System\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Layout\\Footer.razor",
               "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Components\\Layout\\Footer.razor",
@@ -204,7 +203,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\kubak\\OneDrive\\Pulpit\\Danfoss Heating System\\Ecommerce\\E-CommerceStore\\ECommerce.CoreEntityBusiness\\Product.cs",
               "RelativeDocumentMoniker": "ECommerce.CoreEntityBusiness\\Product.cs",
@@ -216,7 +215,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "IProductService.cs",
               "DocumentMoniker": "C:\\Users\\kubak\\OneDrive\\Pulpit\\Danfoss Heating System\\Ecommerce\\E-CommerceStore\\E-Commerce.UseCase\\Products\\Interfaces\\IProductService.cs",
               "RelativeDocumentMoniker": "E-Commerce.UseCase\\Products\\Interfaces\\IProductService.cs",
@@ -228,7 +227,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "NavMenu.razor",
               "DocumentMoniker": "C:\\Users\\kubak\\OneDrive\\Pulpit\\Danfoss Heating System\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Layout\\NavMenu.razor",
               "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Components\\Layout\\NavMenu.razor",
@@ -240,7 +239,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "Login.razor",
               "DocumentMoniker": "C:\\Users\\kubak\\OneDrive\\Pulpit\\Danfoss Heating System\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Pages\\AccountPages\\Login.razor",
               "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Components\\Pages\\AccountPages\\Login.razor",
@@ -252,7 +251,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "ComponentAlertNotification.razor",
               "DocumentMoniker": "C:\\Users\\kubak\\OneDrive\\Pulpit\\Danfoss Heating System\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Component\\ComponentAlertNotification.razor",
               "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Components\\Component\\ComponentAlertNotification.razor",
@@ -264,7 +263,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "Header.razor",
               "DocumentMoniker": "C:\\Users\\kubak\\OneDrive\\Pulpit\\Danfoss Heating System\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Layout\\Header.razor",
               "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Components\\Layout\\Header.razor",
@@ -276,7 +275,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "ComponentCreateAccountModal.razor",
               "DocumentMoniker": "C:\\Users\\kubak\\OneDrive\\Pulpit\\Danfoss Heating System\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Component\\ComponentCreateAccountModal.razor",
               "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Components\\Component\\ComponentCreateAccountModal.razor",
@@ -288,7 +287,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "Home.razor",
               "DocumentMoniker": "C:\\Users\\kubak\\OneDrive\\Pulpit\\Danfoss Heating System\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Components\\Pages\\Home.razor",
@@ -300,7 +299,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
               "Title": "Counter.razor",
               "DocumentMoniker": "C:\\Users\\kubak\\OneDrive\\Pulpit\\Danfoss Heating System\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Pages\\Counter.razor",
               "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Components\\Pages\\Counter.razor",
@@ -312,7 +311,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 14,
               "Title": "Inventory.razor",
               "DocumentMoniker": "C:\\Users\\kubak\\OneDrive\\Pulpit\\Danfoss Heating System\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Pages\\Inventory.razor",
               "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Components\\Pages\\Inventory.razor",
@@ -324,7 +323,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 15,
               "Title": "Registration.razor",
               "DocumentMoniker": "C:\\Users\\kubak\\OneDrive\\Pulpit\\Danfoss Heating System\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Pages\\AccountPages\\Registration.razor",
               "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Components\\Pages\\AccountPages\\Registration.razor",
@@ -336,7 +335,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 16,
               "Title": "LoremIpsum.razor",
               "DocumentMoniker": "C:\\Users\\kubak\\OneDrive\\Pulpit\\Danfoss Heating System\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Pages\\LoremIpsum.razor",
               "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Components\\Pages\\LoremIpsum.razor",
@@ -348,7 +347,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 17,
               "Title": "CreateUserViewModel.cs",
               "DocumentMoniker": "C:\\Users\\kubak\\OneDrive\\Pulpit\\Danfoss Heating System\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Pages\\AccountPages\\ViewModel\\CreateUserViewModel.cs",
               "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Components\\Pages\\AccountPages\\ViewModel\\CreateUserViewModel.cs",
@@ -366,14 +365,14 @@
               "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Components\\Pages\\ShoppingCart.razor",
               "ToolTip": "C:\\Users\\kubak\\OneDrive\\Pulpit\\Danfoss Heating System\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Pages\\ShoppingCart.razor",
               "RelativeToolTip": "E-CommerceStore.WebApp\\Components\\Pages\\ShoppingCart.razor",
-              "ViewState": "AQIAAGMAAAAAAAAAAAAIwJAAAAAAAAAA",
+              "ViewState": "AQIAAGsAAAAAAAAAAAAcwI8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-14T13:27:56.813Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 18,
               "Title": "MainLayout.razor",
               "DocumentMoniker": "C:\\Users\\kubak\\OneDrive\\Pulpit\\Danfoss Heating System\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Layout\\MainLayout.razor",
               "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Components\\Layout\\MainLayout.razor",
@@ -385,7 +384,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 19,
               "Title": "CreateAccountViewModel.cs",
               "DocumentMoniker": "C:\\Users\\kubak\\OneDrive\\Pulpit\\Danfoss Heating System\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Component\\ViewModel\\CreateAccountViewModel.cs",
               "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Components\\Component\\ViewModel\\CreateAccountViewModel.cs",
@@ -397,7 +396,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 20,
               "Title": "ComponentAddToChart.razor",
               "DocumentMoniker": "C:\\Users\\kubak\\OneDrive\\Pulpit\\Danfoss Heating System\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Component\\ComponentAddToChart.razor",
               "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Components\\Component\\ComponentAddToChart.razor",
@@ -409,7 +408,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 21,
               "Title": "CreatePopUpViewModel.cs",
               "DocumentMoniker": "C:\\Users\\kubak\\OneDrive\\Pulpit\\Danfoss Heating System\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Component\\ViewModel\\CreatePopUpViewModel.cs",
               "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Components\\Component\\ViewModel\\CreatePopUpViewModel.cs",
@@ -421,7 +420,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 22,
               "Title": "app.css",
               "DocumentMoniker": "C:\\Users\\kubak\\OneDrive\\Pulpit\\Danfoss Heating System\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\app.css",
               "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\wwwroot\\app.css",
@@ -429,8 +428,7 @@
               "RelativeToolTip": "E-CommerceStore.WebApp\\wwwroot\\app.css",
               "ViewState": "AQIAAC0AAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-11-08T00:35:08.794Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-08T00:35:08.794Z"
             },
             {
               "$type": "Document",

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "1MEVG8J/u2CUAzkhYZ6JUvsyU5oVADNksbTKCXYNi+A=",
+  "Hash": "HvkcFN59CJzQZyn6wjAe9Fh19GrErXP7zNY3vcaCO5M=",
   "Source": "E-CommerceStore.WebApp",
   "BasePath": "_content/E-CommerceStore.WebApp",
   "Mode": "Default",
@@ -452,6 +452,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\trash.png"
+    },
+    {
+      "Identity": "C:\\Users\\kubak\\OneDrive\\Pulpit\\Danfoss Heating System\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\ShoppingCartStyles.css",
+      "SourceId": "E-CommerceStore.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kubak\\OneDrive\\Pulpit\\Danfoss Heating System\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+      "BasePath": "_content/E-CommerceStore.WebApp",
+      "RelativePath": "ShoppingCartStyles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ShoppingCartStyles.css"
     }
   ]
 }

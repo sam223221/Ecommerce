@@ -12,7 +12,11 @@
     flex: 3;
     min-width: 65%;
     margin-top: 15px;
+    max-height: 900px; 
+    overflow-y: auto; 
+    padding-right: 10px; 
 }
+
 
 .product-container {
     display: flex;
@@ -143,7 +147,7 @@
     position: absolute;
     right: 70px;
     top: 100px;
-    width: 300px;
+    width: 350px;
     background-color: #F4F0DB;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -212,6 +216,7 @@
 .right-section {
     display: flex;
     flex-direction: column;
+
 }
 
 .promo-code-container {

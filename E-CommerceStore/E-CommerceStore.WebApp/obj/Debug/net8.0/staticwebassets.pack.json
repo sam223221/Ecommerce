@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\E-CommerceStore.WebApp.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\kubak\\OneDrive\\Pulpit\\Danfoss Heating System\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\ShoppingCartStyles.css",
+      "PackagePath": "staticwebassets\\ShoppingCartStyles.css"
+    },
+    {
       "Id": "C:\\Users\\kubak\\OneDrive\\Pulpit\\Danfoss Heating System\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\app.css",
       "PackagePath": "staticwebassets\\app.css"
     },

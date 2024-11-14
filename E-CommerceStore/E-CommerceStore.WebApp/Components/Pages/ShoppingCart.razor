@@ -2,8 +2,7 @@
 @using System.Security.Claims
 @rendermode InteractiveServer
 @attribute [Authorize(Roles = "Admin,User")]
-<link rel="stylesheet" href="css/ShoppingCartStyles.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOM4PHZ+Lya3X64ZoI6B6CD1S5dEcfMuYPjTV22F" crossorigin="anonymous">
+<link rel="stylesheet" href="ShoppingCartStyles.css">
 
 @inject IAccountsService AccountsService
 @inject AuthenticationStateProvider AuthenticationStateProvider
