@@ -13,7 +13,15 @@
       "PackagePath": "staticwebassets\\app.css"
     },
     {
+<<<<<<< HEAD
       "Id": "C:\\Users\\kubak\\OneDrive\\Pulpit\\Danfoss Heating System\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\account.png",
+=======
+      "Id": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\accessdenied.png",
+      "PackagePath": "staticwebassets\\assets\\accessdenied.png"
+    },
+    {
+      "Id": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\account.png",
+>>>>>>> new-frontend-;)
       "PackagePath": "staticwebassets\\assets\\account.png"
     },
     {
@@ -33,8 +41,13 @@
       "PackagePath": "staticwebassets\\assets\\landingbg.svg"
     },
     {
+<<<<<<< HEAD
       "Id": "C:\\Users\\kubak\\OneDrive\\Pulpit\\Danfoss Heating System\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\landingmainphoto.png",
       "PackagePath": "staticwebassets\\assets\\landingmainphoto.png"
+=======
+      "Id": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\landingmainphoto.svg",
+      "PackagePath": "staticwebassets\\assets\\landingmainphoto.svg"
+>>>>>>> new-frontend-;)
     },
     {
       "Id": "C:\\Users\\kubak\\OneDrive\\Pulpit\\Danfoss Heating System\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\landingpage-desk.png",
@@ -45,12 +58,21 @@
       "PackagePath": "staticwebassets\\assets\\logo.png"
     },
     {
+<<<<<<< HEAD
       "Id": "C:\\Users\\kubak\\OneDrive\\Pulpit\\Danfoss Heating System\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\mastercardlogo.png",
       "PackagePath": "staticwebassets\\assets\\mastercardlogo.png"
     },
     {
       "Id": "C:\\Users\\kubak\\OneDrive\\Pulpit\\Danfoss Heating System\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\visalogo.png",
       "PackagePath": "staticwebassets\\assets\\visalogo.png"
+=======
+      "Id": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\logout.png",
+      "PackagePath": "staticwebassets\\assets\\logout.png"
+    },
+    {
+      "Id": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\mastercardlogo.png",
+      "PackagePath": "staticwebassets\\assets\\mastercardlogo.png"
+>>>>>>> new-frontend-;)
     },
     {
       "Id": "C:\\Users\\kubak\\OneDrive\\Pulpit\\Danfoss Heating System\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\bootstrap\\bootstrap.min.css",

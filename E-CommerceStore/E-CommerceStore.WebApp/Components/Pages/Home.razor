@@ -1,75 +1,48 @@
 ﻿@page "/"
 
+
+@rendermode InteractiveServer
+@inject IProductService ProductService
+
+
 <div class="landing-page">
-        <img class="electronicsshowcase" src="assets/electronicsshowcase.png" />
     <div>
          <div class="overlay-content">
         <div class="title">EXPLORE OUR</div>
         <div class="subtitle">BROAD SELECTION OF ELECTRONICS</div>
     </div>
-
-    <div class="promotion-text">
-        <b>-5% DISCOUNT</b> ON ALL ORDERS BEFORE 31.12.2024 <br />
-        USE CODE <b>“NEW YEAR</b>
-    </div>
+        <div class="promotion-text">
+            <b>-5% DISCOUNT</b> ON ALL ORDERS BEFORE 31.12.2024 <br />
+            USE CODE <b>“NEW YEAR"</b>
+        </div>
     </div>
 </div>
-
 <div class="landing-bg-container">
- <div class="spacer"/>
+<div class="spacer"/>
 
 <section class="products-bars">
     
+    <!-- best seller -->
     <div class="products-block3">
         <div class="products-thumbnail3">
             <div class="thumbnail">OUR BESTSELLERS</div>
         </div>
-        
-        <div class="item-container">
-            <div class="item-image">
-
-            </div>
-            <div class="item-info">
-                <div class="item-name">
-
+            @foreach(var item in bestSeller)
+            {
+            <div class="item-container">
+                <div class="item-image">
+                        <img class="item-image" src="@item.ImageUrl" />
                 </div>
-                <div class="item-price">
-
-                </div>
-            </div>
-        </div>
-        <div class="item-container">
-            <div class="item-image">
-            </div>
-            <div class="item-info">
-                <div class="item-name">
-                </div>
-                <div class="item-price">
+                <div class="item-info">
+                    <div class="item-name">
+                        <a>@item.ProductName</a>
+                    </div>
+                    <div class="item-price">
+                        @item.Price Dkk
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="item-container">
-            <div class="item-image">
-            </div>
-            <div class="item-info">
-                <div class="item-name">
-                </div>
-                <div class="item-price">
-                </div>
-            </div>
-        </div>
-        <div class="item-container">
-            <div class="item-image">
-            </div>
-            <div class="item-info">
-                <div class="item-name">
-                    GAMING MOUSE
-                </div>
-                <div class="item-price">
-                    420$
-                </div>
-            </div>
-        </div>
+            }
     </div>
 
 </section>
@@ -84,19 +57,22 @@
             <div class="thumbnail">KEYBOARDS</div>
         </div>
 
-        <div class="item-container">
-            <div class="item-image">
-
-            </div>
-            <div class="item-info">
-                <div class="item-name">
-                    GAMING MOUSE
+            @foreach(var item in keyboards)
+            { 
+            <div class="item-container">
+                <div class="item-image">
+                    <img class="item-image" src="@item.ImageUrl" />
                 </div>
-                <div class="item-price">
-                    420$
+                <div class="item-info">
+                    <div class="item-name">
+                        @item.ProductName
+                    </div>
+                    <div class="item-price">
+                        @item.Price Dkk
+                    </div>
                 </div>
             </div>
-        </div>
+            }
 
     </div>
 </section>
@@ -109,63 +85,22 @@
         <div class="products-thumbnail2">
             <div class="thumbnail">GAMING</div>
         </div>
-
-        <div class="item-container">
-            <div class="item-image">
-            </div>
-            <div class="item-info">
-                <div class="item-name">
-                    GAMING MOUSE
+            @foreach(var item in gaming)
+            {
+                <div class="item-container">
+                    <div class="item-image">
+                        <img class="item-image" src="@item.ImageUrl" />
+                    </div>
+                    <div class="item-info">
+                        <div class="item-name">
+                            @item.ProductName
+                        </div>
+                        <div class="item-price">
+                            @item.Price Dkk
+                        </div>
+                    </div>
                 </div>
-                <div class="item-price">
-                    420$
-                </div>
-            </div>
-        </div>
-        
-        <div class="item-container">
-            <div class="item-image">
-            </div>
-            <div class="item-info">
-                <div class="item-name">
-                </div>
-                <div class="item-price">
-                </div>
-            </div>
-        </div>
-
-        <div class="item-container">
-            <div class="item-image">
-            </div>
-            <div class="item-info">
-                <div class="item-name">
-                </div>
-                <div class="item-price">
-                </div>
-            </div>
-        </div>
-
-        <div class="item-container">
-            <div class="item-image">
-            </div>
-            <div class="item-info">
-                <div class="item-name">
-                </div>
-                <div class="item-price">
-                </div>
-            </div>
-        </div>
-
-        <div class="item-container">
-            <div class="item-image">
-            </div>
-            <div class="item-info">
-                <div class="item-name">
-                </div>
-                <div class="item-price">
-                </div>
-            </div>
-        </div>
+            }
     </div>
 </section>
 
@@ -189,6 +124,22 @@
  <div class="spacer"/>
  </div>
 
+ @code 
+{
+    public IEnumerable<Product> Products = new List<Product>();
+    public List<Product> bestSeller = new List<Product>();
+    public List<Product> keyboards = new List<Product>();
+    public List<Product> gaming = new List<Product>();
 
+
+    protected override async Task OnInitializedAsync()
+    {
+        Products = await ProductService.GetAllProductsExecuteAsync();
+        bestSeller = Products.Take(4).ToList();
+        keyboards = Products.Where(p => p.ProductName.Contains("keyboard", StringComparison.OrdinalIgnoreCase)).ToList();
+        gaming = Products.Where(p => p.ProductName.Contains("gaming", StringComparison.OrdinalIgnoreCase)).ToList();
+    }
+    
+ }
 
 

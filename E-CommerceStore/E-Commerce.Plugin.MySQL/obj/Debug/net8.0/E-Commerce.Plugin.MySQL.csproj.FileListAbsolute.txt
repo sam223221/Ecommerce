@@ -18,6 +18,7 @@ C:\Users\Sam Gleðisheygg\Documents\GitHub\SPRO-3\E-CommerceStore\E-Commerce.Plu
 C:\Users\Sam Gleðisheygg\Documents\GitHub\SPRO-3\E-CommerceStore\E-Commerce.Plugin.MySQL\obj\Debug\net8.0\ref\E-Commerce.Plugin.MySQL.dll
 C:\Users\Sam Gleðisheygg\Documents\GitHub\SPRO-3\E-CommerceStore\E-Commerce.Plugin.MySQL\bin\Debug\net8.0\E-Commerce.UseCase.dll
 C:\Users\Sam Gleðisheygg\Documents\GitHub\SPRO-3\E-CommerceStore\E-Commerce.Plugin.MySQL\bin\Debug\net8.0\E-Commerce.UseCase.pdb
+<<<<<<< HEAD
 C:\Users\kubak\OneDrive\Pulpit\Danfoss Heating System\Ecommerce\E-CommerceStore\E-Commerce.Plugin.MySQL\bin\Debug\net8.0\E-Commerce.Plugin.MySQL.deps.json
 C:\Users\kubak\OneDrive\Pulpit\Danfoss Heating System\Ecommerce\E-CommerceStore\E-Commerce.Plugin.MySQL\bin\Debug\net8.0\E-Commerce.Plugin.MySQL.runtimeconfig.json
 C:\Users\kubak\OneDrive\Pulpit\Danfoss Heating System\Ecommerce\E-CommerceStore\E-Commerce.Plugin.MySQL\bin\Debug\net8.0\E-Commerce.Plugin.MySQL.dll
@@ -38,3 +39,25 @@ C:\Users\kubak\OneDrive\Pulpit\Danfoss Heating System\Ecommerce\E-CommerceStore\
 C:\Users\kubak\OneDrive\Pulpit\Danfoss Heating System\Ecommerce\E-CommerceStore\E-Commerce.Plugin.MySQL\obj\Debug\net8.0\E-Commerce.Plugin.MySQL.pdb
 C:\Users\kubak\OneDrive\Pulpit\Danfoss Heating System\Ecommerce\E-CommerceStore\E-Commerce.Plugin.MySQL\obj\Debug\net8.0\E-Commerce.Plugin.MySQL.genruntimeconfig.cache
 C:\Users\kubak\OneDrive\Pulpit\Danfoss Heating System\Ecommerce\E-CommerceStore\E-Commerce.Plugin.MySQL\obj\Debug\net8.0\ref\E-Commerce.Plugin.MySQL.dll
+=======
+C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\E-Commerce.Plugin.MySQL\bin\Debug\net8.0\E-Commerce.Plugin.MySQL.deps.json
+C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\E-Commerce.Plugin.MySQL\bin\Debug\net8.0\E-Commerce.Plugin.MySQL.runtimeconfig.json
+C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\E-Commerce.Plugin.MySQL\bin\Debug\net8.0\E-Commerce.Plugin.MySQL.dll
+C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\E-Commerce.Plugin.MySQL\bin\Debug\net8.0\E-Commerce.Plugin.MySQL.pdb
+C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\E-Commerce.Plugin.MySQL\bin\Debug\net8.0\E-Commerce.UseCase.dll
+C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\E-Commerce.Plugin.MySQL\bin\Debug\net8.0\ECommerce.CoreEntityBusiness.dll
+C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\E-Commerce.Plugin.MySQL\bin\Debug\net8.0\E-Commerce.UseCase.pdb
+C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\E-Commerce.Plugin.MySQL\bin\Debug\net8.0\ECommerce.CoreEntityBusiness.pdb
+C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\E-Commerce.Plugin.MySQL\obj\Debug\net8.0\E-Commerce.Plugin.MySQL.csproj.AssemblyReference.cache
+C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\E-Commerce.Plugin.MySQL\obj\Debug\net8.0\E-Commerce.Plugin.MySQL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\E-Commerce.Plugin.MySQL\obj\Debug\net8.0\E-Commerce.Plugin.MySQL.AssemblyInfoInputs.cache
+C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\E-Commerce.Plugin.MySQL\obj\Debug\net8.0\E-Commerce.Plugin.MySQL.AssemblyInfo.cs
+C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\E-Commerce.Plugin.MySQL\obj\Debug\net8.0\E-Commerce.Plugin.MySQL.csproj.CoreCompileInputs.cache
+C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\E-Commerce.Plugin.MySQL\obj\Debug\net8.0\E-Commerce.Plugin.MySQL.sourcelink.json
+C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\E-Commerce.Plugin.MySQL\obj\Debug\net8.0\E-Commer.B5EE8115.Up2Date
+C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\E-Commerce.Plugin.MySQL\obj\Debug\net8.0\E-Commerce.Plugin.MySQL.dll
+C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\E-Commerce.Plugin.MySQL\obj\Debug\net8.0\refint\E-Commerce.Plugin.MySQL.dll
+C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\E-Commerce.Plugin.MySQL\obj\Debug\net8.0\E-Commerce.Plugin.MySQL.pdb
+C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\E-Commerce.Plugin.MySQL\obj\Debug\net8.0\E-Commerce.Plugin.MySQL.genruntimeconfig.cache
+C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\E-Commerce.Plugin.MySQL\obj\Debug\net8.0\ref\E-Commerce.Plugin.MySQL.dll
+>>>>>>> new-frontend-;)
