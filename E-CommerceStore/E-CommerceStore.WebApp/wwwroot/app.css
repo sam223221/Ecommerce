@@ -236,7 +236,7 @@ content: "An error has occurred."
     background-color: #5582B6;
     color: #fbfbfe;
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
-    height: 325px;
+    height: 350px;
     width: 320px;
     margin: 0 auto;
     align-items: center;
@@ -251,6 +251,7 @@ content: "An error has occurred."
 .item-image {
     border-radius: 10px;
     background-color: white;
+    object-fit: contain;
     width: 220px;
     height: 230px;
     margin-bottom: 10px;
@@ -260,10 +261,17 @@ content: "An error has occurred."
 .item-info {
     text-align: left;
     font-size: 18px;
+    max-width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
 }
 
 .item-name {
-    margin-bottom: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    display: block;
 }
 
 .item-price {

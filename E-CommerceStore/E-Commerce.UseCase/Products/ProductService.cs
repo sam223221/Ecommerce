@@ -18,7 +18,7 @@ namespace E_Commerce.UseCase.Products
         }
 
         //Get All Products
-        public async Task<IEnumerable<Product>> GetAllProductsExecuteAsync(string name)
+        public async Task<IEnumerable<Product>> GetAllProductsExecuteAsync(string? name = "")
         {
             var stack = await ProductRepository.GetAllProductsAsync();
             if (string.IsNullOrWhiteSpace(name)) return stack;
