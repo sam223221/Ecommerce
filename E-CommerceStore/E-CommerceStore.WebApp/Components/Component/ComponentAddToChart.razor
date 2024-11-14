@@ -1,0 +1,120 @@
+﻿@page "/ProductCreate"
+@inject IAccountsService AccountsService
+@inject AuthenticationStateProvider AuthenticationStateProvider
+
+<div class="modal fade show" id="myModal" style="display:block; background-color: rgba(10,10,10,.8);" aria-modal="true" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">@Product.ProductName</h4>
+                <button type="button" class="close" @onclick="ChartClose">&times;</button>
+            </div>
+            <div class="modal-body">
+                <EditForm Model="Product" OnValidSubmit="addToChart">
+                    <DataAnnotationsValidator />
+                    <div class="form-layout">
+                        <div class="product-image-container">
+                            <img src="@Product.ImageUrl" alt="Picture of product" class="product-image" />
+                        </div>
+                        <div class="product-details-container">
+                            <div class="form-group">
+                                <label for="description">Description of Product</label>
+                                <textarea id="description" class="form-control" disabled>@Product.Description</textarea>
+                            </div>
+                            <div class="form-group">
+                                <label for="quantity">Price and Quantity</label>
+                                <input type="number" id="quantity" class="form-control" min="1" @bind="Quantity" max="@Product.Quantity" />
+                                <p>Price: @Product.Price</p>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Add to Cart</button>
+                        </div>
+                    </div>
+                </EditForm>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .form-layout {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 20px;
+    }
+
+    .product-image-container {
+        flex: 2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .product-image {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+
+    .product-details-container {
+        flex: 3;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .form-group {
+        margin-bottom: 10px;
+    }
+
+</style>
+
+@code {
+    [Parameter]
+    public EventCallback<bool> OnClose { get; set; }
+    [Parameter]
+    public required Product Product { get; set; }
+
+    private Account userAccount;
+    int Quantity = 1;
+
+    protected override async Task OnInitializedAsync()
+    {
+        AuthenticationState authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
+        var user = authState.User;
+
+        if (user.Identity.IsAuthenticated)
+        {
+            var UserId = int.Parse(user.FindFirst(c => c.Type == ClaimTypes.NameIdentifier)?.Value ?? "0");
+            var allAccounts = await AccountsService.GetAllAccountsAsync();
+            userAccount = allAccounts.FirstOrDefault(prop => prop.AccountId == UserId);
+
+            if (userAccount == null)
+            {
+                ChartClose();
+                Console.WriteLine("User account not found.");
+            }
+        }
+        else
+        {
+            ChartClose();
+            Console.WriteLine("User is not authenticated.");
+        }
+    }
+
+    private async void ChartClose()
+    {
+        await OnClose.InvokeAsync(false);
+    }
+
+    private async void addToChart()
+    {
+        userAccount.ShopingCart.Add(new shopingCart
+            {
+                Product = this.Product,
+                Quantity = this.Quantity
+            });
+        await AccountsService.UpdateAccountAsync(userAccount);
+        await OnClose.InvokeAsync(true);
+    }
+}

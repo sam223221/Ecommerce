@@ -21,6 +21,26 @@
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
+      "Id": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\images\\hearth.png",
+      "PackagePath": "staticwebassets\\images\\hearth.png"
+    },
+    {
+      "Id": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\images\\shoes1.png",
+      "PackagePath": "staticwebassets\\images\\shoes1.png"
+    },
+    {
+      "Id": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\images\\shoes2.png",
+      "PackagePath": "staticwebassets\\images\\shoes2.png"
+    },
+    {
+      "Id": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\images\\shoes3.png",
+      "PackagePath": "staticwebassets\\images\\shoes3.png"
+    },
+    {
+      "Id": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\images\\trash.png",
+      "PackagePath": "staticwebassets\\images\\trash.png"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.E-CommerceStore.WebApp.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

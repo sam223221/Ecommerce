@@ -61,6 +61,7 @@
 
         var claims = new List<Claim>
         {
+            new Claim(ClaimTypes.NameIdentifier,userAccount.AccountId.ToString()),
             new Claim(ClaimTypes.Name, userAccount.AccountName),
             new Claim(ClaimTypes.Role, userAccount.Role)
         };

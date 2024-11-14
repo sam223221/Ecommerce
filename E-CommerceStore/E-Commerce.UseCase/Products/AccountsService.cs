@@ -25,6 +25,7 @@ namespace E_Commerce.UseCase.Accounts // Adjust namespace to match your project 
             return accounts.Where(x => x.AccountName.Contains(name, StringComparison.OrdinalIgnoreCase));
         }
 
+
         // Update Account
         public async Task<string> UpdateAccountAsync(Account account)
         {
