@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "aTeROkQ48FNtJzkoDvRijJUPSFp9aQVSGqvjSYlCaOI=",
+  "Hash": "0y/aIVSVHOQ+dPUuneIna9pMiGLc3dJQwkUfB2dQYdc=",
   "Source": "E-CommerceStore.WebApp",
   "BasePath": "_content/E-CommerceStore.WebApp",
   "Mode": "Default",
@@ -110,6 +110,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\app.css"
+    },
+    {
+      "Identity": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\accessdenied.png",
+      "SourceId": "E-CommerceStore.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+      "BasePath": "_content/E-CommerceStore.WebApp",
+      "RelativePath": "assets/accessdenied.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\accessdenied.png"
     },
     {
       "Identity": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\account.png",
@@ -262,6 +281,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\logo.png"
+    },
+    {
+      "Identity": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\logout.png",
+      "SourceId": "E-CommerceStore.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+      "BasePath": "_content/E-CommerceStore.WebApp",
+      "RelativePath": "assets/logout.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\logout.png"
     },
     {
       "Identity": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\mastercardlogo.png",

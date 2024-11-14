@@ -6,12 +6,11 @@
 @inject IAccountsService AccountsService
 @inject NavigationManager NavigationManager
 
-<div class="login-container">
-    <div class="login-card">
-        <h2>Register New Account</h2>
+<div class="register-container">
+    <div class="register-card">
+        <h3 style="color: #2f27ce; text-align: center;">REGISTER</h3>
         <EditForm Model="newAccount" OnValidSubmit="HandleValidSubmit" FormName="registarton">
             <DataAnnotationsValidator />
-            <ValidationSummary />
 
             <div class="form-group">
                 <label>Account Name</label>
@@ -25,7 +24,7 @@
                 <ValidationMessage For="@(() => newAccount.AccountPassword)" />
             </div>
 
-            <button type="submit" class="btn btn-primary">Register</button>
+            <button type="submit" class="loginbutton">Register</button>
         </EditForm>
     </div>
 </div>
@@ -35,7 +34,6 @@
 
     private async Task HandleValidSubmit()
     {
-        // Convert view model to the Account entity
         var account = new Account
             {
                 AccountName = newAccount.AccountName,

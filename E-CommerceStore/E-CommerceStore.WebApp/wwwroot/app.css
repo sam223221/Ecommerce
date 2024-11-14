@@ -129,21 +129,43 @@ content: "An error has occurred."
 }
 
 
-.login-container {
+.register-container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-image: url('/assets/landingbg.svg');
+    background-color: #222222;
+    background-size: cover;
+    background-position: center;
 }
 
-.login-card {
-    background-color: #fff;
+.register-card {
+    background-color: #dedcff;
     padding: 2rem;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    max-width: 400px;
+    border-radius: 25px;
+    box-shadow: 0 4px 10px rgba(67, 59, 255, 0.2);
+    max-width: 450px;
     width: 100%;
 }
+
+    .register-card button {
+        background-color: #2f27ce; 
+        color: #fff;
+        font-size: 1rem;
+        font-weight: bold;
+        padding: 0.75rem 1.5rem;
+        border: none;
+        border-radius: 12px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        width: 100%; 
+    }
+
+        .register-card button:hover {
+            background-color: #433bff; 
+            box-shadow: 0 4px 6px rgba(67, 59, 255, 0.3);
+        }
 
 .form-group {
     margin-bottom: 1.5rem;
@@ -415,6 +437,30 @@ content: "An error has occurred."
     min-height: 75vh;
 }
 
+.logout-bg-container {
+    background-color: #FAFAFA;
+    background-size: cover;
+    background-position: center;
+    min-height: 25vh;
+}
+
+.logout-bg-img {
+    z-index: -1;
+    width: 100vw;
+    background-image: url('/assets/logout.png');
+    background-repeat: no-repeat;
+    min-height: 1950px;
+}
+
+.access-denied-img 
+{
+    z-index: -1;
+    width: 100vw;
+    background-image: url('/assets/accessdenied.png');
+    background-repeat: no-repeat;
+    min-height: 1950px;
+}
+
 .landing-bg-container {
     background-image: url('/assets/landingbg.svg');
     background-color: #222222;
@@ -431,7 +477,7 @@ content: "An error has occurred."
     box-sizing: border-box;
     color: #FAFAFA;
     cursor: pointer;
-    background-color: #8972C2;
+    background-color: #2f27ce;
     width: 20rem;
     height: 6rem;
 }
@@ -563,6 +609,42 @@ content: "An error has occurred."
     .text-danger:hover {
         color: darkred;
         font-weight: bold;
+    }
+
+.centered-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.loginwindow {
+    padding: 30px;
+    background-color: #dedcff;
+    border-radius: 25px;
+    box-shadow: 0px 4px 10px rgba(67, 59, 255, 0.2);
+    color: #050315;
+    font-weight: 400;
+}
+
+.loginbutton {
+    background-color: #2f27ce;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+    .loginbutton {
+        background-color: #433bff;
+        box-shadow: 0 4px 6px rgba(67, 59, 255, 0.3);
     }
 
 

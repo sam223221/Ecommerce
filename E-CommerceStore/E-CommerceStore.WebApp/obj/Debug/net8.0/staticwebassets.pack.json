@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\app.css"
     },
     {
+      "Id": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\accessdenied.png",
+      "PackagePath": "staticwebassets\\assets\\accessdenied.png"
+    },
+    {
       "Id": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\account.png",
       "PackagePath": "staticwebassets\\assets\\account.png"
     },
@@ -39,6 +43,10 @@
     {
       "Id": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\logo.png",
       "PackagePath": "staticwebassets\\assets\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\logout.png",
+      "PackagePath": "staticwebassets\\assets\\logout.png"
     },
     {
       "Id": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\mastercardlogo.png",
