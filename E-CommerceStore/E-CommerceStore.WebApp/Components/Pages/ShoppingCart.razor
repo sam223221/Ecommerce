@@ -16,7 +16,7 @@
     else if (userAccount?.ShopingCart != null && userAccount.ShopingCart.Count > 0)
     {
         <div class="product-cart">
-            <!-- Products -->
+
             @foreach (var item in userAccount.ShopingCart)
             {
                 <div class="product-container" style="margin-top: 10px">
@@ -27,8 +27,6 @@
                         <div class="item-management-container">
                             <img src="/images/trash.png" class="trash-image" />
                             <p class="remove-text" @onclick="() => RemoveItem(item)">Remove</p>
-                            <img src="/images/hearth.png" class="heart-image" />
-                            <p class="wishlist-text">Move to wish list</p>
                         </div>
                     </div>
                     <div class="sum-container">
@@ -40,7 +38,7 @@
                             <p class="price-promotion">$119</p>
                             <p class="price">@item.Product.Price</p>
                         </div>
-                        <p class="promotion-text">You save 15%</p>
+                        
                     </div>
                 </div>
             }
@@ -257,12 +255,12 @@
       margin-top: 10px;
     }
 
-    /* Quantity box styling */
+ 
     .quantity-container {
         display: flex;
         align-items: center;
         gap: 10px;
-        margin-left: auto; /* Pushes the quantity box to the right */
+        margin-left: auto;
     }
 
     .quantity-input {

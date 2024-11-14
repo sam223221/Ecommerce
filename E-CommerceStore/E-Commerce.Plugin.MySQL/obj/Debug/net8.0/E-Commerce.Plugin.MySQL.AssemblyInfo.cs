@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("E-Commerce.Plugin.MySQL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ec3a52c66039808e1e6ee6398e9735f905e2a071")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9689ffe253a5d4e50c2e793fb736293b3f559b81")]
 [assembly: System.Reflection.AssemblyProductAttribute("E-Commerce.Plugin.MySQL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("E-Commerce.Plugin.MySQL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

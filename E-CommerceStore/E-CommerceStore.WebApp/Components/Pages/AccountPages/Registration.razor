@@ -1,14 +1,15 @@
-﻿@page "/Registration"
+﻿@page "/RegistrationPage"
 
-
+@rendermode InteractiveServer
 @using System.ComponentModel.DataAnnotations
+@using E_CommerceStore.WebApp.Components.Pages.AccountPages.ViewModel
 @inject IAccountsService AccountsService
 @inject NavigationManager NavigationManager
 
 <div class="login-container">
     <div class="login-card">
         <h2>Register New Account</h2>
-        <EditForm Model="@newAccount" OnValidSubmit="HandleValidSubmit">
+        <EditForm Model="newAccount" OnValidSubmit="HandleValidSubmit" FormName="registarton">
             <DataAnnotationsValidator />
             <ValidationSummary />
 
@@ -24,44 +25,25 @@
                 <ValidationMessage For="@(() => newAccount.AccountPassword)" />
             </div>
 
-            <div class="form-group">
-                <label>Role</label>
-                <InputText @bind-Value="newAccount.Role" class="form-control" />
-                <ValidationMessage For="@(() => newAccount.Role)" />
-            </div>
-
             <button type="submit" class="btn btn-primary">Register</button>
         </EditForm>
     </div>
 </div>
 
 @code {
-    private CreateAccountViewModel newAccount = new CreateAccountViewModel();
+    private CreateUserViewModel newAccount = new CreateUserViewModel();
 
     private async Task HandleValidSubmit()
     {
         // Convert view model to the Account entity
         var account = new Account
-        {
-            AccountName = newAccount.AccountName,
-            AccountPassword = newAccount.AccountPassword,
-            Role = newAccount.Role
-        };
+            {
+                AccountName = newAccount.AccountName,
+                AccountPassword = newAccount.AccountPassword,
+                Role = newAccount.Role
+            };
 
         await AccountsService.CreateAccountAsync(account);
         NavigationManager.NavigateTo("/AccountManagement", true);
-    }
-
-    public class CreateAccountViewModel
-    {
-        [Required(ErrorMessage = "Please provide an account name.")]
-        [StringLength(50, MinimumLength = 3, ErrorMessage = "Account name must be between 3 and 50 characters.")]
-        public string AccountName { get; set; }
-
-        [Required(ErrorMessage = "Please provide a password.")]
-        [StringLength(100, MinimumLength = 6, ErrorMessage = "Password must be at least 6 characters long.")]
-        public string AccountPassword { get; set; }
-
-        public string Role { get; set; } = "User";
     }
 }
