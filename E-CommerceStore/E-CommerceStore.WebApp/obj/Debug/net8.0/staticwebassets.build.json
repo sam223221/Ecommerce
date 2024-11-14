@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0y/aIVSVHOQ+dPUuneIna9pMiGLc3dJQwkUfB2dQYdc=",
+  "Hash": "jSIpu5xAEkblFBXjbqQpeV6cpq+XgI7RE0L4Nwdy26w=",
   "Source": "E-CommerceStore.WebApp",
   "BasePath": "_content/E-CommerceStore.WebApp",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "E-CommerceStore.WebApp\\wwwroot",
       "Source": "E-CommerceStore.WebApp",
-      "ContentRoot": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
       "BasePath": "_content/E-CommerceStore.WebApp",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\ksuch\\.nuget\\packages\\blazored.modal\\7.3.1\\staticwebassets\\Blazored.Modal.bundle.scp.css",
+      "Identity": "C:\\Users\\Sam Gleðisheygg\\.nuget\\packages\\blazored.modal\\7.3.1\\staticwebassets\\Blazored.Modal.bundle.scp.css",
       "SourceId": "Blazored.Modal",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\ksuch\\.nuget\\packages\\blazored.modal\\7.3.1\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Sam Gleðisheygg\\.nuget\\packages\\blazored.modal\\7.3.1\\staticwebassets\\",
       "BasePath": "_content/Blazored.Modal",
       "RelativePath": "Blazored.Modal.bundle.scp.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\ksuch\\.nuget\\packages\\blazored.modal\\7.3.1\\staticwebassets\\Blazored.Modal.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Sam Gleðisheygg\\.nuget\\packages\\blazored.modal\\7.3.1\\staticwebassets\\Blazored.Modal.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\ksuch\\.nuget\\packages\\blazored.modal\\7.3.1\\staticwebassets\\BlazoredModal.razor.js",
+      "Identity": "C:\\Users\\Sam Gleðisheygg\\.nuget\\packages\\blazored.modal\\7.3.1\\staticwebassets\\BlazoredModal.razor.js",
       "SourceId": "Blazored.Modal",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\ksuch\\.nuget\\packages\\blazored.modal\\7.3.1\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Sam Gleðisheygg\\.nuget\\packages\\blazored.modal\\7.3.1\\staticwebassets\\",
       "BasePath": "_content/Blazored.Modal",
       "RelativePath": "BlazoredModal.razor.js",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\ksuch\\.nuget\\packages\\blazored.modal\\7.3.1\\staticwebassets\\BlazoredModal.razor.js"
+      "OriginalItemSpec": "C:\\Users\\Sam Gleðisheygg\\.nuget\\packages\\blazored.modal\\7.3.1\\staticwebassets\\BlazoredModal.razor.js"
     },
     {
-      "Identity": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\E-CommerceStore.WebApp.styles.css",
+      "Identity": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\E-CommerceStore.WebApp.styles.css",
       "SourceId": "E-CommerceStore.WebApp",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/E-CommerceStore.WebApp",
       "RelativePath": "E-CommerceStore.WebApp.styles.css",
       "AssetKind": "All",
@@ -71,13 +71,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\E-CommerceStore.WebApp.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\E-CommerceStore.WebApp.styles.css"
     },
     {
-      "Identity": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\E-CommerceStore.WebApp.bundle.scp.css",
+      "Identity": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\E-CommerceStore.WebApp.bundle.scp.css",
       "SourceId": "E-CommerceStore.WebApp",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/E-CommerceStore.WebApp",
       "RelativePath": "E-CommerceStore.WebApp.bundle.scp.css",
       "AssetKind": "All",
@@ -90,13 +90,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\E-CommerceStore.WebApp.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\E-CommerceStore.WebApp.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\app.css",
+      "Identity": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\app.css",
       "SourceId": "E-CommerceStore.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
       "BasePath": "_content/E-CommerceStore.WebApp",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\accessdenied.png",
+      "Identity": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\accessdenied.png",
       "SourceId": "E-CommerceStore.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
       "BasePath": "_content/E-CommerceStore.WebApp",
       "RelativePath": "assets/accessdenied.png",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\accessdenied.png"
     },
     {
-      "Identity": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\account.png",
+      "Identity": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\account.png",
       "SourceId": "E-CommerceStore.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
       "BasePath": "_content/E-CommerceStore.WebApp",
       "RelativePath": "assets/account.png",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\account.png"
     },
     {
-      "Identity": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\bitcoinlogo.png",
+      "Identity": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\bitcoinlogo.png",
       "SourceId": "E-CommerceStore.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
       "BasePath": "_content/E-CommerceStore.WebApp",
       "RelativePath": "assets/bitcoinlogo.png",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\bitcoinlogo.png"
     },
     {
-      "Identity": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\cart.png",
+      "Identity": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\cart.png",
       "SourceId": "E-CommerceStore.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
       "BasePath": "_content/E-CommerceStore.WebApp",
       "RelativePath": "assets/cart.png",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\cart.png"
     },
     {
-      "Identity": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\electronicsshowcase.png",
+      "Identity": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\electronicsshowcase.png",
       "SourceId": "E-CommerceStore.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
       "BasePath": "_content/E-CommerceStore.WebApp",
       "RelativePath": "assets/electronicsshowcase.png",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\electronicsshowcase.png"
     },
     {
-      "Identity": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\landingbg.svg",
+      "Identity": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\landingbg.svg",
       "SourceId": "E-CommerceStore.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
       "BasePath": "_content/E-CommerceStore.WebApp",
       "RelativePath": "assets/landingbg.svg",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\landingbg.svg"
     },
     {
-      "Identity": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\landingmainphoto.svg",
+      "Identity": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\landingmainphoto.svg",
       "SourceId": "E-CommerceStore.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
       "BasePath": "_content/E-CommerceStore.WebApp",
       "RelativePath": "assets/landingmainphoto.svg",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\landingmainphoto.svg"
     },
     {
-      "Identity": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\landingpage-desk.png",
+      "Identity": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\landingpage-desk.png",
       "SourceId": "E-CommerceStore.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
       "BasePath": "_content/E-CommerceStore.WebApp",
       "RelativePath": "assets/landingpage-desk.png",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\landingpage-desk.png"
     },
     {
-      "Identity": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\logo.png",
+      "Identity": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\logo.png",
       "SourceId": "E-CommerceStore.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
       "BasePath": "_content/E-CommerceStore.WebApp",
       "RelativePath": "assets/logo.png",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\logo.png"
     },
     {
-      "Identity": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\logout.png",
+      "Identity": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\logout.png",
       "SourceId": "E-CommerceStore.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
       "BasePath": "_content/E-CommerceStore.WebApp",
       "RelativePath": "assets/logout.png",
       "AssetKind": "All",
@@ -302,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\logout.png"
     },
     {
-      "Identity": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\mastercardlogo.png",
+      "Identity": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\mastercardlogo.png",
       "SourceId": "E-CommerceStore.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
       "BasePath": "_content/E-CommerceStore.WebApp",
       "RelativePath": "assets/mastercardlogo.png",
       "AssetKind": "All",
@@ -321,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\mastercardlogo.png"
     },
     {
-      "Identity": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "E-CommerceStore.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
       "BasePath": "_content/E-CommerceStore.WebApp",
       "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "E-CommerceStore.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
       "BasePath": "_content/E-CommerceStore.WebApp",
       "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -359,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\favicon.png",
+      "Identity": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\favicon.png",
       "SourceId": "E-CommerceStore.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
       "BasePath": "_content/E-CommerceStore.WebApp",
       "RelativePath": "favicon.png",
       "AssetKind": "All",
@@ -378,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.png"
     },
     {
-      "Identity": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\images\\hearth.png",
+      "Identity": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\images\\hearth.png",
       "SourceId": "E-CommerceStore.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
       "BasePath": "_content/E-CommerceStore.WebApp",
       "RelativePath": "images/hearth.png",
       "AssetKind": "All",
@@ -397,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\images\\hearth.png"
     },
     {
-      "Identity": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\images\\shoes1.png",
+      "Identity": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\images\\shoes1.png",
       "SourceId": "E-CommerceStore.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
       "BasePath": "_content/E-CommerceStore.WebApp",
       "RelativePath": "images/shoes1.png",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\images\\shoes1.png"
     },
     {
-      "Identity": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\images\\shoes2.png",
+      "Identity": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\images\\shoes2.png",
       "SourceId": "E-CommerceStore.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
       "BasePath": "_content/E-CommerceStore.WebApp",
       "RelativePath": "images/shoes2.png",
       "AssetKind": "All",
@@ -435,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\images\\shoes2.png"
     },
     {
-      "Identity": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\images\\shoes3.png",
+      "Identity": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\images\\shoes3.png",
       "SourceId": "E-CommerceStore.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
       "BasePath": "_content/E-CommerceStore.WebApp",
       "RelativePath": "images/shoes3.png",
       "AssetKind": "All",
@@ -454,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\images\\shoes3.png"
     },
     {
-      "Identity": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\images\\trash.png",
+      "Identity": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\images\\trash.png",
       "SourceId": "E-CommerceStore.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
       "BasePath": "_content/E-CommerceStore.WebApp",
       "RelativePath": "images/trash.png",
       "AssetKind": "All",
