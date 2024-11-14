@@ -1036,18 +1036,12 @@
           "ECommerce.CoreEntityBusiness": "1.0.0"
         },
         "runtime": {
-          "E-Commerce.UseCase.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "E-Commerce.UseCase.dll": {}
         }
       },
       "ECommerce.CoreEntityBusiness/1.0.0": {
         "runtime": {
-          "ECommerce.CoreEntityBusiness.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "ECommerce.CoreEntityBusiness.dll": {}
         }
       }
     }

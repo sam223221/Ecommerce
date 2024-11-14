@@ -1,0 +1,259 @@
+﻿.main-container {
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: flex-start;
+}
+
+.product-cart {
+    flex: 3;
+    min-width: 65%;
+    margin-top: 15px;
+}
+
+.product-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    width: 100%;
+}
+
+    .product-container:hover {
+        transform: scale(1.01);
+    }
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    flex: 1;
+}
+
+.image-style {
+    height: 150px;
+    width: 160px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.product-name {
+    font-size: 22px;
+    font-weight: 700;
+    color: #333;
+    margin: 0 0 8px;
+}
+
+.product-size, .product-color {
+    font-size: 16px;
+    color: #666;
+    margin: 4px 0;
+}
+
+.item-management-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.trash-image {
+    width: 20px;
+    height: 20px;
+}
+
+.remove-text, .wishlist-text {
+    font-size: 15px;
+    color: #007bff;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+    .remove-text:hover, .wishlist-text:hover {
+        cursor: pointer;
+    }
+
+.heart-image {
+    width: 20px;
+    height: 20px;
+    margin-left: 40px;
+}
+
+.sum-container {
+    margin-left: auto;
+    margin-right: 25px;
+    margin-top: 10px;
+}
+
+.quantity-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: auto;
+}
+
+.quantity-input {
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+.price-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.price {
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.price-promotion {
+    font-size: 18px;
+    margin-top: 20px;
+    color: #999;
+    margin-right: 8px;
+    text-decoration: line-through;
+}
+
+.promotion-text {
+    color: #ff4c4c;
+    font-weight: 600;
+    font-size: 15px;
+    text-align: right;
+}
+
+.summary-container {
+    position: absolute;
+    right: 70px;
+    top: 100px;
+    width: 300px;
+    background-color: #F4F0DB;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+}
+
+.total-amount-text {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.cost-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.price-type-label {
+    font-weight: normal;
+}
+
+.price-label {
+    font-weight: bold;
+    text-align: right;
+}
+
+.line-summary {
+    border-top: 1px solid #ddd;
+    margin: 20px 0;
+}
+
+.total-amount {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.checkout-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+    .checkout-button:hover {
+        background-color: #0056b3;
+    }
+
+.right-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.promo-code-container {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    font-size: 16px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+}
+
+.promo-code-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.promo-code-input {
+    flex: 1;
+    padding: 10;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #333;
+}
+
+.apply-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+    .apply-button:hover {
+        background-color: #0056b3;
+    }

@@ -16,3 +16,21 @@ C:\Users\Sam Gleðisheygg\Documents\GitHub\SPRO-3\E-CommerceStore\E-Commerce.Use
 C:\Users\Sam Gleðisheygg\Documents\GitHub\SPRO-3\E-CommerceStore\E-Commerce.UseCase\obj\Debug\net8.0\ref\E-Commerce.UseCase.dll
 C:\Users\Sam Gleðisheygg\Documents\GitHub\SPRO-3\E-CommerceStore\E-Commerce.UseCase\bin\Debug\net8.0\E-Commerce.UseCase.runtimeconfig.json
 C:\Users\Sam Gleðisheygg\Documents\GitHub\SPRO-3\E-CommerceStore\E-Commerce.UseCase\obj\Debug\net8.0\E-Commerce.UseCase.genruntimeconfig.cache
+C:\Users\kubak\OneDrive\Pulpit\Danfoss Heating System\Ecommerce\E-CommerceStore\E-Commerce.UseCase\bin\Debug\net8.0\E-Commerce.UseCase.deps.json
+C:\Users\kubak\OneDrive\Pulpit\Danfoss Heating System\Ecommerce\E-CommerceStore\E-Commerce.UseCase\bin\Debug\net8.0\E-Commerce.UseCase.runtimeconfig.json
+C:\Users\kubak\OneDrive\Pulpit\Danfoss Heating System\Ecommerce\E-CommerceStore\E-Commerce.UseCase\bin\Debug\net8.0\E-Commerce.UseCase.dll
+C:\Users\kubak\OneDrive\Pulpit\Danfoss Heating System\Ecommerce\E-CommerceStore\E-Commerce.UseCase\bin\Debug\net8.0\E-Commerce.UseCase.pdb
+C:\Users\kubak\OneDrive\Pulpit\Danfoss Heating System\Ecommerce\E-CommerceStore\E-Commerce.UseCase\bin\Debug\net8.0\ECommerce.CoreEntityBusiness.dll
+C:\Users\kubak\OneDrive\Pulpit\Danfoss Heating System\Ecommerce\E-CommerceStore\E-Commerce.UseCase\bin\Debug\net8.0\ECommerce.CoreEntityBusiness.pdb
+C:\Users\kubak\OneDrive\Pulpit\Danfoss Heating System\Ecommerce\E-CommerceStore\E-Commerce.UseCase\obj\Debug\net8.0\E-Commerce.UseCase.csproj.AssemblyReference.cache
+C:\Users\kubak\OneDrive\Pulpit\Danfoss Heating System\Ecommerce\E-CommerceStore\E-Commerce.UseCase\obj\Debug\net8.0\E-Commerce.UseCase.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kubak\OneDrive\Pulpit\Danfoss Heating System\Ecommerce\E-CommerceStore\E-Commerce.UseCase\obj\Debug\net8.0\E-Commerce.UseCase.AssemblyInfoInputs.cache
+C:\Users\kubak\OneDrive\Pulpit\Danfoss Heating System\Ecommerce\E-CommerceStore\E-Commerce.UseCase\obj\Debug\net8.0\E-Commerce.UseCase.AssemblyInfo.cs
+C:\Users\kubak\OneDrive\Pulpit\Danfoss Heating System\Ecommerce\E-CommerceStore\E-Commerce.UseCase\obj\Debug\net8.0\E-Commerce.UseCase.csproj.CoreCompileInputs.cache
+C:\Users\kubak\OneDrive\Pulpit\Danfoss Heating System\Ecommerce\E-CommerceStore\E-Commerce.UseCase\obj\Debug\net8.0\E-Commerce.UseCase.sourcelink.json
+C:\Users\kubak\OneDrive\Pulpit\Danfoss Heating System\Ecommerce\E-CommerceStore\E-Commerce.UseCase\obj\Debug\net8.0\E-Commer.7F20A17C.Up2Date
+C:\Users\kubak\OneDrive\Pulpit\Danfoss Heating System\Ecommerce\E-CommerceStore\E-Commerce.UseCase\obj\Debug\net8.0\E-Commerce.UseCase.dll
+C:\Users\kubak\OneDrive\Pulpit\Danfoss Heating System\Ecommerce\E-CommerceStore\E-Commerce.UseCase\obj\Debug\net8.0\refint\E-Commerce.UseCase.dll
+C:\Users\kubak\OneDrive\Pulpit\Danfoss Heating System\Ecommerce\E-CommerceStore\E-Commerce.UseCase\obj\Debug\net8.0\E-Commerce.UseCase.pdb
+C:\Users\kubak\OneDrive\Pulpit\Danfoss Heating System\Ecommerce\E-CommerceStore\E-Commerce.UseCase\obj\Debug\net8.0\E-Commerce.UseCase.genruntimeconfig.cache
+C:\Users\kubak\OneDrive\Pulpit\Danfoss Heating System\Ecommerce\E-CommerceStore\E-Commerce.UseCase\obj\Debug\net8.0\ref\E-Commerce.UseCase.dll

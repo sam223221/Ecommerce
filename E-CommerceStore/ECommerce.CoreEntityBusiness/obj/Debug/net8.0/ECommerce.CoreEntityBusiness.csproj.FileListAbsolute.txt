@@ -12,3 +12,17 @@ C:\Users\Sam Gleðisheygg\Documents\GitHub\SPRO-3\E-CommerceStore\ECommerce.Core
 C:\Users\Sam Gleðisheygg\Documents\GitHub\SPRO-3\E-CommerceStore\ECommerce.CoreEntityBusiness\obj\Debug\net8.0\ref\ECommerce.CoreEntityBusiness.dll
 C:\Users\Sam Gleðisheygg\Documents\GitHub\SPRO-3\E-CommerceStore\ECommerce.CoreEntityBusiness\bin\Debug\net8.0\ECommerce.CoreEntityBusiness.runtimeconfig.json
 C:\Users\Sam Gleðisheygg\Documents\GitHub\SPRO-3\E-CommerceStore\ECommerce.CoreEntityBusiness\obj\Debug\net8.0\ECommerce.CoreEntityBusiness.genruntimeconfig.cache
+C:\Users\kubak\OneDrive\Pulpit\Danfoss Heating System\Ecommerce\E-CommerceStore\ECommerce.CoreEntityBusiness\bin\Debug\net8.0\ECommerce.CoreEntityBusiness.deps.json
+C:\Users\kubak\OneDrive\Pulpit\Danfoss Heating System\Ecommerce\E-CommerceStore\ECommerce.CoreEntityBusiness\bin\Debug\net8.0\ECommerce.CoreEntityBusiness.runtimeconfig.json
+C:\Users\kubak\OneDrive\Pulpit\Danfoss Heating System\Ecommerce\E-CommerceStore\ECommerce.CoreEntityBusiness\bin\Debug\net8.0\ECommerce.CoreEntityBusiness.dll
+C:\Users\kubak\OneDrive\Pulpit\Danfoss Heating System\Ecommerce\E-CommerceStore\ECommerce.CoreEntityBusiness\bin\Debug\net8.0\ECommerce.CoreEntityBusiness.pdb
+C:\Users\kubak\OneDrive\Pulpit\Danfoss Heating System\Ecommerce\E-CommerceStore\ECommerce.CoreEntityBusiness\obj\Debug\net8.0\ECommerce.CoreEntityBusiness.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kubak\OneDrive\Pulpit\Danfoss Heating System\Ecommerce\E-CommerceStore\ECommerce.CoreEntityBusiness\obj\Debug\net8.0\ECommerce.CoreEntityBusiness.AssemblyInfoInputs.cache
+C:\Users\kubak\OneDrive\Pulpit\Danfoss Heating System\Ecommerce\E-CommerceStore\ECommerce.CoreEntityBusiness\obj\Debug\net8.0\ECommerce.CoreEntityBusiness.AssemblyInfo.cs
+C:\Users\kubak\OneDrive\Pulpit\Danfoss Heating System\Ecommerce\E-CommerceStore\ECommerce.CoreEntityBusiness\obj\Debug\net8.0\ECommerce.CoreEntityBusiness.csproj.CoreCompileInputs.cache
+C:\Users\kubak\OneDrive\Pulpit\Danfoss Heating System\Ecommerce\E-CommerceStore\ECommerce.CoreEntityBusiness\obj\Debug\net8.0\ECommerce.CoreEntityBusiness.sourcelink.json
+C:\Users\kubak\OneDrive\Pulpit\Danfoss Heating System\Ecommerce\E-CommerceStore\ECommerce.CoreEntityBusiness\obj\Debug\net8.0\ECommerce.CoreEntityBusiness.dll
+C:\Users\kubak\OneDrive\Pulpit\Danfoss Heating System\Ecommerce\E-CommerceStore\ECommerce.CoreEntityBusiness\obj\Debug\net8.0\refint\ECommerce.CoreEntityBusiness.dll
+C:\Users\kubak\OneDrive\Pulpit\Danfoss Heating System\Ecommerce\E-CommerceStore\ECommerce.CoreEntityBusiness\obj\Debug\net8.0\ECommerce.CoreEntityBusiness.pdb
+C:\Users\kubak\OneDrive\Pulpit\Danfoss Heating System\Ecommerce\E-CommerceStore\ECommerce.CoreEntityBusiness\obj\Debug\net8.0\ECommerce.CoreEntityBusiness.genruntimeconfig.cache
+C:\Users\kubak\OneDrive\Pulpit\Danfoss Heating System\Ecommerce\E-CommerceStore\ECommerce.CoreEntityBusiness\obj\Debug\net8.0\ref\ECommerce.CoreEntityBusiness.dll

@@ -4940,23 +4940,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Sam Gleðisheygg\\.nuget\\packages\\": {},
+    "C:\\Users\\kubak\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj",
+      "projectUniqueName": "C:\\Users\\kubak\\OneDrive\\Pulpit\\Danfoss Heating System\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj",
       "projectName": "E-CommerceStore.WebApp",
-      "projectPath": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj",
-      "packagesPath": "C:\\Users\\Sam Gleðisheygg\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\obj\\",
+      "projectPath": "C:\\Users\\kubak\\OneDrive\\Pulpit\\Danfoss Heating System\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj",
+      "packagesPath": "C:\\Users\\kubak\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\kubak\\OneDrive\\Pulpit\\Danfoss Heating System\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Sam Gleðisheygg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\kubak\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4972,17 +4972,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-Commerce.Plugin.InMemmory\\E-Commerce.Plugin.InMemmory.csproj": {
-              "projectPath": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-Commerce.Plugin.InMemmory\\E-Commerce.Plugin.InMemmory.csproj"
+            "C:\\Users\\kubak\\OneDrive\\Pulpit\\Danfoss Heating System\\Ecommerce\\E-CommerceStore\\E-Commerce.Plugin.InMemmory\\E-Commerce.Plugin.InMemmory.csproj": {
+              "projectPath": "C:\\Users\\kubak\\OneDrive\\Pulpit\\Danfoss Heating System\\Ecommerce\\E-CommerceStore\\E-Commerce.Plugin.InMemmory\\E-Commerce.Plugin.InMemmory.csproj"
             },
-            "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-Commerce.Plugin.MySQL\\E-Commerce.Plugin.MySQL.csproj": {
-              "projectPath": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-Commerce.Plugin.MySQL\\E-Commerce.Plugin.MySQL.csproj"
+            "C:\\Users\\kubak\\OneDrive\\Pulpit\\Danfoss Heating System\\Ecommerce\\E-CommerceStore\\E-Commerce.Plugin.MySQL\\E-Commerce.Plugin.MySQL.csproj": {
+              "projectPath": "C:\\Users\\kubak\\OneDrive\\Pulpit\\Danfoss Heating System\\Ecommerce\\E-CommerceStore\\E-Commerce.Plugin.MySQL\\E-Commerce.Plugin.MySQL.csproj"
             },
-            "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-Commerce.UseCase\\E-Commerce.UseCase.csproj": {
-              "projectPath": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-Commerce.UseCase\\E-Commerce.UseCase.csproj"
+            "C:\\Users\\kubak\\OneDrive\\Pulpit\\Danfoss Heating System\\Ecommerce\\E-CommerceStore\\E-Commerce.UseCase\\E-Commerce.UseCase.csproj": {
+              "projectPath": "C:\\Users\\kubak\\OneDrive\\Pulpit\\Danfoss Heating System\\Ecommerce\\E-CommerceStore\\E-Commerce.UseCase\\E-Commerce.UseCase.csproj"
             },
-            "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\ECommerce.CoreEntityBusiness\\ECommerce.CoreEntityBusiness.csproj": {
-              "projectPath": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\ECommerce.CoreEntityBusiness\\ECommerce.CoreEntityBusiness.csproj"
+            "C:\\Users\\kubak\\OneDrive\\Pulpit\\Danfoss Heating System\\Ecommerce\\E-CommerceStore\\ECommerce.CoreEntityBusiness\\ECommerce.CoreEntityBusiness.csproj": {
+              "projectPath": "C:\\Users\\kubak\\OneDrive\\Pulpit\\Danfoss Heating System\\Ecommerce\\E-CommerceStore\\ECommerce.CoreEntityBusiness\\ECommerce.CoreEntityBusiness.csproj"
             }
           }
         }
@@ -5032,16 +5032,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }
