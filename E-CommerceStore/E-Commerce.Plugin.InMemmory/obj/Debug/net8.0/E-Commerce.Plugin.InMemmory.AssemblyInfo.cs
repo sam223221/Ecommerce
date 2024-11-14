@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("E-Commerce.Plugin.InMemmory")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5c43d2a585fa1fc59afe445c493c184aae7f415c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ec3a52c66039808e1e6ee6398e9735f905e2a071")]
 [assembly: System.Reflection.AssemblyProductAttribute("E-Commerce.Plugin.InMemmory")]
 [assembly: System.Reflection.AssemblyTitleAttribute("E-Commerce.Plugin.InMemmory")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
