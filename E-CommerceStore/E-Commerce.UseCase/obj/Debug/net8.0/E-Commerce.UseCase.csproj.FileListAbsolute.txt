@@ -16,3 +16,21 @@ C:\Users\Sam Gleðisheygg\Documents\GitHub\SPRO-3\E-CommerceStore\E-Commerce.Use
 C:\Users\Sam Gleðisheygg\Documents\GitHub\SPRO-3\E-CommerceStore\E-Commerce.UseCase\obj\Debug\net8.0\ref\E-Commerce.UseCase.dll
 C:\Users\Sam Gleðisheygg\Documents\GitHub\SPRO-3\E-CommerceStore\E-Commerce.UseCase\bin\Debug\net8.0\E-Commerce.UseCase.runtimeconfig.json
 C:\Users\Sam Gleðisheygg\Documents\GitHub\SPRO-3\E-CommerceStore\E-Commerce.UseCase\obj\Debug\net8.0\E-Commerce.UseCase.genruntimeconfig.cache
+C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\E-Commerce.UseCase\bin\Debug\net8.0\E-Commerce.UseCase.deps.json
+C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\E-Commerce.UseCase\bin\Debug\net8.0\E-Commerce.UseCase.runtimeconfig.json
+C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\E-Commerce.UseCase\bin\Debug\net8.0\E-Commerce.UseCase.dll
+C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\E-Commerce.UseCase\bin\Debug\net8.0\E-Commerce.UseCase.pdb
+C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\E-Commerce.UseCase\bin\Debug\net8.0\ECommerce.CoreEntityBusiness.dll
+C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\E-Commerce.UseCase\bin\Debug\net8.0\ECommerce.CoreEntityBusiness.pdb
+C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\E-Commerce.UseCase\obj\Debug\net8.0\E-Commerce.UseCase.csproj.AssemblyReference.cache
+C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\E-Commerce.UseCase\obj\Debug\net8.0\E-Commerce.UseCase.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\E-Commerce.UseCase\obj\Debug\net8.0\E-Commerce.UseCase.AssemblyInfoInputs.cache
+C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\E-Commerce.UseCase\obj\Debug\net8.0\E-Commerce.UseCase.AssemblyInfo.cs
+C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\E-Commerce.UseCase\obj\Debug\net8.0\E-Commerce.UseCase.csproj.CoreCompileInputs.cache
+C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\E-Commerce.UseCase\obj\Debug\net8.0\E-Commerce.UseCase.sourcelink.json
+C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\E-Commerce.UseCase\obj\Debug\net8.0\E-Commer.7F20A17C.Up2Date
+C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\E-Commerce.UseCase\obj\Debug\net8.0\E-Commerce.UseCase.dll
+C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\E-Commerce.UseCase\obj\Debug\net8.0\refint\E-Commerce.UseCase.dll
+C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\E-Commerce.UseCase\obj\Debug\net8.0\E-Commerce.UseCase.pdb
+C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\E-Commerce.UseCase\obj\Debug\net8.0\E-Commerce.UseCase.genruntimeconfig.cache
+C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\E-Commerce.UseCase\obj\Debug\net8.0\ref\E-Commerce.UseCase.dll

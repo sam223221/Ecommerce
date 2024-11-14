@@ -2,7 +2,27 @@ html, body {
     font-family: 'Inter', sans-serif;
     overflow-x: hidden;
     overscroll-behavior: none;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    min-height: 100%;
+    font-weight: 300;
+    letter-spacing: 0.8px;
 }
+
+.page-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    min-height: 100vh;
+}
+
+.classicpage {
+    background-color: red !important;
+    background-size: cover !important;
+    background-position: center !important;
+}
+
 
 .heading 
 {
@@ -57,18 +77,21 @@ content: "An error has occurred."
     height: 35px;
     border: 0.5px solid #222222;
     border-radius: 10px;
-    background-color: rgba(164, 155, 212, 0.3);
+    background-color: #dedcff;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 400;
     outline: none;
     border: none;
     text-align: center;
+    color: #050315;
 }
 
-.header-searchbar::placeholder 
-{
-color: rgba(10, 17, 24, 0.3);
-}
+    .header-searchbar::placeholder {
+        color: #050315;
+        opacity: 1;
+        font-style: italic;
+        font-weight: 400;
+    }
 
 .header-icons 
 {
@@ -87,13 +110,14 @@ color: rgba(10, 17, 24, 0.3);
     position: relative;
     width: 110%;
     height: 100vh;
-    background-image: url('assets/landingmainphoto.png');
+    background-image: url('assets/landingmainphoto.svg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
+    box-shadow: 0 8px 15px rgba(67, 59, 255, 0.3);
 }
 
 .electronicsshowcase {
@@ -138,7 +162,7 @@ color: rgba(10, 17, 24, 0.3);
 .products-block {
     width: 100%;
     height: 400px;
-    background-color: #A49BD4;
+    background-color: #2f27ce;
     margin-bottom: 120px;
     margin-top: 120px;
     position: relative;
@@ -150,7 +174,7 @@ color: rgba(10, 17, 24, 0.3);
 .products-block2 {
     width: 100%;
     height: 400px;
-    background-color: #8972C2;
+    background-color: #433bff;
     margin-bottom: 120px;
     margin-top: 120px;
     position: relative;
@@ -162,7 +186,7 @@ color: rgba(10, 17, 24, 0.3);
 .products-block3 {
     width: 100%;
     height: 400px;
-    background-color: #A49BD4;
+    background-color: #2f27ce;
     margin-bottom: 120px;
     margin-top: 120px;
     position: relative;
@@ -173,7 +197,7 @@ color: rgba(10, 17, 24, 0.3);
 
 
 .products-thumbnail {
-    background-color: #8972C2;
+    background-color: #433bff;
     height: 75px;
     width: 100%;
     top: -75px;
@@ -182,7 +206,7 @@ color: rgba(10, 17, 24, 0.3);
 }
 
 .products-thumbnail2 {
-    background-color: #A49BD4;
+    background-color: #433bff;
     height: 75px;
     width: 350px;
     top: -75px;
@@ -191,7 +215,7 @@ color: rgba(10, 17, 24, 0.3);
 }
 
 .products-thumbnail3 {
-    background-color: #8972C2;
+    background-color: #433bff;
     height: 75px;
     width: 500px;
     top: -75px;
@@ -200,8 +224,8 @@ color: rgba(10, 17, 24, 0.3);
 }
 
 .thumbnail {
-    color: #222222;
-    letter-spacing: 3px;
+    color: #fbfbfe;
+    letter-spacing: 2px;
     text-align: center;
     line-height: 75px;
     font-weight: 300;
@@ -210,6 +234,7 @@ color: rgba(10, 17, 24, 0.3);
 
 .item-container {
     background-color: #5582B6;
+    color: #fbfbfe;
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
     height: 325px;
     width: 320px;
@@ -248,7 +273,7 @@ color: rgba(10, 17, 24, 0.3);
 .ad-section {
     height: 750px;
     width: 100%;
-    background-color: #8972C2;
+    background-color: #2f27ce;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -268,7 +293,7 @@ color: rgba(10, 17, 24, 0.3);
     height: 350px;
     width: 850px;
     border-radius: 20px;
-    background-color: #A49BD5;
+    background-color: #dedcff;
     margin-right: 75px;
     box-shadow: 8px 8px 6px rgba(0, 0, 0, 0.2);
 }
@@ -294,21 +319,24 @@ color: rgba(10, 17, 24, 0.3);
     position: absolute;
     top: 20%;
     right: 9%;
-    padding: 20px;
-    background-color: rgba(137, 114, 194, 0.75);
+    padding: 28px 10px 28px 40px;
+    background-color: #2f27ce;
     text-align: right;
-    color: white;
+    color: #fbfbfe;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    box-shadow: 0 8px 20px rgba(67, 59, 255, 0.3), 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .title {
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight: 150;
     letter-spacing: 2px;
     margin: 0;
 }
 
 .subtitle {
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin-top: 5px;
     letter-spacing: 2px;
     font-weight: 175;
@@ -316,21 +344,31 @@ color: rgba(10, 17, 24, 0.3);
 
 .promotion-text {
     position: absolute;
-    bottom: 20px;
-    left: 20px;
-    color: rgba(164, 155, 212, 0.8); 
-    font-size: 1.55rem;
-    font-weight: 200;
+    bottom: 130px;
+    left: 0px;
+    color: rgba(164, 155, 212, 0.8);
+    font-size: 2rem;
+    font-weight: 300;
     text-transform: uppercase;
+    color: #fbfbfe;
+    background: #2f27ce;
+    padding: 28px 40px 28px 0px;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    box-shadow: 0 8px 20px rgba(67, 59, 255, 0.3), 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .footer {
-    background-color: #A49BD4; 
-    padding: 40px 20px;
+    background-color: #2f27ce;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: #222222; 
+    color: #fbfbfe;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 40px 20px;
+    flex-shrink: 0;
+    margin-bottom: 0px;
 }
 
 .footer-links {
@@ -346,16 +384,16 @@ color: rgba(10, 17, 24, 0.3);
 .footertext {
     margin: 0 0 10px;
     font-size: 1.4rem;
-    font-weight: 220;
-    color: #222222;
+    font-weight: 300;
+    color: #fbfbfe;
     font-style: normal;
     text-decoration: none;
 }
 
-.footertext:hover
-{
-    color: #FAFAFA !important;
-}
+    .footertext:hover 
+    {
+        color: #dedcff !important;
+    }
 
 .footer-payment {
     margin-right: 20px;
@@ -371,10 +409,10 @@ color: rgba(10, 17, 24, 0.3);
 }
 
 .mockup-bg-container {
-    background-image: url('/assets/landingbg.svg');
+    background-color: #FAFAFA;
     background-size: cover;
     background-position: center;
-    min-height: 90vh;
+    min-height: 75vh;
 }
 
 .landing-bg-container {
@@ -398,9 +436,134 @@ color: rgba(10, 17, 24, 0.3);
     height: 6rem;
 }
 
-.spacer {
+.spacer 
+{
     height: 7rem;
 }
+
+.littlebutton {
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    color: #050315;
+    background-color: #dedcff;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(67, 59, 255, 0.6);
+}
+
+.invimg 
+{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+    .invimg:hover {
+        cursor: pointer !important;
+    }
+
+.searchbarandbuttons {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: #2f27ce;
+    gap: 25px;
+    height: 125px;
+    width: 80vw;
+    border-radius: 30px;
+    align-items: center;
+    align-self: center;
+    vertical-align: central;
+    box-shadow: 0 8px 20px rgba(67, 59, 255, 0.4), 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.searchbar {
+    border-radius: 18px;
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    width: 800px;
+    height: 40px;
+    border: 0.5px;
+    background-color: #dedcff;
+    color: #050315;
+    border: none;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(67, 59, 255, 0.6);
+}
+
+    .searchbar:hover,
+    .searchbar:active,
+    .searchbar:focus {
+        border: none;
+        outline: none;
+    }
+
+    .styled-table {
+        background-color: #fbfbfe;
+        font-size: 18px;
+        font-weight: 100;
+        overflow: hidden;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        width: 100vw;
+    }
+
+    .styled-table th {
+        background-color: #2f27ce;
+        color: #fbfbfe;
+        font-weight: 500;
+        text-align: left;
+        padding: 15px;
+    }
+
+    .styled-table td {
+        padding: 15px;
+        border-bottom: 1px solid #dedcff;
+    }
+
+    .styled-table tr:nth-child(even) {
+        background-color: #dedcff;
+        
+    }
+
+        .styled-table tr:hover {
+            background-color: #d9d9d9;
+            color: #050315;
+            font-weight: bold;
+        }
+
+    .styled-table img {
+        max-width: 120px;
+        max-height: 120px;
+        border-radius: 25px;
+        object-fit: cover;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
+
+.text-primary {
+    color: #2f27ce;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+    .text-primary:hover {
+        color: #050315;
+        font-weight: bold;
+    }
+
+.text-danger {
+    color: red;
+    cursor: pointer;
+
+}
+
+    .text-danger:hover {
+        color: darkred;
+        font-weight: bold;
+    }
 
 
 

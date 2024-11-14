@@ -4,8 +4,9 @@
     "\\E-CommerceStore",
     "\\E-CommerceStore\\E-CommerceStore.WebApp",
     "\\E-CommerceStore\\E-CommerceStore.WebApp\\Components",
-    "\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Layout"
+    "\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Layout",
+    "\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Pages"
   ],
-  "SelectedNode": "\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Layout\\NavMenu.razor",
+  "SelectedNode": "\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Pages\\Inventory.razor",
   "PreviewInSolutionExplorer": false
 }

@@ -22,12 +22,60 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/ksuch/source/repos/IMS/Ecommerce/E-CommerceStore/E-CommerceStore.WebApp/Components/Component/ComponentAddToChart.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb21wb25lbnRcQ29tcG9uZW50QWRkVG9DaGFydC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ksuch/source/repos/IMS/Ecommerce/E-CommerceStore/E-CommerceStore.WebApp/Components/Component/ComponentAlertNotification.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb21wb25lbnRcQ29tcG9uZW50QWxlcnROb3RpZmljYXRpb24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ksuch/source/repos/IMS/Ecommerce/E-CommerceStore/E-CommerceStore.WebApp/Components/Component/ComponentCreateAccountModal.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb21wb25lbnRcQ29tcG9uZW50Q3JlYXRlQWNjb3VudE1vZGFsLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/ksuch/source/repos/IMS/Ecommerce/E-CommerceStore/E-CommerceStore.WebApp/Components/Component/ComponentCreatePoUp.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb21wb25lbnRcQ29tcG9uZW50Q3JlYXRlUG9VcC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/ksuch/source/repos/IMS/Ecommerce/E-CommerceStore/E-CommerceStore.WebApp/Components/Component/ComponentDeleteConfirmModal.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb21wb25lbnRcQ29tcG9uZW50RGVsZXRlQ29uZmlybU1vZGFsLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ksuch/source/repos/IMS/Ecommerce/E-CommerceStore/E-CommerceStore.WebApp/Components/Component/ComponentEditAccountModal.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb21wb25lbnRcQ29tcG9uZW50RWRpdEFjY291bnRNb2RhbC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ksuch/source/repos/IMS/Ecommerce/E-CommerceStore/E-CommerceStore.WebApp/Components/Component/ComponentEditProduct.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb21wb25lbnRcQ29tcG9uZW50RWRpdFByb2R1Y3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ksuch/source/repos/IMS/Ecommerce/E-CommerceStore/E-CommerceStore.WebApp/Components/Layout/Footer.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcRm9vdGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/ksuch/source/repos/IMS/Ecommerce/E-CommerceStore/E-CommerceStore.WebApp/Components/Layout/Header.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcSGVhZGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ksuch/source/repos/IMS/Ecommerce/E-CommerceStore/E-CommerceStore.WebApp/Components/Pages/AccountManagement.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBY2NvdW50TWFuYWdlbWVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ksuch/source/repos/IMS/Ecommerce/E-CommerceStore/E-CommerceStore.WebApp/Components/Pages/AccountPages/AccessDenied.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBY2NvdW50UGFnZXNcQWNjZXNzRGVuaWVkLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ksuch/source/repos/IMS/Ecommerce/E-CommerceStore/E-CommerceStore.WebApp/Components/Pages/AccountPages/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBY2NvdW50UGFnZXNcTG9naW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ksuch/source/repos/IMS/Ecommerce/E-CommerceStore/E-CommerceStore.WebApp/Components/Pages/AccountPages/Logout.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBY2NvdW50UGFnZXNcTG9nb3V0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ksuch/source/repos/IMS/Ecommerce/E-CommerceStore/E-CommerceStore.WebApp/Components/Pages/AccountPages/Registration.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBY2NvdW50UGFnZXNcUmVnaXN0cmF0aW9uLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ksuch/source/repos/IMS/Ecommerce/E-CommerceStore/E-CommerceStore.WebApp/Components/Pages/Counter.razor]
@@ -44,6 +92,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/ksuch/source/repos/IMS/Ecommerce/E-CommerceStore/E-CommerceStore.WebApp/Components/Pages/Inventory.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xJbnZlbnRvcnkucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ksuch/source/repos/IMS/Ecommerce/E-CommerceStore/E-CommerceStore.WebApp/Components/Pages/LoremIpsum.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xMb3JlbUlwc3VtLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ksuch/source/repos/IMS/Ecommerce/E-CommerceStore/E-CommerceStore.WebApp/Components/Pages/ShoppingCart.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xTaG9wcGluZ0NhcnQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ksuch/source/repos/IMS/Ecommerce/E-CommerceStore/E-CommerceStore.WebApp/Components/Routes.razor]
