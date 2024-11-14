@@ -104,7 +104,6 @@
 
         isLoading = false;
         UpdateTotalCost();
-        StateHasChanged();
     }
 
     private async Task RemoveItem(shopingCart item)
@@ -113,30 +112,30 @@
         {
             userAccount.ShopingCart.Remove(item);
             await AccountsService.UpdateAccountAsync(userAccount);
+            await Task.Delay(100);
             UpdateTotalCost();
-            StateHasChanged();
         }
     }
 
-    private async Task UpdateTotalCost(shopingCart quantityChange = null)
+    private async Task UpdateTotalCost(shopingCart? quantityChange = null)
     {
-        _debounceTokenSource?.Cancel();
-        _debounceTokenSource = new CancellationTokenSource();
-        var token = _debounceTokenSource.Token;
-
-        // Wait for a short period (300 ms) to see if there are input events
-        try
-        {
-            await Task.Delay(300, token);
-        }
-        catch (TaskCanceledException)
-        {
-            // The delay was canceled, meaning another input occurred
-            return;
-        }
-
         if (quantityChange != null)
         {
+            _debounceTokenSource?.Cancel();
+            _debounceTokenSource = new CancellationTokenSource();
+            var token = _debounceTokenSource.Token;
+            
+            // Wait for a short period (300 ms) to see if there are input events
+            try
+            {
+                await Task.Delay(300, token);
+            }
+            catch (TaskCanceledException)
+            {
+                // The delay was canceled, meaning another input occurred
+                return;
+            }
+       
             userAccount.ShopingCart.Find(p => p.Equals(quantityChange)).Quantity = quantityChange.Quantity;
             await AccountsService.UpdateAccountAsync(userAccount);
         }
