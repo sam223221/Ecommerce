@@ -23,4 +23,11 @@
     <ProjectReference Include="..\ECommerce.CoreEntityBusiness\ECommerce.CoreEntityBusiness.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Update="Components\Pages\ShoppingCart.razor">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+
 </Project>
