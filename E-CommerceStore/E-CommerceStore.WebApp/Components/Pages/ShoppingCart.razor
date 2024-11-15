@@ -6,71 +6,77 @@
 
 @inject IAccountsService AccountsService
 @inject AuthenticationStateProvider AuthenticationStateProvider
+<div class="mockup-bg-container">
+    
+    <div class="main-container">
+        @if (isLoading)
+        {
+            <div class="product-cart">
+                <p class="product-container" style="margin-top: 10px" >Loading shopping cart...</p>
+            </div>
+        }
+        else if (userAccount?.ShopingCart != null && userAccount.ShopingCart.Count > 0)
+        {
+            <div class="product-cart">
 
-<div class="main-container">
-    @if (isLoading)
-    {
-        <p>Loading shopping cart...</p>
-    }
-    else if (userAccount?.ShopingCart != null && userAccount.ShopingCart.Count > 0)
-    {
-        <div class="product-cart">
-
-            @foreach (var item in userAccount.ShopingCart)
-            {
-                <div class="product-container" style="margin-top: 10px">
-                    <img src="@item.Product.ImageUrl" class="image-style" />
-                    <div class="text-container">
-                        <p class="product-name">@item.Product.ProductName</p>
-                        <p class="product-size">@item.Product.Description</p>
-                        <div class="item-management-container">
-                            <img src="/images/trash.png" class="trash-image" />
-                            <p class="remove-text" @onclick="() => RemoveItem(item)">Remove</p>
+                @foreach (var item in userAccount.ShopingCart)
+                {
+                    <div class="product-container" style="margin-top: 10px">
+                        <img src="@item.Product.ImageUrl" class="image-style" />
+                        <div class="text-container">
+                            <p class="product-name">@item.Product.ProductName</p>
+                            <p class="product-size">@item.Product.Description</p>
+                            <div class="item-management-container">
+                                <img src="/images/trash.png" class="trash-image" />
+                                <p class="remove-text" @onclick="() => RemoveItem(item)">Remove</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="sum-container">
-                        <div class="quantity-container">
-                            <p>Quantity</p>
-                            <input type="number" class="quantity-input" min="1" @bind="item.Quantity" max="@item.Product.Quantity" @oninput="() => UpdateTotalCost(item)" />
-                        </div>
-                        <div class="price-container">
-                            <p class="price-promotion">$119</p>
-                            <p class="price">@item.Product.Price</p>
-                        </div>
+                        <div class="sum-container">
+                            <div class="quantity-container">
+                                <p>Quantity</p>
+                                <input type="number" class="quantity-input" min="1" @bind="item.Quantity" max="@item.Product.Quantity" @oninput="() => UpdateTotalCost(item)" />
+                            </div>
+                            <div class="price-container">
+                                <p class="price-promotion">$119</p>
+                                <p class="price">@item.Product.Price</p>
+                            </div>
                         
+                        </div>
                     </div>
-                </div>
-            }
+                }
+            </div>
+        }
+        else
+        {
+            <div class="product-cart">
+                <p class="promotion-text">You have 0 items in the shopping cart.</p>
+            </div>
+            
+        }
+    </div>
+
+    <!-- Check Out -->
+    <div class="summary-container">
+        <p class="total-amount-text">The total amount of </p>
+        <div class="cost-container">
+            <p class="price-type-label">Temporary amount</p>
+            <p class="price-label">@cost kr</p>
         </div>
-    }
-    else
-    {
-        <p class="promotion-text">You have 0 items in the shopping cart.</p>
-    }
+        <div class="cost-container">
+            <p class="price-type-label">Shipping</p>
+            <p class="price-label">Gratis</p>
+        </div>
+        <div class="line-summary" />
+        <div class="total-amount">
+            <p class="total-sum-text">The total amount of (including VAT)</p>
+            <p class="total-sum-text" style="font-size: 19px;">@cost kr</p>
+        </div>
+        <button class="checkout-button">
+            <p class="checkout-text">GO TO CHECKOUT</p>
+        </button>
+    </div>
+
 </div>
-
-<!-- Check Out -->
-<div class="summary-container">
-    <p class="total-amount-text">The total amount of </p>
-    <div class="cost-container">
-        <p class="price-type-label">Temporary amount</p>
-        <p class="price-label">@cost kr</p>
-    </div>
-    <div class="cost-container">
-        <p class="price-type-label">Shipping</p>
-        <p class="price-label">Gratis</p>
-    </div>
-    <div class="line-summary" />
-    <div class="total-amount">
-        <p class="total-sum-text">The total amount of (including VAT)</p>
-        <p class="total-sum-text" style="font-size: 19px;">@cost kr</p>
-    </div>
-    <button class="checkout-button">
-        <p class="checkout-text">GO TO CHECKOUT</p>
-    </button>
-</div>
-
-
 
 @code {
     private Account? userAccount;

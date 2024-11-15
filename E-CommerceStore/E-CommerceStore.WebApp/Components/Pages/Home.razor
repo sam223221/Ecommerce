@@ -136,8 +136,8 @@
     {
         Products = await ProductService.GetAllProductsExecuteAsync();
         bestSeller = Products.Take(4).ToList();
-        keyboards = Products.Where(p => p.ProductName.Contains("keyboard", StringComparison.OrdinalIgnoreCase)).ToList();
-        gaming = Products.Where(p => p.ProductName.Contains("gaming", StringComparison.OrdinalIgnoreCase)).ToList();
+        keyboards = Products.Where(p => p.ProductName.Contains("keyboard", StringComparison.OrdinalIgnoreCase)).Take(4).ToList();
+        gaming = Products.Where(p => p.ProductName.Contains("gaming", StringComparison.OrdinalIgnoreCase)).Take(4).ToList();
     }
     
  }
