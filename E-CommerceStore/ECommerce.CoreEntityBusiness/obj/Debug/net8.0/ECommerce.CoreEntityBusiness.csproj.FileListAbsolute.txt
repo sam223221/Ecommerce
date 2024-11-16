@@ -12,22 +12,6 @@ C:\Users\Sam Gleðisheygg\Documents\GitHub\SPRO-3\E-CommerceStore\ECommerce.Core
 C:\Users\Sam Gleðisheygg\Documents\GitHub\SPRO-3\E-CommerceStore\ECommerce.CoreEntityBusiness\obj\Debug\net8.0\ref\ECommerce.CoreEntityBusiness.dll
 C:\Users\Sam Gleðisheygg\Documents\GitHub\SPRO-3\E-CommerceStore\ECommerce.CoreEntityBusiness\bin\Debug\net8.0\ECommerce.CoreEntityBusiness.runtimeconfig.json
 C:\Users\Sam Gleðisheygg\Documents\GitHub\SPRO-3\E-CommerceStore\ECommerce.CoreEntityBusiness\obj\Debug\net8.0\ECommerce.CoreEntityBusiness.genruntimeconfig.cache
-<<<<<<< HEAD
-C:\Users\kubak\OneDrive\Pulpit\Danfoss Heating System\Ecommerce\E-CommerceStore\ECommerce.CoreEntityBusiness\bin\Debug\net8.0\ECommerce.CoreEntityBusiness.deps.json
-C:\Users\kubak\OneDrive\Pulpit\Danfoss Heating System\Ecommerce\E-CommerceStore\ECommerce.CoreEntityBusiness\bin\Debug\net8.0\ECommerce.CoreEntityBusiness.runtimeconfig.json
-C:\Users\kubak\OneDrive\Pulpit\Danfoss Heating System\Ecommerce\E-CommerceStore\ECommerce.CoreEntityBusiness\bin\Debug\net8.0\ECommerce.CoreEntityBusiness.dll
-C:\Users\kubak\OneDrive\Pulpit\Danfoss Heating System\Ecommerce\E-CommerceStore\ECommerce.CoreEntityBusiness\bin\Debug\net8.0\ECommerce.CoreEntityBusiness.pdb
-C:\Users\kubak\OneDrive\Pulpit\Danfoss Heating System\Ecommerce\E-CommerceStore\ECommerce.CoreEntityBusiness\obj\Debug\net8.0\ECommerce.CoreEntityBusiness.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\kubak\OneDrive\Pulpit\Danfoss Heating System\Ecommerce\E-CommerceStore\ECommerce.CoreEntityBusiness\obj\Debug\net8.0\ECommerce.CoreEntityBusiness.AssemblyInfoInputs.cache
-C:\Users\kubak\OneDrive\Pulpit\Danfoss Heating System\Ecommerce\E-CommerceStore\ECommerce.CoreEntityBusiness\obj\Debug\net8.0\ECommerce.CoreEntityBusiness.AssemblyInfo.cs
-C:\Users\kubak\OneDrive\Pulpit\Danfoss Heating System\Ecommerce\E-CommerceStore\ECommerce.CoreEntityBusiness\obj\Debug\net8.0\ECommerce.CoreEntityBusiness.csproj.CoreCompileInputs.cache
-C:\Users\kubak\OneDrive\Pulpit\Danfoss Heating System\Ecommerce\E-CommerceStore\ECommerce.CoreEntityBusiness\obj\Debug\net8.0\ECommerce.CoreEntityBusiness.sourcelink.json
-C:\Users\kubak\OneDrive\Pulpit\Danfoss Heating System\Ecommerce\E-CommerceStore\ECommerce.CoreEntityBusiness\obj\Debug\net8.0\ECommerce.CoreEntityBusiness.dll
-C:\Users\kubak\OneDrive\Pulpit\Danfoss Heating System\Ecommerce\E-CommerceStore\ECommerce.CoreEntityBusiness\obj\Debug\net8.0\refint\ECommerce.CoreEntityBusiness.dll
-C:\Users\kubak\OneDrive\Pulpit\Danfoss Heating System\Ecommerce\E-CommerceStore\ECommerce.CoreEntityBusiness\obj\Debug\net8.0\ECommerce.CoreEntityBusiness.pdb
-C:\Users\kubak\OneDrive\Pulpit\Danfoss Heating System\Ecommerce\E-CommerceStore\ECommerce.CoreEntityBusiness\obj\Debug\net8.0\ECommerce.CoreEntityBusiness.genruntimeconfig.cache
-C:\Users\kubak\OneDrive\Pulpit\Danfoss Heating System\Ecommerce\E-CommerceStore\ECommerce.CoreEntityBusiness\obj\Debug\net8.0\ref\ECommerce.CoreEntityBusiness.dll
-=======
 C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\ECommerce.CoreEntityBusiness\bin\Debug\net8.0\ECommerce.CoreEntityBusiness.deps.json
 C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\ECommerce.CoreEntityBusiness\bin\Debug\net8.0\ECommerce.CoreEntityBusiness.runtimeconfig.json
 C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\ECommerce.CoreEntityBusiness\bin\Debug\net8.0\ECommerce.CoreEntityBusiness.dll
@@ -42,4 +26,30 @@ C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\ECommerce.CoreEntityBu
 C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\ECommerce.CoreEntityBusiness\obj\Debug\net8.0\ECommerce.CoreEntityBusiness.pdb
 C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\ECommerce.CoreEntityBusiness\obj\Debug\net8.0\ECommerce.CoreEntityBusiness.genruntimeconfig.cache
 C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\ECommerce.CoreEntityBusiness\obj\Debug\net8.0\ref\ECommerce.CoreEntityBusiness.dll
->>>>>>> new-frontend-;)
+C:\Users\samgl\Documents\GitHub\Ecommerce\E-CommerceStore\ECommerce.CoreEntityBusiness\bin\Debug\net8.0\ECommerce.CoreEntityBusiness.deps.json
+C:\Users\samgl\Documents\GitHub\Ecommerce\E-CommerceStore\ECommerce.CoreEntityBusiness\bin\Debug\net8.0\ECommerce.CoreEntityBusiness.runtimeconfig.json
+C:\Users\samgl\Documents\GitHub\Ecommerce\E-CommerceStore\ECommerce.CoreEntityBusiness\bin\Debug\net8.0\ECommerce.CoreEntityBusiness.dll
+C:\Users\samgl\Documents\GitHub\Ecommerce\E-CommerceStore\ECommerce.CoreEntityBusiness\bin\Debug\net8.0\ECommerce.CoreEntityBusiness.pdb
+C:\Users\samgl\Documents\GitHub\Ecommerce\E-CommerceStore\ECommerce.CoreEntityBusiness\obj\Debug\net8.0\ECommerce.CoreEntityBusiness.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\samgl\Documents\GitHub\Ecommerce\E-CommerceStore\ECommerce.CoreEntityBusiness\obj\Debug\net8.0\ECommerce.CoreEntityBusiness.AssemblyInfoInputs.cache
+C:\Users\samgl\Documents\GitHub\Ecommerce\E-CommerceStore\ECommerce.CoreEntityBusiness\obj\Debug\net8.0\ECommerce.CoreEntityBusiness.AssemblyInfo.cs
+C:\Users\samgl\Documents\GitHub\Ecommerce\E-CommerceStore\ECommerce.CoreEntityBusiness\obj\Debug\net8.0\ECommerce.CoreEntityBusiness.csproj.CoreCompileInputs.cache
+C:\Users\samgl\Documents\GitHub\Ecommerce\E-CommerceStore\ECommerce.CoreEntityBusiness\obj\Debug\net8.0\ECommerce.CoreEntityBusiness.sourcelink.json
+C:\Users\samgl\Documents\GitHub\Ecommerce\E-CommerceStore\ECommerce.CoreEntityBusiness\obj\Debug\net8.0\ECommerce.CoreEntityBusiness.dll
+C:\Users\samgl\Documents\GitHub\Ecommerce\E-CommerceStore\ECommerce.CoreEntityBusiness\obj\Debug\net8.0\refint\ECommerce.CoreEntityBusiness.dll
+C:\Users\samgl\Documents\GitHub\Ecommerce\E-CommerceStore\ECommerce.CoreEntityBusiness\obj\Debug\net8.0\ECommerce.CoreEntityBusiness.pdb
+C:\Users\samgl\Documents\GitHub\Ecommerce\E-CommerceStore\ECommerce.CoreEntityBusiness\obj\Debug\net8.0\ECommerce.CoreEntityBusiness.genruntimeconfig.cache
+C:\Users\samgl\Documents\GitHub\Ecommerce\E-CommerceStore\ECommerce.CoreEntityBusiness\obj\Debug\net8.0\ref\ECommerce.CoreEntityBusiness.dll
+C:\Users\Sam Gleðisheygg\Desktop\New folder (2)\E-CommerceStore\ECommerce.CoreEntityBusiness\bin\Debug\net8.0\ECommerce.CoreEntityBusiness.deps.json
+C:\Users\Sam Gleðisheygg\Desktop\New folder (2)\E-CommerceStore\ECommerce.CoreEntityBusiness\bin\Debug\net8.0\ECommerce.CoreEntityBusiness.runtimeconfig.json
+C:\Users\Sam Gleðisheygg\Desktop\New folder (2)\E-CommerceStore\ECommerce.CoreEntityBusiness\bin\Debug\net8.0\ECommerce.CoreEntityBusiness.dll
+C:\Users\Sam Gleðisheygg\Desktop\New folder (2)\E-CommerceStore\ECommerce.CoreEntityBusiness\bin\Debug\net8.0\ECommerce.CoreEntityBusiness.pdb
+C:\Users\Sam Gleðisheygg\Desktop\New folder (2)\E-CommerceStore\ECommerce.CoreEntityBusiness\obj\Debug\net8.0\ECommerce.CoreEntityBusiness.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sam Gleðisheygg\Desktop\New folder (2)\E-CommerceStore\ECommerce.CoreEntityBusiness\obj\Debug\net8.0\ECommerce.CoreEntityBusiness.AssemblyInfoInputs.cache
+C:\Users\Sam Gleðisheygg\Desktop\New folder (2)\E-CommerceStore\ECommerce.CoreEntityBusiness\obj\Debug\net8.0\ECommerce.CoreEntityBusiness.AssemblyInfo.cs
+C:\Users\Sam Gleðisheygg\Desktop\New folder (2)\E-CommerceStore\ECommerce.CoreEntityBusiness\obj\Debug\net8.0\ECommerce.CoreEntityBusiness.csproj.CoreCompileInputs.cache
+C:\Users\Sam Gleðisheygg\Desktop\New folder (2)\E-CommerceStore\ECommerce.CoreEntityBusiness\obj\Debug\net8.0\ECommerce.CoreEntityBusiness.dll
+C:\Users\Sam Gleðisheygg\Desktop\New folder (2)\E-CommerceStore\ECommerce.CoreEntityBusiness\obj\Debug\net8.0\refint\ECommerce.CoreEntityBusiness.dll
+C:\Users\Sam Gleðisheygg\Desktop\New folder (2)\E-CommerceStore\ECommerce.CoreEntityBusiness\obj\Debug\net8.0\ECommerce.CoreEntityBusiness.pdb
+C:\Users\Sam Gleðisheygg\Desktop\New folder (2)\E-CommerceStore\ECommerce.CoreEntityBusiness\obj\Debug\net8.0\ECommerce.CoreEntityBusiness.genruntimeconfig.cache
+C:\Users\Sam Gleðisheygg\Desktop\New folder (2)\E-CommerceStore\ECommerce.CoreEntityBusiness\obj\Debug\net8.0\ref\ECommerce.CoreEntityBusiness.dll

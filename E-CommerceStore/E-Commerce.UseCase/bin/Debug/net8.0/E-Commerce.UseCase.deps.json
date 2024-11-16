@@ -516,7 +516,10 @@
       "System.Threading.Channels/6.0.0": {},
       "ECommerce.CoreEntityBusiness/1.0.0": {
         "runtime": {
-          "ECommerce.CoreEntityBusiness.dll": {}
+          "ECommerce.CoreEntityBusiness.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

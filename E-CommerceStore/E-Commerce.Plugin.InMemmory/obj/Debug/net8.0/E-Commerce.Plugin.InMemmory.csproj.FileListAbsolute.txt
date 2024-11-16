@@ -18,28 +18,6 @@ C:\Users\Sam Gleðisheygg\Documents\GitHub\SPRO-3\E-CommerceStore\E-Commerce.Plu
 C:\Users\Sam Gleðisheygg\Documents\GitHub\SPRO-3\E-CommerceStore\E-Commerce.Plugin.InMemmory\obj\Debug\net8.0\ref\E-Commerce.Plugin.InMemmory.dll
 C:\Users\Sam Gleðisheygg\Documents\GitHub\SPRO-3\E-CommerceStore\E-Commerce.Plugin.InMemmory\bin\Debug\net8.0\E-Commerce.Plugin.InMemmory.runtimeconfig.json
 C:\Users\Sam Gleðisheygg\Documents\GitHub\SPRO-3\E-CommerceStore\E-Commerce.Plugin.InMemmory\obj\Debug\net8.0\E-Commerce.Plugin.InMemmory.genruntimeconfig.cache
-<<<<<<< HEAD
-C:\Users\kubak\OneDrive\Pulpit\Danfoss Heating System\Ecommerce\E-CommerceStore\E-Commerce.Plugin.InMemmory\bin\Debug\net8.0\E-Commerce.Plugin.InMemmory.deps.json
-C:\Users\kubak\OneDrive\Pulpit\Danfoss Heating System\Ecommerce\E-CommerceStore\E-Commerce.Plugin.InMemmory\bin\Debug\net8.0\E-Commerce.Plugin.InMemmory.runtimeconfig.json
-C:\Users\kubak\OneDrive\Pulpit\Danfoss Heating System\Ecommerce\E-CommerceStore\E-Commerce.Plugin.InMemmory\bin\Debug\net8.0\E-Commerce.Plugin.InMemmory.dll
-C:\Users\kubak\OneDrive\Pulpit\Danfoss Heating System\Ecommerce\E-CommerceStore\E-Commerce.Plugin.InMemmory\bin\Debug\net8.0\E-Commerce.Plugin.InMemmory.pdb
-C:\Users\kubak\OneDrive\Pulpit\Danfoss Heating System\Ecommerce\E-CommerceStore\E-Commerce.Plugin.InMemmory\bin\Debug\net8.0\E-Commerce.UseCase.dll
-C:\Users\kubak\OneDrive\Pulpit\Danfoss Heating System\Ecommerce\E-CommerceStore\E-Commerce.Plugin.InMemmory\bin\Debug\net8.0\ECommerce.CoreEntityBusiness.dll
-C:\Users\kubak\OneDrive\Pulpit\Danfoss Heating System\Ecommerce\E-CommerceStore\E-Commerce.Plugin.InMemmory\bin\Debug\net8.0\E-Commerce.UseCase.pdb
-C:\Users\kubak\OneDrive\Pulpit\Danfoss Heating System\Ecommerce\E-CommerceStore\E-Commerce.Plugin.InMemmory\bin\Debug\net8.0\ECommerce.CoreEntityBusiness.pdb
-C:\Users\kubak\OneDrive\Pulpit\Danfoss Heating System\Ecommerce\E-CommerceStore\E-Commerce.Plugin.InMemmory\obj\Debug\net8.0\E-Commerce.Plugin.InMemmory.csproj.AssemblyReference.cache
-C:\Users\kubak\OneDrive\Pulpit\Danfoss Heating System\Ecommerce\E-CommerceStore\E-Commerce.Plugin.InMemmory\obj\Debug\net8.0\E-Commerce.Plugin.InMemmory.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\kubak\OneDrive\Pulpit\Danfoss Heating System\Ecommerce\E-CommerceStore\E-Commerce.Plugin.InMemmory\obj\Debug\net8.0\E-Commerce.Plugin.InMemmory.AssemblyInfoInputs.cache
-C:\Users\kubak\OneDrive\Pulpit\Danfoss Heating System\Ecommerce\E-CommerceStore\E-Commerce.Plugin.InMemmory\obj\Debug\net8.0\E-Commerce.Plugin.InMemmory.AssemblyInfo.cs
-C:\Users\kubak\OneDrive\Pulpit\Danfoss Heating System\Ecommerce\E-CommerceStore\E-Commerce.Plugin.InMemmory\obj\Debug\net8.0\E-Commerce.Plugin.InMemmory.csproj.CoreCompileInputs.cache
-C:\Users\kubak\OneDrive\Pulpit\Danfoss Heating System\Ecommerce\E-CommerceStore\E-Commerce.Plugin.InMemmory\obj\Debug\net8.0\E-Commerce.Plugin.InMemmory.sourcelink.json
-C:\Users\kubak\OneDrive\Pulpit\Danfoss Heating System\Ecommerce\E-CommerceStore\E-Commerce.Plugin.InMemmory\obj\Debug\net8.0\E-Commer.7336AE0B.Up2Date
-C:\Users\kubak\OneDrive\Pulpit\Danfoss Heating System\Ecommerce\E-CommerceStore\E-Commerce.Plugin.InMemmory\obj\Debug\net8.0\E-Commerce.Plugin.InMemmory.dll
-C:\Users\kubak\OneDrive\Pulpit\Danfoss Heating System\Ecommerce\E-CommerceStore\E-Commerce.Plugin.InMemmory\obj\Debug\net8.0\refint\E-Commerce.Plugin.InMemmory.dll
-C:\Users\kubak\OneDrive\Pulpit\Danfoss Heating System\Ecommerce\E-CommerceStore\E-Commerce.Plugin.InMemmory\obj\Debug\net8.0\E-Commerce.Plugin.InMemmory.pdb
-C:\Users\kubak\OneDrive\Pulpit\Danfoss Heating System\Ecommerce\E-CommerceStore\E-Commerce.Plugin.InMemmory\obj\Debug\net8.0\E-Commerce.Plugin.InMemmory.genruntimeconfig.cache
-C:\Users\kubak\OneDrive\Pulpit\Danfoss Heating System\Ecommerce\E-CommerceStore\E-Commerce.Plugin.InMemmory\obj\Debug\net8.0\ref\E-Commerce.Plugin.InMemmory.dll
-=======
 C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\E-Commerce.Plugin.InMemmory\bin\Debug\net8.0\E-Commerce.Plugin.InMemmory.deps.json
 C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\E-Commerce.Plugin.InMemmory\bin\Debug\net8.0\E-Commerce.Plugin.InMemmory.runtimeconfig.json
 C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\E-Commerce.Plugin.InMemmory\bin\Debug\net8.0\E-Commerce.Plugin.InMemmory.dll
@@ -60,4 +38,42 @@ C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\E-Commerce.Plugin.InMe
 C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\E-Commerce.Plugin.InMemmory\obj\Debug\net8.0\E-Commerce.Plugin.InMemmory.pdb
 C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\E-Commerce.Plugin.InMemmory\obj\Debug\net8.0\E-Commerce.Plugin.InMemmory.genruntimeconfig.cache
 C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\E-Commerce.Plugin.InMemmory\obj\Debug\net8.0\ref\E-Commerce.Plugin.InMemmory.dll
->>>>>>> new-frontend-;)
+C:\Users\samgl\Documents\GitHub\Ecommerce\E-CommerceStore\E-Commerce.Plugin.InMemmory\bin\Debug\net8.0\E-Commerce.Plugin.InMemmory.deps.json
+C:\Users\samgl\Documents\GitHub\Ecommerce\E-CommerceStore\E-Commerce.Plugin.InMemmory\bin\Debug\net8.0\E-Commerce.Plugin.InMemmory.runtimeconfig.json
+C:\Users\samgl\Documents\GitHub\Ecommerce\E-CommerceStore\E-Commerce.Plugin.InMemmory\bin\Debug\net8.0\E-Commerce.Plugin.InMemmory.dll
+C:\Users\samgl\Documents\GitHub\Ecommerce\E-CommerceStore\E-Commerce.Plugin.InMemmory\bin\Debug\net8.0\E-Commerce.Plugin.InMemmory.pdb
+C:\Users\samgl\Documents\GitHub\Ecommerce\E-CommerceStore\E-Commerce.Plugin.InMemmory\bin\Debug\net8.0\E-Commerce.UseCase.dll
+C:\Users\samgl\Documents\GitHub\Ecommerce\E-CommerceStore\E-Commerce.Plugin.InMemmory\bin\Debug\net8.0\ECommerce.CoreEntityBusiness.dll
+C:\Users\samgl\Documents\GitHub\Ecommerce\E-CommerceStore\E-Commerce.Plugin.InMemmory\bin\Debug\net8.0\E-Commerce.UseCase.pdb
+C:\Users\samgl\Documents\GitHub\Ecommerce\E-CommerceStore\E-Commerce.Plugin.InMemmory\bin\Debug\net8.0\ECommerce.CoreEntityBusiness.pdb
+C:\Users\samgl\Documents\GitHub\Ecommerce\E-CommerceStore\E-Commerce.Plugin.InMemmory\obj\Debug\net8.0\E-Commerce.Plugin.InMemmory.csproj.AssemblyReference.cache
+C:\Users\samgl\Documents\GitHub\Ecommerce\E-CommerceStore\E-Commerce.Plugin.InMemmory\obj\Debug\net8.0\E-Commerce.Plugin.InMemmory.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\samgl\Documents\GitHub\Ecommerce\E-CommerceStore\E-Commerce.Plugin.InMemmory\obj\Debug\net8.0\E-Commerce.Plugin.InMemmory.AssemblyInfoInputs.cache
+C:\Users\samgl\Documents\GitHub\Ecommerce\E-CommerceStore\E-Commerce.Plugin.InMemmory\obj\Debug\net8.0\E-Commerce.Plugin.InMemmory.AssemblyInfo.cs
+C:\Users\samgl\Documents\GitHub\Ecommerce\E-CommerceStore\E-Commerce.Plugin.InMemmory\obj\Debug\net8.0\E-Commerce.Plugin.InMemmory.csproj.CoreCompileInputs.cache
+C:\Users\samgl\Documents\GitHub\Ecommerce\E-CommerceStore\E-Commerce.Plugin.InMemmory\obj\Debug\net8.0\E-Commerce.Plugin.InMemmory.sourcelink.json
+C:\Users\samgl\Documents\GitHub\Ecommerce\E-CommerceStore\E-Commerce.Plugin.InMemmory\obj\Debug\net8.0\E-Commer.7336AE0B.Up2Date
+C:\Users\samgl\Documents\GitHub\Ecommerce\E-CommerceStore\E-Commerce.Plugin.InMemmory\obj\Debug\net8.0\E-Commerce.Plugin.InMemmory.dll
+C:\Users\samgl\Documents\GitHub\Ecommerce\E-CommerceStore\E-Commerce.Plugin.InMemmory\obj\Debug\net8.0\refint\E-Commerce.Plugin.InMemmory.dll
+C:\Users\samgl\Documents\GitHub\Ecommerce\E-CommerceStore\E-Commerce.Plugin.InMemmory\obj\Debug\net8.0\E-Commerce.Plugin.InMemmory.pdb
+C:\Users\samgl\Documents\GitHub\Ecommerce\E-CommerceStore\E-Commerce.Plugin.InMemmory\obj\Debug\net8.0\E-Commerce.Plugin.InMemmory.genruntimeconfig.cache
+C:\Users\samgl\Documents\GitHub\Ecommerce\E-CommerceStore\E-Commerce.Plugin.InMemmory\obj\Debug\net8.0\ref\E-Commerce.Plugin.InMemmory.dll
+C:\Users\Sam Gleðisheygg\Desktop\New folder (2)\E-CommerceStore\E-Commerce.Plugin.InMemmory\bin\Debug\net8.0\E-Commerce.Plugin.InMemmory.deps.json
+C:\Users\Sam Gleðisheygg\Desktop\New folder (2)\E-CommerceStore\E-Commerce.Plugin.InMemmory\bin\Debug\net8.0\E-Commerce.Plugin.InMemmory.runtimeconfig.json
+C:\Users\Sam Gleðisheygg\Desktop\New folder (2)\E-CommerceStore\E-Commerce.Plugin.InMemmory\bin\Debug\net8.0\E-Commerce.Plugin.InMemmory.dll
+C:\Users\Sam Gleðisheygg\Desktop\New folder (2)\E-CommerceStore\E-Commerce.Plugin.InMemmory\bin\Debug\net8.0\E-Commerce.Plugin.InMemmory.pdb
+C:\Users\Sam Gleðisheygg\Desktop\New folder (2)\E-CommerceStore\E-Commerce.Plugin.InMemmory\bin\Debug\net8.0\E-Commerce.UseCase.dll
+C:\Users\Sam Gleðisheygg\Desktop\New folder (2)\E-CommerceStore\E-Commerce.Plugin.InMemmory\bin\Debug\net8.0\ECommerce.CoreEntityBusiness.dll
+C:\Users\Sam Gleðisheygg\Desktop\New folder (2)\E-CommerceStore\E-Commerce.Plugin.InMemmory\bin\Debug\net8.0\E-Commerce.UseCase.pdb
+C:\Users\Sam Gleðisheygg\Desktop\New folder (2)\E-CommerceStore\E-Commerce.Plugin.InMemmory\bin\Debug\net8.0\ECommerce.CoreEntityBusiness.pdb
+C:\Users\Sam Gleðisheygg\Desktop\New folder (2)\E-CommerceStore\E-Commerce.Plugin.InMemmory\obj\Debug\net8.0\E-Commerce.Plugin.InMemmory.csproj.AssemblyReference.cache
+C:\Users\Sam Gleðisheygg\Desktop\New folder (2)\E-CommerceStore\E-Commerce.Plugin.InMemmory\obj\Debug\net8.0\E-Commerce.Plugin.InMemmory.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sam Gleðisheygg\Desktop\New folder (2)\E-CommerceStore\E-Commerce.Plugin.InMemmory\obj\Debug\net8.0\E-Commerce.Plugin.InMemmory.AssemblyInfoInputs.cache
+C:\Users\Sam Gleðisheygg\Desktop\New folder (2)\E-CommerceStore\E-Commerce.Plugin.InMemmory\obj\Debug\net8.0\E-Commerce.Plugin.InMemmory.AssemblyInfo.cs
+C:\Users\Sam Gleðisheygg\Desktop\New folder (2)\E-CommerceStore\E-Commerce.Plugin.InMemmory\obj\Debug\net8.0\E-Commerce.Plugin.InMemmory.csproj.CoreCompileInputs.cache
+C:\Users\Sam Gleðisheygg\Desktop\New folder (2)\E-CommerceStore\E-Commerce.Plugin.InMemmory\obj\Debug\net8.0\E-Commer.7336AE0B.Up2Date
+C:\Users\Sam Gleðisheygg\Desktop\New folder (2)\E-CommerceStore\E-Commerce.Plugin.InMemmory\obj\Debug\net8.0\E-Commerce.Plugin.InMemmory.dll
+C:\Users\Sam Gleðisheygg\Desktop\New folder (2)\E-CommerceStore\E-Commerce.Plugin.InMemmory\obj\Debug\net8.0\refint\E-Commerce.Plugin.InMemmory.dll
+C:\Users\Sam Gleðisheygg\Desktop\New folder (2)\E-CommerceStore\E-Commerce.Plugin.InMemmory\obj\Debug\net8.0\E-Commerce.Plugin.InMemmory.pdb
+C:\Users\Sam Gleðisheygg\Desktop\New folder (2)\E-CommerceStore\E-Commerce.Plugin.InMemmory\obj\Debug\net8.0\E-Commerce.Plugin.InMemmory.genruntimeconfig.cache
+C:\Users\Sam Gleðisheygg\Desktop\New folder (2)\E-CommerceStore\E-Commerce.Plugin.InMemmory\obj\Debug\net8.0\ref\E-Commerce.Plugin.InMemmory.dll
