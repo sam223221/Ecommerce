@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nOkAUK4jBz4=",
+  "dgSpecHash": "XVK15DGD42g=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Sam Gleðisheygg\\Desktop\\New folder (2)\\E-CommerceStore\\E-Commerce.Plugin.MySQL\\E-Commerce.Plugin.MySQL.csproj",
+  "projectFilePath": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-Commerce.Plugin.MySQL\\E-Commerce.Plugin.MySQL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sam Gleðisheygg\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Sam Gleðisheygg\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
