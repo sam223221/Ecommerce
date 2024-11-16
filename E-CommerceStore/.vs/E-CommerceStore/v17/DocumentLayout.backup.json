@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{290F1384-91EB-4B98-904C-5E73625A4E14}|E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj|c:\\users\\samgl\\documents\\github\\ecommerce\\e-commercestore\\e-commercestore.webapp\\components\\pages\\inventory.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{290F1384-91EB-4B98-904C-5E73625A4E14}|E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj|solutionrelative:e-commercestore.webapp\\components\\pages\\inventory.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{290F1384-91EB-4B98-904C-5E73625A4E14}|E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj|c:\\users\\samgl\\documents\\github\\ecommerce\\e-commercestore\\e-commercestore.webapp\\components\\layout\\header.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{290F1384-91EB-4B98-904C-5E73625A4E14}|E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj|solutionrelative:e-commercestore.webapp\\components\\layout\\header.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD3701B4-FF05-42A2-9835-CC2DDF58AA7D}|E-Commerce.Plugin.MySQL\\E-Commerce.Plugin.MySQL.csproj|c:\\users\\samgl\\documents\\github\\ecommerce\\e-commercestore\\e-commerce.plugin.mysql\\mysqldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD3701B4-FF05-42A2-9835-CC2DDF58AA7D}|E-Commerce.Plugin.MySQL\\E-Commerce.Plugin.MySQL.csproj|solutionrelative:e-commerce.plugin.mysql\\mysqldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD3701B4-FF05-42A2-9835-CC2DDF58AA7D}|E-Commerce.Plugin.MySQL\\E-Commerce.Plugin.MySQL.csproj|c:\\users\\samgl\\documents\\github\\ecommerce\\e-commercestore\\e-commerce.plugin.mysql\\e-commerce.plugin.mysql.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FD3701B4-FF05-42A2-9835-CC2DDF58AA7D}|E-Commerce.Plugin.MySQL\\E-Commerce.Plugin.MySQL.csproj|solutionrelative:e-commerce.plugin.mysql\\e-commerce.plugin.mysql.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{290F1384-91EB-4B98-904C-5E73625A4E14}|E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj|c:\\users\\samgl\\documents\\github\\ecommerce\\e-commercestore\\e-commercestore.webapp\\components\\pages\\shoppingcart.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{290F1384-91EB-4B98-904C-5E73625A4E14}|E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj|solutionrelative:e-commercestore.webapp\\components\\pages\\shoppingcart.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -15,16 +31,8 @@
       "RelativeMoniker": "D:0:0:{290F1384-91EB-4B98-904C-5E73625A4E14}|E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj|solutionrelative:e-commercestore.webapp\\components\\pages\\error.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{290F1384-91EB-4B98-904C-5E73625A4E14}|E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj|c:\\users\\samgl\\documents\\github\\ecommerce\\e-commercestore\\e-commercestore.webapp\\components\\pages\\inventory.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{290F1384-91EB-4B98-904C-5E73625A4E14}|E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj|solutionrelative:e-commercestore.webapp\\components\\pages\\inventory.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{290F1384-91EB-4B98-904C-5E73625A4E14}|E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj|c:\\users\\samgl\\documents\\github\\ecommerce\\e-commercestore\\e-commercestore.webapp\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{290F1384-91EB-4B98-904C-5E73625A4E14}|E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj|solutionrelative:e-commercestore.webapp\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{290F1384-91EB-4B98-904C-5E73625A4E14}|E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj|c:\\users\\samgl\\documents\\github\\ecommerce\\e-commercestore\\e-commercestore.webapp\\components\\layout\\header.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{290F1384-91EB-4B98-904C-5E73625A4E14}|E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj|solutionrelative:e-commercestore.webapp\\components\\layout\\header.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{290F1384-91EB-4B98-904C-5E73625A4E14}|E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj|c:\\users\\samgl\\documents\\github\\ecommerce\\e-commercestore\\e-commercestore.webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 21,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 16,
           "Children": [
             {
               "$type": "Bookmark",
@@ -87,6 +95,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "MySQLDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.Plugin.MySQL\\MySQLDbContext.cs",
+              "RelativeDocumentMoniker": "E-Commerce.Plugin.MySQL\\MySQLDbContext.cs",
+              "ToolTip": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.Plugin.MySQL\\MySQLDbContext.cs",
+              "RelativeToolTip": "E-Commerce.Plugin.MySQL\\MySQLDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T12:53:22.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "E-Commerce.Plugin.MySQL",
+              "DocumentMoniker": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.Plugin.MySQL\\E-Commerce.Plugin.MySQL.csproj",
+              "RelativeDocumentMoniker": "E-Commerce.Plugin.MySQL\\E-Commerce.Plugin.MySQL.csproj",
+              "ToolTip": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.Plugin.MySQL\\E-Commerce.Plugin.MySQL.csproj",
+              "RelativeToolTip": "E-Commerce.Plugin.MySQL\\E-Commerce.Plugin.MySQL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-15T12:53:16.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Error.razor",
               "DocumentMoniker": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Pages\\Error.razor",
               "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Components\\Pages\\Error.razor",
@@ -98,7 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\Program.cs",
               "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Program.cs",
@@ -110,7 +144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "MainLayout.razor",
               "DocumentMoniker": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Layout\\MainLayout.razor",
               "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Components\\Layout\\MainLayout.razor",
@@ -122,7 +156,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Home.razor",
               "DocumentMoniker": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Components\\Pages\\Home.razor",
@@ -134,32 +168,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Header.razor",
               "DocumentMoniker": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Layout\\Header.razor",
               "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Components\\Layout\\Header.razor",
               "ToolTip": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Layout\\Header.razor",
               "RelativeToolTip": "E-CommerceStore.WebApp\\Components\\Layout\\Header.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABgAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-15T09:19:22.417Z"
+              "WhenOpened": "2024-11-15T09:19:22.417Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "ShoppingCart.razor",
               "DocumentMoniker": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Pages\\ShoppingCart.razor",
               "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Components\\Pages\\ShoppingCart.razor",
               "ToolTip": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Pages\\ShoppingCart.razor",
               "RelativeToolTip": "E-CommerceStore.WebApp\\Components\\Pages\\ShoppingCart.razor",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAADQAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAADQAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-14T23:54:16.633Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "AccountManagement.razor",
               "DocumentMoniker": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Pages\\AccountManagement.razor",
               "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Components\\Pages\\AccountManagement.razor",
@@ -171,19 +206,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Inventory.razor",
               "DocumentMoniker": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Pages\\Inventory.razor",
               "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Components\\Pages\\Inventory.razor",
-              "ToolTip": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Pages\\Inventory.razor",
-              "RelativeToolTip": "E-CommerceStore.WebApp\\Components\\Pages\\Inventory.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAfAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Pages\\Inventory.razor*",
+              "RelativeToolTip": "E-CommerceStore.WebApp\\Components\\Pages\\Inventory.razor*",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAEIAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-14T23:22:26.392Z"
+              "WhenOpened": "2024-11-14T23:22:26.392Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "app.css",
               "DocumentMoniker": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\app.css",
               "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\wwwroot\\app.css",
@@ -195,7 +231,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Logout.razor",
               "DocumentMoniker": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Pages\\AccountPages\\Logout.razor",
               "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Components\\Pages\\AccountPages\\Logout.razor",
@@ -207,7 +243,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "AccessDenied.razor",
               "DocumentMoniker": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Pages\\AccountPages\\AccessDenied.razor",
               "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Components\\Pages\\AccountPages\\AccessDenied.razor",

@@ -2,7 +2,6 @@
 
 @rendermode InteractiveServer
 @attribute [StreamRendering]
-@attribute [Authorize(Roles = "Admin")]
 @inject IProductService ProductService
 @inject NavigationManager NavigationManager
 @inject IModalService ModalService
@@ -20,7 +19,9 @@
     <div class="searchbarandbuttons">
             <input type="text" @bind="searchQuery" placeholder="Search for products..." class="searchbar" />
             <button @onclick="SearchProducts" class="littlebutton">Search</button>
-        <button @onclick="OpenCreateDialog" class="littlebutton">Create</button>
+            <AuthorizeView Roles="Admin">
+                <button @onclick="OpenCreateDialog" class="littlebutton">Create</button>
+            </AuthorizeView>
         </div>
     </div>
  
@@ -44,18 +45,44 @@
                     <tr>
                         <td>@product.ProductName</td>
                         <td>
+                            <AuthorizeView Roles="Admin" >
                             @if (!string.IsNullOrEmpty(product.ImageUrl))
                             {
                                     <img class="invimg" src="@product.ImageUrl" @onclick="() => OpenEditModal(product)" alt="Product Image" />
                             }
+                            </AuthorizeView>
+                            <AuthorizeView Roles="User">
+                                @if (!string.IsNullOrEmpty(product.ImageUrl))
+                                {
+                                    <img class="invimg" src="@product.ImageUrl" alt="Product Image" />
+                                }
+                            </AuthorizeView>
+                                <AuthorizeView>
+                                    <NotAuthorized>
+                                        @if (!string.IsNullOrEmpty(product.ImageUrl))
+                                        {
+                                            <img class="invimg" src="@product.ImageUrl" alt="Product Image" />
+                                        }
+                                    </NotAuthorized>
+                                </AuthorizeView>
                         </td>
                         <td>@product.Description</td>
                         <td>@product.Price</td>
                         <td>@product.Quantity</td>
                         <td>
-                            <span class="text-primary" style="cursor: pointer;" @onclick="() => OpenEditModal(product)">Edit</span> |
-                            <span class="text-danger" style="cursor: pointer;" @onclick="() => OpenDeleteConfirmation(product)">Delete</span> |
-                            <span class="text-primary" style="cursor: pointer;" @onclick="() => AddToChartOpen(product)">Add to cart</span>
+                            <AuthorizeView Roles="Admin" >
+                                <span class="text-primary" style="cursor: pointer;" @onclick="() => OpenEditModal(product)">Edit</span> |
+                                <span class="text-danger" style="cursor: pointer;" @onclick="() => OpenDeleteConfirmation(product)">Delete</span> |
+                            </AuthorizeView>
+                            <AuthorizeView Roles="Admin,User">
+                                <span class="text-primary" style="cursor: pointer;" @onclick="() => AddToChartOpen(product)">Add to cart</span>
+                            </AuthorizeView>
+                            <AuthorizeView >
+                                <NotAuthorized>
+                                        <p>Add to cart requires</p>
+                                        <a href="login">Login</a>
+                                </NotAuthorized>
+                            </AuthorizeView>
                         </td>
                     </tr>
                 }
