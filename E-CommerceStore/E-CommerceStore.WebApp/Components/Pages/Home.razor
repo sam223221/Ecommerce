@@ -132,6 +132,14 @@
     public List<Product> gaming = new List<Product>();
 
 
+    protected override void OnAfterRender(bool firstRender)
+    {
+        if (firstRender)
+        {
+            
+        }
+    }
+
     protected override async Task OnInitializedAsync()
     {
         Products = await ProductService.GetAllProductsExecuteAsync();
