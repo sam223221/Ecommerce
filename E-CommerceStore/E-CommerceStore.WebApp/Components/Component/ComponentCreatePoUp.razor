@@ -112,7 +112,7 @@
 
             Model.UploadedImageUrl = $"data:{file.ContentType};base64,{Convert.ToBase64String(memoryStream.ToArray())}";
         }
-        catch (IOException ex)
+        catch
         {
             fileErrorMessage = "An error occurred while uploading the file. Please try again.";
             Model.UploadedImageUrl = string.Empty;
