@@ -1,0 +1,37 @@
+﻿@page "/ProductDetail/{ProductId:int}"
+@inject IProductService ProductService
+
+<div class="classicbg-container">
+    <div class="product-detail-container">
+        @if (product != null)
+        {
+            <div class="product-detail">
+                <div class="product-detail-image">
+                    <img src="@product.ImageUrl" alt="@product.ProductName" />
+                </div>
+                <div class="product-detail-info">
+                    <h1>@product.ProductName</h1>
+                    <p><b>Price:</b> @product.Price Dkk</p>
+                    <p><b>Description:</b> @product.Description</p>
+                    <button class="add-to-cart-button">Add to Cart</button>
+                </div>
+            </div>
+        }
+        else
+        {
+            <p>Loading product details...</p>
+        }
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public required int ProductId { get; set; }
+
+    private Product product;
+
+    protected override async Task OnInitializedAsync()
+    {
+        product = await ProductService.GetProductsByIdAsync(ProductId);
+    }
+}

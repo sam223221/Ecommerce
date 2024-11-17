@@ -2,12 +2,10 @@
 @using System.Security.Claims
 @rendermode InteractiveServer
 @attribute [Authorize(Roles = "Admin,User")]
-<link rel="stylesheet" href="ShoppingCartStyles.css">
-
 @inject IAccountsService AccountsService
 @inject AuthenticationStateProvider AuthenticationStateProvider
 
-<div class="mockup-bg-container">
+<div class="classicbg-container">
     
     <div class="main-container">
         @if (isLoading)
