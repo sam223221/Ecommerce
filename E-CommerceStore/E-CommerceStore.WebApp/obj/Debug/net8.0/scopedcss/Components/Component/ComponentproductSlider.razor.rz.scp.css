@@ -24,6 +24,7 @@
 }
 
     .item-container:hover[b-t06ood64ar] {
+        cursor: pointer;
         transform: translateY(-10px);
         box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
     }
@@ -63,7 +64,7 @@
     margin-top: auto;
 }
 
-/* Styling for product images */
+
 .item-image[b-t06ood64ar] {
     border-radius: 10px;
     background-color: white;

@@ -1,4 +1,4 @@
-﻿    
+﻿@inject NavigationManager navi    
 
 <div class="slider-container">
     <!-- Left Arrow Button -->
@@ -9,7 +9,7 @@
     <div class="slider-products-block" @ref="elementReference">
         @foreach (var item in gaming)
         {
-            <div class="item-container">
+            <div class="item-container" @onclick="@(() => NavigateToProductDetail(item.ProductId))">
                 <div class="item-image">
                     <img class="item-image" src="@item.ImageUrl" />
                 </div>
@@ -48,7 +48,10 @@
             Module = await JSRuntime.InvokeAsync<IJSObjectReference>("import", "./js/JavaScripts.js");
         }
     }
-
+    private void NavigateToProductDetail(int productId)
+    {
+        navi.NavigateTo($"/ProductDetail/{productId}");
+    }
 
     private void ScrollLeft(ElementReference element)
     {

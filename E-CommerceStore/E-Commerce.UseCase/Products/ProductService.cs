@@ -24,6 +24,13 @@ namespace E_Commerce.UseCase.Products
             if (string.IsNullOrWhiteSpace(name)) return stack;
             return stack.Where(x => x.ProductName.Contains(name, StringComparison.OrdinalIgnoreCase));
         }
+        // >Get all by id
+        public async Task<Product> GetProductsByIdAsync(int id)
+        {
+            var stack = await ProductRepository.GetAllProductsAsync();
+            if (id == 0) return null;
+            return stack.Where(x => x.ProductId == id).FirstOrDefault();
+        }
 
         //Update Product
         public async Task<string> UpdateProductAsync(Product product)
