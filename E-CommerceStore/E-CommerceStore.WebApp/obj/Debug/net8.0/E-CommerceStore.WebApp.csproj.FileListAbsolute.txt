@@ -539,3 +539,4 @@ C:\Users\samgl\Documents\GitHub\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp
 C:\Users\samgl\Documents\GitHub\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\obj\Debug\net8.0\E-CommerceStore.WebApp.pdb
 C:\Users\samgl\Documents\GitHub\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\obj\Debug\net8.0\E-CommerceStore.WebApp.genruntimeconfig.cache
 C:\Users\samgl\Documents\GitHub\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\obj\Debug\net8.0\ref\E-CommerceStore.WebApp.dll
+C:\Users\Sam Gleðisheygg\Documents\GitHub\SPRO-3\E-CommerceStore\E-CommerceStore.WebApp\obj\Debug\net8.0\scopedcss\Components\Pages\Home.razor.rz.scp.css

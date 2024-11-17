@@ -89,6 +89,10 @@
       "PackagePath": "staticwebassets\\images\\trash.png"
     },
     {
+      "Id": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\js\\JavaScripts.js",
+      "PackagePath": "staticwebassets\\js\\JavaScripts.js"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.E-CommerceStore.WebApp.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
