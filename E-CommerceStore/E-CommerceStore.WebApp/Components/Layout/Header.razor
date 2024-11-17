@@ -7,13 +7,12 @@
                     <img src="assets/logo.png" alt="Logo" style="height: 40px; width: 200px; object-fit: cover;" />
                 </NavLink>
             </div>
-            <AuthorizeView Roles="Admin">
-                <div>
-                    <NavLink class="nav-link text-white" href="Inventory">
-                        <span class="bi bi-list-nested" aria-hidden="true"></span> Inventory
-                    </NavLink>
-                </div>
-            </AuthorizeView>
+            
+            <div>
+                <NavLink class="nav-link text-white" href="Inventory">
+                    <span class="bi bi-list-nested" aria-hidden="true"></span> Products
+                </NavLink>
+            </div>
             <AuthorizeView Roles="Admin">
                 <div>
                     <NavLink class="nav-link text-white" href="AccountManagement">
@@ -23,7 +22,7 @@
             </AuthorizeView>
 
             <div class="search-container" style="flex: 1; display: flex; justify-content: right; margin-right: 25px;">
-                <input class="header-searchbar" type="text" placeholder="Search for products..." />
+                
             </div>
             
             <div class="icons-container d-flex align-items-center">

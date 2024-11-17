@@ -86,10 +86,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Sam Gleðisheygg/Documents/GitHub/SPRO-3/E-CommerceStore/E-CommerceStore.WebApp/Components/Pages/Home.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/Sam Gleðisheygg/Documents/GitHub/SPRO-3/E-CommerceStore/E-CommerceStore.WebApp/Components/Pages/Inventory.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xJbnZlbnRvcnkucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
@@ -110,6 +106,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Sam Gleðisheygg/Documents/GitHub/SPRO-3/E-CommerceStore/E-CommerceStore.WebApp/Components/Component/ComponentproductSlider.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb21wb25lbnRcQ29tcG9uZW50cHJvZHVjdFNsaWRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-t06ood64ar
+
 [C:/Users/Sam Gleðisheygg/Documents/GitHub/SPRO-3/E-CommerceStore/E-CommerceStore.WebApp/Components/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-9k90snoydv
@@ -117,3 +117,7 @@ build_metadata.AdditionalFiles.CssScope = b-9k90snoydv
 [C:/Users/Sam Gleðisheygg/Documents/GitHub/SPRO-3/E-CommerceStore/E-CommerceStore.WebApp/Components/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTmF2TWVudS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-zt64dcblin
+
+[C:/Users/Sam Gleðisheygg/Documents/GitHub/SPRO-3/E-CommerceStore/E-CommerceStore.WebApp/Components/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-u1j3xcl4vu

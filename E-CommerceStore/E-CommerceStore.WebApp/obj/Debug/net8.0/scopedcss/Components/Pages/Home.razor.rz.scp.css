@@ -1,0 +1,93 @@
+/* Container for the entire slider to ensure no horizontal scrollbar */
+.slider-container[b-u1j3xcl4vu] {
+    overflow: hidden; /* Hide the horizontal scrollbar */
+    width: 100%;
+    position: relative;
+}
+
+/* The actual block of products that scrolls */
+.slider-products-block[b-u1j3xcl4vu] {
+    display: flex;
+    overflow-x: hidden; /* Allow internal scrolling but controlled by arrow buttons */
+    scroll-behavior: smooth;
+    padding: 20px 0;
+}
+
+/* Product item containers */
+.item-container[b-u1j3xcl4vu] {
+    margin: 0 30px; /* Increase value to adjust spacing between items */
+    flex-shrink: 0;
+    background: #3f51b5;
+    border-radius: 10px;
+    padding: 15px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+    .item-container:hover[b-u1j3xcl4vu] {
+        transform: translateY(-10px);
+        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+    }
+
+/* Arrow button styling */
+.slider-arrow-button[b-u1j3xcl4vu] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 2rem; /* Set the font size to adjust the height of the arrow */
+    padding: 4; /* Remove padding to avoid unnecessary spacing */
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    border-radius: 20%;
+    height: 50px; /* Total height of the button */
+    width: 50px; /* Total width of the button */
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.slider-arrow-button:hover[b-u1j3xcl4vu] {
+    background-color: #555;
+}
+
+
+.slider-left-arrow[b-u1j3xcl4vu] {
+    left: 0; /* Position the left arrow on the left edge */
+    margin-top: auto;
+
+}
+
+.slider-right-arrow[b-u1j3xcl4vu] {
+    right: 0; /* Position the right arrow on the right edge */
+    margin-top: auto;
+}
+
+/* Styling for product images */
+.item-image[b-u1j3xcl4vu] {
+    border-radius: 10px;
+    background-color: white;
+    object-fit: contain;
+    width: 220px;
+    height: 230px;
+    margin-bottom: 10px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.item-info[b-u1j3xcl4vu] {
+    text-align: center;
+}
+
+.item-name[b-u1j3xcl4vu] {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    color: #ffeb3b;
+    font-weight: bold;
+}
+
+.item-price[b-u1j3xcl4vu] {
+    font-size: 1.2rem;
+    color: #e1f5fe;
+    font-weight: bold;
+}

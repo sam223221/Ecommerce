@@ -27,80 +27,33 @@
         <div class="products-thumbnail3">
             <div class="thumbnail">OUR BESTSELLERS</div>
         </div>
-            @foreach(var item in bestSeller)
-            {
-            <div class="item-container">
-                <div class="item-image">
-                        <img class="item-image" src="@item.ImageUrl" />
-                </div>
-                <div class="item-info">
-                    <div class="item-name">
-                        <a>@item.ProductName</a>
-                    </div>
-                    <div class="item-price">
-                        @item.Price Dkk
-                    </div>
-                </div>
-            </div>
-            }
+            <ComponentproductSlider gaming="@bestSeller" />
     </div>
 
 </section>
 
  <div class="spacer"/>
 
-<section class="products-bars">
-
-    <div class="products-block">
-        
-        <div class="products-thumbnail">
-            <div class="thumbnail">KEYBOARDS</div>
-        </div>
-
-            @foreach(var item in keyboards)
-            { 
-            <div class="item-container">
-                <div class="item-image">
-                    <img class="item-image" src="@item.ImageUrl" />
-                </div>
-                <div class="item-info">
-                    <div class="item-name">
-                        @item.ProductName
-                    </div>
-                    <div class="item-price">
-                        @item.Price Dkk
-                    </div>
-                </div>
+    <section class="products-bars">
+        <div class="products-block2">
+            <div class="products-thumbnail2">
+                <div class="thumbnail">KEYBOARDS</div>
             </div>
-            }
-
-    </div>
-</section>
+            <ComponentproductSlider gaming="@keyboards" />
+        </div>
+    </section>
 
  <div class="spacer"/>
 
 <section class="products-bars">
 
     <div class="products-block2">
-        <div class="products-thumbnail2">
+        <div class="products-thumbnail3">
             <div class="thumbnail">GAMING</div>
         </div>
-            @foreach(var item in gaming)
-            {
-                <div class="item-container">
-                    <div class="item-image">
-                        <img class="item-image" src="@item.ImageUrl" />
-                    </div>
-                    <div class="item-info">
-                        <div class="item-name">
-                            @item.ProductName
-                        </div>
-                        <div class="item-price">
-                            @item.Price Dkk
-                        </div>
-                    </div>
-                </div>
-            }
+
+        <ComponentproductSlider gaming="@gaming"/>
+            
     </div>
 </section>
 
@@ -130,22 +83,13 @@
     public List<Product> bestSeller = new List<Product>();
     public List<Product> keyboards = new List<Product>();
     public List<Product> gaming = new List<Product>();
-
-
-    protected override void OnAfterRender(bool firstRender)
-    {
-        if (firstRender)
-        {
-            
-        }
-    }
-
+    
     protected override async Task OnInitializedAsync()
     {
         Products = await ProductService.GetAllProductsExecuteAsync();
-        bestSeller = Products.Take(4).ToList();
-        keyboards = Products.Where(p => p.ProductName.Contains("keyboard", StringComparison.OrdinalIgnoreCase)).Take(4).ToList();
-        gaming = Products.Where(p => p.ProductName.Contains("gaming", StringComparison.OrdinalIgnoreCase)).Take(4).ToList();
+        bestSeller = Products.ToList();
+        keyboards = Products.Where(p => p.ProductName.Contains("keyboard", StringComparison.OrdinalIgnoreCase)).ToList();
+        gaming = Products.Where(p => p.ProductName.Contains("gaming", StringComparison.OrdinalIgnoreCase)).ToList();
     }
     
  }
