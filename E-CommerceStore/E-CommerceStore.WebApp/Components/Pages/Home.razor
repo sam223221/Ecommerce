@@ -27,22 +27,7 @@
         <div class="products-thumbnail3">
             <div class="thumbnail">OUR BESTSELLERS</div>
         </div>
-            @foreach(var item in bestSeller)
-            {
-            <div class="item-container">
-                <div class="item-image">
-                        <img class="item-image" src="@item.ImageUrl" />
-                </div>
-                <div class="item-info">
-                    <div class="item-name">
-                        <a>@item.ProductName</a>
-                    </div>
-                    <div class="item-price">
-                        @item.Price Dkk
-                    </div>
-                </div>
-            </div>
-            }
+            <ComponentproductSlider gaming="@bestSeller" />
     </div>
 
 </section>
@@ -54,39 +39,7 @@
             <div class="products-thumbnail2">
                 <div class="thumbnail">KEYBOARDS</div>
             </div>
-
-            <div class="products-block">
-                <!-- Left Arrow Button -->
-                <button class="slider-arrow-button slider-left-arrow" @onclick="@(() => ScrollLeft(keyboarElementReference))">
-                    ←
-                </button>
-
-                <div class="slider-container">
-                    <div class="slider-products-block" @ref="keyboarElementReference">
-                        @foreach (var item in keyboards)
-                        {
-                            <div class="item-container">
-                                <div class="item-image">
-                                    <img class="item-image" src="@item.ImageUrl" />
-                                </div>
-                                <div class="item-info">
-                                    <div class="item-name">
-                                        @item.ProductName
-                                    </div>
-                                    <div class="item-price">
-                                        @item.Price Dkk
-                                    </div>
-                                </div>
-                            </div>
-                        }
-                    </div>
-                </div>
-
-                <!-- Right Arrow Button -->
-                <button class="slider-arrow-button slider-right-arrow" @onclick="@(() => ScrollRight(keyboarElementReference))">
-                    →
-                </button>
-            </div>
+            <ComponentproductSlider gaming="@keyboards" />
         </div>
     </section>
 
@@ -95,41 +48,12 @@
 <section class="products-bars">
 
     <div class="products-block2">
-        <div class="products-thumbnail2">
+        <div class="products-thumbnail3">
             <div class="thumbnail">GAMING</div>
         </div>
-            <div class="products-block">
-                <!-- Left Arrow Button -->
-                <button class="slider-arrow-button slider-left-arrow" @onclick="@(() => ScrollLeft(gamingelEmentReference))">
-                    ←
-                </button>
 
-                <div class="slider-container">
-                    <div class="slider-products-block" @ref="gamingelEmentReference">
-                        @foreach (var item in gaming)
-                        {
-                            <div class="item-container">
-                                <div class="item-image">
-                                    <img class="item-image" src="@item.ImageUrl" />
-                                </div>
-                                <div class="item-info">
-                                    <div class="item-name">
-                                        @item.ProductName
-                                    </div>
-                                    <div class="item-price">
-                                        @item.Price Dkk
-                                    </div>
-                                </div>
-                            </div>
-                        }
-                    </div>
-                </div>
-
-                <!-- Right Arrow Button -->
-                <button class="slider-arrow-button slider-right-arrow" @onclick="@(() => ScrollRight(gamingelEmentReference))">
-                    →
-                </button>
-            </div>
+        <ComponentproductSlider gaming="@gaming"/>
+            
     </div>
 </section>
 
@@ -159,40 +83,11 @@
     public List<Product> bestSeller = new List<Product>();
     public List<Product> keyboards = new List<Product>();
     public List<Product> gaming = new List<Product>();
-    [Inject]
-    public IJSRuntime JSRuntime { get; set; }
-    private IJSObjectReference Module { get; set; }
-    private ElementReference gamingelEmentReference;
-    private ElementReference keyboarElementReference;
-
-    protected override async Task OnAfterRenderAsync(bool firstRender)
-    {
-        if (firstRender)
-        {
-            Module = await JSRuntime.InvokeAsync<IJSObjectReference>("import", "./js/JavaScripts.js");
-        }
-    }
-
-
-    private void ScrollLeft(ElementReference element)
-    {
-        if (Module != null)
-        {
-            Module.InvokeVoidAsync("scrollLeft", element);
-        }
-    }
-
-    private void ScrollRight(ElementReference element)
-    {
-        if (Module != null)
-        {
-            Module.InvokeVoidAsync("scrollRight", element);
-        }
-    }
+    
     protected override async Task OnInitializedAsync()
     {
         Products = await ProductService.GetAllProductsExecuteAsync();
-        bestSeller = Products.Take(4).ToList();
+        bestSeller = Products.ToList();
         keyboards = Products.Where(p => p.ProductName.Contains("keyboard", StringComparison.OrdinalIgnoreCase)).ToList();
         gaming = Products.Where(p => p.ProductName.Contains("gaming", StringComparison.OrdinalIgnoreCase)).ToList();
     }

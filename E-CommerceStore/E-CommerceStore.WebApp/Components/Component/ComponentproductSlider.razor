@@ -1,0 +1,68 @@
+﻿    
+
+<div class="slider-container">
+    <!-- Left Arrow Button -->
+    <button class="slider-arrow-button slider-left-arrow" @onclick="@(() => ScrollLeft(elementReference))">
+        ←
+    </button>
+
+    <div class="slider-products-block" @ref="elementReference">
+        @foreach (var item in gaming)
+        {
+            <div class="item-container">
+                <div class="item-image">
+                    <img class="item-image" src="@item.ImageUrl" />
+                </div>
+                <div class="item-info">
+                    <div class="item-name">
+                        @item.ProductName
+                    </div>
+                    <div class="item-price">
+                        @item.Price Dkk
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+
+    <!-- Right Arrow Button -->
+    <button class="slider-arrow-button slider-right-arrow" @onclick="@(() => ScrollRight(elementReference))">
+        →
+    </button>
+</div>
+
+@code {
+
+    [Parameter]
+    public List<Product> gaming { get; set; }
+
+    [Inject]
+    public IJSRuntime JSRuntime { get; set; }
+    private IJSObjectReference Module { get; set; }
+    private ElementReference elementReference;
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            Module = await JSRuntime.InvokeAsync<IJSObjectReference>("import", "./js/JavaScripts.js");
+        }
+    }
+
+
+    private void ScrollLeft(ElementReference element)
+    {
+        if (Module != null)
+        {
+            Module.InvokeVoidAsync("scrollLeft", element);
+        }
+    }
+
+    private void ScrollRight(ElementReference element)
+    {
+        if (Module != null)
+        {
+            Module.InvokeVoidAsync("scrollRight", element);
+        }
+    }
+}
