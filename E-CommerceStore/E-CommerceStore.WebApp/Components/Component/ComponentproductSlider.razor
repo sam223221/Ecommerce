@@ -7,6 +7,7 @@
     </button>
 
     <div class="slider-products-block" @ref="elementReference">
+
         @foreach (var item in gaming)
         {
             <div class="item-container" @onclick="@(() => NavigateToProductDetail(item.ProductId))">
@@ -40,6 +41,7 @@
     public IJSRuntime JSRuntime { get; set; }
     private IJSObjectReference Module { get; set; }
     private ElementReference elementReference;
+
 
     protected override async Task OnAfterRenderAsync(bool firstRender)
     {

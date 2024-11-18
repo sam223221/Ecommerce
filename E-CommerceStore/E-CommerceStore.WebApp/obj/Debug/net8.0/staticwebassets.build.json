@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "dD6J8PfJtZnStsVFqKx1hXjcosOvf5aDYLL563SwhNU=",
+  "Hash": "n01d3tYMkM7UODjDGhuP2w2Rx6vjfV9M4cqtRRCVBFI=",
   "Source": "E-CommerceStore.WebApp",
   "BasePath": "_content/E-CommerceStore.WebApp",
   "Mode": "Default",
@@ -490,25 +490,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\JavaScripts.js"
-    },
-    {
-      "Identity": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\ShoppingCartStyles.css",
-      "SourceId": "E-CommerceStore.WebApp",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
-      "BasePath": "_content/E-CommerceStore.WebApp",
-      "RelativePath": "ShoppingCartStyles.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\ShoppingCartStyles.css"
     }
   ]
 }

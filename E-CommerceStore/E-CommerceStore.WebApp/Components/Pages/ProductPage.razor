@@ -1,5 +1,6 @@
 ﻿@page "/ProductDetail/{ProductId:int}"
 @inject IProductService ProductService
+@rendermode InteractiveServer
 
 <div class="mockup-bg-container">
     <div class="product-detail-container">
@@ -13,7 +14,17 @@
                     <h1>@product.ProductName</h1>
                     <p><b>Price:</b> @product.Price Dkk</p>
                     <p><b>Description:</b> @product.Description</p>
-                    <button class="add-to-cart-button">Add to Cart</button>
+                    <AuthorizeView>
+                        <Authorized>
+                            <button class="add-to-cart-button" @onclick="@(AddToChartOpen)">Add to Cart</button>
+                        </Authorized>
+                    </AuthorizeView>
+                    <AuthorizeView>
+                        <NotAuthorized>
+                            <button class="add-to-cart-button-disable" disabled> plese Login<br>(Add to Cart)</button>
+                        </NotAuthorized>
+                    </AuthorizeView>
+
                 </div>
             </div>
         }
@@ -24,14 +35,32 @@
     </div>
 </div>
 
+@if (AddToChartShow)
+{
+    <ComponentAddToChart Product="@product" OnClose="ChartClose" />
+}
+
 @code {
     [Parameter]
     public required int ProductId { get; set; }
+    private bool AddToChartShow = false;
 
-    private Product product;
+
+    private Product? product;
 
     protected override async Task OnInitializedAsync()
     {
         product = await ProductService.GetProductsByIdAsync(ProductId);
+    }
+
+    private void AddToChartOpen()
+    {
+        AddToChartShow = true;
+        StateHasChanged();
+    }
+    private void ChartClose()
+    {
+        AddToChartShow = false;
+        StateHasChanged();
     }
 }
