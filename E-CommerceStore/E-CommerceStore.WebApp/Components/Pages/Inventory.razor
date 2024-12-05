@@ -21,10 +21,11 @@
             <button @onclick="SearchProducts" class="littlebutton">Search</button>
             <AuthorizeView Roles="Admin">
                 <button @onclick="OpenCreateDialog" class="littlebutton">Create</button>
+                <button @onclick="OpenXMLDialog" class="littlebutton">Upload XML</button>
             </AuthorizeView>
         </div>
     </div>
- 
+
 
 <div class="row">
     <div class="col-md-12">
@@ -41,22 +42,22 @@
             </thead>
             <tbody>
                 @foreach (var product in Products)
-                {
-                    <tr>
-                        <td>@product.ProductName</td>
-                        <td>
-                            <AuthorizeView Roles="Admin" >
-                            @if (!string.IsNullOrEmpty(product.ImageUrl))
-                            {
-                                    <img class="invimg" src="@product.ImageUrl" @onclick="() => OpenEditModal(product)" alt="Product Image" />
-                            }
-                            </AuthorizeView>
-                            <AuthorizeView Roles="User">
-                                @if (!string.IsNullOrEmpty(product.ImageUrl))
-                                {
-                                    <img class="invimg" src="@product.ImageUrl" alt="Product Image" />
-                                }
-                            </AuthorizeView>
+                    {
+                        <tr>
+                            <td>@product.ProductName</td>
+                            <td>
+                                <AuthorizeView Roles="Admin" >
+                                    @if (!string.IsNullOrEmpty(product.ImageUrl))
+                                    {
+                                        <img class="invimg" src="@product.ImageUrl" @onclick="() => OpenEditModal(product)" alt="Product Image" />
+                                    }
+                                </AuthorizeView>
+                                <AuthorizeView Roles="User">
+                                    @if (!string.IsNullOrEmpty(product.ImageUrl))
+                                    {
+                                        <img class="invimg" src="@product.ImageUrl" alt="Product Image" />
+                                    }
+                                </AuthorizeView>
                                 <AuthorizeView>
                                     <NotAuthorized>
                                         @if (!string.IsNullOrEmpty(product.ImageUrl))
@@ -65,46 +66,53 @@
                                         }
                                     </NotAuthorized>
                                 </AuthorizeView>
-                        </td>
-                        <td>@product.Description</td>
-                        <td>@product.Price</td>
-                        <td>@product.Quantity</td>
-                        <td>
-                            <AuthorizeView Roles="Admin" >
-                                <span class="text-primary" style="cursor: pointer;" @onclick="() => OpenEditModal(product)">Edit</span> |
-                                <span class="text-danger" style="cursor: pointer;" @onclick="() => OpenDeleteConfirmation(product)">Delete</span> |
-                            </AuthorizeView>
-                            <AuthorizeView Roles="Admin,User">
-                                <span class="text-primary" style="cursor: pointer;" @onclick="() => AddToChartOpen(product)">Add to cart</span>
-                            </AuthorizeView>
-                            <AuthorizeView >
-                                <NotAuthorized>
+                            </td>
+                            <td>@product.Description</td>
+                            <td>@product.Price</td>
+                            <td>@product.Quantity</td>
+                            <td>
+                                <AuthorizeView Roles="Admin" >
+                                    <span class="text-primary" style="cursor: pointer;" @onclick="() => OpenEditModal(product)">Edit</span> |
+                                    <span class="text-danger" style="cursor: pointer;" @onclick="() => OpenDeleteConfirmation(product)">Delete</span> |
+                                </AuthorizeView>
+                                <AuthorizeView Roles="Admin,User">
+                                    <span class="text-primary" style="cursor: pointer;" @onclick="() => AddToChartOpen(product)">Add to cart</span>
+                                </AuthorizeView>
+                                <AuthorizeView >
+                                    <NotAuthorized>
                                         <p>Add to cart requires</p>
                                         <a href="login">Login</a>
-                                </NotAuthorized>
-                            </AuthorizeView>
-                        </td>
-                    </tr>
-                }
-            </tbody>
-        </table>
+                                    </NotAuthorized>
+                                </AuthorizeView>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
     </div>
-</div>
 </div>
 
 
 <ComponentAlertNotification Message="@notificationMessage"
-                            IsSuccess="@isNotificationSuccess" />
+IsSuccess="@isNotificationSuccess" />
 
 @if (ModalCreateShow)
 {
     <ComponentCreatePoUp ItemCreated="@CloseCreateDialog">
     </ComponentCreatePoUp>
 }
+
+@if (ModalXMLShow)
+{
+    <ComponentXMLUpload XMLUploaded="@CloseCreateDialog">
+    </ComponentXMLUpload>
+}
+
 @if (ModalEditModalShow)
 {
     <ComponentEditProduct Product="@selectedProduct"
-                          OnClose="CloseEditModal" />
+    OnClose="CloseEditModal" />
 }
 @if (isDeleteModalOpen)
 {
@@ -119,6 +127,7 @@
     private IEnumerable<Product> Products = new List<Product>();
     private string searchQuery = "";
     public bool ModalCreateShow { get; set; }
+    public bool ModalXMLShow { get; set; }
     private Product selectedProduct;
     private bool ModalEditModalShow = false;
     private String UpdateStatus = "";
@@ -170,6 +179,12 @@
     private void OpenCreateDialog()
     {
         ModalCreateShow = true;
+        StateHasChanged();
+    }
+
+    private void OpenXMLDialog()
+    {
+        ModalXMLShow = true;
         StateHasChanged();
     }
 

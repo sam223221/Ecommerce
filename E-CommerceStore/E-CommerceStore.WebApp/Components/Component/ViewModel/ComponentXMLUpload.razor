@@ -1,0 +1,52 @@
+﻿@rendermode InteractiveServer
+
+<div class="modal fade show" id="myModal" style="display:block; background-color: rgba(10,10,10,.8);" aria-modal="true" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Upload an XML</h4>
+                <button type="button" class="close" @onclick="@ModalCancel">&times;</button>
+            </div>
+            <div class="modal-body">
+                <EditForm Model="@Model">
+                    <div>
+                        <b>Here you can upload your products in bulk using XML.<br />
+                        The obligatory file structure:</b><br/><br />
+                        • Extension: .xml<br />
+                        • Encoding: UTF-8 <br /><br />
+                        &lt;Products&gt;<br />
+                        &lt;Product&gt;<br />
+                        &lt;ProductName&gt;Sample Product&lt;/ProductName&gt;<br />
+                        &lt;Description&gt;Sample description&lt;/Description&gt;<br />
+                        &lt;Quantity&gt;10&lt;/Quantity&gt;<br />
+                        &lt;Price&gt;100.0&lt;/Price&gt;<br />
+                        &lt;ImageUrl&gt;http://example.com/sample.jpg&lt;/ImageUrl&gt;<br />
+                        &lt;/Product&gt;<br />
+                        &lt;/Products&gt;<br /><br />
+                        <p/>
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" @onclick="@ModalCancel">Cancel</button>
+                        <button type="submit" class="btn btn-primary">Upload</button>
+                    </div>
+                </EditForm>
+            </div>
+        </div>
+    </div>
+</div>
+
+@code {
+
+    [Parameter] public EventCallback<Product> XMLUploaded { get; set; }
+
+    private CreatePopUpViewModel Model { get; set; } = new CreatePopUpViewModel();
+    private string fileErrorMessage = "";
+
+    private Task ModalCancel()
+    {
+        return XMLUploaded.InvokeAsync(null);
+    }
+
+}
+
