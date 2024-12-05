@@ -62,8 +62,7 @@
               "RelativeToolTip": "E-CommerceStore.WebApp\\Components\\Component\\ComponentCreatePoUp.razor",
               "ViewState": "AgIAABsAAAAAAAAAAAAAADkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-05T10:00:26.668Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T10:00:26.668Z"
             },
             {
               "$type": "Document",
@@ -73,7 +72,7 @@
               "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Components\\Component\\ViewModel\\ComponentXMLUpload.razor",
               "ToolTip": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Component\\ViewModel\\ComponentXMLUpload.razor",
               "RelativeToolTip": "E-CommerceStore.WebApp\\Components\\Component\\ViewModel\\ComponentXMLUpload.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAADUAAAAAAAAAAAAowEMAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-05T10:00:07.908Z",
               "EditorCaption": ""
@@ -88,8 +87,7 @@
               "RelativeToolTip": "E-CommerceStore.WebApp\\Components\\Pages\\Inventory.razor",
               "ViewState": "AgIAAFgAAAAAAAAAAAAtwGoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-05T09:27:04.461Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T09:27:04.461Z"
             }
           ]
         }

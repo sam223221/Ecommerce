@@ -24,6 +24,17 @@
                         &lt;/Product&gt;<br />
                         &lt;/Products&gt;<br /><br />
                         <p/>
+
+                        <div class="form-group">
+                            <b><div for="fileUpload">Choose your XML file:</div></b><br />
+                            <InputFile id="fileUpload" OnChange="HandleFileChange" accept=".xml" />
+                        </div>
+
+                        @if (!string.IsNullOrEmpty(fileErrorMessage))
+                        {
+                            <p class="text-danger">@fileErrorMessage</p>
+                        }
+
                     </div>
 
                     <div class="modal-footer">
@@ -42,6 +53,21 @@
 
     private CreatePopUpViewModel Model { get; set; } = new CreatePopUpViewModel();
     private string fileErrorMessage = "";
+
+    private void HandleFileChange(InputFileChangeEventArgs e)
+    {
+        var file = e.File;
+
+        if (file.ContentType != "application/xml" && !file.Name.EndsWith(".xml"))
+        {
+            fileErrorMessage = "Please upload a valid XML file.";
+        }
+        else
+        {
+            fileErrorMessage = "";
+            // store and handle file later
+        }
+    }
 
     private Task ModalCancel()
     {
