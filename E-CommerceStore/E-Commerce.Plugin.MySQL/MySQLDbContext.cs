@@ -16,8 +16,8 @@ namespace E_Commerce.Plugin.MySQL
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseMySql(
-                "Server=autorack.proxy.rlwy.net;Port=33999;Database=railway;User ID=root;Password=SHaHNCasnuRCimHHYaGhJmcfFBqYXkPl;",
-                new MySqlServerVersion(new Version(10, 4, 32)),
+                "Server=webtechs3.cxga4esmo1mt.eu-north-1.rds.amazonaws.com;Port=3306;Database=webtechs3;User ID=admin;Password=WebTech3;",
+                new MySqlServerVersion(new Version(8, 4, 3)),
                 options => options.EnableRetryOnFailure() // Enable retry on failure
                              .MigrationsAssembly("E-Commerce.Plugin.MySQL")
             );
