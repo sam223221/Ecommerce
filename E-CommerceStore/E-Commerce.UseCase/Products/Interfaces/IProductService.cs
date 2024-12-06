@@ -9,5 +9,6 @@ namespace E_Commerce.UseCase.Products.Interfaces
         Task<string> UpdateProductAsync(Product product);
         Task<string> CreateProductAsync(Product product);
         Task<string> DeleteProductAsync(int productId);
+        Task RemoveItemFromShopingcart(shopingCart item);
     }
 }

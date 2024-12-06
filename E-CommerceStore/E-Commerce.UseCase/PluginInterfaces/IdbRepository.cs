@@ -14,7 +14,7 @@ namespace E_Commerce.UseCase.PluginInterfaces
         Task<Product> GetProductByIdAsync(int productId);
         Task<string> UpdateProductAsync(Product product);
         Task<string> DeleteProductAsync(int productId);
-
+        Task RemoveItemFromShopingcart(shopingCart item);
         Task<IEnumerable<Account>> GetAllAccountsAsync();
         Task<string> UpdateAccountAsync(Account account);
         Task<string> CreateAccountAsync(Account account);

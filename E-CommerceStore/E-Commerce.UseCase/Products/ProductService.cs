@@ -32,6 +32,11 @@ namespace E_Commerce.UseCase.Products
             return stack.Where(x => x.ProductId == id).FirstOrDefault();
         }
 
+        public async Task RemoveItemFromShopingcart(shopingCart item)
+        {
+            await ProductRepository.RemoveItemFromShopingcart(item);
+        }
+
         //Update Product
         public async Task<string> UpdateProductAsync(Product product)
         {

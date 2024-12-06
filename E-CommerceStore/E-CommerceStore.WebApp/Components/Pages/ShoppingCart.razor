@@ -5,6 +5,8 @@
 <link rel="stylesheet" href="ShoppingCartStyles.css">
 
 @inject IAccountsService AccountsService
+@inject IProductService ProductService
+
 @inject AuthenticationStateProvider AuthenticationStateProvider
 
 <div class="mockup-bg-container">
@@ -116,8 +118,9 @@
         {
             userAccount.ShopingCart.Remove(item);
             await AccountsService.UpdateAccountAsync(userAccount);
+            await ProductService.RemoveItemFromShopingcart(item);
             await Task.Delay(100);
-            UpdateTotalCost();
+            await UpdateTotalCost();
         }
     }
 

@@ -44,6 +44,12 @@ namespace E_Commerce.Plugin.MySQL
             }
         }
 
+        public async Task RemoveItemFromShopingcart(shopingCart item)
+        {
+            _context.ShopingCarts.Remove(item);
+            await _context.SaveChangesAsync();
+        }
+
         public async Task<IEnumerable<Product>> GetAllProductsAsync()
         {
             return await _context.Products.ToListAsync();
