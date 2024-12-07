@@ -22,6 +22,9 @@
             <AuthorizeView Roles="Admin">
                 <button @onclick="OpenCreateDialog" class="littlebutton">Create</button>
             </AuthorizeView>
+            <AuthorizeView Roles="Admin">
+                <button @onclick="OpenCreateDialog" class="littlebutton">XML Upload</button>
+            </AuthorizeView>
         </div>
     </div>
  

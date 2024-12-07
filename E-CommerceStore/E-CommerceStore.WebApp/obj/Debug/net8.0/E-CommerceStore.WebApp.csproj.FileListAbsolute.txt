@@ -244,8 +244,6 @@ C:\Users\Sam Gleðisheygg\Documents\GitHub\SPRO-3\E-CommerceStore\E-CommerceStor
 C:\Users\Sam Gleðisheygg\Documents\GitHub\SPRO-3\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\E-Commerce.Plugin.MySQL.pdb
 C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\Azure.Identity.dll
-C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\EntityFramework.SqlServer.dll
-C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\EntityFramework.dll
 C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\Humanizer.dll
 C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
@@ -284,7 +282,6 @@ C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp
 C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\System.Composition.Runtime.dll
 C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\System.Composition.TypedParts.dll
 C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
-C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\System.Data.SqlClient.dll
 C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\System.Drawing.Common.dll
 C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\System.Memory.Data.dll
@@ -351,11 +348,6 @@ C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp
 C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
-C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
-C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
-C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
 C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
@@ -533,3 +525,9 @@ C:\Users\samgl\Documents\GitHub\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp
 C:\Users\samgl\Documents\GitHub\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\obj\Debug\net8.0\ref\E-CommerceStore.WebApp.dll
 C:\Users\Sam Gleðisheygg\Documents\GitHub\SPRO-3\E-CommerceStore\E-CommerceStore.WebApp\obj\Debug\net8.0\scopedcss\Components\Pages\Home.razor.rz.scp.css
 C:\Users\Sam Gleðisheygg\Documents\GitHub\SPRO-3\E-CommerceStore\E-CommerceStore.WebApp\obj\Debug\net8.0\scopedcss\Components\Component\ComponentproductSlider.razor.rz.scp.css
+C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\E-CommerceStore.WebApp.staticwebassets.endpoints.json
+C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\obj\Debug\net8.0\scopedcss\Components\Component\ComponentproductSlider.razor.rz.scp.css
+C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\obj\Debug\net8.0\scopedcss\Components\Pages\Home.razor.rz.scp.css
+C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\obj\Debug\net8.0\staticwebassets\msbuild.E-CommerceStore.WebApp.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\ksuch\source\repos\IMS\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
