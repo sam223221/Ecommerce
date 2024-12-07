@@ -50,7 +50,6 @@
 </div>
 
 @code {
-
     [Parameter] public EventCallback<Product> XMLUploaded { get; set; }
 
     private CreatePopUpViewModel Model { get; set; } = new CreatePopUpViewModel();
@@ -67,53 +66,74 @@
             return;
         }
 
-        fileErrorMessage = "";
+        fileErrorMessage = ""; 
 
         using var stream = file.OpenReadStream();
         var reader = new StreamReader(stream);
         var xmlContent = await reader.ReadToEndAsync();
 
-        var products = ParseXmlToProducts(xmlContent);
+        var result = ParseXmlToProducts(xmlContent);
 
-        var result = await ProductService.BulkCreateProductsAsync(products);
+        if (result.HasError)
+        {
+            fileErrorMessage = result.ErrorMessage; 
+            return;
+        }
 
-        if (result.StartsWith("Success"))
+        var products = result.Products;
+        var uploadResult = await ProductService.BulkCreateProductsAsync(products);
+
+        if (uploadResult.StartsWith("Success"))
         {
             fileErrorMessage = "Products uploaded successfully!";
         }
         else
         {
-            fileErrorMessage = result;
+            fileErrorMessage = uploadResult; 
         }
     }
 
-    private List<Product> ParseXmlToProducts(string xmlContent)
+    private (List<Product> Products, bool HasError, string ErrorMessage) ParseXmlToProducts(string xmlContent)
     {
         var products = new List<Product>();
 
-        var xDoc = XDocument.Parse(xmlContent);
-        var productElements = xDoc.Descendants("Product");
-
-        foreach (var productElement in productElements)
+        try
         {
-            var product = new Product
+            var xDoc = XDocument.Parse(xmlContent);
+            foreach (var productElement in xDoc.Descendants("Product"))
+            {
+                var product = new Product
+                    {
+                        ProductName = productElement.Element("ProductName")?.Value,
+                        Description = productElement.Element("Description")?.Value,
+                        Quantity = int.TryParse(productElement.Element("Quantity")?.Value, out var quantity) ? quantity : 0,
+                        Price = double.TryParse(productElement.Element("Price")?.Value, out var price) ? price : 0.00,
+                        ImageUrl = productElement.Element("ImageUrl")?.Value
+                    };
+
+                if (string.IsNullOrEmpty(product.ProductName) ||
+                    string.IsNullOrEmpty(product.Description) ||
+                    string.IsNullOrEmpty(product.ImageUrl) ||
+                    product.Price <= 0 ||
+                    product.Quantity <= 0)
                 {
-                    ProductName = productElement.Element("ProductName")?.Value,
-                    Description = productElement.Element("Description")?.Value,
-                    Quantity = int.Parse(productElement.Element("Quantity")?.Value ?? "0"),
-                    Price = double.Parse(productElement.Element("Price")?.Value ?? "0.0"),
-                    ImageUrl = productElement.Element("ImageUrl")?.Value
-                };
-            products.Add(product);
+                    return (products, true, "Upload failed. Check file structure.");
+                }
+
+                products.Add(product);
+            }
+
+            return (products, false, string.Empty);
         }
-
-        return products;
+        catch
+        {
+            return (products, true, "Upload failed. Check file structure.");
+        }
     }
 
-    private Task ModalExit()
-    {
-        return XMLUploaded.InvokeAsync(null);
-    }
+    private Task ModalExit() => XMLUploaded.InvokeAsync(null);
 
 }
+
+   
 

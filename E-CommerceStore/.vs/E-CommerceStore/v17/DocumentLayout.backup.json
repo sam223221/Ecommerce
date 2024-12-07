@@ -94,8 +94,7 @@
               "RelativeToolTip": "E-CommerceStore.WebApp\\Components\\_Imports.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-07T14:44:48.614Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-07T14:44:48.614Z"
             },
             {
               "$type": "Document",
@@ -107,8 +106,7 @@
               "RelativeToolTip": "E-CommerceStore.WebApp\\Components\\App.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-07T14:44:45.061Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-07T14:44:45.061Z"
             },
             {
               "$type": "Document",
@@ -120,8 +118,7 @@
               "RelativeToolTip": "E-Commerce.UseCase\\Products\\ProductService.cs",
               "ViewState": "AgIAACQAAAAAAAAAAAAmwDgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T14:28:41.214Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-07T14:28:41.214Z"
             },
             {
               "$type": "Document",
@@ -133,8 +130,7 @@
               "RelativeToolTip": "E-Commerce.UseCase\\Products\\Interfaces\\IProductService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T14:28:33.921Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-07T14:28:33.921Z"
             },
             {
               "$type": "Document",
@@ -146,8 +142,7 @@
               "RelativeToolTip": "E-Commerce.UseCase\\PluginInterfaces\\IProductRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T14:28:16.944Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-07T14:28:16.944Z"
             },
             {
               "$type": "Document",
@@ -159,8 +154,7 @@
               "RelativeToolTip": "E-Commerce.UseCase\\PluginInterfaces\\IdbRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T14:28:08.704Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-07T14:28:08.704Z"
             },
             {
               "$type": "Document",
@@ -172,8 +166,7 @@
               "RelativeToolTip": "ECommerce.CoreEntityBusiness\\Product.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T14:27:56.584Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-07T14:27:56.584Z"
             },
             {
               "$type": "Document",
@@ -185,8 +178,7 @@
               "RelativeToolTip": "E-Commerce.Plugin.MySQL\\MySQLDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T14:27:46.433Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-07T14:27:46.433Z"
             },
             {
               "$type": "Document",
@@ -198,8 +190,7 @@
               "RelativeToolTip": "E-Commerce.Plugin.MySQL\\dbRepository.cs",
               "ViewState": "AgIAAFYAAAAAAAAAAAAiwGkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T14:27:22.31Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-07T14:27:22.31Z"
             },
             {
               "$type": "Document",
@@ -209,7 +200,7 @@
               "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Components\\Component\\ViewModel\\ComponentXMLUpload.razor",
               "ToolTip": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Component\\ViewModel\\ComponentXMLUpload.razor",
               "RelativeToolTip": "E-CommerceStore.WebApp\\Components\\Component\\ViewModel\\ComponentXMLUpload.razor",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAAAGYAAABbAAAAAAAAAA==",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAHwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-07T14:27:08.296Z",
               "EditorCaption": ""
@@ -224,8 +215,7 @@
               "RelativeToolTip": "E-CommerceStore.WebApp\\Components\\Pages\\Inventory.razor",
               "ViewState": "AgIAAAEAAAAAAAAAAAAAAOkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-07T13:30:24.353Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-07T13:30:24.353Z"
             }
           ]
         }
