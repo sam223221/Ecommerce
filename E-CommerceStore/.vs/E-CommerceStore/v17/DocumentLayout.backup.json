@@ -56,7 +56,7 @@
               "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Components\\Pages\\Inventory.razor",
               "ToolTip": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Pages\\Inventory.razor",
               "RelativeToolTip": "E-CommerceStore.WebApp\\Components\\Pages\\Inventory.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABcAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAALwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-07T13:30:24.353Z",
               "EditorCaption": ""
@@ -71,8 +71,7 @@
               "RelativeToolTip": "E-CommerceStore.WebApp\\Components\\Component\\ViewModel\\ComponentXMLUpload.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAFAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-07T13:29:25.735Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-07T13:29:25.735Z"
             }
           ]
         }

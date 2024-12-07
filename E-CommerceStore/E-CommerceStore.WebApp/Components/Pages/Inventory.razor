@@ -21,9 +21,7 @@
             <button @onclick="SearchProducts" class="littlebutton">Search</button>
             <AuthorizeView Roles="Admin">
                 <button @onclick="OpenCreateDialog" class="littlebutton">Create</button>
-            </AuthorizeView>
-            <AuthorizeView Roles="Admin">
-                <button @onclick="OpenCreateDialog" class="littlebutton">XML Upload</button>
+                <button @onclick="OpenXMLDialog" class="littlebutton">Upload XML</button>
             </AuthorizeView>
         </div>
     </div>
@@ -104,6 +102,13 @@
     <ComponentCreatePoUp ItemCreated="@CloseCreateDialog">
     </ComponentCreatePoUp>
 }
+
+@if (ModalXMLShow)
+{
+    <ComponentXMLUpload XMLUploaded="@CloseCreateDialog">
+    </ComponentXMLUpload>
+}
+
 @if (ModalEditModalShow)
 {
     <ComponentEditProduct Product="@selectedProduct"
@@ -123,6 +128,7 @@
     private string searchQuery = "";
     public bool ModalCreateShow { get; set; }
     private Product selectedProduct;
+    public bool ModalXMLShow { get; set; }
     private bool ModalEditModalShow = false;
     private String UpdateStatus = "";
     private string notificationMessage = "";
@@ -173,6 +179,12 @@
     private void OpenCreateDialog()
     {
         ModalCreateShow = true;
+        StateHasChanged();
+    }
+
+    private void OpenXMLDialog()
+    {
+        ModalXMLShow = true;
         StateHasChanged();
     }
 
