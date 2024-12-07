@@ -1,11 +1,12 @@
 ﻿@rendermode InteractiveServer
+@inject IProductService ProductService
 
 <div class="modal fade show" id="myModal" style="display:block; background-color: rgba(10,10,10,.8);" aria-modal="true" role="dialog">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
                 <h4 class="modal-title">Upload an XML</h4>
-                <button type="button" class="close" @onclick="@ModalCancel">&times;</button>
+                <button type="button" class="close" @onclick="@ModalExit">&times;</button>
             </div>
             <div class="modal-body">
                 <EditForm Model="@Model">
@@ -34,14 +35,13 @@
 
                         @if (!string.IsNullOrEmpty(fileErrorMessage))
                         {
-                            <p class="text-danger">@fileErrorMessage</p>
+                            <p class="text-primary">@fileErrorMessage</p>
                         }
 
                     </div>
 
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" @onclick="@ModalCancel">Cancel</button>
-                        <button type="submit" class="btn btn-primary">Upload</button>
+                        <button type="button" class="btn btn-primary" @onclick="@ModalExit">Exit</button>
                     </div>
                 </EditForm>
             </div>
@@ -56,22 +56,61 @@
     private CreatePopUpViewModel Model { get; set; } = new CreatePopUpViewModel();
     private string fileErrorMessage = "";
 
-    private void HandleFileChange(InputFileChangeEventArgs e)
+    @inject IProductService ProductService
+
+    private async Task HandleFileChange(InputFileChangeEventArgs e)
     {
         var file = e.File;
-
         if (file.ContentType != "application/xml" && !file.Name.EndsWith(".xml"))
         {
             fileErrorMessage = "Please upload a valid XML file.";
+            return;
+        }
+
+        fileErrorMessage = "";
+
+        using var stream = file.OpenReadStream();
+        var reader = new StreamReader(stream);
+        var xmlContent = await reader.ReadToEndAsync();
+
+        var products = ParseXmlToProducts(xmlContent);
+
+        var result = await ProductService.BulkCreateProductsAsync(products);
+
+        if (result.StartsWith("Success"))
+        {
+            fileErrorMessage = "Products uploaded successfully!";
         }
         else
         {
-            fileErrorMessage = "";
-            // store and handle file later
+            fileErrorMessage = result;
         }
     }
 
-    private Task ModalCancel()
+    private List<Product> ParseXmlToProducts(string xmlContent)
+    {
+        var products = new List<Product>();
+
+        var xDoc = XDocument.Parse(xmlContent);
+        var productElements = xDoc.Descendants("Product");
+
+        foreach (var productElement in productElements)
+        {
+            var product = new Product
+                {
+                    ProductName = productElement.Element("ProductName")?.Value,
+                    Description = productElement.Element("Description")?.Value,
+                    Quantity = int.Parse(productElement.Element("Quantity")?.Value ?? "0"),
+                    Price = double.Parse(productElement.Element("Price")?.Value ?? "0.0"),
+                    ImageUrl = productElement.Element("ImageUrl")?.Value
+                };
+            products.Add(product);
+        }
+
+        return products;
+    }
+
+    private Task ModalExit()
     {
         return XMLUploaded.InvokeAsync(null);
     }

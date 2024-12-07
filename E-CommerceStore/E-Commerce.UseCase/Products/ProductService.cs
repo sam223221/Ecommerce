@@ -54,5 +54,19 @@ namespace E_Commerce.UseCase.Products
         {
             return await ProductRepository.DeleteProductAsync(productId);
         }
+
+        //XML: Adding products in bulk 
+        public async Task<string> BulkCreateProductsAsync(List<Product> products)
+        {
+            foreach (var product in products)
+            {
+                var result = await ProductRepository.CreateProductAsync(product);
+                if (result != "Success")
+                {
+                    return "Error: Failed to create one or more products.";
+                }
+            }
+            return "Success: All products created successfully.";
+        }
     }
 }
