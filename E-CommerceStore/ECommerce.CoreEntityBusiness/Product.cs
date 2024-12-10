@@ -8,7 +8,7 @@ namespace ECommerce.CoreEntityBusiness
         public int ProductId { get; set; }
 
         [StringLength(100)]
-        public required string ProductName { get; set; } = string.Empty;
+        public string ProductName { get; set; } = string.Empty;
 
         [Range(0, int.MaxValue, ErrorMessage = "Quantity must be a non-negative integer.")]
         public int Quantity { get; set; }
