@@ -2051,23 +2051,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Sam Gleðisheygg\\.nuget\\packages\\": {},
+    "C:\\Users\\samgl\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-Commerce.UseCase\\E-Commerce.UseCase.csproj",
+      "projectUniqueName": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.UseCase\\E-Commerce.UseCase.csproj",
       "projectName": "E-Commerce.UseCase",
-      "projectPath": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-Commerce.UseCase\\E-Commerce.UseCase.csproj",
-      "packagesPath": "C:\\Users\\Sam Gleðisheygg\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\E-Commerce.UseCase\\obj\\",
+      "projectPath": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.UseCase\\E-Commerce.UseCase.csproj",
+      "packagesPath": "C:\\Users\\samgl\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.UseCase\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Sam Gleðisheygg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\samgl\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2083,8 +2083,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\ECommerce.CoreEntityBusiness\\ECommerce.CoreEntityBusiness.csproj": {
-              "projectPath": "C:\\Users\\Sam Gleðisheygg\\Documents\\GitHub\\SPRO-3\\E-CommerceStore\\ECommerce.CoreEntityBusiness\\ECommerce.CoreEntityBusiness.csproj"
+            "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\ECommerce.CoreEntityBusiness\\ECommerce.CoreEntityBusiness.csproj": {
+              "projectPath": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\ECommerce.CoreEntityBusiness\\ECommerce.CoreEntityBusiness.csproj"
             }
           }
         }
@@ -2127,7 +2127,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
