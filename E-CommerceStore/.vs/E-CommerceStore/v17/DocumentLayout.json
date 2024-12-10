@@ -7,6 +7,18 @@
       "RelativeMoniker": "D:0:0:{290F1384-91EB-4B98-904C-5E73625A4E14}|E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj|solutionrelative:e-commercestore.webapp\\components\\component\\viewmodel\\componentxmlupload.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{290F1384-91EB-4B98-904C-5E73625A4E14}|E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj|c:\\users\\ksuch\\source\\repos\\ims\\ecommerce\\e-commercestore\\e-commercestore.webapp\\components\\component\\viewmodel\\createpopupviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{290F1384-91EB-4B98-904C-5E73625A4E14}|E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj|solutionrelative:e-commercestore.webapp\\components\\component\\viewmodel\\createpopupviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{290F1384-91EB-4B98-904C-5E73625A4E14}|E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj|c:\\users\\ksuch\\source\\repos\\ims\\ecommerce\\e-commercestore\\e-commercestore.webapp\\components\\component\\componentcreatepoup.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{290F1384-91EB-4B98-904C-5E73625A4E14}|E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj|solutionrelative:e-commercestore.webapp\\components\\component\\componentcreatepoup.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{290F1384-91EB-4B98-904C-5E73625A4E14}|E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj|c:\\users\\ksuch\\source\\repos\\ims\\ecommerce\\e-commercestore\\e-commercestore.webapp\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{290F1384-91EB-4B98-904C-5E73625A4E14}|E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj|solutionrelative:e-commercestore.webapp\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B4FEE1DD-9EF5-4E22-A11D-18CDED6D2BF9}|E-Commerce.UseCase\\E-Commerce.UseCase.csproj|c:\\users\\ksuch\\source\\repos\\ims\\ecommerce\\e-commercestore\\e-commerce.usecase\\products\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4FEE1DD-9EF5-4E22-A11D-18CDED6D2BF9}|E-Commerce.UseCase\\E-Commerce.UseCase.csproj|solutionrelative:e-commerce.usecase\\products\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -54,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 21,
-          "SelectedChildIndex": 16,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -86,55 +98,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_Imports.razor",
-              "DocumentMoniker": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\_Imports.razor",
-              "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Components\\_Imports.razor",
-              "ToolTip": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\_Imports.razor",
-              "RelativeToolTip": "E-CommerceStore.WebApp\\Components\\_Imports.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAWAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ComponentCreatePoUp.razor",
+              "DocumentMoniker": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Component\\ComponentCreatePoUp.razor",
+              "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Components\\Component\\ComponentCreatePoUp.razor",
+              "ToolTip": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Component\\ComponentCreatePoUp.razor",
+              "RelativeToolTip": "E-CommerceStore.WebApp\\Components\\Component\\ComponentCreatePoUp.razor",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADsAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-07T14:44:48.614Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "App.razor",
-              "DocumentMoniker": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\App.razor",
-              "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Components\\App.razor",
-              "ToolTip": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\App.razor",
-              "RelativeToolTip": "E-CommerceStore.WebApp\\Components\\App.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-07T14:44:45.061Z"
+              "WhenOpened": "2024-12-10T12:44:10.011Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ProductService.cs",
-              "DocumentMoniker": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-Commerce.UseCase\\Products\\ProductService.cs",
-              "RelativeDocumentMoniker": "E-Commerce.UseCase\\Products\\ProductService.cs",
-              "ToolTip": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-Commerce.UseCase\\Products\\ProductService.cs",
-              "RelativeToolTip": "E-Commerce.UseCase\\Products\\ProductService.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAmwDgAAAAAAAAAAAAAAA==",
+              "Title": "CreatePopUpViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Component\\ViewModel\\CreatePopUpViewModel.cs",
+              "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Components\\Component\\ViewModel\\CreatePopUpViewModel.cs",
+              "ToolTip": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Component\\ViewModel\\CreatePopUpViewModel.cs",
+              "RelativeToolTip": "E-CommerceStore.WebApp\\Components\\Component\\ViewModel\\CreatePopUpViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T14:28:41.214Z"
+              "WhenOpened": "2024-12-10T12:44:03.736Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IProductService.cs",
-              "DocumentMoniker": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-Commerce.UseCase\\Products\\Interfaces\\IProductService.cs",
-              "RelativeDocumentMoniker": "E-Commerce.UseCase\\Products\\Interfaces\\IProductService.cs",
-              "ToolTip": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-Commerce.UseCase\\Products\\Interfaces\\IProductService.cs",
-              "RelativeToolTip": "E-Commerce.UseCase\\Products\\Interfaces\\IProductService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T14:28:33.921Z"
+              "DocumentIndex": 3,
+              "Title": "app.css",
+              "DocumentMoniker": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\app.css",
+              "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\wwwroot\\app.css",
+              "ToolTip": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\app.css",
+              "RelativeToolTip": "E-CommerceStore.WebApp\\wwwroot\\app.css",
+              "ViewState": "AgIAAMIBAAAAAAAAAAAnwNoBAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-10T12:41:30.958Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
+              "Title": "ComponentXMLUpload.razor",
+              "DocumentMoniker": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Component\\ViewModel\\ComponentXMLUpload.razor",
+              "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Components\\Component\\ViewModel\\ComponentXMLUpload.razor",
+              "ToolTip": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Component\\ViewModel\\ComponentXMLUpload.razor",
+              "RelativeToolTip": "E-CommerceStore.WebApp\\Components\\Component\\ViewModel\\ComponentXMLUpload.razor",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAowKIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-10T12:44:33.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "IProductRepository.cs",
               "DocumentMoniker": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-Commerce.UseCase\\PluginInterfaces\\IProductRepository.cs",
               "RelativeDocumentMoniker": "E-Commerce.UseCase\\PluginInterfaces\\IProductRepository.cs",
@@ -146,7 +162,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "IdbRepository.cs",
               "DocumentMoniker": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-Commerce.UseCase\\PluginInterfaces\\IdbRepository.cs",
               "RelativeDocumentMoniker": "E-Commerce.UseCase\\PluginInterfaces\\IdbRepository.cs",
@@ -158,7 +174,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\ECommerce.CoreEntityBusiness\\Product.cs",
               "RelativeDocumentMoniker": "ECommerce.CoreEntityBusiness\\Product.cs",
@@ -170,7 +186,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "MySQLDbContext.cs",
               "DocumentMoniker": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-Commerce.Plugin.MySQL\\MySQLDbContext.cs",
               "RelativeDocumentMoniker": "E-Commerce.Plugin.MySQL\\MySQLDbContext.cs",
@@ -182,7 +198,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "dbRepository.cs",
               "DocumentMoniker": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-Commerce.Plugin.MySQL\\dbRepository.cs",
               "RelativeDocumentMoniker": "E-Commerce.Plugin.MySQL\\dbRepository.cs",
@@ -194,20 +210,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ComponentXMLUpload.razor",
-              "DocumentMoniker": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Component\\ViewModel\\ComponentXMLUpload.razor",
-              "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Components\\Component\\ViewModel\\ComponentXMLUpload.razor",
-              "ToolTip": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Component\\ViewModel\\ComponentXMLUpload.razor",
-              "RelativeToolTip": "E-CommerceStore.WebApp\\Components\\Component\\ViewModel\\ComponentXMLUpload.razor",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAAAHwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-07T14:27:08.296Z",
-              "EditorCaption": ""
+              "DocumentIndex": 5,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-Commerce.UseCase\\Products\\Interfaces\\IProductService.cs",
+              "RelativeDocumentMoniker": "E-Commerce.UseCase\\Products\\Interfaces\\IProductService.cs",
+              "ToolTip": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-Commerce.UseCase\\Products\\Interfaces\\IProductService.cs",
+              "RelativeToolTip": "E-Commerce.UseCase\\Products\\Interfaces\\IProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T14:28:33.921Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 4,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-Commerce.UseCase\\Products\\ProductService.cs",
+              "RelativeDocumentMoniker": "E-Commerce.UseCase\\Products\\ProductService.cs",
+              "ToolTip": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-Commerce.UseCase\\Products\\ProductService.cs",
+              "RelativeToolTip": "E-Commerce.UseCase\\Products\\ProductService.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAmwDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T14:28:41.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\App.razor",
+              "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Components\\App.razor",
+              "ToolTip": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\App.razor",
+              "RelativeToolTip": "E-CommerceStore.WebApp\\Components\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-07T14:44:45.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Components\\_Imports.razor",
+              "ToolTip": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\_Imports.razor",
+              "RelativeToolTip": "E-CommerceStore.WebApp\\Components\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-07T14:44:48.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Inventory.razor",
               "DocumentMoniker": "C:\\Users\\ksuch\\source\\repos\\IMS\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Pages\\Inventory.razor",
               "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Components\\Pages\\Inventory.razor",

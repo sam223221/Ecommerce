@@ -21,27 +21,41 @@
                         &lt;Product&gt;<br />
                         &lt;ProductName&gt;Sample Product&lt;/ProductName&gt;<br />
                         &lt;Description&gt;Sample description&lt;/Description&gt;<br />
-                        &lt;Quantity&gt;10&lt;/Quantity&gt;<br />
-                        &lt;Price&gt;100.0&lt;/Price&gt;<br />
+                        &lt;Quantity&gt;Number&lt;/Quantity&gt;<br />
+                        &lt;Price&gt;Number&lt;/Price&gt;<br />
                         &lt;ImageUrl&gt;http://example.com/sample.jpg&lt;/ImageUrl&gt;<br />
                         &lt;/Product&gt;<br />
                         &lt;/Products&gt;<br /><br />
                         <p />
 
                         <div class="form-group">
-                            <b><div for="fileUpload">Choose your XML file:</div></b><br />
+                            <b><label for="fileUpload">Choose your XML file:</label></b><br />
                             <InputFile id="fileUpload" OnChange="HandleFileChange" accept=".xml" />
                         </div>
 
                         @if (!string.IsNullOrEmpty(fileErrorMessage))
                         {
-                            <p class="text-primary">@fileErrorMessage</p>
+                            <p class="text-primary">@((MarkupString)fileErrorMessage)</p>
                         }
 
+                        @if (ParsedProducts?.Count > 0)
+                        {
+                            <div>
+                                <p class="text-success">Successfully parsed @ParsedProducts.Count products!</p>
+                                <ul>
+                                    @foreach (var product in ParsedProducts)
+                                    {
+                                        <li>@product.ProductName - @($"{product.Quantity}x")</li>
+                                    }
+                                </ul>
+                                <p class="text-success">You can now upload them.</p>
+                                <button type="button" class="btn btn-primary" @onclick="UploadParsedProducts">Upload Products</button>
+                            </div>
+                        }
                     </div>
 
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-primary" @onclick="@ModalExit">Exit</button>
+                        <button type="button" class="btn btn-secondary" @onclick="@ModalExit">Exit</button>
                     </div>
                 </EditForm>
             </div>
@@ -54,6 +68,7 @@
 
     private CreatePopUpViewModel Model { get; set; } = new CreatePopUpViewModel();
     private string fileErrorMessage = "";
+    private List<Product> ParsedProducts { get; set; } = new List<Product>();
 
     @inject IProductService ProductService
 
@@ -66,7 +81,7 @@
             return;
         }
 
-        fileErrorMessage = ""; 
+        fileErrorMessage = "";
 
         using var stream = file.OpenReadStream();
         var reader = new StreamReader(stream);
@@ -76,26 +91,39 @@
 
         if (result.HasError)
         {
-            fileErrorMessage = result.ErrorMessage; 
+            fileErrorMessage = result.ErrorMessage;
+            ParsedProducts.Clear();
             return;
         }
 
-        var products = result.Products;
-        var uploadResult = await ProductService.BulkCreateProductsAsync(products);
+        ParsedProducts = result.Products;
+    }
+
+    private async Task UploadParsedProducts()
+    {
+        if (ParsedProducts.Count == 0)
+        {
+            fileErrorMessage = "No products to upload.";
+            return;
+        }
+
+        var uploadResult = await ProductService.BulkCreateProductsAsync(ParsedProducts);
 
         if (uploadResult.StartsWith("Success"))
         {
             fileErrorMessage = "Products uploaded successfully!";
+            ParsedProducts.Clear();
         }
         else
         {
-            fileErrorMessage = uploadResult; 
+            fileErrorMessage = uploadResult;
         }
     }
 
     private (List<Product> Products, bool HasError, string ErrorMessage) ParseXmlToProducts(string xmlContent)
     {
         var products = new List<Product>();
+        var errorMessages = new List<string>();
 
         try
         {
@@ -111,17 +139,32 @@
                         ImageUrl = productElement.Element("ImageUrl")?.Value
                     };
 
-                if (string.IsNullOrEmpty(product.ProductName) ||
-                    string.IsNullOrEmpty(product.Description) ||
-                    string.IsNullOrEmpty(product.ImageUrl) ||
-                    product.Price <= 0 ||
-                    product.Quantity <= 0)
+                var productErrors = new List<string>();
+
+                if (string.IsNullOrEmpty(product.ProductName))
+                    productErrors.Add("Product Name is missing.");
+                if (string.IsNullOrEmpty(product.Description))
+                    productErrors.Add("Description is missing.");
+                if (string.IsNullOrEmpty(product.ImageUrl))
+                    productErrors.Add("Image URL is missing.");
+                if (product.Price <= 0)
+                    productErrors.Add("Price must be greater than zero.");
+                if (product.Quantity <= 0)
+                    productErrors.Add("Quantity must be greater than zero.");
+
+                if (productErrors.Any())
                 {
-                    return (products, true, "Upload failed. Check file structure.");
+                    errorMessages.Add($"Product '{product.ProductName}' has the following errors: <br/>{string.Join("<br/>", productErrors)}<br/><br/>");
+                    continue; 
                 }
 
                 products.Add(product);
             }
+
+            if (errorMessages.Any())
+            {
+                return (products, true, string.Join("\n", errorMessages));
+        }
 
             return (products, false, string.Empty);
         }
@@ -131,9 +174,6 @@
         }
     }
 
+
     private Task ModalExit() => XMLUploaded.InvokeAsync(null);
-
 }
-
-   
-
