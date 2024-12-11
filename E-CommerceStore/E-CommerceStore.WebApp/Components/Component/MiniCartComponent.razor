@@ -1,0 +1,116 @@
+﻿@inject IAccountsService AccountsService
+@inject IProductService ProductService
+@inject AuthenticationStateProvider AuthenticationStateProvider
+
+<div class="mini-cart-container">
+    <div class="mini-cart-header">
+        <h3 class="mini-cart-title">Mini Shopping Cart</h3>
+    </div>
+    @if (IsLoading)
+    {
+        <p class="mini-cart-loading">Loading cart...</p>
+    }
+    else if (ShoppingCart?.Count > 0)
+    {
+        <ul class="mini-cart-list">
+            @foreach (var item in ShoppingCart)
+            {
+                <li class="mini-cart-item">
+                    <div class="mini-cart-item-content">
+                        <img src="@item.Product.ImageUrl" alt="Product Image" class="mini-cart-item-image" />
+                        <div class="mini-cart-item-info">
+                            <p class="mini-cart-item-name">@item.Product.ProductName</p>
+                            <div class="mini-cart-item-quantity">
+                                <label>Quantity:</label>
+                                <input type="number" class="quantity-input" min="1" max="@item.Product.Quantity"
+                                       @bind="item.Quantity" @oninput="() => UpdateQuantity(item)" />
+                            </div>
+                            <p class="mini-cart-item-price">Price: <strong>@(item.Product.Price * item.Quantity) kr</strong></p>
+                            <button class="remove-button" @onclick="() => RemoveItem(item)">Remove</button>
+                        </div>
+                    </div>
+                </li>
+            }
+        </ul>
+        <div class="mini-cart-footer">
+            <p class="mini-cart-total">Total Cost: <strong>@TotalCost kr</strong></p>
+        </div>
+    }
+    else
+    {
+        <p class="mini-cart-empty">Your cart is empty.</p>
+    }
+</div>
+
+@code {
+    private List<shopingCart>? ShoppingCart = null;
+    private bool IsLoading = true;
+    private double TotalCost = 0;
+
+    protected override async Task OnInitializedAsync()
+    {
+        IsLoading = true;
+
+        // Fetch current user's shopping cart only
+        AuthenticationState authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
+        var user = authState.User;
+
+        if (user.Identity?.IsAuthenticated == true)
+        {
+            var userId = int.Parse(user.FindFirst(c => c.Type == ClaimTypes.NameIdentifier)?.Value ?? "0");
+            ShoppingCart = await SafeFetchShoppingCart(userId);
+        }
+
+        UpdateTotalCost();
+        IsLoading = false;
+    }
+
+    private async Task<List<shopingCart>> SafeFetchShoppingCart(int userId)
+    {
+        try
+        {
+            return await AccountsService.GetShoppingCartByUserIdAsync(userId);
+        }
+        catch (InvalidOperationException ex)
+        {
+            Console.WriteLine($"Error fetching shopping cart: {ex.Message}");
+            return new List<shopingCart>();
+        }
+    }
+
+    private void UpdateTotalCost()
+    {
+        TotalCost = ShoppingCart?.Sum(item => item.Product.Price * item.Quantity) ?? 0;
+    }
+
+    private async Task UpdateQuantity(shopingCart item)
+    {
+        try
+        {
+            await AccountsService.UpdateAccountAsync(new Account
+                {
+                    AccountId = item.Product.ProductId, 
+                    ShopingCart = ShoppingCart
+                });
+            UpdateTotalCost();
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error updating quantity: {ex.Message}");
+        }
+    }
+
+    private async Task RemoveItem(shopingCart item)
+    {
+        try
+        {
+            ShoppingCart?.Remove(item);
+            await ProductService.RemoveItemFromShopingcart(item);
+            UpdateTotalCost();
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error removing item: {ex.Message}");
+        }
+    }
+}

@@ -4450,23 +4450,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\samgl\\.nuget\\packages\\": {},
+    "C:\\Users\\kubak\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj",
+      "projectUniqueName": "C:\\EcommerceWebTech\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj",
       "projectName": "E-CommerceStore.WebApp",
-      "projectPath": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj",
-      "packagesPath": "C:\\Users\\samgl\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\obj\\",
+      "projectPath": "C:\\EcommerceWebTech\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj",
+      "packagesPath": "C:\\Users\\kubak\\.nuget\\packages\\",
+      "outputPath": "C:\\EcommerceWebTech\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\samgl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\kubak\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4482,17 +4482,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.Plugin.InMemmory\\E-Commerce.Plugin.InMemmory.csproj": {
-              "projectPath": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.Plugin.InMemmory\\E-Commerce.Plugin.InMemmory.csproj"
+            "C:\\EcommerceWebTech\\Ecommerce\\E-CommerceStore\\E-Commerce.Plugin.InMemmory\\E-Commerce.Plugin.InMemmory.csproj": {
+              "projectPath": "C:\\EcommerceWebTech\\Ecommerce\\E-CommerceStore\\E-Commerce.Plugin.InMemmory\\E-Commerce.Plugin.InMemmory.csproj"
             },
-            "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.Plugin.MySQL\\E-Commerce.Plugin.MySQL.csproj": {
-              "projectPath": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.Plugin.MySQL\\E-Commerce.Plugin.MySQL.csproj"
+            "C:\\EcommerceWebTech\\Ecommerce\\E-CommerceStore\\E-Commerce.Plugin.MySQL\\E-Commerce.Plugin.MySQL.csproj": {
+              "projectPath": "C:\\EcommerceWebTech\\Ecommerce\\E-CommerceStore\\E-Commerce.Plugin.MySQL\\E-Commerce.Plugin.MySQL.csproj"
             },
-            "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.UseCase\\E-Commerce.UseCase.csproj": {
-              "projectPath": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.UseCase\\E-Commerce.UseCase.csproj"
+            "C:\\EcommerceWebTech\\Ecommerce\\E-CommerceStore\\E-Commerce.UseCase\\E-Commerce.UseCase.csproj": {
+              "projectPath": "C:\\EcommerceWebTech\\Ecommerce\\E-CommerceStore\\E-Commerce.UseCase\\E-Commerce.UseCase.csproj"
             },
-            "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\ECommerce.CoreEntityBusiness\\ECommerce.CoreEntityBusiness.csproj": {
-              "projectPath": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\ECommerce.CoreEntityBusiness\\ECommerce.CoreEntityBusiness.csproj"
+            "C:\\EcommerceWebTech\\Ecommerce\\E-CommerceStore\\ECommerce.CoreEntityBusiness\\ECommerce.CoreEntityBusiness.csproj": {
+              "projectPath": "C:\\EcommerceWebTech\\Ecommerce\\E-CommerceStore\\ECommerce.CoreEntityBusiness\\ECommerce.CoreEntityBusiness.csproj"
             }
           }
         }
@@ -4542,7 +4542,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

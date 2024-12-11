@@ -85,13 +85,16 @@
         if (user.Identity.IsAuthenticated)
         {
             var UserId = int.Parse(user.FindFirst(c => c.Type == ClaimTypes.NameIdentifier)?.Value ?? "0");
-            var allAccounts = await AccountsService.GetAllAccountsAsync();
-            userAccount = allAccounts.FirstOrDefault(prop => prop.AccountId == UserId);
+            var allAccounts = await AccountsService.GetAllAccountsAsync("");
+            userAccount = allAccounts.First(p => p.AccountId == UserId);
 
             if (userAccount == null)
             {
                 ChartClose();
                 Console.WriteLine("User account not found.");
+            }else
+            {
+                Console.WriteLine("User account is now found.");
             }
         }
         else
@@ -99,6 +102,7 @@
             ChartClose();
             Console.WriteLine("User is not authenticated.");
         }
+
     }
 
     private async void ChartClose()

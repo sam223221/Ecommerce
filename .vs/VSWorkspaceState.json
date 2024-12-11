@@ -4,13 +4,8 @@
     "\\E-CommerceStore",
     "\\E-CommerceStore\\E-CommerceStore.WebApp",
     "\\E-CommerceStore\\E-CommerceStore.WebApp\\Components",
-    "\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Layout",
     "\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Pages"
   ],
-<<<<<<< HEAD
-  "SelectedNode": "\\E-CommerceStore\\E-CommerceStore.sln",
-=======
-  "SelectedNode": "\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Pages\\Inventory.razor",
->>>>>>> new-frontend-;)
+  "SelectedNode": "\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Pages\\Home.razor",
   "PreviewInSolutionExplorer": false
 }

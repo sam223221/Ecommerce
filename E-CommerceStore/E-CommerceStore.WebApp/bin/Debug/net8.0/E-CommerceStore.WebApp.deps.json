@@ -1011,10 +1011,7 @@
           "ECommerce.CoreEntityBusiness": "1.0.0"
         },
         "runtime": {
-          "E-Commerce.Plugin.InMemmory.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "E-Commerce.Plugin.InMemmory.dll": {}
         }
       },
       "E-Commerce.Plugin.MySQL/1.0.0": {
@@ -1026,10 +1023,7 @@
           "Pomelo.EntityFrameworkCore.MySql": "8.0.2"
         },
         "runtime": {
-          "E-Commerce.Plugin.MySQL.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "E-Commerce.Plugin.MySQL.dll": {}
         }
       },
       "E-Commerce.UseCase/1.0.0": {
@@ -1037,18 +1031,12 @@
           "ECommerce.CoreEntityBusiness": "1.0.0"
         },
         "runtime": {
-          "E-Commerce.UseCase.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "E-Commerce.UseCase.dll": {}
         }
       },
       "ECommerce.CoreEntityBusiness/1.0.0": {
         "runtime": {
-          "ECommerce.CoreEntityBusiness.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "ECommerce.CoreEntityBusiness.dll": {}
         }
       }
     }

@@ -15,7 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E-Commerce.Plugin.InMemmory
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E-Commerce.Plugin.MySQL", "E-Commerce.Plugin.MySQL\E-Commerce.Plugin.MySQL.csproj", "{FD3701B4-FF05-42A2-9835-CC2DDF58AA7D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-Commerce.XunitTest", "E-Commerce.XunitTest\E-Commerce.XunitTest.csproj", "{E2EFEC02-BF59-483D-B166-41EB821570C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E-Commerce.XunitTest", "E-Commerce.XunitTest\E-Commerce.XunitTest.csproj", "{E2EFEC02-BF59-483D-B166-41EB821570C8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

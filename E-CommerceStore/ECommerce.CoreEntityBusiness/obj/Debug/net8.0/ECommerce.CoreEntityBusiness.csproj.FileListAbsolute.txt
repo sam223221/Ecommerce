@@ -40,3 +40,17 @@ C:\Users\samgl\Documents\GitHub\Ecommerce\E-CommerceStore\ECommerce.CoreEntityBu
 C:\Users\samgl\Documents\GitHub\Ecommerce\E-CommerceStore\ECommerce.CoreEntityBusiness\obj\Debug\net8.0\ECommerce.CoreEntityBusiness.pdb
 C:\Users\samgl\Documents\GitHub\Ecommerce\E-CommerceStore\ECommerce.CoreEntityBusiness\obj\Debug\net8.0\ECommerce.CoreEntityBusiness.genruntimeconfig.cache
 C:\Users\samgl\Documents\GitHub\Ecommerce\E-CommerceStore\ECommerce.CoreEntityBusiness\obj\Debug\net8.0\ref\ECommerce.CoreEntityBusiness.dll
+C:\EcommerceWebTech\Ecommerce\E-CommerceStore\ECommerce.CoreEntityBusiness\bin\Debug\net8.0\ECommerce.CoreEntityBusiness.deps.json
+C:\EcommerceWebTech\Ecommerce\E-CommerceStore\ECommerce.CoreEntityBusiness\bin\Debug\net8.0\ECommerce.CoreEntityBusiness.runtimeconfig.json
+C:\EcommerceWebTech\Ecommerce\E-CommerceStore\ECommerce.CoreEntityBusiness\bin\Debug\net8.0\ECommerce.CoreEntityBusiness.dll
+C:\EcommerceWebTech\Ecommerce\E-CommerceStore\ECommerce.CoreEntityBusiness\bin\Debug\net8.0\ECommerce.CoreEntityBusiness.pdb
+C:\EcommerceWebTech\Ecommerce\E-CommerceStore\ECommerce.CoreEntityBusiness\obj\Debug\net8.0\ECommerce.CoreEntityBusiness.GeneratedMSBuildEditorConfig.editorconfig
+C:\EcommerceWebTech\Ecommerce\E-CommerceStore\ECommerce.CoreEntityBusiness\obj\Debug\net8.0\ECommerce.CoreEntityBusiness.AssemblyInfoInputs.cache
+C:\EcommerceWebTech\Ecommerce\E-CommerceStore\ECommerce.CoreEntityBusiness\obj\Debug\net8.0\ECommerce.CoreEntityBusiness.AssemblyInfo.cs
+C:\EcommerceWebTech\Ecommerce\E-CommerceStore\ECommerce.CoreEntityBusiness\obj\Debug\net8.0\ECommerce.CoreEntityBusiness.csproj.CoreCompileInputs.cache
+C:\EcommerceWebTech\Ecommerce\E-CommerceStore\ECommerce.CoreEntityBusiness\obj\Debug\net8.0\ECommerce.CoreEntityBusiness.sourcelink.json
+C:\EcommerceWebTech\Ecommerce\E-CommerceStore\ECommerce.CoreEntityBusiness\obj\Debug\net8.0\ECommerce.CoreEntityBusiness.dll
+C:\EcommerceWebTech\Ecommerce\E-CommerceStore\ECommerce.CoreEntityBusiness\obj\Debug\net8.0\refint\ECommerce.CoreEntityBusiness.dll
+C:\EcommerceWebTech\Ecommerce\E-CommerceStore\ECommerce.CoreEntityBusiness\obj\Debug\net8.0\ECommerce.CoreEntityBusiness.pdb
+C:\EcommerceWebTech\Ecommerce\E-CommerceStore\ECommerce.CoreEntityBusiness\obj\Debug\net8.0\ECommerce.CoreEntityBusiness.genruntimeconfig.cache
+C:\EcommerceWebTech\Ecommerce\E-CommerceStore\ECommerce.CoreEntityBusiness\obj\Debug\net8.0\ref\ECommerce.CoreEntityBusiness.dll

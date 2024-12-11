@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "75v1ayYNTD0r2V4qKIP5wTDVUU7GBVDLXYT83NrhVPs=",
+  "Hash": "WXBCcHp//7c6hGLkxHtVyn23AEs62WJYSZxVYPhLzU0=",
   "Source": "E-CommerceStore.WebApp",
   "BasePath": "_content/E-CommerceStore.WebApp",
   "Mode": "Default",
@@ -10,55 +10,17 @@
     {
       "Name": "E-CommerceStore.WebApp\\wwwroot",
       "Source": "E-CommerceStore.WebApp",
-      "ContentRoot": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\EcommerceWebTech\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
       "BasePath": "_content/E-CommerceStore.WebApp",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\samgl\\.nuget\\packages\\blazored.modal\\7.3.1\\staticwebassets\\Blazored.Modal.bundle.scp.css",
-      "SourceId": "Blazored.Modal",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\samgl\\.nuget\\packages\\blazored.modal\\7.3.1\\staticwebassets\\",
-      "BasePath": "_content/Blazored.Modal",
-      "RelativePath": "Blazored.Modal.bundle.scp.css",
-      "AssetKind": "All",
-      "AssetMode": "Reference",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ProjectBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\samgl\\.nuget\\packages\\blazored.modal\\7.3.1\\staticwebassets\\Blazored.Modal.bundle.scp.css"
-    },
-    {
-      "Identity": "C:\\Users\\samgl\\.nuget\\packages\\blazored.modal\\7.3.1\\staticwebassets\\BlazoredModal.razor.js",
-      "SourceId": "Blazored.Modal",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\samgl\\.nuget\\packages\\blazored.modal\\7.3.1\\staticwebassets\\",
-      "BasePath": "_content/Blazored.Modal",
-      "RelativePath": "BlazoredModal.razor.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\samgl\\.nuget\\packages\\blazored.modal\\7.3.1\\staticwebassets\\BlazoredModal.razor.js"
-    },
-    {
-      "Identity": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\E-CommerceStore.WebApp.styles.css",
+      "Identity": "C:\\EcommerceWebTech\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\E-CommerceStore.WebApp.styles.css",
       "SourceId": "E-CommerceStore.WebApp",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\EcommerceWebTech\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/E-CommerceStore.WebApp",
       "RelativePath": "E-CommerceStore.WebApp.styles.css",
       "AssetKind": "All",
@@ -71,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\E-CommerceStore.WebApp.styles.css"
+      "OriginalItemSpec": "C:\\EcommerceWebTech\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\E-CommerceStore.WebApp.styles.css"
     },
     {
-      "Identity": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\E-CommerceStore.WebApp.bundle.scp.css",
+      "Identity": "C:\\EcommerceWebTech\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\E-CommerceStore.WebApp.bundle.scp.css",
       "SourceId": "E-CommerceStore.WebApp",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\EcommerceWebTech\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/E-CommerceStore.WebApp",
       "RelativePath": "E-CommerceStore.WebApp.bundle.scp.css",
       "AssetKind": "All",
@@ -90,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\E-CommerceStore.WebApp.bundle.scp.css"
+      "OriginalItemSpec": "C:\\EcommerceWebTech\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\E-CommerceStore.WebApp.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\app.css",
+      "Identity": "C:\\EcommerceWebTech\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\app.css",
       "SourceId": "E-CommerceStore.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\EcommerceWebTech\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
       "BasePath": "_content/E-CommerceStore.WebApp",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -112,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\accessdenied.png",
+      "Identity": "C:\\EcommerceWebTech\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\accessdenied.png",
       "SourceId": "E-CommerceStore.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\EcommerceWebTech\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
       "BasePath": "_content/E-CommerceStore.WebApp",
       "RelativePath": "assets/accessdenied.png",
       "AssetKind": "All",
@@ -131,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\accessdenied.png"
     },
     {
-      "Identity": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\account.png",
+      "Identity": "C:\\EcommerceWebTech\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\account.png",
       "SourceId": "E-CommerceStore.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\EcommerceWebTech\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
       "BasePath": "_content/E-CommerceStore.WebApp",
       "RelativePath": "assets/account.png",
       "AssetKind": "All",
@@ -150,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\account.png"
     },
     {
-      "Identity": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\bitcoinlogo.png",
+      "Identity": "C:\\EcommerceWebTech\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\bitcoinlogo.png",
       "SourceId": "E-CommerceStore.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\EcommerceWebTech\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
       "BasePath": "_content/E-CommerceStore.WebApp",
       "RelativePath": "assets/bitcoinlogo.png",
       "AssetKind": "All",
@@ -169,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\bitcoinlogo.png"
     },
     {
-      "Identity": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\cart.png",
+      "Identity": "C:\\EcommerceWebTech\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\cart.png",
       "SourceId": "E-CommerceStore.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\EcommerceWebTech\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
       "BasePath": "_content/E-CommerceStore.WebApp",
       "RelativePath": "assets/cart.png",
       "AssetKind": "All",
@@ -188,10 +150,29 @@
       "OriginalItemSpec": "wwwroot\\assets\\cart.png"
     },
     {
-      "Identity": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\electronicsshowcase.png",
+      "Identity": "C:\\EcommerceWebTech\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\cartmini.png",
       "SourceId": "E-CommerceStore.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\EcommerceWebTech\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+      "BasePath": "_content/E-CommerceStore.WebApp",
+      "RelativePath": "assets/cartmini.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\cartmini.png"
+    },
+    {
+      "Identity": "C:\\EcommerceWebTech\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\electronicsshowcase.png",
+      "SourceId": "E-CommerceStore.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\EcommerceWebTech\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
       "BasePath": "_content/E-CommerceStore.WebApp",
       "RelativePath": "assets/electronicsshowcase.png",
       "AssetKind": "All",
@@ -207,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\electronicsshowcase.png"
     },
     {
-      "Identity": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\landingbg.svg",
+      "Identity": "C:\\EcommerceWebTech\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\landingbg.svg",
       "SourceId": "E-CommerceStore.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\EcommerceWebTech\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
       "BasePath": "_content/E-CommerceStore.WebApp",
       "RelativePath": "assets/landingbg.svg",
       "AssetKind": "All",
@@ -226,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\landingbg.svg"
     },
     {
-      "Identity": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\landingmainphoto.svg",
+      "Identity": "C:\\EcommerceWebTech\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\landingmainphoto.svg",
       "SourceId": "E-CommerceStore.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\EcommerceWebTech\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
       "BasePath": "_content/E-CommerceStore.WebApp",
       "RelativePath": "assets/landingmainphoto.svg",
       "AssetKind": "All",
@@ -245,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\landingmainphoto.svg"
     },
     {
-      "Identity": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\landingpage-desk.png",
+      "Identity": "C:\\EcommerceWebTech\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\landingpage-desk.png",
       "SourceId": "E-CommerceStore.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\EcommerceWebTech\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
       "BasePath": "_content/E-CommerceStore.WebApp",
       "RelativePath": "assets/landingpage-desk.png",
       "AssetKind": "All",
@@ -264,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\landingpage-desk.png"
     },
     {
-      "Identity": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\logo.png",
+      "Identity": "C:\\EcommerceWebTech\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\logo.png",
       "SourceId": "E-CommerceStore.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\EcommerceWebTech\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
       "BasePath": "_content/E-CommerceStore.WebApp",
       "RelativePath": "assets/logo.png",
       "AssetKind": "All",
@@ -283,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\logo.png"
     },
     {
-      "Identity": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\logout.png",
+      "Identity": "C:\\EcommerceWebTech\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\logout.png",
       "SourceId": "E-CommerceStore.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\EcommerceWebTech\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
       "BasePath": "_content/E-CommerceStore.WebApp",
       "RelativePath": "assets/logout.png",
       "AssetKind": "All",
@@ -302,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\logout.png"
     },
     {
-      "Identity": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\mastercardlogo.png",
+      "Identity": "C:\\EcommerceWebTech\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\mastercardlogo.png",
       "SourceId": "E-CommerceStore.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\EcommerceWebTech\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
       "BasePath": "_content/E-CommerceStore.WebApp",
       "RelativePath": "assets/mastercardlogo.png",
       "AssetKind": "All",
@@ -321,10 +302,29 @@
       "OriginalItemSpec": "wwwroot\\assets\\mastercardlogo.png"
     },
     {
-      "Identity": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\EcommerceWebTech\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\minicart.jpg",
       "SourceId": "E-CommerceStore.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\EcommerceWebTech\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+      "BasePath": "_content/E-CommerceStore.WebApp",
+      "RelativePath": "assets/minicart.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\minicart.jpg"
+    },
+    {
+      "Identity": "C:\\EcommerceWebTech\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "SourceId": "E-CommerceStore.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\EcommerceWebTech\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
       "BasePath": "_content/E-CommerceStore.WebApp",
       "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\EcommerceWebTech\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "E-CommerceStore.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\EcommerceWebTech\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
       "BasePath": "_content/E-CommerceStore.WebApp",
       "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -359,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\favicon.png",
+      "Identity": "C:\\EcommerceWebTech\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\favicon.png",
       "SourceId": "E-CommerceStore.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\EcommerceWebTech\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
       "BasePath": "_content/E-CommerceStore.WebApp",
       "RelativePath": "favicon.png",
       "AssetKind": "All",
@@ -378,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.png"
     },
     {
-      "Identity": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\images\\hearth.png",
+      "Identity": "C:\\EcommerceWebTech\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\images\\hearth.png",
       "SourceId": "E-CommerceStore.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\EcommerceWebTech\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
       "BasePath": "_content/E-CommerceStore.WebApp",
       "RelativePath": "images/hearth.png",
       "AssetKind": "All",
@@ -397,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\images\\hearth.png"
     },
     {
-      "Identity": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\images\\shoes1.png",
+      "Identity": "C:\\EcommerceWebTech\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\images\\shoes1.png",
       "SourceId": "E-CommerceStore.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\EcommerceWebTech\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
       "BasePath": "_content/E-CommerceStore.WebApp",
       "RelativePath": "images/shoes1.png",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\images\\shoes1.png"
     },
     {
-      "Identity": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\images\\shoes2.png",
+      "Identity": "C:\\EcommerceWebTech\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\images\\shoes2.png",
       "SourceId": "E-CommerceStore.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\EcommerceWebTech\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
       "BasePath": "_content/E-CommerceStore.WebApp",
       "RelativePath": "images/shoes2.png",
       "AssetKind": "All",
@@ -435,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\images\\shoes2.png"
     },
     {
-      "Identity": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\images\\shoes3.png",
+      "Identity": "C:\\EcommerceWebTech\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\images\\shoes3.png",
       "SourceId": "E-CommerceStore.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\EcommerceWebTech\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
       "BasePath": "_content/E-CommerceStore.WebApp",
       "RelativePath": "images/shoes3.png",
       "AssetKind": "All",
@@ -454,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\images\\shoes3.png"
     },
     {
-      "Identity": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\images\\trash.png",
+      "Identity": "C:\\EcommerceWebTech\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\images\\trash.png",
       "SourceId": "E-CommerceStore.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\EcommerceWebTech\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
       "BasePath": "_content/E-CommerceStore.WebApp",
       "RelativePath": "images/trash.png",
       "AssetKind": "All",
@@ -473,10 +473,10 @@
       "OriginalItemSpec": "wwwroot\\images\\trash.png"
     },
     {
-      "Identity": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\js\\JavaScripts.js",
+      "Identity": "C:\\EcommerceWebTech\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\js\\JavaScripts.js",
       "SourceId": "E-CommerceStore.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\EcommerceWebTech\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
       "BasePath": "_content/E-CommerceStore.WebApp",
       "RelativePath": "js/JavaScripts.js",
       "AssetKind": "All",
@@ -490,6 +490,44 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\JavaScripts.js"
+    },
+    {
+      "Identity": "C:\\Users\\kubak\\.nuget\\packages\\blazored.modal\\7.3.1\\staticwebassets\\Blazored.Modal.bundle.scp.css",
+      "SourceId": "Blazored.Modal",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\kubak\\.nuget\\packages\\blazored.modal\\7.3.1\\staticwebassets\\",
+      "BasePath": "_content/Blazored.Modal",
+      "RelativePath": "Blazored.Modal.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\kubak\\.nuget\\packages\\blazored.modal\\7.3.1\\staticwebassets\\Blazored.Modal.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\kubak\\.nuget\\packages\\blazored.modal\\7.3.1\\staticwebassets\\BlazoredModal.razor.js",
+      "SourceId": "Blazored.Modal",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\kubak\\.nuget\\packages\\blazored.modal\\7.3.1\\staticwebassets\\",
+      "BasePath": "_content/Blazored.Modal",
+      "RelativePath": "BlazoredModal.razor.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\kubak\\.nuget\\packages\\blazored.modal\\7.3.1\\staticwebassets\\BlazoredModal.razor.js"
     }
   ]
 }

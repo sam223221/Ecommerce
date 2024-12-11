@@ -1,0 +1,131 @@
+﻿.mini-cart-container {
+    width: 100%; 
+    max-width: 600px; 
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    overflow-x: hidden; 
+    margin: 0 auto; 
+}
+
+.mini-cart-header {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.mini-cart-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+}
+
+.mini-cart-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.mini-cart-item {
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ccc; 
+    margin-bottom: 15px;
+}
+
+    .mini-cart-item:last-child {
+        border-bottom: none; 
+    }
+
+.mini-cart-item-content {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+}
+
+.mini-cart-item-image {
+    width: 110px; 
+    height: 160px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.mini-cart-item-info {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-left:5px;
+}
+
+.mini-cart-item-name {
+    font-weight: bold;
+    font-size: 16px;
+    color: #444;
+}
+
+.quantity-input {
+    width: 50px;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.mini-cart-item-quantity {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: bold; 
+    color: #333; 
+}
+
+.mini-cart-item-price {
+    font-size: 16px; 
+    font-weight: bold; 
+    color: #444; 
+}
+
+
+.remove-button {
+    background-color: #e52f08;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 12px;
+    margin-top: 5px;
+    transition: background-color 0.3s ease;
+}
+
+    .remove-button:hover {
+        background-color: #d11a2a;
+    }
+
+.mini-cart-footer {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.mini-cart-total {
+    font-size: 18px;
+    font-weight: bold;
+    color: #444;
+}
+
+.mini-cart-empty {
+    text-align: center;
+    font-size: 14px;
+    color: #888;
+}

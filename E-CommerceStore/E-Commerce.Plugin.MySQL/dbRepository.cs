@@ -7,10 +7,13 @@ namespace E_Commerce.Plugin.MySQL
     public class dbRepository : IdbRepository
     {
         private readonly MySQLDbContext _context;
+        private readonly DbContextOptions<MySQLDbContext> _contextOptions;
 
-        public dbRepository(MySQLDbContext context)
+        // Constructor to initialize both _context and _contextOptions
+        public dbRepository(MySQLDbContext context, DbContextOptions<MySQLDbContext> contextOptions)
         {
             _context = context;
+            _contextOptions = contextOptions;
         }
 
         public async Task<string> CreateProductAsync(Product product)
@@ -57,9 +60,7 @@ namespace E_Commerce.Plugin.MySQL
 
         public async Task<Product> GetProductByIdAsync(int productId)
         {
-
             return await _context.Products.FirstOrDefaultAsync(x => x.ProductId == productId);
-
         }
 
         public async Task<string> UpdateProductAsync(Product product)
@@ -84,12 +85,7 @@ namespace E_Commerce.Plugin.MySQL
             }
         }
 
-
-
-
-        // --------------  Account stuff down here  -------------- //
-
-
+        // Account methods
 
         public async Task<IEnumerable<Account>> GetAllAccountsAsync()
         {
@@ -127,6 +123,27 @@ namespace E_Commerce.Plugin.MySQL
             _context.Accounts.Remove(accountToDelete);
             await _context.SaveChangesAsync();
             return "Success";
+        }
+
+        public async Task<List<shopingCart>> GetShoppingCartByUserIdAsync(int userId)
+        {
+            try
+            {
+                using (var context = new MySQLDbContext(_contextOptions))
+                {
+                    var account = await context.Accounts
+                        .Include(a => a.ShopingCart)
+                        .ThenInclude(sc => sc.Product)
+                        .FirstOrDefaultAsync(a => a.AccountId == userId);
+
+                    return account?.ShopingCart ?? new List<shopingCart>();
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error fetching shopping cart: {ex.Message}");
+                return new List<shopingCart>();
+            }
         }
     }
 }

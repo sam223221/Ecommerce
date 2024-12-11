@@ -19,5 +19,7 @@ namespace E_Commerce.UseCase.PluginInterfaces
         Task<string> UpdateAccountAsync(Account account);
         Task<string> CreateAccountAsync(Account account);
         Task<string> DeleteAccountAsync(Account accountId);
+        Task<List<shopingCart>> GetShoppingCartByUserIdAsync(int userId);
+
     }
 }

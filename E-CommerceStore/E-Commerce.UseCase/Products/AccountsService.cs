@@ -43,5 +43,13 @@ namespace E_Commerce.UseCase.Accounts // Adjust namespace to match your project 
         {
             return await AccountRepository.DeleteAccountAsync(accountId);
         }
+
+        public async Task<List<shopingCart>> GetShoppingCartByUserIdAsync(int userId)
+        {
+            Console.WriteLine($"Fetching shopping cart for user ID: {userId}");
+            var shoppingCart = await AccountRepository.GetShoppingCartByUserIdAsync(userId);
+            Console.WriteLine($"Fetched {shoppingCart.Count} items.");
+            return shoppingCart;
+        }
     }
 }

@@ -1664,7 +1664,14 @@
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         }
       },
-      "System.Text.Json/8.0.5": {},
+      "System.Text.Json/8.0.5": {
+        "runtime": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.1024.46610"
+          }
+        }
+      },
       "System.Text.RegularExpressions/4.3.0": {
         "dependencies": {
           "System.Runtime": "4.3.0"
@@ -1809,10 +1816,7 @@
           "ECommerce.CoreEntityBusiness": "1.0.0"
         },
         "runtime": {
-          "E-Commerce.Plugin.InMemmory.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "E-Commerce.Plugin.InMemmory.dll": {}
         }
       },
       "E-Commerce.Plugin.MySQL/1.0.0": {
@@ -1824,10 +1828,7 @@
           "Pomelo.EntityFrameworkCore.MySql": "8.0.2"
         },
         "runtime": {
-          "E-Commerce.Plugin.MySQL.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "E-Commerce.Plugin.MySQL.dll": {}
         }
       },
       "E-Commerce.UseCase/1.0.0": {
@@ -1835,10 +1836,7 @@
           "ECommerce.CoreEntityBusiness": "1.0.0"
         },
         "runtime": {
-          "E-Commerce.UseCase.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "E-Commerce.UseCase.dll": {}
         }
       },
       "E-CommerceStore.WebApp/1.0.0": {
@@ -1850,18 +1848,12 @@
           "ECommerce.CoreEntityBusiness": "1.0.0"
         },
         "runtime": {
-          "E-CommerceStore.WebApp.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "E-CommerceStore.WebApp.dll": {}
         }
       },
       "ECommerce.CoreEntityBusiness/1.0.0": {
         "runtime": {
-          "ECommerce.CoreEntityBusiness.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "ECommerce.CoreEntityBusiness.dll": {}
         }
       }
     }

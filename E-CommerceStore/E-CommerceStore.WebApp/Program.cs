@@ -40,8 +40,8 @@ builder.Services.AddCascadingAuthenticationState();
 // Register repositories and use cases
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
 builder.Services.AddScoped<IdbRepository, dbRepository>();
-builder.Services.AddTransient<IProductService, ProductService>();
-builder.Services.AddTransient<IAccountsService, AccountService>();
+builder.Services.AddScoped<IProductService, ProductService>();
+builder.Services.AddScoped<IAccountsService, AccountService>();
 
 
 // Add Blazored Modal for modal service
