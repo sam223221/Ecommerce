@@ -1,4 +1,5 @@
-﻿@inject IAccountsService AccountsService
+﻿
+@inject IAccountsService AccountsService
 @inject AuthenticationStateProvider AuthenticationStateProvider
 
 <div class="modal fade show" id="myModal" style="display:block; background-color: rgba(10,10,10,.8);" aria-modal="true" role="dialog">
@@ -73,32 +74,15 @@
     public EventCallback<bool> OnClose { get; set; }
     [Parameter]
     public required Product Product { get; set; }
+    private ClaimsPrincipal UserInfo;
 
     private Account userAccount;
     int Quantity = 1;
 
     protected override async Task OnInitializedAsync()
     {
-        AuthenticationState authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
-        var user = authState.User;
+        UserInfo = (await AuthenticationStateProvider.GetAuthenticationStateAsync()).User;
 
-        if (user.Identity.IsAuthenticated)
-        {
-            var UserId = int.Parse(user.FindFirst(c => c.Type == ClaimTypes.NameIdentifier)?.Value ?? "0");
-            var allAccounts = await AccountsService.GetAllAccountsAsync();
-            userAccount = allAccounts.FirstOrDefault(prop => prop.AccountId == UserId);
-
-            if (userAccount == null)
-            {
-                ChartClose();
-                Console.WriteLine("User account not found.");
-            }
-        }
-        else
-        {
-            ChartClose();
-            Console.WriteLine("User is not authenticated.");
-        }
     }
 
     private async void ChartClose()
@@ -108,6 +92,7 @@
 
     private async void addToChart()
     {
+        userAccount = (await AccountsService.GetAllAccountsAsync()).First(accounts => accounts.AccountId == int.Parse(UserInfo.FindFirst(c => c.Type == ClaimTypes.NameIdentifier)?.Value));
         userAccount.ShopingCart.Add(new shopingCart
             {
                 Product = this.Product,
