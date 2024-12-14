@@ -181,3 +181,6 @@ C:\Users\Sam Gleðisheygg\Documents\GitHub\SPRO-3\E-CommerceStore\E-Commerce.Xun
 C:\Users\Sam Gleðisheygg\Documents\GitHub\SPRO-3\E-CommerceStore\E-Commerce.XunitTest\bin\Debug\net8.0\E-Commerce.Plugin.MySQL.pdb
 C:\Users\Sam Gleðisheygg\Documents\GitHub\SPRO-3\E-CommerceStore\E-Commerce.XunitTest\bin\Debug\net8.0\E-Commerce.UseCase.pdb
 C:\Users\Sam Gleðisheygg\Documents\GitHub\SPRO-3\E-CommerceStore\E-Commerce.XunitTest\bin\Debug\net8.0\ECommerce.CoreEntityBusiness.pdb
+C:\Users\samgl\Documents\GitHub\Ecommerce\E-CommerceStore\E-Commerce.XunitTest\obj\Debug\net8.0\E-Commerce.XunitTest.dll
+C:\Users\samgl\Documents\GitHub\Ecommerce\E-CommerceStore\E-Commerce.XunitTest\obj\Debug\net8.0\refint\E-Commerce.XunitTest.dll
+C:\Users\samgl\Documents\GitHub\Ecommerce\E-CommerceStore\E-Commerce.XunitTest\obj\Debug\net8.0\E-Commerce.XunitTest.pdb

@@ -18,6 +18,7 @@
     <div style="display: flex; justify-content: center;">
     <div class="searchbarandbuttons">
             <input type="text" @bind="searchQuery" placeholder="Search for products..." class="searchbar" />
+
             <button @onclick="SearchProducts" class="littlebutton">Search</button>
             <AuthorizeView Roles="Admin">
                 <button @onclick="OpenCreateDialog" class="littlebutton">Create</button>
