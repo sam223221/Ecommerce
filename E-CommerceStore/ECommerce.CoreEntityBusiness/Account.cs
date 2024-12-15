@@ -12,6 +12,9 @@ namespace ECommerce.CoreEntityBusiness
         public string AccountName { get; set; } = string.Empty;
 
         [StringLength(100)]
+        public string AccountEmail { get; set; } = string.Empty;
+
+        [StringLength(100)]
         public string AccountPassword { get; set; } = string.Empty;
 
         [StringLength(20)]

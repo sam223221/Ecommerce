@@ -31,7 +31,6 @@
   </ItemGroup>
 
   <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
-    <Exec Command="dotnet test &quot;E-Commerce.XunitTest\E-Commerce.XunitTest.csproj&quot;" />
   </Target>
 
 </Project>
