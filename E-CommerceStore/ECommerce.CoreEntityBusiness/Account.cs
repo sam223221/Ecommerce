@@ -14,6 +14,8 @@ namespace ECommerce.CoreEntityBusiness
         [StringLength(100)]
         public string AccountEmail { get; set; } = string.Empty;
 
+        public bool Status2FA { get; set; } = false;
+
         [StringLength(100)]
         public string AccountPassword { get; set; } = string.Empty;
 

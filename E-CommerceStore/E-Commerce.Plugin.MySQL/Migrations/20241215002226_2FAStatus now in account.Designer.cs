@@ -4,6 +4,7 @@ using E_Commerce.Plugin.MySQL;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace E_Commerce.Plugin.MySQL.Migrations
 {
     [DbContext(typeof(MySQLDbContext))]
-    partial class MySQLDbContextModelSnapshot : ModelSnapshot
+    [Migration("20241215002226_2FAStatus now in account")]
+    partial class _2FAStatusnowinaccount
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
