@@ -39,7 +39,6 @@
 
     TwoFactorForm model = new TwoFactorForm();
     
-    private string TwoFactorCode { get; set; }
     private string ErrorMessage { get; set; }
     private Account? userAccount;
 
@@ -63,20 +62,21 @@
         {
             Console.WriteLine("User is not authenticated.");
         }
+        await HttpContext.SignOutAsync();
     }
     private async Task ValidateCode()
     {
 
         if (model.TwoFactorNum == int.Parse(userAccount.TwoFactorID))
 		{
-            await HttpContext.SignOutAsync();
+
             var claims = new List<Claim>
             {
                 new Claim(ClaimTypes.NameIdentifier, userAccount.AccountId.ToString()),
                 new Claim(ClaimTypes.Name, userAccount.AccountName),
                 new Claim(ClaimTypes.Role, userAccount.Role)
             };
-
+            
             var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
             var principal = new ClaimsPrincipal(identity);
 

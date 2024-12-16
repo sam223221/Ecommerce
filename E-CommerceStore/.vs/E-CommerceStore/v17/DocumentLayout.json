@@ -11,12 +11,20 @@
       "RelativeMoniker": "D:0:0:{290F1384-91EB-4B98-904C-5E73625A4E14}|E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj|solutionrelative:e-commercestore.webapp\\components\\pages\\accountpages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A129EDC-6B57-4415-9C50-35F0C3BE8E3D}|ECommerce.CoreEntityBusiness\\ECommerce.CoreEntityBusiness.csproj|c:\\users\\avi\\documents\\github\\ecommerce\\e-commercestore\\ecommerce.coreentitybusiness\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A129EDC-6B57-4415-9C50-35F0C3BE8E3D}|ECommerce.CoreEntityBusiness\\ECommerce.CoreEntityBusiness.csproj|solutionrelative:ecommerce.coreentitybusiness\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{290F1384-91EB-4B98-904C-5E73625A4E14}|E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj|c:\\users\\avi\\documents\\github\\ecommerce\\e-commercestore\\e-commercestore.webapp\\components\\pages\\shoppingcart.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{290F1384-91EB-4B98-904C-5E73625A4E14}|E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj|solutionrelative:e-commercestore.webapp\\components\\pages\\shoppingcart.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{290F1384-91EB-4B98-904C-5E73625A4E14}|E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj|c:\\users\\avi\\documents\\github\\ecommerce\\e-commercestore\\e-commercestore.webapp\\components\\pages\\accountmanagement.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{290F1384-91EB-4B98-904C-5E73625A4E14}|E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj|solutionrelative:e-commercestore.webapp\\components\\pages\\accountmanagement.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{290F1384-91EB-4B98-904C-5E73625A4E14}|E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj|c:\\users\\avi\\documents\\github\\ecommerce\\e-commercestore\\e-commercestore.webapp\\components\\pages\\accountpages\\viewmodel\\twofactorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{290F1384-91EB-4B98-904C-5E73625A4E14}|E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj|solutionrelative:e-commercestore.webapp\\components\\pages\\accountpages\\viewmodel\\twofactorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A129EDC-6B57-4415-9C50-35F0C3BE8E3D}|ECommerce.CoreEntityBusiness\\ECommerce.CoreEntityBusiness.csproj|c:\\users\\avi\\documents\\github\\ecommerce\\e-commercestore\\ecommerce.coreentitybusiness\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A129EDC-6B57-4415-9C50-35F0C3BE8E3D}|ECommerce.CoreEntityBusiness\\ECommerce.CoreEntityBusiness.csproj|solutionrelative:ecommerce.coreentitybusiness\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{290F1384-91EB-4B98-904C-5E73625A4E14}|E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj|c:\\users\\avi\\documents\\github\\ecommerce\\e-commercestore\\e-commercestore.webapp\\components\\pages\\accountpages\\viewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -49,14 +57,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B4FEE1DD-9EF5-4E22-A11D-18CDED6D2BF9}|E-Commerce.UseCase\\E-Commerce.UseCase.csproj|c:\\users\\avi\\documents\\github\\ecommerce\\e-commercestore\\e-commerce.usecase\\products\\interfaces\\iaccountsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4FEE1DD-9EF5-4E22-A11D-18CDED6D2BF9}|E-Commerce.UseCase\\E-Commerce.UseCase.csproj|solutionrelative:e-commerce.usecase\\products\\interfaces\\iaccountsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{290F1384-91EB-4B98-904C-5E73625A4E14}|E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj|c:\\users\\avi\\documents\\github\\ecommerce\\e-commercestore\\e-commercestore.webapp\\components\\pages\\shoppingcart.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{290F1384-91EB-4B98-904C-5E73625A4E14}|E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj|solutionrelative:e-commercestore.webapp\\components\\pages\\shoppingcart.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{290F1384-91EB-4B98-904C-5E73625A4E14}|E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj|c:\\users\\avi\\documents\\github\\ecommerce\\e-commercestore\\e-commercestore.webapp\\components\\pages\\accountmanagement.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{290F1384-91EB-4B98-904C-5E73625A4E14}|E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj|solutionrelative:e-commercestore.webapp\\components\\pages\\accountmanagement.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{290F1384-91EB-4B98-904C-5E73625A4E14}|E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj|c:\\users\\avi\\documents\\github\\ecommerce\\e-commercestore\\e-commercestore.webapp\\components\\component\\componenteditaccountmodal.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -108,22 +108,9 @@
               "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Components\\Pages\\AccountPages\\TwoFactorAuthentication.razor",
               "ToolTip": "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Pages\\AccountPages\\TwoFactorAuthentication.razor",
               "RelativeToolTip": "E-CommerceStore.WebApp\\Components\\Pages\\AccountPages\\TwoFactorAuthentication.razor",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAwwEUAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAADcAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-16T19:51:43.845Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TwoFactorForm.cs",
-              "DocumentMoniker": "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Pages\\AccountPages\\ViewModel\\TwoFactorForm.cs",
-              "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Components\\Pages\\AccountPages\\ViewModel\\TwoFactorForm.cs",
-              "ToolTip": "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Pages\\AccountPages\\ViewModel\\TwoFactorForm.cs",
-              "RelativeToolTip": "E-CommerceStore.WebApp\\Components\\Pages\\AccountPages\\ViewModel\\TwoFactorForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T19:41:23.737Z",
               "EditorCaption": ""
             },
             {
@@ -134,27 +121,14 @@
               "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Components\\Pages\\AccountPages\\Login.razor",
               "ToolTip": "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Pages\\AccountPages\\Login.razor",
               "RelativeToolTip": "E-CommerceStore.WebApp\\Components\\Pages\\AccountPages\\Login.razor",
-              "ViewState": "AgIAACcAAAAAAAAAAAAhwDcAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAADcAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-16T19:40:54.177Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LoginViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Pages\\AccountPages\\ViewModel\\LoginViewModel.cs",
-              "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Components\\Pages\\AccountPages\\ViewModel\\LoginViewModel.cs",
-              "ToolTip": "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Pages\\AccountPages\\ViewModel\\LoginViewModel.cs",
-              "RelativeToolTip": "E-CommerceStore.WebApp\\Components\\Pages\\AccountPages\\ViewModel\\LoginViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T19:26:29.315Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "EmailService.cs",
               "DocumentMoniker": "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.UseCase\\Products\\EmailService.cs",
               "RelativeDocumentMoniker": "E-Commerce.UseCase\\Products\\EmailService.cs",
@@ -166,19 +140,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 2,
               "Title": "ShoppingCart.razor",
               "DocumentMoniker": "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Pages\\ShoppingCart.razor",
               "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Components\\Pages\\ShoppingCart.razor",
               "ToolTip": "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Pages\\ShoppingCart.razor",
               "RelativeToolTip": "E-CommerceStore.WebApp\\Components\\Pages\\ShoppingCart.razor",
-              "ViewState": "AgIAAH4AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-16T17:59:21.034Z"
+              "WhenOpened": "2024-12-16T17:59:21.034Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Account.cs",
               "DocumentMoniker": "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\ECommerce.CoreEntityBusiness\\Account.cs",
               "RelativeDocumentMoniker": "ECommerce.CoreEntityBusiness\\Account.cs",
@@ -191,7 +166,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "CreateUserViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Pages\\AccountPages\\ViewModel\\CreateUserViewModel.cs",
               "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Components\\Pages\\AccountPages\\ViewModel\\CreateUserViewModel.cs",
@@ -203,7 +178,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "ProductService.cs",
               "DocumentMoniker": "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.UseCase\\Products\\ProductService.cs",
               "RelativeDocumentMoniker": "E-Commerce.UseCase\\Products\\ProductService.cs",
@@ -215,7 +190,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
+              "Title": "AccountManagement.razor",
+              "DocumentMoniker": "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Pages\\AccountManagement.razor",
+              "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Components\\Pages\\AccountManagement.razor",
+              "ToolTip": "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Pages\\AccountManagement.razor",
+              "RelativeToolTip": "E-CommerceStore.WebApp\\Components\\Pages\\AccountManagement.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH8AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-16T00:36:42.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Pages\\AccountPages\\ViewModel\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Components\\Pages\\AccountPages\\ViewModel\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Pages\\AccountPages\\ViewModel\\LoginViewModel.cs",
+              "RelativeToolTip": "E-CommerceStore.WebApp\\Components\\Pages\\AccountPages\\ViewModel\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T19:26:29.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TwoFactorForm.cs",
+              "DocumentMoniker": "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Pages\\AccountPages\\ViewModel\\TwoFactorForm.cs",
+              "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Components\\Pages\\AccountPages\\ViewModel\\TwoFactorForm.cs",
+              "ToolTip": "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Pages\\AccountPages\\ViewModel\\TwoFactorForm.cs",
+              "RelativeToolTip": "E-CommerceStore.WebApp\\Components\\Pages\\AccountPages\\ViewModel\\TwoFactorForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T19:41:23.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Logout.razor",
               "DocumentMoniker": "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Pages\\AccountPages\\Logout.razor",
               "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Components\\Pages\\AccountPages\\Logout.razor",
@@ -227,7 +241,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "AccountsService.cs",
               "DocumentMoniker": "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.UseCase\\Products\\AccountsService.cs",
               "RelativeDocumentMoniker": "E-Commerce.UseCase\\Products\\AccountsService.cs",
@@ -239,7 +253,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "ProductPage.razor",
               "DocumentMoniker": "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Pages\\ProductPage.razor",
               "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Components\\Pages\\ProductPage.razor",
@@ -251,7 +265,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "IAccountsService.cs",
               "DocumentMoniker": "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.UseCase\\Products\\Interfaces\\IAccountsService.cs",
               "RelativeDocumentMoniker": "E-Commerce.UseCase\\Products\\Interfaces\\IAccountsService.cs",
@@ -260,18 +274,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-16T13:25:28.076Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "AccountManagement.razor",
-              "DocumentMoniker": "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Pages\\AccountManagement.razor",
-              "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Components\\Pages\\AccountManagement.razor",
-              "ToolTip": "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\Components\\Pages\\AccountManagement.razor",
-              "RelativeToolTip": "E-CommerceStore.WebApp\\Components\\Pages\\AccountManagement.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH8AAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-16T00:36:42.808Z"
             },
             {
               "$type": "Document",
