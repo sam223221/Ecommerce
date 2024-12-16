@@ -552,3 +552,5 @@ C:\Users\Avi\Documents\GitHub\Ecommerce\E-CommerceStore\E-Commerce.XunitTest\obj
 C:\Users\Avi\Documents\GitHub\Ecommerce\E-CommerceStore\E-Commerce.XunitTest\obj\Debug\net8.0\E-Commerce.XunitTest.pdb
 C:\Users\Avi\Documents\GitHub\Ecommerce\E-CommerceStore\E-Commerce.XunitTest\obj\Debug\net8.0\E-Commerce.XunitTest.genruntimeconfig.cache
 C:\Users\Avi\Documents\GitHub\Ecommerce\E-CommerceStore\E-Commerce.XunitTest\obj\Debug\net8.0\ref\E-Commerce.XunitTest.dll
+C:\Users\Avi\Documents\GitHub\Ecommerce\E-CommerceStore\E-Commerce.XunitTest\bin\Debug\net8.0\Microsoft.Extensions.Localization.dll
+C:\Users\Avi\Documents\GitHub\Ecommerce\E-CommerceStore\E-Commerce.XunitTest\bin\Debug\net8.0\MudBlazor.dll

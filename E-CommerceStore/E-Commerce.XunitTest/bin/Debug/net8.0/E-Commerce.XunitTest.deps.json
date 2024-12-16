@@ -15,6 +15,7 @@
           "ECommerce.CoreEntityBusiness": "1.0.0",
           "MailKit": "4.9.0",
           "Microsoft.NET.Test.Sdk": "17.8.0",
+          "MudBlazor": "7.15.0",
           "bunit": "1.36.0",
           "coverlet.collector": "6.0.0",
           "xunit": "2.5.3",
@@ -498,6 +499,20 @@
         }
       },
       "Microsoft.Extensions.FileSystemGlobbing/8.0.0": {},
+      "Microsoft.Extensions.Localization/8.0.8": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2",
+          "Microsoft.Extensions.Localization.Abstractions": "8.0.10",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.2",
+          "Microsoft.Extensions.Options": "8.0.2"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Localization.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.824.36908"
+          }
+        }
+      },
       "Microsoft.Extensions.Localization.Abstractions/8.0.10": {
         "runtime": {
           "lib/net8.0/Microsoft.Extensions.Localization.Abstractions.dll": {
@@ -952,6 +967,19 @@
           "lib/net8.0/MimeKit.dll": {
             "assemblyVersion": "4.9.0.0",
             "fileVersion": "4.9.0.0"
+          }
+        }
+      },
+      "MudBlazor/7.15.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "8.0.10",
+          "Microsoft.AspNetCore.Components.Web": "8.0.10",
+          "Microsoft.Extensions.Localization": "8.0.8"
+        },
+        "runtime": {
+          "lib/net8.0/MudBlazor.dll": {
+            "assemblyVersion": "7.15.0.0",
+            "fileVersion": "7.15.0.0"
           }
         }
       },
@@ -1857,7 +1885,8 @@
         "dependencies": {
           "E-Commerce.UseCase": "1.0.0",
           "ECommerce.CoreEntityBusiness": "1.0.0",
-          "MailKit": "4.9.0"
+          "MailKit": "4.9.0",
+          "MudBlazor": "7.15.0"
         },
         "runtime": {
           "E-Commerce.Plugin.InMemmory.dll": {
@@ -1873,6 +1902,7 @@
           "MailKit": "4.9.0",
           "Microsoft.EntityFrameworkCore": "8.0.10",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.10",
+          "MudBlazor": "7.15.0",
           "Pomelo.EntityFrameworkCore.MySql": "8.0.2"
         },
         "runtime": {
@@ -1885,7 +1915,8 @@
       "E-Commerce.UseCase/1.0.0": {
         "dependencies": {
           "ECommerce.CoreEntityBusiness": "1.0.0",
-          "MailKit": "4.9.0"
+          "MailKit": "4.9.0",
+          "MudBlazor": "7.15.0"
         },
         "runtime": {
           "E-Commerce.UseCase.dll": {
@@ -1901,7 +1932,8 @@
           "E-Commerce.Plugin.MySQL": "1.0.0",
           "E-Commerce.UseCase": "1.0.0",
           "ECommerce.CoreEntityBusiness": "1.0.0",
-          "MailKit": "4.9.0"
+          "MailKit": "4.9.0",
+          "MudBlazor": "7.15.0"
         },
         "runtime": {
           "E-CommerceStore.WebApp.dll": {
@@ -1912,7 +1944,8 @@
       },
       "ECommerce.CoreEntityBusiness/1.0.0": {
         "dependencies": {
-          "MailKit": "4.9.0"
+          "MailKit": "4.9.0",
+          "MudBlazor": "7.15.0"
         },
         "runtime": {
           "ECommerce.CoreEntityBusiness.dll": {
@@ -2230,6 +2263,13 @@
       "path": "microsoft.extensions.filesystemglobbing/8.0.0",
       "hashPath": "microsoft.extensions.filesystemglobbing.8.0.0.nupkg.sha512"
     },
+    "Microsoft.Extensions.Localization/8.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-n32ZGmc2UOv9R/xsBHQPOxBsqCSAAJSoMtFqoQ8zOegB2P+H6+773OyCWg4jRBkO/3dmCyBJXB0yLAOVW2/C/w==",
+      "path": "microsoft.extensions.localization/8.0.8",
+      "hashPath": "microsoft.extensions.localization.8.0.8.nupkg.sha512"
+    },
     "Microsoft.Extensions.Localization.Abstractions/8.0.10": {
       "type": "package",
       "serviceable": true,
@@ -2397,6 +2437,13 @@
       "sha512": "sha512-DZXXMZzmAABDxFhOSMb6SE8KKxcRd/sk1E6aJTUE5ys2FWOQhznYV2Gl3klaaSfqKn27hQ32haqquH1J8Z6kJw==",
       "path": "mimekit/4.9.0",
       "hashPath": "mimekit.4.9.0.nupkg.sha512"
+    },
+    "MudBlazor/7.15.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-b2+hO7ZTGwsGhu9SoowuNe2ETeF1GzExpg/hIYR++rSh+vy4v/QD0iOsrATWv3LdFJXSgk3d1+XIr5srW3jBiA==",
+      "path": "mudblazor/7.15.0",
+      "hashPath": "mudblazor.7.15.0.nupkg.sha512"
     },
     "MySqlConnector/2.3.5": {
       "type": "package",

@@ -1,5 +1,4 @@
-﻿@page "/TwoFactorAuthentication/"
-@attribute [Authorize(Roles= "2FA")]
+﻿@page "/TwoFactorAuthentication/{AccountId:int}"
 @inject AuthenticationStateProvider AuthenticationStateProvider
 @inject IAccountsService AccountsService
 @inject NavigationManager NavigationManager
@@ -18,7 +17,7 @@
                 <p class="text-danger">@ErrorMessage</p>
             }
 
-            <EditForm Model="@model" OnValidSubmit="ValidateCode" FormName="TwoFactor">
+            <EditForm Model="@model" OnValidSubmit="@ValidateCode" FormName="TwoFactor">
                 <DataAnnotationsValidator />
                 <ValidationSummary />
                 <div>
@@ -37,64 +36,40 @@
     [CascadingParameter]
     public HttpContext? HttpContext { get; set; }
 
-    TwoFactorForm model = new TwoFactorForm();
-    
+    [SupplyParameterFromForm]
+    private TwoFactorForm model { get; set; } = new TwoFactorForm();
+
+    [Parameter]
+    public required int AccountId { get; set; }
+
+    public Account userAccount { get; set; }
     private string ErrorMessage { get; set; }
-    private Account? userAccount;
 
     protected override async Task OnInitializedAsync()
     {
-        AuthenticationState authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
-        var user = authState.User;
-
-        if (user.Identity.IsAuthenticated)
-        {
-            var UserId = int.Parse(user.FindFirst(c => c.Type == ClaimTypes.NameIdentifier)?.Value ?? "0");
-            var allAccounts = await AccountsService.GetAllAccountsAsync();
-            userAccount = allAccounts.FirstOrDefault(prop => prop.AccountId == UserId);
-
-            if (userAccount == null)
-            {
-                Console.WriteLine("User account not found.");
-            }
-        }
-        else
-        {
-            Console.WriteLine("User is not authenticated.");
-        }
-        await HttpContext.SignOutAsync();
+        userAccount = (await AccountsService.GetAllAccountsAsync()).First(s=>s.AccountId == AccountId);
     }
     private async Task ValidateCode()
     {
-
-        if (model.TwoFactorNum == int.Parse(userAccount.TwoFactorID))
-		{
-
+        if (int.TryParse(userAccount.TwoFactorID, out int twoFactorID) && model.TwoFactorNum == twoFactorID)
+        {
             var claims = new List<Claim>
             {
                 new Claim(ClaimTypes.NameIdentifier, userAccount.AccountId.ToString()),
                 new Claim(ClaimTypes.Name, userAccount.AccountName),
                 new Claim(ClaimTypes.Role, userAccount.Role)
             };
-            
+
             var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
             var principal = new ClaimsPrincipal(identity);
 
             await HttpContext.SignInAsync(principal);
             NavigationManager.NavigateTo("/", forceLoad: true);
-
-		}
-		else
-		{
-			GoBackToLogin();
-            StateHasChanged();
-		}
-    }
-
-    private async Task GoBackToLogin()
-    {
-        await HttpContext.SignOutAsync();
-        NavigationManager.NavigateTo("/Login", forceLoad: true);
+        }
+        else
+        {
+            NavigationManager.NavigateTo("/Login", forceLoad: true);
+        }
     }
 }
 

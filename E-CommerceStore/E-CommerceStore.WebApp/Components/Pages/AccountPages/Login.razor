@@ -54,7 +54,8 @@
 
     private string? errorMessage;
     private bool showTwoFactorModal = false;
-    private Account? userAccount;
+
+    public Account? userAccount;
 
     private async Task Authenticate()
     {
@@ -72,17 +73,8 @@
 
         if (userAccount.Status2FA)
         {
-            var tfaclaims = new List<Claim>
-            {
-                new Claim(ClaimTypes.NameIdentifier, userAccount.AccountId.ToString()),
-                new Claim(ClaimTypes.Name, userAccount.AccountName),
-                new Claim(ClaimTypes.Role, "2FA")
-            };
-            
-            var tfaidentity = new ClaimsIdentity(tfaclaims, CookieAuthenticationDefaults.AuthenticationScheme);
-            var tfaprincipal = new ClaimsPrincipal(tfaidentity);
-            await HttpContext.SignInAsync(tfaprincipal);
-            NavigationManager.NavigateTo($"/TwoFactorAuthentication/", forceLoad: true);
+
+            NavigationManager.NavigateTo($"/TwoFactorAuthentication/{userAccount.AccountId}", forceLoad: true);
             return;
         }
 

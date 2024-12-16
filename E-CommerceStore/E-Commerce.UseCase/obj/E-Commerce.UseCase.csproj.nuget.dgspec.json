@@ -58,6 +58,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.10, )"
+            },
+            "MudBlazor": {
+              "target": "Package",
+              "version": "[7.15.0, )"
             }
           },
           "imports": [
@@ -130,6 +134,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.10, )"
+            },
+            "MudBlazor": {
+              "target": "Package",
+              "version": "[7.15.0, )"
             }
           },
           "imports": [
