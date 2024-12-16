@@ -44,11 +44,6 @@
     </div>
 </div>
 
-@if (showTwoFactorModal)
-{
-    <ComponentTwoFactorModal OnSubmit="VerifyTwoFactorCode"
-                             OnClose="CloseTwoFactorModal" />
-}
 
 @code {
     [CascadingParameter]
@@ -75,46 +70,28 @@
             return;
         }
 
-        // Step 2: Handle 2FA scenario
         if (userAccount.Status2FA)
         {
-            showTwoFactorModal = true;
-            StateHasChanged();
-        }
-        else
-        {
-            // Complete login directly if 2FA is not enabled
-            await CompleteLogin();
-        }
-    }
-
-    private async Task VerifyTwoFactorCode(string code)
-    {
-        await CompleteLogin();
-        StateHasChanged();
-    }
-
-
-    private void CloseTwoFactorModal()
-    {
-        showTwoFactorModal = false;
-        StateHasChanged();
-    }
-
-    private async Task CompleteLogin()
-    {
-        if (userAccount == null)
-        {
-            errorMessage = "No user account found. Please log in again.";
+            var tfaclaims = new List<Claim>
+            {
+                new Claim(ClaimTypes.NameIdentifier, userAccount.AccountId.ToString()),
+                new Claim(ClaimTypes.Name, userAccount.AccountName),
+                new Claim(ClaimTypes.Role, "2FA")
+            };
+            
+            var tfaidentity = new ClaimsIdentity(tfaclaims, CookieAuthenticationDefaults.AuthenticationScheme);
+            var tfaprincipal = new ClaimsPrincipal(tfaidentity);
+            await HttpContext.SignInAsync(tfaprincipal);
+            NavigationManager.NavigateTo($"/TwoFactorAuthentication/", forceLoad: true);
             return;
         }
 
         var claims = new List<Claim>
-    {
-        new Claim(ClaimTypes.NameIdentifier, userAccount.AccountId.ToString()),
-        new Claim(ClaimTypes.Name, userAccount.AccountName),
-        new Claim(ClaimTypes.Role, userAccount.Role)
-    };
+        {
+            new Claim(ClaimTypes.NameIdentifier, userAccount.AccountId.ToString()),
+            new Claim(ClaimTypes.Name, userAccount.AccountName),
+            new Claim(ClaimTypes.Role, userAccount.Role)
+        };
 
         var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
         var principal = new ClaimsPrincipal(identity);

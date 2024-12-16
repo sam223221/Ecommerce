@@ -82,8 +82,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBY2NvdW50UGFnZXNcUmVnaXN0cmF0aW9uLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Avi/Documents/GitHub/Ecommerce/E-CommerceStore/E-CommerceStore.WebApp/Components/Pages/AccountPages/TwoFactorModal.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBY2NvdW50UGFnZXNcVHdvRmFjdG9yTW9kYWwucmF6b3I=
+[C:/Users/Avi/Documents/GitHub/Ecommerce/E-CommerceStore/E-CommerceStore.WebApp/Components/Pages/AccountPages/TwoFactorAuthentication.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBY2NvdW50UGFnZXNcVHdvRmFjdG9yQXV0aGVudGljYXRpb24ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Avi/Documents/GitHub/Ecommerce/E-CommerceStore/E-CommerceStore.WebApp/Components/Pages/Counter.razor]
