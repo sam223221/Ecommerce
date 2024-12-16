@@ -1,5 +1,4 @@
 ﻿@page "/TwoFactorAuthentication/"
-@rendermode InteractiveServer
 @attribute [Authorize(Roles= "2FA")]
 @inject AuthenticationStateProvider AuthenticationStateProvider
 @inject IAccountsService AccountsService
@@ -7,6 +6,7 @@
 @using System.Security.Claims
 @using Microsoft.AspNetCore.Authentication
 @using Microsoft.AspNetCore.Authentication.Cookies
+@using global::Components.Pages.AccountPages.ViewModel
 
 <div class="register-container">
     <div class="centered-container">
@@ -18,17 +18,15 @@
                 <p class="text-danger">@ErrorMessage</p>
             }
 
-            <EditForm Model="@TwoFactorForm" OnValidSubmit="ValidateCode" FormName="TwoFactor">
+            <EditForm Model="@model" OnValidSubmit="ValidateCode" FormName="TwoFactor">
                 <DataAnnotationsValidator />
                 <ValidationSummary />
                 <div>
                     <label>Enter the code sent to your email:</label>
-                    <InputText @bind-Value="TwoFactorNum" class="form-control" />
+                    <InputNumber @bind-Value="model.TwoFactorNum" class="form-control" />
                 </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
             </EditForm>
-
-            <button class="btn btn-secondary" @onclick="GoBackToLogin">Back to Login</button>
         </div>
     </div>
 </div>
@@ -39,9 +37,8 @@
     [CascadingParameter]
     public HttpContext? HttpContext { get; set; }
 
-    [SupplyParameterFromForm]
-    TwoFactorForm { get; set; } = new TwoFactorForm();
-
+    TwoFactorForm model = new TwoFactorForm();
+    
     private string TwoFactorCode { get; set; }
     private string ErrorMessage { get; set; }
     private Account? userAccount;
@@ -69,19 +66,29 @@
     }
     private async Task ValidateCode()
     {
-        await HttpContext.SignOutAsync();
-        var claims = new List<Claim>
-        {
-            new Claim(ClaimTypes.NameIdentifier, userAccount.AccountId.ToString()),
-            new Claim(ClaimTypes.Name, userAccount.AccountName),
-            new Claim(ClaimTypes.Role, userAccount.Role)
-        };
 
-        var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
-        var principal = new ClaimsPrincipal(identity);
+        if (model.TwoFactorNum == int.Parse(userAccount.TwoFactorID))
+		{
+            await HttpContext.SignOutAsync();
+            var claims = new List<Claim>
+            {
+                new Claim(ClaimTypes.NameIdentifier, userAccount.AccountId.ToString()),
+                new Claim(ClaimTypes.Name, userAccount.AccountName),
+                new Claim(ClaimTypes.Role, userAccount.Role)
+            };
 
-        await HttpContext.SignInAsync(principal);
-        NavigationManager.NavigateTo("/", forceLoad: true);
+            var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+            var principal = new ClaimsPrincipal(identity);
+
+            await HttpContext.SignInAsync(principal);
+            NavigationManager.NavigateTo("/", forceLoad: true);
+
+		}
+		else
+		{
+			GoBackToLogin();
+            StateHasChanged();
+		}
     }
 
     private async Task GoBackToLogin()
