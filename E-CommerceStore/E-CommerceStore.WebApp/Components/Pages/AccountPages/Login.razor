@@ -83,7 +83,6 @@
             var tfaprincipal = new ClaimsPrincipal(tfaidentity);
             await HttpContext.SignInAsync(tfaprincipal);
             NavigationManager.NavigateTo($"/TwoFactorAuthentication/", forceLoad: true);
-            return;
         }
 
         var claims = new List<Claim>

@@ -53,6 +53,10 @@
       "PackagePath": "staticwebassets\\assets\\mastercardlogo.png"
     },
     {
+      "Id": "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\success.jpg",
+      "PackagePath": "staticwebassets\\assets\\success.jpg"
+    },
+    {
       "Id": "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
     },

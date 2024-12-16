@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zvEC9JkiaG1XLZV122JsFknyqISgbuCUemMkwQYIBP8=",
+  "Hash": "lVHKonNMDQIzDJsdT4OmafLen4zKkrefxhkkgFnqe0A=",
   "Source": "E-CommerceStore.WebApp",
   "BasePath": "_content/E-CommerceStore.WebApp",
   "Mode": "Default",
@@ -319,6 +319,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\mastercardlogo.png"
+    },
+    {
+      "Identity": "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\success.jpg",
+      "SourceId": "E-CommerceStore.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+      "BasePath": "_content/E-CommerceStore.WebApp",
+      "RelativePath": "assets/success.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\success.jpg"
     },
     {
       "Identity": "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\bootstrap\\bootstrap.min.css",

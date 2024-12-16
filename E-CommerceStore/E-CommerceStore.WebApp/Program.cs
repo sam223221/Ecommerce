@@ -37,6 +37,13 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
 builder.Services.AddAuthorization();
 builder.Services.AddCascadingAuthenticationState();
 
+builder.Services.AddAntiforgery(options =>
+{     // Set Cookie properties using CookieBuilder properties†.
+
+    options.Cookie.Expiration = TimeSpan.Zero;
+
+});
+
 // Register repositories and use cases
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
 builder.Services.AddScoped<IdbRepository, dbRepository>();
@@ -64,6 +71,7 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapRazorComponents<App>()
+    .DisableAntiforgery()
     .AddInteractiveServerRenderMode();
 
 app.Run();

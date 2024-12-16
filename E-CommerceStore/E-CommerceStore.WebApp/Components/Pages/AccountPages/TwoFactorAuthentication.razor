@@ -18,12 +18,12 @@
                 <p class="text-danger">@ErrorMessage</p>
             }
 
-            <EditForm Model="@model" OnValidSubmit="ValidateCode" FormName="TwoFactor">
+            <EditForm Model="@model" OnValidSubmit="@ValidateCode" FormName="TwoFactor">
                 <DataAnnotationsValidator />
                 <ValidationSummary />
                 <div>
                     <label>Enter the code sent to your email:</label>
-                    <InputNumber @bind-Value="model.TwoFactorNum" class="form-control" />
+                    <InputNumber @bind-Value="@(model.TwoFactorNum)" class="form-control" />
                 </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
             </EditForm>
@@ -37,8 +37,9 @@
     [CascadingParameter]
     public HttpContext? HttpContext { get; set; }
 
-    TwoFactorForm model = new TwoFactorForm();
-    
+    [SupplyParameterFromForm]
+    TwoFactorForm model { get; set; } = new TwoFactorForm();
+
     private string TwoFactorCode { get; set; }
     private string ErrorMessage { get; set; }
     private Account? userAccount;
@@ -86,16 +87,8 @@
 		}
 		else
 		{
-			GoBackToLogin();
-            StateHasChanged();
+            await HttpContext.SignOutAsync();
+            NavigationManager.NavigateTo("/Login", forceLoad: true);
 		}
     }
-
-    private async Task GoBackToLogin()
-    {
-        await HttpContext.SignOutAsync();
-        NavigationManager.NavigateTo("/Login", forceLoad: true);
-    }
 }
-
-
