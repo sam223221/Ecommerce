@@ -13,6 +13,7 @@
           "E-Commerce.UseCase": "1.0.0",
           "E-CommerceStore.WebApp": "1.0.0",
           "ECommerce.CoreEntityBusiness": "1.0.0",
+          "MailKit": "4.9.0",
           "Microsoft.NET.Test.Sdk": "17.8.0",
           "bunit": "1.36.0",
           "coverlet.collector": "6.0.0",
@@ -105,6 +106,14 @@
           }
         }
       },
+      "BouncyCastle.Cryptography/2.5.0": {
+        "runtime": {
+          "lib/net6.0/BouncyCastle.Cryptography.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.5.0.6119"
+          }
+        }
+      },
       "bunit/1.36.0": {
         "dependencies": {
           "bunit.core": "1.36.0",
@@ -149,6 +158,18 @@
         }
       },
       "coverlet.collector/6.0.0": {},
+      "MailKit/4.9.0": {
+        "dependencies": {
+          "MimeKit": "4.9.0",
+          "System.Formats.Asn1": "8.0.1"
+        },
+        "runtime": {
+          "lib/net8.0/MailKit.dll": {
+            "assemblyVersion": "4.9.0.0",
+            "fileVersion": "4.9.0.0"
+          }
+        }
+      },
       "Microsoft.AspNetCore.Authorization/8.0.10": {
         "dependencies": {
           "Microsoft.AspNetCore.Metadata": "8.0.10",
@@ -921,6 +942,19 @@
           }
         }
       },
+      "MimeKit/4.9.0": {
+        "dependencies": {
+          "BouncyCastle.Cryptography": "2.5.0",
+          "System.Formats.Asn1": "8.0.1",
+          "System.Security.Cryptography.Pkcs": "8.0.1"
+        },
+        "runtime": {
+          "lib/net8.0/MimeKit.dll": {
+            "assemblyVersion": "4.9.0.0",
+            "fileVersion": "4.9.0.0"
+          }
+        }
+      },
       "MySqlConnector/2.3.5": {
         "dependencies": {
           "Microsoft.Extensions.Logging.Abstractions": "8.0.2"
@@ -1163,7 +1197,7 @@
           }
         }
       },
-      "System.Formats.Asn1/5.0.0": {},
+      "System.Formats.Asn1/8.0.1": {},
       "System.Globalization/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
@@ -1521,7 +1555,7 @@
       },
       "System.Security.Cryptography.Cng/5.0.0": {
         "dependencies": {
-          "System.Formats.Asn1": "5.0.0"
+          "System.Formats.Asn1": "8.0.1"
         }
       },
       "System.Security.Cryptography.Csp/4.3.0": {
@@ -1572,6 +1606,22 @@
           "System.Security.Cryptography.Primitives": "4.3.0",
           "System.Text.Encoding": "4.3.0",
           "runtime.native.System.Security.Cryptography.OpenSsl": "4.3.0"
+        }
+      },
+      "System.Security.Cryptography.Pkcs/8.0.1": {
+        "runtime": {
+          "lib/net8.0/System.Security.Cryptography.Pkcs.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.1024.46610"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net8.0/System.Security.Cryptography.Pkcs.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.1024.46610"
+          }
         }
       },
       "System.Security.Cryptography.Primitives/4.3.0": {
@@ -1806,7 +1856,8 @@
       "E-Commerce.Plugin.InMemmory/1.0.0": {
         "dependencies": {
           "E-Commerce.UseCase": "1.0.0",
-          "ECommerce.CoreEntityBusiness": "1.0.0"
+          "ECommerce.CoreEntityBusiness": "1.0.0",
+          "MailKit": "4.9.0"
         },
         "runtime": {
           "E-Commerce.Plugin.InMemmory.dll": {
@@ -1819,6 +1870,7 @@
         "dependencies": {
           "E-Commerce.UseCase": "1.0.0",
           "ECommerce.CoreEntityBusiness": "1.0.0",
+          "MailKit": "4.9.0",
           "Microsoft.EntityFrameworkCore": "8.0.10",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.10",
           "Pomelo.EntityFrameworkCore.MySql": "8.0.2"
@@ -1832,7 +1884,8 @@
       },
       "E-Commerce.UseCase/1.0.0": {
         "dependencies": {
-          "ECommerce.CoreEntityBusiness": "1.0.0"
+          "ECommerce.CoreEntityBusiness": "1.0.0",
+          "MailKit": "4.9.0"
         },
         "runtime": {
           "E-Commerce.UseCase.dll": {
@@ -1847,7 +1900,8 @@
           "E-Commerce.Plugin.InMemmory": "1.0.0",
           "E-Commerce.Plugin.MySQL": "1.0.0",
           "E-Commerce.UseCase": "1.0.0",
-          "ECommerce.CoreEntityBusiness": "1.0.0"
+          "ECommerce.CoreEntityBusiness": "1.0.0",
+          "MailKit": "4.9.0"
         },
         "runtime": {
           "E-CommerceStore.WebApp.dll": {
@@ -1857,6 +1911,9 @@
         }
       },
       "ECommerce.CoreEntityBusiness/1.0.0": {
+        "dependencies": {
+          "MailKit": "4.9.0"
+        },
         "runtime": {
           "ECommerce.CoreEntityBusiness.dll": {
             "assemblyVersion": "1.0.0",
@@ -1914,6 +1971,13 @@
       "path": "blazored.modal/7.3.1",
       "hashPath": "blazored.modal.7.3.1.nupkg.sha512"
     },
+    "BouncyCastle.Cryptography/2.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rc7vRCq/KD3GtIwSgRtjanGaBwTb9nLenFDZnEcauWlssuuEoxcbMfWA3QWWho6QDMSOSkWjs657McdHzEtEcw==",
+      "path": "bouncycastle.cryptography/2.5.0",
+      "hashPath": "bouncycastle.cryptography.2.5.0.nupkg.sha512"
+    },
     "bunit/1.36.0": {
       "type": "package",
       "serviceable": true,
@@ -1941,6 +2005,13 @@
       "sha512": "sha512-tW3lsNS+dAEII6YGUX/VMoJjBS1QvsxqJeqLaJXub08y1FSjasFPtQ4UBUsudE9PNrzLjooClMsPtY2cZLdXpQ==",
       "path": "coverlet.collector/6.0.0",
       "hashPath": "coverlet.collector.6.0.0.nupkg.sha512"
+    },
+    "MailKit/4.9.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wRUVzYXRWbjdUixwtSp7ivVHPhWw17h+BvwIVaouBike68B56Xk9b5+QRT39EK/QN8XF7MtOgt9caHvUaCvhIQ==",
+      "path": "mailkit/4.9.0",
+      "hashPath": "mailkit.4.9.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authorization/8.0.10": {
       "type": "package",
@@ -2320,6 +2391,13 @@
       "path": "microsoft.win32.systemevents/6.0.0",
       "hashPath": "microsoft.win32.systemevents.6.0.0.nupkg.sha512"
     },
+    "MimeKit/4.9.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DZXXMZzmAABDxFhOSMb6SE8KKxcRd/sk1E6aJTUE5ys2FWOQhznYV2Gl3klaaSfqKn27hQ32haqquH1J8Z6kJw==",
+      "path": "mimekit/4.9.0",
+      "hashPath": "mimekit.4.9.0.nupkg.sha512"
+    },
     "MySqlConnector/2.3.5": {
       "type": "package",
       "serviceable": true,
@@ -2544,12 +2622,12 @@
       "path": "system.drawing.common/6.0.0",
       "hashPath": "system.drawing.common.6.0.0.nupkg.sha512"
     },
-    "System.Formats.Asn1/5.0.0": {
+    "System.Formats.Asn1/8.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-MTvUIktmemNB+El0Fgw9egyqT9AYSIk6DTJeoDSpc3GIHxHCMo8COqkWT1mptX5tZ1SlQ6HJZ0OsSvMth1c12w==",
-      "path": "system.formats.asn1/5.0.0",
-      "hashPath": "system.formats.asn1.5.0.0.nupkg.sha512"
+      "sha512": "sha512-XqKba7Mm/koKSjKMfW82olQdmfbI5yqeoLV/tidRp7fbh5rmHAQ5raDI/7SU0swTzv+jgqtUGkzmFxuUg0it1A==",
+      "path": "system.formats.asn1/8.0.1",
+      "hashPath": "system.formats.asn1.8.0.1.nupkg.sha512"
     },
     "System.Globalization/4.3.0": {
       "type": "package",
@@ -2851,6 +2929,13 @@
       "sha512": "sha512-h4CEgOgv5PKVF/HwaHzJRiVboL2THYCou97zpmhjghx5frc7fIvlkY1jL+lnIQyChrJDMNEXS6r7byGif8Cy4w==",
       "path": "system.security.cryptography.openssl/4.3.0",
       "hashPath": "system.security.cryptography.openssl.4.3.0.nupkg.sha512"
+    },
+    "System.Security.Cryptography.Pkcs/8.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CoCRHFym33aUSf/NtWSVSZa99dkd0Hm7OCZUxORBjRB16LNhIEOf8THPqzIYlvKM0nNDAPTRBa1FxEECrgaxxA==",
+      "path": "system.security.cryptography.pkcs/8.0.1",
+      "hashPath": "system.security.cryptography.pkcs.8.0.1.nupkg.sha512"
     },
     "System.Security.Cryptography.Primitives/4.3.0": {
       "type": "package",

@@ -9,5 +9,7 @@ namespace E_Commerce.UseCase.Products.Interfaces
         Task<string> UpdateAccountAsync(Account account);
         Task<string> CreateAccountAsync(Account account);
         Task<string> DeleteAccountAsync(Account accountId);
+        Task<bool> SendTwoFactorCodeAsync(string email);
+        Task<bool> ValidateTwoFactorCodeAsync(string email, string code);
     }
 }

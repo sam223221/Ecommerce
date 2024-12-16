@@ -42,6 +42,7 @@ builder.Services.AddScoped<IProductRepository, ProductRepository>();
 builder.Services.AddScoped<IdbRepository, dbRepository>();
 builder.Services.AddTransient<IProductService, ProductService>();
 builder.Services.AddTransient<IAccountsService, AccountService>();
+builder.Services.AddScoped<EmailService>();
 
 
 // Add Blazored Modal for modal service

@@ -4,60 +4,70 @@
 @using System.Security.Claims
 @using Microsoft.AspNetCore.Authentication
 @using Microsoft.AspNetCore.Authentication.Cookies
-@inject IAccountsService AccountService
+@inject IAccountsService AccountsService
 @inject NavigationManager NavigationManager
 
 <div class="register-container">
-<div class="centered-container">
-    <div class="loginwindow">
-    <EditForm Model="@Model" OnValidSubmit="Authenicate" FormName="LoginForm">
-        <DataAnnotationsValidator/>
-            <ValidationSummary />
+    <div class="centered-container">
+        <div class="loginwindow">
+            <EditForm Model="@Model" OnValidSubmit="Authenticate" FormName="LoginForm">
+                <DataAnnotationsValidator />
+                <ValidationSummary />
 
                 <div class="mb-3 text-center flex-column" style="color: #433bff;">
-            
-            <h3 style="color: #2f27ce";>LOGIN</h3>
-        </div>
+                    <h3 style="color: #2f27ce">LOGIN</h3>
+                </div>
 
-        <div class="mb-3">
-            <label>User Name</label>
-                <InputText @bind-Value="@(Model.UserName)" class="form-control" placeholder="Username" />
-                <ValidationMessage For="@(() => Model.UserName)" />
-        </div>
-        <div class="mb-3">
-            <label>Password</label>
-                <InputText @bind-Value="@(Model.Password)" placeholder="Password" type="password" class="form-control" />
-                <ValidationMessage For="@(() => Model.Password)" />
-        </div>
-        <div class="mb-3 text-center">
-                <span class="text-danger">@errorMessage</span>
-        </div>
-        <div class="mb-3 d-grid gap-2">
-            <button type="submit" class="loginbutton">Login</button>
-        </div>
+                <div class="mb-3">
+                    <label>User Name</label>
+                    <InputText @bind-Value="@(Model.UserName)" class="form-control" placeholder="Username" />
+                    <ValidationMessage For="@(() => Model.UserName)" />
+                </div>
+                <div class="mb-3">
+                    <label>Password</label>
+                    <InputText @bind-Value="@(Model.Password)" placeholder="Password" type="password" class="form-control" />
+                    <ValidationMessage For="@(() => Model.Password)" />
+                </div>
+                <div class="mb-3 text-center">
+                    <span class="text-danger">@errorMessage</span>
+                </div>
+                <div class="mb-3 d-grid gap-2">
+                    <button type="submit" class="loginbutton">Login</button>
+                </div>
 
-        <div>
-            <a>If you dont have a account click on </a>
-                <a href="RegistrationPage">Register Account</a>
+                <div>
+                    <a>If you don't have an account click on </a>
+                    <a href="RegistrationPage">Register Account</a>
+                </div>
+            </EditForm>
         </div>
-    </EditForm>
     </div>
 </div>
-</div>
+
+@if (showTwoFactorModal)
+{
+    <ComponentTwoFactorModal OnSubmit="VerifyTwoFactorCode"
+                             OnClose="CloseTwoFactorModal" />
+}
+
 @code {
     [CascadingParameter]
     public HttpContext? HttpContext { get; set; }
-
 
     [SupplyParameterFromForm]
     LoginViewModel Model { get; set; } = new LoginViewModel();
 
     private string? errorMessage;
+    private bool showTwoFactorModal = false;
+    private Account? userAccount;
 
-    private async Task Authenicate()
+    private async Task Authenticate()
     {
-        var accounts = await AccountService.GetAllAccountsAsync();
-        var userAccount = accounts.Where(x => x.AccountName == Model.UserName).FirstOrDefault();
+        errorMessage = null;
+
+        // Step 1: Verify username and password
+        var accounts = await AccountsService.GetAllAccountsAsync();
+        userAccount = accounts.FirstOrDefault(x => x.AccountName == Model.UserName);
 
         if (userAccount is null || userAccount.AccountPassword != Model.Password)
         {
@@ -65,16 +75,52 @@
             return;
         }
 
-        var claims = new List<Claim>
+        // Step 2: Handle 2FA scenario
+        if (userAccount.Status2FA)
         {
-            new Claim(ClaimTypes.NameIdentifier,userAccount.AccountId.ToString()),
-            new Claim(ClaimTypes.Name, userAccount.AccountName),
-            new Claim(ClaimTypes.Role, userAccount.Role)
-        };
+            showTwoFactorModal = true;
+            StateHasChanged();
+        }
+        else
+        {
+            // Complete login directly if 2FA is not enabled
+            await CompleteLogin();
+        }
+    }
+
+    private async Task VerifyTwoFactorCode(string code)
+    {
+        await CompleteLogin();
+        StateHasChanged();
+    }
+
+
+    private void CloseTwoFactorModal()
+    {
+        showTwoFactorModal = false;
+        StateHasChanged();
+    }
+
+    private async Task CompleteLogin()
+    {
+        if (userAccount == null)
+        {
+            errorMessage = "No user account found. Please log in again.";
+            return;
+        }
+
+        var claims = new List<Claim>
+    {
+        new Claim(ClaimTypes.NameIdentifier, userAccount.AccountId.ToString()),
+        new Claim(ClaimTypes.Name, userAccount.AccountName),
+        new Claim(ClaimTypes.Role, userAccount.Role)
+    };
 
         var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
         var principal = new ClaimsPrincipal(identity);
+
         await HttpContext.SignInAsync(principal);
-        NavigationManager.NavigateTo("/");
+        NavigationManager.NavigateTo("/", forceLoad: true);
     }
+
 }
