@@ -1,5 +1,4 @@
 ﻿@page "/RegistrationPage"
-
 @rendermode InteractiveServer
 @using System.ComponentModel.DataAnnotations
 @using E_CommerceStore.WebApp.Components.Pages.AccountPages.ViewModel
@@ -9,13 +8,19 @@
 <div class="register-container">
     <div class="register-card">
         <h3 style="color: #2f27ce; text-align: center;">REGISTER</h3>
-        <EditForm Model="newAccount" OnValidSubmit="HandleValidSubmit" FormName="registarton">
+        <EditForm Model="newAccount" OnValidSubmit="HandleValidSubmit" FormName="registration">
             <DataAnnotationsValidator />
 
             <div class="form-group">
                 <label>Account Name</label>
                 <InputText @bind-Value="newAccount.AccountName" class="form-control" />
                 <ValidationMessage For="@(() => newAccount.AccountName)" />
+            </div>
+
+            <div class="form-group">
+                <label>Email</label>
+                <InputText @bind-Value="newAccount.AccountEmail" class="form-control" />
+                <ValidationMessage For="@(() => newAccount.AccountEmail)" />
             </div>
 
             <div class="form-group">
@@ -37,6 +42,7 @@
         var account = new Account
             {
                 AccountName = newAccount.AccountName,
+                AccountEmail = newAccount.AccountEmail,
                 AccountPassword = newAccount.AccountPassword,
                 Role = newAccount.Role
             };

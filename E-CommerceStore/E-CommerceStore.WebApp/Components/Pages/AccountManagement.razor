@@ -1,4 +1,4 @@
-﻿ @page "/AccountManagement"
+﻿@page "/AccountManagement"
 @rendermode InteractiveServer
 @attribute [StreamRendering]
 @attribute [Authorize(Roles = "Admin")]
@@ -6,44 +6,47 @@
 @inject NavigationManager NavigationManager
 @inject IModalService ModalService
 
-<div class="spacer"/>
+<div class="spacer" />
 
 <div class="mockup-bg-container">
-<div style="display: flex; justify-content: center;">
-    <div class="searchbarandbuttons">
-        <input type="text" @bind="searchQuery" placeholder="Search for accounts..." class="searchbar" />
-        <button @onclick="SearchAccounts" class="littlebutton">Search</button>
-        <button @onclick="OpenCreateDialog" class="littlebutton">Create</button>
+    <div style="display: flex; justify-content: center;">
+        <div class="searchbarandbuttons">
+            <input type="text" @bind="searchQuery" placeholder="Search for accounts..." class="searchbar" />
+            <button @onclick="SearchAccounts" class="littlebutton">Search</button>
+            <button @onclick="OpenCreateDialog" class="littlebutton">Create</button>
+        </div>
     </div>
-</div>
 
-<div class="row">
-    <div class="col-md-12">
-        <table class="styled-table">
-            <thead>
+    <table class="styled-table">
+        <thead>
+            <tr>
+                <th>Account Name</th>
+                <th>Role</th>
+                <th>Email Address</th>
+                <th>2FA Status</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var account in Accounts)
+            {
                 <tr>
-                    <th>Account Name</th>
-                    <th>Role</th>
-                    <th>Action</th>
+                    <td>@account.AccountName</td>
+                    <td>@account.Role</td>
+                    <td>@(string.IsNullOrWhiteSpace(account.AccountEmail) ? "N/A" : account.AccountEmail)</td>
+                    <td>@(account.Status2FA ? "Enabled" : "Disabled")</td>
+                    <td>
+                        <span class="text-primary" style="cursor: pointer;" @onclick="() => OpenEditModal(account)">Edit</span> |
+                        <span class="text-danger" style="cursor: pointer;" @onclick="() => OpenDeleteConfirmation(account)">Delete</span> |
+                        <button class="btn btn-sm btn-secondary" @onclick="() => ToggleTwoFactor(account)">
+                            @(account.Status2FA ? "Disable 2FA" : "Enable 2FA")
+                        </button>
+                    </td>
                 </tr>
-            </thead>
-            <tbody>
-                @foreach (var account in Accounts)
-                {
-                    <tr>
-                        <td>@account.AccountName</td>
-                        <td>@account.Role</td>
-                        <td>
-                            <span class="text-primary" style="cursor: pointer;" @onclick="() => OpenEditModal(account)">Edit</span> |
-                            <span class="text-danger" style="cursor: pointer;" @onclick="() => OpenDeleteConfirmation(account)">Delete</span>
-                        </td>
-                    </tr>
-                }
-            </tbody>
-        </table>
-    </div>
-</div>
-</div>
+            }
+        </tbody>
+    </table>
+ </div>
 
 <ComponentAlertNotification 
     Message="@notificationMessage"
@@ -111,16 +114,31 @@
         ModalEditModalShow = true;
     }
 
-    private async Task CloseEditModal(Account account)
+    private async Task CloseEditModal(Account updatedAccount)
     {
-        if (account != null)
+        if (updatedAccount != null)
         {
-            var updateStatus = await AccountsService.UpdateAccountAsync(account);
+            var updateStatus = await AccountsService.UpdateAccountAsync(updatedAccount);
 
-            notificationMessage = updateStatus == "Success"
-                ? "Account updated successfully!"
-                : "Failed to update account.";
-            isNotificationSuccess = updateStatus == "Success";
+            if (updateStatus == "Success")
+            {
+                var accountToUpdate = Accounts.FirstOrDefault(a => a.AccountId == updatedAccount.AccountId);
+                if (accountToUpdate != null)
+                {
+                    accountToUpdate.AccountName = updatedAccount.AccountName;
+                    accountToUpdate.AccountPassword = updatedAccount.AccountPassword;
+                    accountToUpdate.Role = updatedAccount.Role;
+                    accountToUpdate.AccountEmail = updatedAccount.AccountEmail;
+                }
+
+                notificationMessage = "Account updated successfully!";
+                isNotificationSuccess = true;
+            }
+            else
+            {
+                notificationMessage = "Failed to update account.";
+                isNotificationSuccess = false;
+            }
 
             ModalEditModalShow = false;
             StateHasChanged();
@@ -132,6 +150,27 @@
             ModalEditModalShow = false;
             StateHasChanged();
         }
+    }
+
+    private async Task ToggleTwoFactor(Account account)
+    {
+        if (string.IsNullOrWhiteSpace(account.AccountEmail))
+        {
+            notificationMessage = $"Cannot enable 2FA for {account.AccountName}. Email address is missing.";
+            isNotificationSuccess = false;
+        }
+        else
+        {
+            account.Status2FA = !account.Status2FA; 
+            await AccountsService.UpdateAccountAsync(account);
+
+            notificationMessage = $"2FA has been {(account.Status2FA ? "enabled" : "disabled")} for {account.AccountName}.";
+            isNotificationSuccess = true;
+        }
+
+        StateHasChanged();
+        await Task.Delay(2000);
+        notificationMessage = "";
     }
 
     private void OpenDeleteConfirmation(Account account)

@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.XunitTest\\E-Commerce.XunitTest.csproj": {}
+    "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.XunitTest\\E-Commerce.XunitTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.Plugin.InMemmory\\E-Commerce.Plugin.InMemmory.csproj": {
+    "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.Plugin.InMemmory\\E-Commerce.Plugin.InMemmory.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.Plugin.InMemmory\\E-Commerce.Plugin.InMemmory.csproj",
+        "projectUniqueName": "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.Plugin.InMemmory\\E-Commerce.Plugin.InMemmory.csproj",
         "projectName": "E-Commerce.Plugin.InMemmory",
-        "projectPath": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.Plugin.InMemmory\\E-Commerce.Plugin.InMemmory.csproj",
-        "packagesPath": "C:\\Users\\samgl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.Plugin.InMemmory\\obj\\",
+        "projectPath": "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.Plugin.InMemmory\\E-Commerce.Plugin.InMemmory.csproj",
+        "packagesPath": "C:\\Users\\Avi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.Plugin.InMemmory\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\samgl\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Avi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,18 +22,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.UseCase\\E-Commerce.UseCase.csproj": {
-                "projectPath": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.UseCase\\E-Commerce.UseCase.csproj"
+              "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.UseCase\\E-Commerce.UseCase.csproj": {
+                "projectPath": "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.UseCase\\E-Commerce.UseCase.csproj"
               },
-              "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\ECommerce.CoreEntityBusiness\\ECommerce.CoreEntityBusiness.csproj": {
-                "projectPath": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\ECommerce.CoreEntityBusiness\\ECommerce.CoreEntityBusiness.csproj"
+              "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\ECommerce.CoreEntityBusiness\\ECommerce.CoreEntityBusiness.csproj": {
+                "projectPath": "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\ECommerce.CoreEntityBusiness\\ECommerce.CoreEntityBusiness.csproj"
               }
             }
           }
@@ -57,109 +52,49 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
+            "MailKit": {
               "target": "Package",
-              "version": "[8.0.10, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.Plugin.MySQL\\E-Commerce.Plugin.MySQL.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.Plugin.MySQL\\E-Commerce.Plugin.MySQL.csproj",
-        "projectName": "E-Commerce.Plugin.MySQL",
-        "projectPath": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.Plugin.MySQL\\E-Commerce.Plugin.MySQL.csproj",
-        "packagesPath": "C:\\Users\\samgl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.Plugin.MySQL\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\samgl\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net8.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
-            "projectReferences": {
-              "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.UseCase\\E-Commerce.UseCase.csproj": {
-                "projectPath": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.UseCase\\E-Commerce.UseCase.csproj"
-              },
-              "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\ECommerce.CoreEntityBusiness\\ECommerce.CoreEntityBusiness.csproj": {
-                "projectPath": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\ECommerce.CoreEntityBusiness\\ECommerce.CoreEntityBusiness.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        }
-      },
-      "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
-          "dependencies": {
+              "version": "[4.9.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.10, )"
+              "version": "[9.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.10, )"
+              "version": "[9.0.0, )"
             },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
+            "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
-              "version": "[8.0.10, )"
+              "version": "[9.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.10, )"
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Caching.Memory": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Primitives": {
+              "target": "Package",
+              "version": "[9.0.0, )"
             },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
-              "version": "[8.0.2, )"
+              "version": "[9.0.0-preview.2.efcore.9.0.0, )"
+            },
+            "SendGrid": {
+              "target": "Package",
+              "version": "[9.29.3, )"
             }
           },
           "imports": [
@@ -182,21 +117,17 @@
         }
       }
     },
-    "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.UseCase\\E-Commerce.UseCase.csproj": {
+    "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.Plugin.MySQL\\E-Commerce.Plugin.MySQL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.UseCase\\E-Commerce.UseCase.csproj",
-        "projectName": "E-Commerce.UseCase",
-        "projectPath": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.UseCase\\E-Commerce.UseCase.csproj",
-        "packagesPath": "C:\\Users\\samgl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.UseCase\\obj\\",
+        "projectUniqueName": "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.Plugin.MySQL\\E-Commerce.Plugin.MySQL.csproj",
+        "projectName": "E-Commerce.Plugin.MySQL",
+        "projectPath": "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.Plugin.MySQL\\E-Commerce.Plugin.MySQL.csproj",
+        "packagesPath": "C:\\Users\\Avi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.Plugin.MySQL\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\samgl\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Avi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -204,15 +135,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\ECommerce.CoreEntityBusiness\\ECommerce.CoreEntityBusiness.csproj": {
-                "projectPath": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\ECommerce.CoreEntityBusiness\\ECommerce.CoreEntityBusiness.csproj"
+              "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.UseCase\\E-Commerce.UseCase.csproj": {
+                "projectPath": "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.UseCase\\E-Commerce.UseCase.csproj"
+              },
+              "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\ECommerce.CoreEntityBusiness\\ECommerce.CoreEntityBusiness.csproj": {
+                "projectPath": "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\ECommerce.CoreEntityBusiness\\ECommerce.CoreEntityBusiness.csproj"
               }
             }
           }
@@ -232,11 +165,53 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.9.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.10, )"
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Caching.Memory": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Primitives": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[9.0.0-preview.2.efcore.9.0.0, )"
+            },
+            "SendGrid": {
+              "target": "Package",
+              "version": "[9.29.3, )"
             }
           },
           "imports": [
@@ -259,21 +234,17 @@
         }
       }
     },
-    "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.XunitTest\\E-Commerce.XunitTest.csproj": {
+    "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.UseCase\\E-Commerce.UseCase.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.XunitTest\\E-Commerce.XunitTest.csproj",
-        "projectName": "E-Commerce.XunitTest",
-        "projectPath": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.XunitTest\\E-Commerce.XunitTest.csproj",
-        "packagesPath": "C:\\Users\\samgl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.XunitTest\\obj\\",
+        "projectUniqueName": "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.UseCase\\E-Commerce.UseCase.csproj",
+        "projectName": "E-Commerce.UseCase",
+        "projectPath": "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.UseCase\\E-Commerce.UseCase.csproj",
+        "packagesPath": "C:\\Users\\Avi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.UseCase\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\samgl\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Avi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -281,27 +252,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.Plugin.InMemmory\\E-Commerce.Plugin.InMemmory.csproj": {
-                "projectPath": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.Plugin.InMemmory\\E-Commerce.Plugin.InMemmory.csproj"
-              },
-              "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.Plugin.MySQL\\E-Commerce.Plugin.MySQL.csproj": {
-                "projectPath": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.Plugin.MySQL\\E-Commerce.Plugin.MySQL.csproj"
-              },
-              "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.UseCase\\E-Commerce.UseCase.csproj": {
-                "projectPath": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.UseCase\\E-Commerce.UseCase.csproj"
-              },
-              "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj": {
-                "projectPath": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj"
-              },
-              "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\ECommerce.CoreEntityBusiness\\ECommerce.CoreEntityBusiness.csproj": {
-                "projectPath": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\ECommerce.CoreEntityBusiness\\ECommerce.CoreEntityBusiness.csproj"
+              "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\ECommerce.CoreEntityBusiness\\ECommerce.CoreEntityBusiness.csproj": {
+                "projectPath": "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\ECommerce.CoreEntityBusiness\\ECommerce.CoreEntityBusiness.csproj"
               }
             }
           }
@@ -321,25 +279,49 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.NET.Test.Sdk": {
+            "MailKit": {
               "target": "Package",
-              "version": "[17.8.0, )"
+              "version": "[4.9.0, )"
             },
-            "bunit": {
+            "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[1.36.0, )"
+              "version": "[9.0.0, )"
             },
-            "coverlet.collector": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[9.0.0, )"
             },
-            "xunit": {
+            "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
-              "version": "[2.5.3, )"
+              "version": "[9.0.0, )"
             },
-            "xunit.runner.visualstudio": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[2.5.3, )"
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Caching.Memory": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Primitives": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[9.0.0-preview.2.efcore.9.0.0, )"
+            },
+            "SendGrid": {
+              "target": "Package",
+              "version": "[9.29.3, )"
             }
           },
           "imports": [
@@ -362,21 +344,17 @@
         }
       }
     },
-    "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj": {
+    "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.XunitTest\\E-Commerce.XunitTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj",
-        "projectName": "E-CommerceStore.WebApp",
-        "projectPath": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj",
-        "packagesPath": "C:\\Users\\samgl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\obj\\",
+        "projectUniqueName": "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.XunitTest\\E-Commerce.XunitTest.csproj",
+        "projectName": "E-Commerce.XunitTest",
+        "projectPath": "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.XunitTest\\E-Commerce.XunitTest.csproj",
+        "packagesPath": "C:\\Users\\Avi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.XunitTest\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\samgl\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Avi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -384,24 +362,169 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.Plugin.InMemmory\\E-Commerce.Plugin.InMemmory.csproj": {
-                "projectPath": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.Plugin.InMemmory\\E-Commerce.Plugin.InMemmory.csproj"
+              "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.Plugin.InMemmory\\E-Commerce.Plugin.InMemmory.csproj": {
+                "projectPath": "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.Plugin.InMemmory\\E-Commerce.Plugin.InMemmory.csproj"
               },
-              "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.Plugin.MySQL\\E-Commerce.Plugin.MySQL.csproj": {
-                "projectPath": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.Plugin.MySQL\\E-Commerce.Plugin.MySQL.csproj"
+              "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.Plugin.MySQL\\E-Commerce.Plugin.MySQL.csproj": {
+                "projectPath": "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.Plugin.MySQL\\E-Commerce.Plugin.MySQL.csproj"
               },
-              "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.UseCase\\E-Commerce.UseCase.csproj": {
-                "projectPath": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.UseCase\\E-Commerce.UseCase.csproj"
+              "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.UseCase\\E-Commerce.UseCase.csproj": {
+                "projectPath": "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.UseCase\\E-Commerce.UseCase.csproj"
               },
-              "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\ECommerce.CoreEntityBusiness\\ECommerce.CoreEntityBusiness.csproj": {
-                "projectPath": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\ECommerce.CoreEntityBusiness\\ECommerce.CoreEntityBusiness.csproj"
+              "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj": {
+                "projectPath": "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj"
+              },
+              "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\ECommerce.CoreEntityBusiness\\ECommerce.CoreEntityBusiness.csproj": {
+                "projectPath": "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\ECommerce.CoreEntityBusiness\\ECommerce.CoreEntityBusiness.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.9.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Caching.Memory": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Primitives": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.12.0, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[9.0.0-preview.2.efcore.9.0.0, )"
+            },
+            "SendGrid": {
+              "target": "Package",
+              "version": "[9.29.3, )"
+            },
+            "bunit": {
+              "target": "Package",
+              "version": "[1.37.7, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.9.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj",
+        "projectName": "E-CommerceStore.WebApp",
+        "projectPath": "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj",
+        "packagesPath": "C:\\Users\\Avi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Avi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.Plugin.InMemmory\\E-Commerce.Plugin.InMemmory.csproj": {
+                "projectPath": "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.Plugin.InMemmory\\E-Commerce.Plugin.InMemmory.csproj"
+              },
+              "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.Plugin.MySQL\\E-Commerce.Plugin.MySQL.csproj": {
+                "projectPath": "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.Plugin.MySQL\\E-Commerce.Plugin.MySQL.csproj"
+              },
+              "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.UseCase\\E-Commerce.UseCase.csproj": {
+                "projectPath": "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.UseCase\\E-Commerce.UseCase.csproj"
+              },
+              "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\ECommerce.CoreEntityBusiness\\ECommerce.CoreEntityBusiness.csproj": {
+                "projectPath": "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\ECommerce.CoreEntityBusiness\\ECommerce.CoreEntityBusiness.csproj"
               }
             }
           }
@@ -425,11 +548,49 @@
               "target": "Package",
               "version": "[7.3.1, )"
             },
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.9.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.10, )"
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Caching.Memory": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Primitives": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[9.0.0-preview.2.efcore.9.0.0, )"
+            },
+            "SendGrid": {
+              "target": "Package",
+              "version": "[9.29.3, )"
             }
           },
           "imports": [
@@ -455,21 +616,17 @@
         }
       }
     },
-    "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\ECommerce.CoreEntityBusiness\\ECommerce.CoreEntityBusiness.csproj": {
+    "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\ECommerce.CoreEntityBusiness\\ECommerce.CoreEntityBusiness.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\ECommerce.CoreEntityBusiness\\ECommerce.CoreEntityBusiness.csproj",
+        "projectUniqueName": "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\ECommerce.CoreEntityBusiness\\ECommerce.CoreEntityBusiness.csproj",
         "projectName": "ECommerce.CoreEntityBusiness",
-        "projectPath": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\ECommerce.CoreEntityBusiness\\ECommerce.CoreEntityBusiness.csproj",
-        "packagesPath": "C:\\Users\\samgl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\ECommerce.CoreEntityBusiness\\obj\\",
+        "projectPath": "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\ECommerce.CoreEntityBusiness\\ECommerce.CoreEntityBusiness.csproj",
+        "packagesPath": "C:\\Users\\Avi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\ECommerce.CoreEntityBusiness\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\samgl\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Avi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -477,7 +634,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -501,11 +657,49 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.9.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.10, )"
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Caching.Memory": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Primitives": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[9.0.0-preview.2.efcore.9.0.0, )"
+            },
+            "SendGrid": {
+              "target": "Package",
+              "version": "[9.29.3, )"
             }
           },
           "imports": [

@@ -22,6 +22,9 @@ namespace ECommerce.CoreEntityBusiness
         [StringLength(20)]
         public string Role { get; set; }
 
+        [StringLength(100)]
+        public string TwoFactorID { get; set; } = string.Empty;
+
         public List<shopingCart> ShopingCart { get; set; } = new List<shopingCart>();
     }
 

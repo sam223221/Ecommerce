@@ -44,7 +44,7 @@ namespace E_Commerce.XunitTest
 
             // Assert
             Assert.NotNull(createdAccount);
-            Assert.Equal("TestAccount", createdAccount.AccountName);
+            Assert.Equal("TestAccount", createdAccount.AccountEmail);
             Assert.Equal("SecurePassword123", createdAccount.AccountPassword);
             Assert.Equal("Admin", createdAccount.Role);
         }

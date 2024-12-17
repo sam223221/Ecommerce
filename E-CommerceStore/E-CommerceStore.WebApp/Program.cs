@@ -1,7 +1,6 @@
 using Blazored.Modal;
 using E_Commerce.Plugin.InMemmory;
 using E_Commerce.Plugin.MySQL;
-using E_Commerce.UseCase.Accounts;
 using E_Commerce.UseCase.PluginInterfaces;
 using E_Commerce.UseCase.Products;
 using E_Commerce.UseCase.Products.InMemoryTest;
@@ -13,7 +12,6 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
@@ -21,7 +19,7 @@ builder.Services.AddRazorComponents()
 builder.Services.AddDbContext<MySQLDbContext>(options =>
     options.UseMySql(
         builder.Configuration.GetConnectionString("DefaultConnection"),
-        new MySqlServerVersion(new Version(10, 4, 32)) // Replace with your MySQL version
+        new MySqlServerVersion(new Version(10, 4, 32)) //
     ));
 
 // Authentication and Authorization
@@ -37,19 +35,22 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
 builder.Services.AddAuthorization();
 builder.Services.AddCascadingAuthenticationState();
 
-// Register repositories and use cases
+builder.Services.AddAntiforgery(options =>
+{
+
+    options.Cookie.Expiration = TimeSpan.Zero;
+
+});
+
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
 builder.Services.AddScoped<IdbRepository, dbRepository>();
 builder.Services.AddTransient<IProductService, ProductService>();
 builder.Services.AddTransient<IAccountsService, AccountService>();
-
-
-// Add Blazored Modal for modal service
+builder.Services.AddTransient<EmailService>();
 builder.Services.AddBlazoredModal();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Error");
@@ -63,6 +64,7 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapRazorComponents<App>()
+    .DisableAntiforgery()
     .AddInteractiveServerRenderMode();
 
 app.Run();

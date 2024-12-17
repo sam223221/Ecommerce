@@ -20,7 +20,13 @@
                     </NavLink>
                 </div>
             </AuthorizeView>
-
+            <AuthorizeView Roles="Admin,User">
+                <div>
+                    <NavLink class="nav-link text-white" href="Profile">
+                        <span class="bi bi-person-fill" aria-hidden="true"></span> User Profile
+                    </NavLink>
+                </div>
+            </AuthorizeView>
             <div class="search-container" style="flex: 1; display: flex; justify-content: right; margin-right: 25px;">
                 
             </div>

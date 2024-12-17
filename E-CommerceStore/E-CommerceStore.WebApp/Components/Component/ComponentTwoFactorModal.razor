@@ -1,0 +1,58 @@
+﻿@using ECommerce.CoreEntityBusiness
+
+<div class="modal fade show" style="display:block; background-color: rgba(10,10,10,.8);" aria-modal="true" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Two-Factor Authentication</h5>
+                <button type="button" class="close" @onclick="Close">&times;</button>
+            </div>
+            <div class="modal-body">
+                <EditForm Model="@TwoFactorModel" OnValidSubmit="HandleValidSubmit" FormName="TwoFactorForm">
+                    <DataAnnotationsValidator />
+                    <ValidationSummary />
+
+                    <div class="form-group">
+                        <label>Enter 2FA Code</label>
+                        <InputText @bind-Value="TwoFactorModel.Code" class="form-control" placeholder="Enter 6-digit code" />
+                        <ValidationMessage For="@(() => TwoFactorModel.Code)" />
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" @onclick="Close">Cancel</button>
+                        <button type="submit" class="btn btn-primary">Verify</button>
+                    </div>
+                </EditForm>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public EventCallback<string> OnSubmit { get; set; }
+
+    [Parameter]
+    public EventCallback OnClose { get; set; }
+
+    private TwoFactorViewModel TwoFactorModel { get; set; } = new TwoFactorViewModel();
+
+    private async Task HandleValidSubmit()
+    {
+        // Send the 2FA code back to the parent for validation
+        await OnSubmit.InvokeAsync();
+    }
+
+    private async Task Close()
+    {
+        await OnClose.InvokeAsync(); // Notify parent component to close modal
+    }
+
+    public class TwoFactorViewModel
+    {
+        public string Code { get; set; } = string.Empty;
+
+    }
+}
+

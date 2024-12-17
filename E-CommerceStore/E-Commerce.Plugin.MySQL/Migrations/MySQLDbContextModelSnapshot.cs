@@ -17,7 +17,7 @@ namespace E_Commerce.Plugin.MySQL.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "8.0.10")
+                .HasAnnotation("ProductVersion", "9.0.0")
                 .HasAnnotation("Relational:MaxIdentifierLength", 64);
 
             MySqlModelBuilderExtensions.AutoIncrementColumns(modelBuilder);
@@ -52,6 +52,15 @@ namespace E_Commerce.Plugin.MySQL.Migrations
 
                     b.Property<bool>("Status2FA")
                         .HasColumnType("tinyint(1)");
+
+                    b.Property<string>("TwoFactorID")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("varchar(100)");
+
+                    b.Property<DateTime?>("TwoFactorTime")
+                        .HasMaxLength(100)
+                        .HasColumnType("datetime(6)");
 
                     b.HasKey("AccountId");
 
