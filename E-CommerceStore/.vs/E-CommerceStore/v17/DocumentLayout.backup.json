@@ -9,6 +9,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{1A129EDC-6B57-4415-9C50-35F0C3BE8E3D}|ECommerce.CoreEntityBusiness\\ECommerce.CoreEntityBusiness.csproj|c:\\users\\avi\\documents\\github\\ecommerce\\e-commercestore\\ecommerce.coreentitybusiness\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1A129EDC-6B57-4415-9C50-35F0C3BE8E3D}|ECommerce.CoreEntityBusiness\\ECommerce.CoreEntityBusiness.csproj|solutionrelative:ecommerce.coreentitybusiness\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{290F1384-91EB-4B98-904C-5E73625A4E14}|E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj|c:\\users\\avi\\documents\\github\\ecommerce\\e-commercestore\\e-commercestore.webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{290F1384-91EB-4B98-904C-5E73625A4E14}|E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj|solutionrelative:e-commercestore.webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,8 +22,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 21,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 9,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\Program.cs",
+              "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Program.cs",
+              "ToolTip": "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\Program.cs",
+              "RelativeToolTip": "E-CommerceStore.WebApp\\Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T14:28:54.649Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -56,7 +73,7 @@
               "RelativeDocumentMoniker": "ECommerce.CoreEntityBusiness\\Account.cs",
               "ToolTip": "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\ECommerce.CoreEntityBusiness\\Account.cs",
               "RelativeToolTip": "ECommerce.CoreEntityBusiness\\Account.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-17T13:48:10.767Z",
               "EditorCaption": ""
@@ -69,7 +86,7 @@
               "RelativeDocumentMoniker": "E-Commerce.UseCase\\Products\\AccountsService.cs",
               "ToolTip": "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.UseCase\\Products\\AccountsService.cs",
               "RelativeToolTip": "E-Commerce.UseCase\\Products\\AccountsService.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAmwD8AAABAAAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAAwDwAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-17T13:47:07.799Z",
               "EditorCaption": ""

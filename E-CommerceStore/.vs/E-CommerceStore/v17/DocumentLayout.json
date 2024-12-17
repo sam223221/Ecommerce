@@ -25,19 +25,6 @@
           "SelectedChildIndex": 9,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\Program.cs",
-              "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Program.cs",
-              "ToolTip": "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\Program.cs",
-              "RelativeToolTip": "E-CommerceStore.WebApp\\Program.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAADQAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T14:28:54.649Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
@@ -67,6 +54,19 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\Program.cs",
+              "RelativeDocumentMoniker": "E-CommerceStore.WebApp\\Program.cs",
+              "ToolTip": "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\Program.cs",
+              "RelativeToolTip": "E-CommerceStore.WebApp\\Program.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAADAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T14:28:54.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Account.cs",
               "DocumentMoniker": "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\ECommerce.CoreEntityBusiness\\Account.cs",
@@ -86,7 +86,7 @@
               "RelativeDocumentMoniker": "E-Commerce.UseCase\\Products\\AccountsService.cs",
               "ToolTip": "C:\\Users\\Avi\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.UseCase\\Products\\AccountsService.cs",
               "RelativeToolTip": "E-Commerce.UseCase\\Products\\AccountsService.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAAwDwAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-17T13:47:07.799Z",
               "EditorCaption": ""
