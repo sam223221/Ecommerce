@@ -64,7 +64,7 @@ namespace E_Commerce.UseCase.Products
 
             // Send the email using EmailService
             var subject = "Your Two-Factor Authentication Code";
-            var body = $"Your 2FA code is: {twoFactorCode}. It will expire in 5 minutes.";
+            var body = $"Your 2FA code is: {twoFactorCode}. If this code does not work, try logging in again and a new code will be sent to you.";
             await _emailService.SendEmailAsync(account.AccountEmail, subject, body);
 
             return true;
@@ -77,7 +77,7 @@ namespace E_Commerce.UseCase.Products
             var account = allAccounts.FirstOrDefault(a => a.AccountEmail == email);
 
             if (account == null || account.TwoFactorID != code)
-                return false;
+                    return false;
 
             // Clear the TwoFactorID after successful validation
             account.TwoFactorID = null;
