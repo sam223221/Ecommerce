@@ -1,2 +1,3 @@
-# SPRO-3
- webapp for linak tables
+Group 18 Web Tech Project
+
+Ecommerce Website
