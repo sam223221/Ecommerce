@@ -538,7 +538,9 @@ C:\Users\Avi\Documents\GitHub\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\b
 C:\Users\Avi\Documents\GitHub\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\Avi\Documents\GitHub\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\Azure.Identity.dll
 C:\Users\Avi\Documents\GitHub\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\Blazored.Modal.dll
+C:\Users\Avi\Documents\GitHub\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
 C:\Users\Avi\Documents\GitHub\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\Humanizer.dll
+C:\Users\Avi\Documents\GitHub\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\MailKit.dll
 C:\Users\Avi\Documents\GitHub\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\Microsoft.AspNetCore.Authorization.dll
 C:\Users\Avi\Documents\GitHub\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\Microsoft.AspNetCore.Components.dll
 C:\Users\Avi\Documents\GitHub\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Forms.dll
@@ -556,12 +558,15 @@ C:\Users\Avi\Documents\GitHub\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\b
 C:\Users\Avi\Documents\GitHub\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\Avi\Documents\GitHub\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Users\Avi\Documents\GitHub\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Avi\Documents\GitHub\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+C:\Users\Avi\Documents\GitHub\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\Users\Avi\Documents\GitHub\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\Avi\Documents\GitHub\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\Avi\Documents\GitHub\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\Avi\Documents\GitHub\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
 C:\Users\Avi\Documents\GitHub\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\Avi\Documents\GitHub\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\Avi\Documents\GitHub\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
 C:\Users\Avi\Documents\GitHub\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\Microsoft.Identity.Client.dll
 C:\Users\Avi\Documents\GitHub\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
 C:\Users\Avi\Documents\GitHub\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
@@ -574,9 +579,13 @@ C:\Users\Avi\Documents\GitHub\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\b
 C:\Users\Avi\Documents\GitHub\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\Microsoft.JSInterop.WebAssembly.dll
 C:\Users\Avi\Documents\GitHub\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
 C:\Users\Avi\Documents\GitHub\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Avi\Documents\GitHub\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\MimeKit.dll
 C:\Users\Avi\Documents\GitHub\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\Mono.TextTemplating.dll
 C:\Users\Avi\Documents\GitHub\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\MySqlConnector.dll
+C:\Users\Avi\Documents\GitHub\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Users\Avi\Documents\GitHub\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\Avi\Documents\GitHub\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\SendGrid.dll
+C:\Users\Avi\Documents\GitHub\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\StarkbankEcdsa.dll
 C:\Users\Avi\Documents\GitHub\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\System.CodeDom.dll
 C:\Users\Avi\Documents\GitHub\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\System.Composition.AttributedModel.dll
 C:\Users\Avi\Documents\GitHub\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\System.Composition.Convention.dll
@@ -588,6 +597,7 @@ C:\Users\Avi\Documents\GitHub\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\b
 C:\Users\Avi\Documents\GitHub\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\Avi\Documents\GitHub\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\System.Memory.Data.dll
 C:\Users\Avi\Documents\GitHub\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\Avi\Documents\GitHub\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
 C:\Users\Avi\Documents\GitHub\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Avi\Documents\GitHub\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\System.Security.Permissions.dll
 C:\Users\Avi\Documents\GitHub\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\System.Windows.Extensions.dll
@@ -653,6 +663,7 @@ C:\Users\Avi\Documents\GitHub\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\b
 C:\Users\Avi\Documents\GitHub\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
 C:\Users\Avi\Documents\GitHub\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 C:\Users\Avi\Documents\GitHub\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\Avi\Documents\GitHub\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
 C:\Users\Avi\Documents\GitHub\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Avi\Documents\GitHub\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\Avi\Documents\GitHub\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\E-Commerce.Plugin.InMemmory.dll
@@ -689,8 +700,3 @@ C:\Users\Avi\Documents\GitHub\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\o
 C:\Users\Avi\Documents\GitHub\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\obj\Debug\net8.0\E-CommerceStore.WebApp.pdb
 C:\Users\Avi\Documents\GitHub\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\obj\Debug\net8.0\E-CommerceStore.WebApp.genruntimeconfig.cache
 C:\Users\Avi\Documents\GitHub\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\obj\Debug\net8.0\ref\E-CommerceStore.WebApp.dll
-C:\Users\Avi\Documents\GitHub\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
-C:\Users\Avi\Documents\GitHub\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\MailKit.dll
-C:\Users\Avi\Documents\GitHub\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\MimeKit.dll
-C:\Users\Avi\Documents\GitHub\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
-C:\Users\Avi\Documents\GitHub\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll

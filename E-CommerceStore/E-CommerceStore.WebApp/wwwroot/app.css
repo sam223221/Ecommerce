@@ -1028,3 +1028,42 @@ h1:focus {
     text-align: center;
     z-index: 1001;
 }
+
+.profile-container {
+    margin: auto;
+    max-width: 600px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    background: #fff;
+    margin-top: 30px;
+}
+
+.profile-details p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.modal-content {
+    padding: 20px;
+}
+
+.text-primary {
+    color: #2f27ce !important;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+.profile-details .row {
+    margin-bottom: 10px;
+}
+
+.badge {
+    font-size: 0.9rem;
+    padding: 5px 10px;
+    border-radius: 5px;
+}

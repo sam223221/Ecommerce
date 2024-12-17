@@ -1,7 +1,6 @@
 using Blazored.Modal;
 using E_Commerce.Plugin.InMemmory;
 using E_Commerce.Plugin.MySQL;
-using E_Commerce.UseCase.Accounts;
 using E_Commerce.UseCase.PluginInterfaces;
 using E_Commerce.UseCase.Products;
 using E_Commerce.UseCase.Products.InMemoryTest;
@@ -49,9 +48,7 @@ builder.Services.AddScoped<IProductRepository, ProductRepository>();
 builder.Services.AddScoped<IdbRepository, dbRepository>();
 builder.Services.AddTransient<IProductService, ProductService>();
 builder.Services.AddTransient<IAccountsService, AccountService>();
-builder.Services.AddScoped<EmailService>();
-
-
+builder.Services.AddTransient<EmailService>();
 // Add Blazored Modal for modal service
 builder.Services.AddBlazoredModal();
 

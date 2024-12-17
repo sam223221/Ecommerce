@@ -1,35 +1,54 @@
-﻿using System.Threading.Tasks;
-using MailKit.Net.Smtp;
-using MimeKit;
+﻿using System.Net;
+using System.Net.Mail;
+using System.Threading.Tasks;
+using Microsoft.Extensions.Configuration;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using E_Commerce.UseCase.PluginInterfaces;
+using ECommerce.CoreEntityBusiness;
+using E_Commerce.UseCase.Products.Interfaces;
+using E_Commerce.UseCase.Products;
 
 namespace E_Commerce.UseCase.Products
-{
+{ 
     public class EmailService
     {
-        private readonly string _smtpServer = "smtp.sendgrid.net";
-        private readonly int _smtpPort = 465; // SSL connection port
-        private readonly string _username = "apikey";
-        private readonly string _password = "SG.gyo_L8BaQaatFGmnqIMg1g.EymxOAqFpp1TJCrExFXqUEwp4d7I_kSsHLCzvTInfI"; // Replace securely
+        private readonly string _smtpServer;
+        private readonly int _smtpPort;
+        private readonly string _smtpUser;
+        private readonly string _smtpPassword;
+        private readonly string _fromEmail;
+        private readonly string _fromName;
 
-        public async Task SendEmailAsync(string toEmail, string subject, string body)
+        public EmailService(IConfiguration configuration)
         {
-            var message = new MimeMessage();
-            message.From.Add(new MailboxAddress("Your E-Commerce App", "avichalsood2@gmail.com"));
-            message.To.Add(new MailboxAddress("", toEmail));
-            message.Subject = subject;
-            message.Body = new TextPart("plain") { Text = body };
+            _smtpServer = configuration["EmailSettings:SmtpServer"];
+            _smtpPort = int.Parse(configuration["EmailSettings:Port"]);
+            _smtpUser = configuration["EmailSettings:Username"];
+            _smtpPassword = configuration["EmailSettings:Password"];
+            _fromEmail = configuration["EmailSettings:FromEmail"];
+            _fromName = configuration["EmailSettings:FromName"];
+        }
 
-            using var client = new SmtpClient();
-            try
+        public async Task SendEmailAsync(string email, string subject, string body)
+        {
+            using var client = new SmtpClient(_smtpServer, _smtpPort)
             {
-                await client.ConnectAsync(_smtpServer, _smtpPort, MailKit.Security.SecureSocketOptions.SslOnConnect);
-                await client.AuthenticateAsync(_username, _password);
-                await client.SendAsync(message);
-            }
-            finally
+                Credentials = new NetworkCredential(_smtpUser, _smtpPassword),
+                EnableSsl = true
+            };
+
+            var mailMessage = new MailMessage
             {
-                await client.DisconnectAsync(true);
-            }
+                From = new MailAddress(_fromEmail, _fromName),
+                Subject = subject,
+                Body = body,
+                IsBodyHtml = false
+            };
+            mailMessage.To.Add(email);
+
+            await client.SendMailAsync(mailMessage);
         }
     }
 }

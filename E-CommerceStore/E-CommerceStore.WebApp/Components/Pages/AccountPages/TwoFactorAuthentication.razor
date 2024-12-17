@@ -67,28 +67,30 @@
     }
     private async Task ValidateCode()
     {
+        var email = userAccount?.AccountEmail;
+        var isValid = await AccountsService.ValidateTwoFactorCodeAsync(email, model.TwoFactorNum.ToString());
 
-        if (model.TwoFactorNum == int.Parse(userAccount.TwoFactorID))
-		{
-            await HttpContext.SignOutAsync();
+        if (isValid)
+        {
+            // Step 2: Upgrade user claims after successful 2FA
             var claims = new List<Claim>
-            {
-                new Claim(ClaimTypes.NameIdentifier, userAccount.AccountId.ToString()),
-                new Claim(ClaimTypes.Name, userAccount.AccountName),
-                new Claim(ClaimTypes.Role, userAccount.Role)
-            };
+        {
+            new Claim(ClaimTypes.NameIdentifier, userAccount.AccountId.ToString()),
+            new Claim(ClaimTypes.Name, userAccount.AccountName),
+            new Claim(ClaimTypes.Role, userAccount.Role)
+        };
 
             var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
             var principal = new ClaimsPrincipal(identity);
 
-            await HttpContext.SignInAsync(principal);
-            NavigationManager.NavigateTo("/", forceLoad: true);
-
-		}
-		else
-		{
             await HttpContext.SignOutAsync();
-            NavigationManager.NavigateTo("/Login", forceLoad: true);
-		}
+            await HttpContext.SignInAsync(principal);
+
+            NavigationManager.NavigateTo("/", forceLoad: true);
+        }
+        else
+        {
+            ErrorMessage = "Invalid 2FA code. Please try again.";
+        }
     }
 }

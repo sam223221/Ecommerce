@@ -7,7 +7,7 @@ using ECommerce.CoreEntityBusiness;
 using E_Commerce.UseCase.Products.Interfaces;
 using E_Commerce.UseCase.Products;
 
-namespace E_Commerce.UseCase.Accounts // Adjust namespace to match your project structure
+namespace E_Commerce.UseCase.Products 
 {
     public class AccountService : IAccountsService
     {
@@ -57,13 +57,16 @@ namespace E_Commerce.UseCase.Accounts // Adjust namespace to match your project 
 
             // Generate a random 6-digit 2FA code
             var twoFactorCode = new Random().Next(100000, 999999).ToString();
-            account.TwoFactorID = twoFactorCode;
 
-            // Update account with the new 2FA code
+            // Save the 2FA code in the database
+            account.TwoFactorID = twoFactorCode;
             await AccountRepository.UpdateAccountAsync(account);
 
-            // Send 2FA code via EmailService
-            await _emailService.SendEmailAsync(email, "Your 2FA Code", $"Your 2FA code is: {twoFactorCode}");
+            // Send the email using EmailService
+            var subject = "Your Two-Factor Authentication Code";
+            var body = $"Your 2FA code is: {twoFactorCode}. It will expire in 5 minutes.";
+            await _emailService.SendEmailAsync(account.AccountEmail, subject, body);
+
             return true;
         }
 
@@ -82,5 +85,7 @@ namespace E_Commerce.UseCase.Accounts // Adjust namespace to match your project 
 
             return true;
         }
+
+
     }
 }

@@ -44,7 +44,6 @@
     </div>
 </div>
 
-
 @code {
     [CascadingParameter]
     public HttpContext? HttpContext { get; set; }
@@ -53,14 +52,13 @@
     LoginViewModel Model { get; set; } = new LoginViewModel();
 
     private string? errorMessage;
-    private bool showTwoFactorModal = false;
     private Account? userAccount;
 
     private async Task Authenticate()
     {
         errorMessage = null;
 
-        // Step 1: Verify username and password
+        // Verify username and password
         var accounts = await AccountsService.GetAllAccountsAsync();
         userAccount = accounts.FirstOrDefault(x => x.AccountName == Model.UserName);
 
@@ -72,31 +70,43 @@
 
         if (userAccount.Status2FA)
         {
-            var tfaclaims = new List<Claim>
+            // Generate 2FA code and send via email
+            var emailSent = await AccountsService.SendTwoFactorCodeAsync(userAccount.AccountEmail);
+            if (emailSent)
+            {
+                var tfaclaims = new List<Claim>
             {
                 new Claim(ClaimTypes.NameIdentifier, userAccount.AccountId.ToString()),
                 new Claim(ClaimTypes.Name, userAccount.AccountName),
                 new Claim(ClaimTypes.Role, "2FA")
             };
-            
-            var tfaidentity = new ClaimsIdentity(tfaclaims, CookieAuthenticationDefaults.AuthenticationScheme);
-            var tfaprincipal = new ClaimsPrincipal(tfaidentity);
-            await HttpContext.SignInAsync(tfaprincipal);
-            NavigationManager.NavigateTo($"/TwoFactorAuthentication/", forceLoad: true);
+
+                var tfaidentity = new ClaimsIdentity(tfaclaims, CookieAuthenticationDefaults.AuthenticationScheme);
+                var tfaprincipal = new ClaimsPrincipal(tfaidentity);
+                await HttpContext.SignInAsync(tfaprincipal);
+                NavigationManager.NavigateTo("/TwoFactorAuthentication/", forceLoad: true);
+            }
+            else
+            {
+                errorMessage = "Unable to send 2FA code. Please try again.";
+            }
+            return;
         }
-
-        var claims = new List<Claim>
+        else
         {
-            new Claim(ClaimTypes.NameIdentifier, userAccount.AccountId.ToString()),
-            new Claim(ClaimTypes.Name, userAccount.AccountName),
-            new Claim(ClaimTypes.Role, userAccount.Role)
-        };
+            // Standard login
+            var claims = new List<Claim>
+            {
+                new Claim(ClaimTypes.NameIdentifier, userAccount.AccountId.ToString()),
+                new Claim(ClaimTypes.Name, userAccount.AccountName),
+                new Claim(ClaimTypes.Role, userAccount.Role)
+            };
 
-        var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
-        var principal = new ClaimsPrincipal(identity);
+            var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+            var principal = new ClaimsPrincipal(identity);
 
-        await HttpContext.SignInAsync(principal);
-        NavigationManager.NavigateTo("/", forceLoad: true);
+            await HttpContext.SignInAsync(principal);
+            NavigationManager.NavigateTo("/", forceLoad: true);
+        }
     }
-
 }
