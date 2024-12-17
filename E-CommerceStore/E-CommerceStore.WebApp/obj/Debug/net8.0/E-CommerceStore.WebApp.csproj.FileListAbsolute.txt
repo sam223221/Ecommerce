@@ -527,3 +527,7 @@ C:\Users\Sam Gleðisheygg\Documents\GitHub\SPRO-3\E-CommerceStore\E-CommerceStor
 C:\Users\Sam Gleðisheygg\Documents\GitHub\SPRO-3\E-CommerceStore\E-CommerceStore.WebApp\obj\Debug\net8.0\scopedcss\Components\Component\ComponentproductSlider.razor.rz.scp.css
 C:\Users\samgl\Documents\GitHub\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\obj\Debug\net8.0\scopedcss\Components\Component\ComponentproductSlider.razor.rz.scp.css
 C:\Users\samgl\Documents\GitHub\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\obj\Debug\net8.0\scopedcss\Components\Pages\Home.razor.rz.scp.css
+C:\Users\samgl\Documents\GitHub\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\bin\Debug\net8.0\E-CommerceStore.WebApp.staticwebassets.endpoints.json
+C:\Users\samgl\Documents\GitHub\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\samgl\Documents\GitHub\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\obj\Debug\net8.0\staticwebassets\msbuild.E-CommerceStore.WebApp.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\samgl\Documents\GitHub\Ecommerce\E-CommerceStore\E-CommerceStore.WebApp\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

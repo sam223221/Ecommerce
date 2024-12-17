@@ -364,3 +364,4 @@ C:\Users\samgl\Documents\GitHub\Ecommerce\E-CommerceStore\E-Commerce.XunitTest\o
 C:\Users\samgl\Documents\GitHub\Ecommerce\E-CommerceStore\E-Commerce.XunitTest\obj\Debug\net8.0\E-Commer.1D560F80.Up2Date
 C:\Users\samgl\Documents\GitHub\Ecommerce\E-CommerceStore\E-Commerce.XunitTest\obj\Debug\net8.0\E-Commerce.XunitTest.genruntimeconfig.cache
 C:\Users\samgl\Documents\GitHub\Ecommerce\E-CommerceStore\E-Commerce.XunitTest\obj\Debug\net8.0\ref\E-Commerce.XunitTest.dll
+C:\Users\samgl\Documents\GitHub\Ecommerce\E-CommerceStore\E-Commerce.XunitTest\bin\Debug\net8.0\E-CommerceStore.WebApp.staticwebassets.endpoints.json
