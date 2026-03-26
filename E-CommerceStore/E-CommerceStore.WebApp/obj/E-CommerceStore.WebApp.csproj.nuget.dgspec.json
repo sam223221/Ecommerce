@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< Updated upstream
     "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj": {}
   },
   "projects": {
@@ -12,32 +13,52 @@
         "projectPath": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.Plugin.InMemmory\\E-Commerce.Plugin.InMemmory.csproj",
         "packagesPath": "C:\\Users\\samgl\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.Plugin.InMemmory\\obj\\",
+=======
+    "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-Commerce.Plugin.InMemmory\\E-Commerce.Plugin.InMemmory.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-Commerce.Plugin.InMemmory\\E-Commerce.Plugin.InMemmory.csproj",
+        "projectName": "E-Commerce.Plugin.InMemmory",
+        "projectPath": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-Commerce.Plugin.InMemmory\\E-Commerce.Plugin.InMemmory.csproj",
+        "packagesPath": "C:\\Users\\avich\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-Commerce.Plugin.InMemmory\\obj\\",
+>>>>>>> Stashed changes
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
+<<<<<<< Updated upstream
           "C:\\Users\\samgl\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+=======
+          "C:\\Users\\avich\\AppData\\Roaming\\NuGet\\NuGet.Config"
+>>>>>>> Stashed changes
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+<<<<<<< Updated upstream
               "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.UseCase\\E-Commerce.UseCase.csproj": {
                 "projectPath": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.UseCase\\E-Commerce.UseCase.csproj"
               },
               "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\ECommerce.CoreEntityBusiness\\ECommerce.CoreEntityBusiness.csproj": {
                 "projectPath": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\ECommerce.CoreEntityBusiness\\ECommerce.CoreEntityBusiness.csproj"
+=======
+              "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-Commerce.UseCase\\E-Commerce.UseCase.csproj": {
+                "projectPath": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-Commerce.UseCase\\E-Commerce.UseCase.csproj"
+              },
+              "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\ECommerce.CoreEntityBusiness\\ECommerce.CoreEntityBusiness.csproj": {
+                "projectPath": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\ECommerce.CoreEntityBusiness\\ECommerce.CoreEntityBusiness.csproj"
+>>>>>>> Stashed changes
               }
             }
           }
@@ -50,8 +71,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
-        }
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -80,6 +102,7 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< Updated upstream
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
         }
       }
@@ -92,32 +115,53 @@
         "projectPath": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.Plugin.MySQL\\E-Commerce.Plugin.MySQL.csproj",
         "packagesPath": "C:\\Users\\samgl\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.Plugin.MySQL\\obj\\",
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-Commerce.Plugin.MySQL\\E-Commerce.Plugin.MySQL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-Commerce.Plugin.MySQL\\E-Commerce.Plugin.MySQL.csproj",
+        "projectName": "E-Commerce.Plugin.MySQL",
+        "projectPath": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-Commerce.Plugin.MySQL\\E-Commerce.Plugin.MySQL.csproj",
+        "packagesPath": "C:\\Users\\avich\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-Commerce.Plugin.MySQL\\obj\\",
+>>>>>>> Stashed changes
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
+<<<<<<< Updated upstream
           "C:\\Users\\samgl\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+=======
+          "C:\\Users\\avich\\AppData\\Roaming\\NuGet\\NuGet.Config"
+>>>>>>> Stashed changes
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+<<<<<<< Updated upstream
               "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.UseCase\\E-Commerce.UseCase.csproj": {
                 "projectPath": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.UseCase\\E-Commerce.UseCase.csproj"
               },
               "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\ECommerce.CoreEntityBusiness\\ECommerce.CoreEntityBusiness.csproj": {
                 "projectPath": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\ECommerce.CoreEntityBusiness\\ECommerce.CoreEntityBusiness.csproj"
+=======
+              "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-Commerce.UseCase\\E-Commerce.UseCase.csproj": {
+                "projectPath": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-Commerce.UseCase\\E-Commerce.UseCase.csproj"
+              },
+              "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\ECommerce.CoreEntityBusiness\\ECommerce.CoreEntityBusiness.csproj": {
+                "projectPath": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\ECommerce.CoreEntityBusiness\\ECommerce.CoreEntityBusiness.csproj"
+>>>>>>> Stashed changes
               }
             }
           }
@@ -130,8 +174,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
-        }
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -178,6 +223,7 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< Updated upstream
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
         }
       }
@@ -190,29 +236,47 @@
         "projectPath": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.UseCase\\E-Commerce.UseCase.csproj",
         "packagesPath": "C:\\Users\\samgl\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.UseCase\\obj\\",
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-Commerce.UseCase\\E-Commerce.UseCase.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-Commerce.UseCase\\E-Commerce.UseCase.csproj",
+        "projectName": "E-Commerce.UseCase",
+        "projectPath": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-Commerce.UseCase\\E-Commerce.UseCase.csproj",
+        "packagesPath": "C:\\Users\\avich\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-Commerce.UseCase\\obj\\",
+>>>>>>> Stashed changes
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
+<<<<<<< Updated upstream
           "C:\\Users\\samgl\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+=======
+          "C:\\Users\\avich\\AppData\\Roaming\\NuGet\\NuGet.Config"
+>>>>>>> Stashed changes
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+<<<<<<< Updated upstream
               "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\ECommerce.CoreEntityBusiness\\ECommerce.CoreEntityBusiness.csproj": {
                 "projectPath": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\ECommerce.CoreEntityBusiness\\ECommerce.CoreEntityBusiness.csproj"
+=======
+              "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\ECommerce.CoreEntityBusiness\\ECommerce.CoreEntityBusiness.csproj": {
+                "projectPath": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\ECommerce.CoreEntityBusiness\\ECommerce.CoreEntityBusiness.csproj"
+>>>>>>> Stashed changes
               }
             }
           }
@@ -225,8 +289,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
-        }
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -255,6 +320,7 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< Updated upstream
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
         }
       }
@@ -267,27 +333,41 @@
         "projectPath": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj",
         "packagesPath": "C:\\Users\\samgl\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\obj\\",
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj",
+        "projectName": "E-CommerceStore.WebApp",
+        "projectPath": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\E-CommerceStore.WebApp.csproj",
+        "packagesPath": "C:\\Users\\avich\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\obj\\",
+>>>>>>> Stashed changes
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
+<<<<<<< Updated upstream
           "C:\\Users\\samgl\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+=======
+          "C:\\Users\\avich\\AppData\\Roaming\\NuGet\\NuGet.Config"
+>>>>>>> Stashed changes
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+<<<<<<< Updated upstream
               "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.Plugin.InMemmory\\E-Commerce.Plugin.InMemmory.csproj": {
                 "projectPath": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-Commerce.Plugin.InMemmory\\E-Commerce.Plugin.InMemmory.csproj"
               },
@@ -299,6 +379,19 @@
               },
               "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\ECommerce.CoreEntityBusiness\\ECommerce.CoreEntityBusiness.csproj": {
                 "projectPath": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\ECommerce.CoreEntityBusiness\\ECommerce.CoreEntityBusiness.csproj"
+=======
+              "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-Commerce.Plugin.InMemmory\\E-Commerce.Plugin.InMemmory.csproj": {
+                "projectPath": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-Commerce.Plugin.InMemmory\\E-Commerce.Plugin.InMemmory.csproj"
+              },
+              "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-Commerce.Plugin.MySQL\\E-Commerce.Plugin.MySQL.csproj": {
+                "projectPath": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-Commerce.Plugin.MySQL\\E-Commerce.Plugin.MySQL.csproj"
+              },
+              "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-Commerce.UseCase\\E-Commerce.UseCase.csproj": {
+                "projectPath": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-Commerce.UseCase\\E-Commerce.UseCase.csproj"
+              },
+              "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\ECommerce.CoreEntityBusiness\\ECommerce.CoreEntityBusiness.csproj": {
+                "projectPath": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\ECommerce.CoreEntityBusiness\\ECommerce.CoreEntityBusiness.csproj"
+>>>>>>> Stashed changes
               }
             }
           }
@@ -311,8 +404,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
-        }
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -348,6 +442,7 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< Updated upstream
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
         }
       }
@@ -360,21 +455,34 @@
         "projectPath": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\ECommerce.CoreEntityBusiness\\ECommerce.CoreEntityBusiness.csproj",
         "packagesPath": "C:\\Users\\samgl\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\ECommerce.CoreEntityBusiness\\obj\\",
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\ECommerce.CoreEntityBusiness\\ECommerce.CoreEntityBusiness.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\ECommerce.CoreEntityBusiness\\ECommerce.CoreEntityBusiness.csproj",
+        "projectName": "ECommerce.CoreEntityBusiness",
+        "projectPath": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\ECommerce.CoreEntityBusiness\\ECommerce.CoreEntityBusiness.csproj",
+        "packagesPath": "C:\\Users\\avich\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\ECommerce.CoreEntityBusiness\\obj\\",
+>>>>>>> Stashed changes
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
+<<<<<<< Updated upstream
           "C:\\Users\\samgl\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+=======
+          "C:\\Users\\avich\\AppData\\Roaming\\NuGet\\NuGet.Config"
+>>>>>>> Stashed changes
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -391,8 +499,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
-        }
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -421,7 +530,11 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< Updated upstream
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+>>>>>>> Stashed changes
         }
       }
     }

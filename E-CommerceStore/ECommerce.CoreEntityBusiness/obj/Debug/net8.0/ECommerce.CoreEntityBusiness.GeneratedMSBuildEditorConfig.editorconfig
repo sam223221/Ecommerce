@@ -8,6 +8,12 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ECommerce.CoreEntityBusiness
+<<<<<<< Updated upstream
 build_property.ProjectDir = C:\Users\samgl\Documents\GitHub\Ecommerce\E-CommerceStore\ECommerce.CoreEntityBusiness\
+=======
+build_property.ProjectDir = C:\Users\avich\Desktop\Git Files\Ecommerce\E-CommerceStore\ECommerce.CoreEntityBusiness\
+>>>>>>> Stashed changes
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 

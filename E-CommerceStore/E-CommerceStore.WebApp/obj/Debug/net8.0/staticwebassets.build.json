@@ -1,6 +1,10 @@
 {
   "Version": 1,
+<<<<<<< Updated upstream
   "Hash": "75v1ayYNTD0r2V4qKIP5wTDVUU7GBVDLXYT83NrhVPs=",
+=======
+  "Hash": "vNGeP2cHv0EX2HMPIHqs8DBF4XzDVew1NyGOVavUFwU=",
+>>>>>>> Stashed changes
   "Source": "E-CommerceStore.WebApp",
   "BasePath": "_content/E-CommerceStore.WebApp",
   "Mode": "Default",
@@ -10,17 +14,28 @@
     {
       "Name": "E-CommerceStore.WebApp\\wwwroot",
       "Source": "E-CommerceStore.WebApp",
+<<<<<<< Updated upstream
       "ContentRoot": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+=======
+      "ContentRoot": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/E-CommerceStore.WebApp",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
+<<<<<<< Updated upstream
       "Identity": "C:\\Users\\samgl\\.nuget\\packages\\blazored.modal\\7.3.1\\staticwebassets\\Blazored.Modal.bundle.scp.css",
       "SourceId": "Blazored.Modal",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\samgl\\.nuget\\packages\\blazored.modal\\7.3.1\\staticwebassets\\",
+=======
+      "Identity": "C:\\Users\\avich\\.nuget\\packages\\blazored.modal\\7.3.1\\staticwebassets\\Blazored.Modal.bundle.scp.css",
+      "SourceId": "Blazored.Modal",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\avich\\.nuget\\packages\\blazored.modal\\7.3.1\\staticwebassets\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/Blazored.Modal",
       "RelativePath": "Blazored.Modal.bundle.scp.css",
       "AssetKind": "All",
@@ -31,8 +46,11 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "xineniuf5l",
+      "Integrity": "Z/I1339InDuOPqcxuznblrUyBaYIXu9HFBq2z/gXq8A=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< Updated upstream
       "OriginalItemSpec": "C:\\Users\\samgl\\.nuget\\packages\\blazored.modal\\7.3.1\\staticwebassets\\Blazored.Modal.bundle.scp.css"
     },
     {
@@ -40,6 +58,15 @@
       "SourceId": "Blazored.Modal",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\samgl\\.nuget\\packages\\blazored.modal\\7.3.1\\staticwebassets\\",
+=======
+      "OriginalItemSpec": "C:\\Users\\avich\\.nuget\\packages\\blazored.modal\\7.3.1\\staticwebassets\\Blazored.Modal.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\avich\\.nuget\\packages\\blazored.modal\\7.3.1\\staticwebassets\\BlazoredModal.razor.js",
+      "SourceId": "Blazored.Modal",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\avich\\.nuget\\packages\\blazored.modal\\7.3.1\\staticwebassets\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/Blazored.Modal",
       "RelativePath": "BlazoredModal.razor.js",
       "AssetKind": "All",
@@ -50,8 +77,11 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "8qij0y2dsa",
+      "Integrity": "kA2z2nG9FrUdWS/uJrfB+pfqUujsR3MLSrJeQKsao/Q=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< Updated upstream
       "OriginalItemSpec": "C:\\Users\\samgl\\.nuget\\packages\\blazored.modal\\7.3.1\\staticwebassets\\BlazoredModal.razor.js"
     },
     {
@@ -59,8 +89,17 @@
       "SourceId": "E-CommerceStore.WebApp",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+=======
+      "OriginalItemSpec": "C:\\Users\\avich\\.nuget\\packages\\blazored.modal\\7.3.1\\staticwebassets\\BlazoredModal.razor.js"
+    },
+    {
+      "Identity": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\E-CommerceStore.WebApp.styles.css",
+      "SourceId": "E-CommerceStore.WebApp",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/E-CommerceStore.WebApp",
-      "RelativePath": "E-CommerceStore.WebApp.styles.css",
+      "RelativePath": "E-CommerceStore.WebApp#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
       "AssetMode": "CurrentProject",
       "AssetRole": "Primary",
@@ -69,8 +108,11 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
+      "Fingerprint": "0jq2d092qk",
+      "Integrity": "zC9td41FCn4JBSZqXXpZl3cnxEIZASJmzJtZeQRR45E=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< Updated upstream
       "OriginalItemSpec": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\E-CommerceStore.WebApp.styles.css"
     },
     {
@@ -78,8 +120,17 @@
       "SourceId": "E-CommerceStore.WebApp",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+=======
+      "OriginalItemSpec": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\E-CommerceStore.WebApp.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\E-CommerceStore.WebApp.bundle.scp.css",
+      "SourceId": "E-CommerceStore.WebApp",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/E-CommerceStore.WebApp",
-      "RelativePath": "E-CommerceStore.WebApp.bundle.scp.css",
+      "RelativePath": "E-CommerceStore.WebApp#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
       "AssetMode": "Reference",
       "AssetRole": "Primary",
@@ -88,8 +139,11 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "2rb6xiy4n8",
+      "Integrity": "/umxbZ2ckoRyjMOQBQ8U0rSiYCoI0zwL4tjtt/IQaMo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< Updated upstream
       "OriginalItemSpec": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\E-CommerceStore.WebApp.bundle.scp.css"
     },
     {
@@ -97,21 +151,33 @@
       "SourceId": "E-CommerceStore.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+=======
+      "OriginalItemSpec": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\E-CommerceStore.WebApp.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\app.css",
+      "SourceId": "E-CommerceStore.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/E-CommerceStore.WebApp",
-      "RelativePath": "app.css",
+      "RelativePath": "app#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "cnnanc5r22",
+      "Integrity": "yDKFaAPyzjqU/ewAFeO4CZoagHXClmbUuHDwZ5datY8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\accessdenied.png",
       "SourceId": "E-CommerceStore.WebApp",
       "SourceType": "Discovered",
@@ -135,154 +201,228 @@
       "SourceId": "E-CommerceStore.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\account.png",
+      "SourceId": "E-CommerceStore.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/E-CommerceStore.WebApp",
-      "RelativePath": "assets/account.png",
+      "RelativePath": "assets/account#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "li65laxhs3",
+      "Integrity": "w2LsGsV93iTnv/TnFFv9g9P9DqRhsMzeMnIspZ9gkM4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\account.png"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\bitcoinlogo.png",
       "SourceId": "E-CommerceStore.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\bitcoinlogo.png",
+      "SourceId": "E-CommerceStore.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/E-CommerceStore.WebApp",
-      "RelativePath": "assets/bitcoinlogo.png",
+      "RelativePath": "assets/bitcoinlogo#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "0z9jksdg38",
+      "Integrity": "xPIctTGAb6eZQeBHb5HKwbNpCBhvOhFcqefQPV0XD3E=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\bitcoinlogo.png"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\cart.png",
       "SourceId": "E-CommerceStore.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\cart.png",
+      "SourceId": "E-CommerceStore.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/E-CommerceStore.WebApp",
-      "RelativePath": "assets/cart.png",
+      "RelativePath": "assets/cart#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "e4q1cgd32k",
+      "Integrity": "gmlgmUrcIeOznkumr1pt3WphYjLqkVE3qW1PzxwYXV0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\cart.png"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\electronicsshowcase.png",
       "SourceId": "E-CommerceStore.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\electronicsshowcase.png",
+      "SourceId": "E-CommerceStore.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/E-CommerceStore.WebApp",
-      "RelativePath": "assets/electronicsshowcase.png",
+      "RelativePath": "assets/electronicsshowcase#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "fl23re52dw",
+      "Integrity": "4/IvG3vWqERCsU2N3vcd5WnXYnnK5kSI6/rylr0laqg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\electronicsshowcase.png"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\landingbg.svg",
       "SourceId": "E-CommerceStore.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\landingbg.svg",
+      "SourceId": "E-CommerceStore.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/E-CommerceStore.WebApp",
-      "RelativePath": "assets/landingbg.svg",
+      "RelativePath": "assets/landingbg#[.{fingerprint}]?.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "ikqxap39r9",
+      "Integrity": "Pj2Re1WcGyzqlUAs9W/GZPtn9/3h1eDpBJXEKCIa25o=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\landingbg.svg"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\landingmainphoto.svg",
       "SourceId": "E-CommerceStore.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
       "BasePath": "_content/E-CommerceStore.WebApp",
       "RelativePath": "assets/landingmainphoto.svg",
+=======
+      "Identity": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\landingmainphoto.png",
+      "SourceId": "E-CommerceStore.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+      "BasePath": "_content/E-CommerceStore.WebApp",
+      "RelativePath": "assets/landingmainphoto#[.{fingerprint}]?.png",
+>>>>>>> Stashed changes
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "mawrdc37v7",
+      "Integrity": "wlaTbYUcyeiUvrMje6DdNnL3tTETkM5GTMaMSHN1q6U=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\landingmainphoto.svg"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\landingpage-desk.png",
       "SourceId": "E-CommerceStore.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\landingpage-desk.png",
+      "SourceId": "E-CommerceStore.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/E-CommerceStore.WebApp",
-      "RelativePath": "assets/landingpage-desk.png",
+      "RelativePath": "assets/landingpage-desk#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "zf6wlio6nf",
+      "Integrity": "YVqdqxPXuHeKOU6JWQH25wdv1NM/FCiDqS0V9ETQ3h0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\landingpage-desk.png"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\logo.png",
       "SourceId": "E-CommerceStore.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\logo.png",
+      "SourceId": "E-CommerceStore.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/E-CommerceStore.WebApp",
-      "RelativePath": "assets/logo.png",
+      "RelativePath": "assets/logo#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "on128c930f",
+      "Integrity": "HIPDTA1YAfDqH296XiiNcFU4y8+ZUass3+jSE8xAvDU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\logo.png"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\logout.png",
       "SourceId": "E-CommerceStore.WebApp",
       "SourceType": "Discovered",
@@ -306,168 +446,269 @@
       "SourceId": "E-CommerceStore.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\mastercardlogo.png",
+      "SourceId": "E-CommerceStore.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/E-CommerceStore.WebApp",
-      "RelativePath": "assets/mastercardlogo.png",
+      "RelativePath": "assets/mastercardlogo#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "tzpmy6pchx",
+      "Integrity": "5wiQlaadB+ObuAob6wdYSb7WI1/X3aeLGclwKWzEqvw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\mastercardlogo.png"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "E-CommerceStore.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\visalogo.png",
+      "SourceId": "E-CommerceStore.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
       "BasePath": "_content/E-CommerceStore.WebApp",
-      "RelativePath": "bootstrap/bootstrap.min.css",
+      "RelativePath": "assets/visalogo#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "cxij191ij8",
+      "Integrity": "cCQm8+jCibnSlpZW/UyCRUYkWMzL7Apaoa6xUssJOLk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\visalogo.png"
+    },
+    {
+      "Identity": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "SourceId": "E-CommerceStore.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+>>>>>>> Stashed changes
+      "BasePath": "_content/E-CommerceStore.WebApp",
+      "RelativePath": "bootstrap/bootstrap.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6gzpyzhau4",
+      "Integrity": "SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "E-CommerceStore.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "SourceId": "E-CommerceStore.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/E-CommerceStore.WebApp",
-      "RelativePath": "bootstrap/bootstrap.min.css.map",
+      "RelativePath": "bootstrap/bootstrap.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "8inm30yfxf",
+      "Integrity": "gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\favicon.png",
       "SourceId": "E-CommerceStore.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\favicon.png",
+      "SourceId": "E-CommerceStore.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/E-CommerceStore.WebApp",
-      "RelativePath": "favicon.png",
+      "RelativePath": "favicon#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "ifv42okdf2",
+      "Integrity": "4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.png"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\images\\hearth.png",
       "SourceId": "E-CommerceStore.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\images\\hearth.png",
+      "SourceId": "E-CommerceStore.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/E-CommerceStore.WebApp",
-      "RelativePath": "images/hearth.png",
+      "RelativePath": "images/hearth#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "721oyc9hc7",
+      "Integrity": "X/05wiswbUEZiPMsLi/PlwMI6BRSd/XvGbZjZCpdpcg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\hearth.png"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\images\\shoes1.png",
       "SourceId": "E-CommerceStore.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\images\\shoes1.png",
+      "SourceId": "E-CommerceStore.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/E-CommerceStore.WebApp",
-      "RelativePath": "images/shoes1.png",
+      "RelativePath": "images/shoes1#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "374096ieqa",
+      "Integrity": "wcmw79aPD3rAuv9bropGReXlQPuPlQk9ECsgTR65U9Y=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\shoes1.png"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\images\\shoes2.png",
       "SourceId": "E-CommerceStore.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\images\\shoes2.png",
+      "SourceId": "E-CommerceStore.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/E-CommerceStore.WebApp",
-      "RelativePath": "images/shoes2.png",
+      "RelativePath": "images/shoes2#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "fcjp5f2ekb",
+      "Integrity": "L4/nxHIoskRyW3ChD4CTGpn21U+ZsHtrsms2/DrMJnI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\shoes2.png"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\images\\shoes3.png",
       "SourceId": "E-CommerceStore.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\images\\shoes3.png",
+      "SourceId": "E-CommerceStore.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/E-CommerceStore.WebApp",
-      "RelativePath": "images/shoes3.png",
+      "RelativePath": "images/shoes3#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "ff4zlwgvoy",
+      "Integrity": "1Yltq1V4R2e3zmN/bAI4UF1GIRoqNo0aM64YkBTV7Lg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\shoes3.png"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\images\\trash.png",
       "SourceId": "E-CommerceStore.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\samgl\\Documents\\GitHub\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\images\\trash.png",
+      "SourceId": "E-CommerceStore.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/E-CommerceStore.WebApp",
-      "RelativePath": "images/trash.png",
+      "RelativePath": "images/trash#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "myr4f7wezc",
+      "Integrity": "jtFKxbBlU8xOmP7HNsyzf3V+su9+ryq9mAbFum6xoRA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\trash.png"
@@ -490,6 +731,1812 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\JavaScripts.js"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "_content/Blazored.Modal/Blazored.Modal.bundle.scp.css",
+      "AssetFile": "C:\\Users\\avich\\.nuget\\packages\\blazored.modal\\7.3.1\\staticwebassets\\Blazored.Modal.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3088"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Z/I1339InDuOPqcxuznblrUyBaYIXu9HFBq2z/gXq8A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 Feb 2024 22:12:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Z/I1339InDuOPqcxuznblrUyBaYIXu9HFBq2z/gXq8A="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazored.Modal/BlazoredModal.razor.js",
+      "AssetFile": "C:\\Users\\avich\\.nuget\\packages\\blazored.modal\\7.3.1\\staticwebassets\\BlazoredModal.razor.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1162"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kA2z2nG9FrUdWS/uJrfB+pfqUujsR3MLSrJeQKsao/Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 Feb 2024 22:12:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kA2z2nG9FrUdWS/uJrfB+pfqUujsR3MLSrJeQKsao/Q="
+        }
+      ]
+    },
+    {
+      "Route": "app.cnnanc5r22.css",
+      "AssetFile": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8856"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yDKFaAPyzjqU/ewAFeO4CZoagHXClmbUuHDwZ5datY8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 Nov 2024 16:36:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cnnanc5r22"
+        },
+        {
+          "Name": "label",
+          "Value": "app.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yDKFaAPyzjqU/ewAFeO4CZoagHXClmbUuHDwZ5datY8="
+        }
+      ]
+    },
+    {
+      "Route": "app.css",
+      "AssetFile": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8856"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yDKFaAPyzjqU/ewAFeO4CZoagHXClmbUuHDwZ5datY8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 Nov 2024 16:36:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yDKFaAPyzjqU/ewAFeO4CZoagHXClmbUuHDwZ5datY8="
+        }
+      ]
+    },
+    {
+      "Route": "assets/account.li65laxhs3.png",
+      "AssetFile": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\account.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9600"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"w2LsGsV93iTnv/TnFFv9g9P9DqRhsMzeMnIspZ9gkM4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 Nov 2024 16:36:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "li65laxhs3"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/account.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-w2LsGsV93iTnv/TnFFv9g9P9DqRhsMzeMnIspZ9gkM4="
+        }
+      ]
+    },
+    {
+      "Route": "assets/account.png",
+      "AssetFile": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\account.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9600"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"w2LsGsV93iTnv/TnFFv9g9P9DqRhsMzeMnIspZ9gkM4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 Nov 2024 16:36:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-w2LsGsV93iTnv/TnFFv9g9P9DqRhsMzeMnIspZ9gkM4="
+        }
+      ]
+    },
+    {
+      "Route": "assets/bitcoinlogo.0z9jksdg38.png",
+      "AssetFile": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\bitcoinlogo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "91976"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xPIctTGAb6eZQeBHb5HKwbNpCBhvOhFcqefQPV0XD3E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 Nov 2024 16:36:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0z9jksdg38"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/bitcoinlogo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xPIctTGAb6eZQeBHb5HKwbNpCBhvOhFcqefQPV0XD3E="
+        }
+      ]
+    },
+    {
+      "Route": "assets/bitcoinlogo.png",
+      "AssetFile": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\bitcoinlogo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "91976"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xPIctTGAb6eZQeBHb5HKwbNpCBhvOhFcqefQPV0XD3E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 Nov 2024 16:36:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xPIctTGAb6eZQeBHb5HKwbNpCBhvOhFcqefQPV0XD3E="
+        }
+      ]
+    },
+    {
+      "Route": "assets/cart.e4q1cgd32k.png",
+      "AssetFile": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\cart.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8029"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gmlgmUrcIeOznkumr1pt3WphYjLqkVE3qW1PzxwYXV0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 Nov 2024 16:36:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e4q1cgd32k"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/cart.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gmlgmUrcIeOznkumr1pt3WphYjLqkVE3qW1PzxwYXV0="
+        }
+      ]
+    },
+    {
+      "Route": "assets/cart.png",
+      "AssetFile": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\cart.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8029"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gmlgmUrcIeOznkumr1pt3WphYjLqkVE3qW1PzxwYXV0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 Nov 2024 16:36:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gmlgmUrcIeOznkumr1pt3WphYjLqkVE3qW1PzxwYXV0="
+        }
+      ]
+    },
+    {
+      "Route": "assets/electronicsshowcase.fl23re52dw.png",
+      "AssetFile": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\electronicsshowcase.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "601598"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4/IvG3vWqERCsU2N3vcd5WnXYnnK5kSI6/rylr0laqg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 Nov 2024 16:36:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fl23re52dw"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/electronicsshowcase.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4/IvG3vWqERCsU2N3vcd5WnXYnnK5kSI6/rylr0laqg="
+        }
+      ]
+    },
+    {
+      "Route": "assets/electronicsshowcase.png",
+      "AssetFile": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\electronicsshowcase.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "601598"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4/IvG3vWqERCsU2N3vcd5WnXYnnK5kSI6/rylr0laqg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 Nov 2024 16:36:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4/IvG3vWqERCsU2N3vcd5WnXYnnK5kSI6/rylr0laqg="
+        }
+      ]
+    },
+    {
+      "Route": "assets/landingbg.ikqxap39r9.svg",
+      "AssetFile": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\landingbg.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1356"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Pj2Re1WcGyzqlUAs9W/GZPtn9/3h1eDpBJXEKCIa25o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 Nov 2024 16:36:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ikqxap39r9"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/landingbg.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Pj2Re1WcGyzqlUAs9W/GZPtn9/3h1eDpBJXEKCIa25o="
+        }
+      ]
+    },
+    {
+      "Route": "assets/landingbg.svg",
+      "AssetFile": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\landingbg.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1356"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Pj2Re1WcGyzqlUAs9W/GZPtn9/3h1eDpBJXEKCIa25o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 Nov 2024 16:36:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Pj2Re1WcGyzqlUAs9W/GZPtn9/3h1eDpBJXEKCIa25o="
+        }
+      ]
+    },
+    {
+      "Route": "assets/landingmainphoto.mawrdc37v7.png",
+      "AssetFile": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\landingmainphoto.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2479259"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wlaTbYUcyeiUvrMje6DdNnL3tTETkM5GTMaMSHN1q6U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 Nov 2024 16:36:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mawrdc37v7"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/landingmainphoto.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wlaTbYUcyeiUvrMje6DdNnL3tTETkM5GTMaMSHN1q6U="
+        }
+      ]
+    },
+    {
+      "Route": "assets/landingmainphoto.png",
+      "AssetFile": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\landingmainphoto.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2479259"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wlaTbYUcyeiUvrMje6DdNnL3tTETkM5GTMaMSHN1q6U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 Nov 2024 16:36:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wlaTbYUcyeiUvrMje6DdNnL3tTETkM5GTMaMSHN1q6U="
+        }
+      ]
+    },
+    {
+      "Route": "assets/landingpage-desk.png",
+      "AssetFile": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\landingpage-desk.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "452658"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YVqdqxPXuHeKOU6JWQH25wdv1NM/FCiDqS0V9ETQ3h0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 Nov 2024 16:36:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YVqdqxPXuHeKOU6JWQH25wdv1NM/FCiDqS0V9ETQ3h0="
+        }
+      ]
+    },
+    {
+      "Route": "assets/landingpage-desk.zf6wlio6nf.png",
+      "AssetFile": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\landingpage-desk.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "452658"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YVqdqxPXuHeKOU6JWQH25wdv1NM/FCiDqS0V9ETQ3h0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 Nov 2024 16:36:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zf6wlio6nf"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/landingpage-desk.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YVqdqxPXuHeKOU6JWQH25wdv1NM/FCiDqS0V9ETQ3h0="
+        }
+      ]
+    },
+    {
+      "Route": "assets/logo.on128c930f.png",
+      "AssetFile": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6881"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HIPDTA1YAfDqH296XiiNcFU4y8+ZUass3+jSE8xAvDU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 Nov 2024 16:36:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "on128c930f"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/logo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HIPDTA1YAfDqH296XiiNcFU4y8+ZUass3+jSE8xAvDU="
+        }
+      ]
+    },
+    {
+      "Route": "assets/logo.png",
+      "AssetFile": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6881"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HIPDTA1YAfDqH296XiiNcFU4y8+ZUass3+jSE8xAvDU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 Nov 2024 16:36:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HIPDTA1YAfDqH296XiiNcFU4y8+ZUass3+jSE8xAvDU="
+        }
+      ]
+    },
+    {
+      "Route": "assets/mastercardlogo.png",
+      "AssetFile": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\mastercardlogo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24287"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5wiQlaadB+ObuAob6wdYSb7WI1/X3aeLGclwKWzEqvw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 Nov 2024 16:36:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5wiQlaadB+ObuAob6wdYSb7WI1/X3aeLGclwKWzEqvw="
+        }
+      ]
+    },
+    {
+      "Route": "assets/mastercardlogo.tzpmy6pchx.png",
+      "AssetFile": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\mastercardlogo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24287"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5wiQlaadB+ObuAob6wdYSb7WI1/X3aeLGclwKWzEqvw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 Nov 2024 16:36:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tzpmy6pchx"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/mastercardlogo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5wiQlaadB+ObuAob6wdYSb7WI1/X3aeLGclwKWzEqvw="
+        }
+      ]
+    },
+    {
+      "Route": "assets/visalogo.cxij191ij8.png",
+      "AssetFile": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\visalogo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36062"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cCQm8+jCibnSlpZW/UyCRUYkWMzL7Apaoa6xUssJOLk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 Nov 2024 16:36:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cxij191ij8"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/visalogo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cCQm8+jCibnSlpZW/UyCRUYkWMzL7Apaoa6xUssJOLk="
+        }
+      ]
+    },
+    {
+      "Route": "assets/visalogo.png",
+      "AssetFile": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\assets\\visalogo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36062"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cCQm8+jCibnSlpZW/UyCRUYkWMzL7Apaoa6xUssJOLk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 Nov 2024 16:36:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cCQm8+jCibnSlpZW/UyCRUYkWMzL7Apaoa6xUssJOLk="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.6gzpyzhau4.css",
+      "AssetFile": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162726"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 Nov 2024 16:36:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6gzpyzhau4"
+        },
+        {
+          "Name": "label",
+          "Value": "bootstrap/bootstrap.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css",
+      "AssetFile": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162726"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 Nov 2024 16:36:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css.8inm30yfxf.map",
+      "AssetFile": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "449111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 Nov 2024 16:36:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8inm30yfxf"
+        },
+        {
+          "Name": "label",
+          "Value": "bootstrap/bootstrap.min.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "449111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 Nov 2024 16:36:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "E-CommerceStore.WebApp.0jq2d092qk.styles.css",
+      "AssetFile": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\E-CommerceStore.WebApp.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5995"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zC9td41FCn4JBSZqXXpZl3cnxEIZASJmzJtZeQRR45E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 Nov 2024 16:36:06 GMT"
+        },
+        {
+          "Name": "Link",
+          "Value": "<_content/Blazored.Modal/Blazored.Modal.bundle.scp.css>; rel=\"preload\"; as=\"style\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0jq2d092qk"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zC9td41FCn4JBSZqXXpZl3cnxEIZASJmzJtZeQRR45E="
+        },
+        {
+          "Name": "label",
+          "Value": "E-CommerceStore.WebApp.styles.css"
+        }
+      ]
+    },
+    {
+      "Route": "E-CommerceStore.WebApp.2rb6xiy4n8.bundle.scp.css",
+      "AssetFile": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\E-CommerceStore.WebApp.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5927"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/umxbZ2ckoRyjMOQBQ8U0rSiYCoI0zwL4tjtt/IQaMo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 Nov 2024 16:36:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2rb6xiy4n8"
+        },
+        {
+          "Name": "label",
+          "Value": "E-CommerceStore.WebApp.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/umxbZ2ckoRyjMOQBQ8U0rSiYCoI0zwL4tjtt/IQaMo="
+        }
+      ]
+    },
+    {
+      "Route": "E-CommerceStore.WebApp.bundle.scp.css",
+      "AssetFile": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\E-CommerceStore.WebApp.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5927"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/umxbZ2ckoRyjMOQBQ8U0rSiYCoI0zwL4tjtt/IQaMo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 Nov 2024 16:36:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/umxbZ2ckoRyjMOQBQ8U0rSiYCoI0zwL4tjtt/IQaMo="
+        }
+      ]
+    },
+    {
+      "Route": "E-CommerceStore.WebApp.styles.css",
+      "AssetFile": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\E-CommerceStore.WebApp.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5995"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zC9td41FCn4JBSZqXXpZl3cnxEIZASJmzJtZeQRR45E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 Nov 2024 16:36:06 GMT"
+        },
+        {
+          "Name": "Link",
+          "Value": "<_content/Blazored.Modal/Blazored.Modal.bundle.scp.css>; rel=\"preload\"; as=\"style\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zC9td41FCn4JBSZqXXpZl3cnxEIZASJmzJtZeQRR45E="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.ifv42okdf2.png",
+      "AssetFile": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\favicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 Nov 2024 16:36:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ifv42okdf2"
+        },
+        {
+          "Name": "label",
+          "Value": "favicon.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.png",
+      "AssetFile": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\favicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 Nov 2024 16:36:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
+        }
+      ]
+    },
+    {
+      "Route": "images/hearth.721oyc9hc7.png",
+      "AssetFile": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\images\\hearth.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5909"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"X/05wiswbUEZiPMsLi/PlwMI6BRSd/XvGbZjZCpdpcg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 Nov 2024 16:36:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "721oyc9hc7"
+        },
+        {
+          "Name": "label",
+          "Value": "images/hearth.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-X/05wiswbUEZiPMsLi/PlwMI6BRSd/XvGbZjZCpdpcg="
+        }
+      ]
+    },
+    {
+      "Route": "images/hearth.png",
+      "AssetFile": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\images\\hearth.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5909"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"X/05wiswbUEZiPMsLi/PlwMI6BRSd/XvGbZjZCpdpcg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 Nov 2024 16:36:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-X/05wiswbUEZiPMsLi/PlwMI6BRSd/XvGbZjZCpdpcg="
+        }
+      ]
+    },
+    {
+      "Route": "images/shoes1.374096ieqa.png",
+      "AssetFile": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\images\\shoes1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37242"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wcmw79aPD3rAuv9bropGReXlQPuPlQk9ECsgTR65U9Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 Nov 2024 16:36:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "374096ieqa"
+        },
+        {
+          "Name": "label",
+          "Value": "images/shoes1.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wcmw79aPD3rAuv9bropGReXlQPuPlQk9ECsgTR65U9Y="
+        }
+      ]
+    },
+    {
+      "Route": "images/shoes1.png",
+      "AssetFile": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\images\\shoes1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37242"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wcmw79aPD3rAuv9bropGReXlQPuPlQk9ECsgTR65U9Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 Nov 2024 16:36:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wcmw79aPD3rAuv9bropGReXlQPuPlQk9ECsgTR65U9Y="
+        }
+      ]
+    },
+    {
+      "Route": "images/shoes2.fcjp5f2ekb.png",
+      "AssetFile": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\images\\shoes2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22678"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"L4/nxHIoskRyW3ChD4CTGpn21U+ZsHtrsms2/DrMJnI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 Nov 2024 16:36:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fcjp5f2ekb"
+        },
+        {
+          "Name": "label",
+          "Value": "images/shoes2.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-L4/nxHIoskRyW3ChD4CTGpn21U+ZsHtrsms2/DrMJnI="
+        }
+      ]
+    },
+    {
+      "Route": "images/shoes2.png",
+      "AssetFile": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\images\\shoes2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22678"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"L4/nxHIoskRyW3ChD4CTGpn21U+ZsHtrsms2/DrMJnI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 Nov 2024 16:36:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-L4/nxHIoskRyW3ChD4CTGpn21U+ZsHtrsms2/DrMJnI="
+        }
+      ]
+    },
+    {
+      "Route": "images/shoes3.ff4zlwgvoy.png",
+      "AssetFile": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\images\\shoes3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33058"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1Yltq1V4R2e3zmN/bAI4UF1GIRoqNo0aM64YkBTV7Lg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 Nov 2024 16:36:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ff4zlwgvoy"
+        },
+        {
+          "Name": "label",
+          "Value": "images/shoes3.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1Yltq1V4R2e3zmN/bAI4UF1GIRoqNo0aM64YkBTV7Lg="
+        }
+      ]
+    },
+    {
+      "Route": "images/shoes3.png",
+      "AssetFile": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\images\\shoes3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33058"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1Yltq1V4R2e3zmN/bAI4UF1GIRoqNo0aM64YkBTV7Lg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 Nov 2024 16:36:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1Yltq1V4R2e3zmN/bAI4UF1GIRoqNo0aM64YkBTV7Lg="
+        }
+      ]
+    },
+    {
+      "Route": "images/trash.myr4f7wezc.png",
+      "AssetFile": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\images\\trash.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10163"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jtFKxbBlU8xOmP7HNsyzf3V+su9+ryq9mAbFum6xoRA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 Nov 2024 16:36:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "myr4f7wezc"
+        },
+        {
+          "Name": "label",
+          "Value": "images/trash.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jtFKxbBlU8xOmP7HNsyzf3V+su9+ryq9mAbFum6xoRA="
+        }
+      ]
+    },
+    {
+      "Route": "images/trash.png",
+      "AssetFile": "C:\\Users\\avich\\Desktop\\Git Files\\Ecommerce\\E-CommerceStore\\E-CommerceStore.WebApp\\wwwroot\\images\\trash.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10163"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jtFKxbBlU8xOmP7HNsyzf3V+su9+ryq9mAbFum6xoRA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 Nov 2024 16:36:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jtFKxbBlU8xOmP7HNsyzf3V+su9+ryq9mAbFum6xoRA="
+        }
+      ]
     }
   ]
 }
